@@ -100,17 +100,23 @@ describe('eligibility flow', () => {
 })
 
 describe('programme detail', () => {
+  // This route is lazy-loaded to keep Recharts out of the initial bundle, so
+  // assertions must allow time for the chunk to resolve.
+  const LAZY_TIMEOUT = { timeout: 10_000 }
+
   it('shows a programme with its cut-off and data source', async () => {
     renderApp('/programme/ug-medicine')
 
-    expect(await screen.findByRole('heading', { name: 'Medicine & Surgery' })).toBeInTheDocument()
+    expect(
+      await screen.findByRole('heading', { name: 'Medicine & Surgery' }, LAZY_TIMEOUT),
+    ).toBeInTheDocument()
     expect(screen.getByText(/Agg\. 8/)).toBeInTheDocument()
     expect(screen.getAllByText(/Official · 2025/).length).toBeGreaterThan(0)
   })
 
   it('shows a real not-found state for an unknown programme', async () => {
     renderApp('/programme/does-not-exist')
-    expect(await screen.findByText('Programme not found')).toBeInTheDocument()
+    expect(await screen.findByText('Programme not found', {}, LAZY_TIMEOUT)).toBeInTheDocument()
   })
 })
 
