@@ -1,5 +1,9 @@
 import { z } from 'zod'
-import { CONFIDENCE_ORDER } from '../domain/catalogue/types'
+import {
+  ADMISSION_TRACKS,
+  CONFIDENCE_ORDER,
+  QUALIFICATION_LEVELS,
+} from '../domain/catalogue/types'
 import { GRADES } from '../domain/wassce/types'
 import {
   BEST_POSSIBLE_AGGREGATE,
@@ -71,16 +75,26 @@ export const programmeSchema = z.object({
   durationYears: z.int().min(1).max(8),
   campus: z.string().min(2),
   region: z.string().min(2),
-  overview: z.string().min(40, 'Write a real overview, not a placeholder'),
-  pros: z.array(z.string()).min(1),
-  cons: z.array(z.string()).min(1),
-  careers: z.array(z.string()).min(1),
-  annualFeesGhs: z.int().positive(),
-  employmentRatePct: z.int().min(0).max(100),
-  salary: salaryRangeSchema,
-  cutoffTrend: z.array(cutoffPointSchema).min(1),
+  admissionTrack: z.enum(ADMISSION_TRACKS),
+  qualificationLevel: z.enum(QUALIFICATION_LEVELS),
   requirements: entryRequirementsSchema,
   provenance: provenanceSchema,
+
+  // Optional: present only when we have a sourced figure. Never invented.
+  overview: z.string().min(40).optional(),
+  pros: z.array(z.string()).optional(),
+  cons: z.array(z.string()).optional(),
+  careers: z.array(z.string()).optional(),
+  annualFeesGhs: z.int().positive().optional(),
+  employmentRatePct: z.int().min(0).max(100).optional(),
+  salary: salaryRangeSchema.optional(),
+  cutoffTrend: z.array(cutoffPointSchema).min(1).optional(),
+  cutoffByGender: z
+    .object({
+      male: z.int().min(BEST_POSSIBLE_AGGREGATE).max(WORST_POSSIBLE_AGGREGATE),
+      female: z.int().min(BEST_POSSIBLE_AGGREGATE).max(WORST_POSSIBLE_AGGREGATE),
+    })
+    .optional(),
 })
 
 export const admissionDeadlineSchema = z.object({
@@ -123,7 +137,7 @@ export const catalogueSchema = z
 
       // The headline cut-off must agree with the most recent trend point,
       // otherwise the detail chart contradicts the card.
-      const latest = [...programme.cutoffTrend].sort((a, b) => b.year - a.year)[0]
+      const latest = [...(programme.cutoffTrend ?? [])].sort((a, b) => b.year - a.year)[0]
       if (latest && latest.aggregate !== programme.requirements.minimumAggregate) {
         ctx.addIssue({
           code: 'custom',

@@ -58,11 +58,11 @@ function record(map: Map<string, Improvement>, subject: string, from: Grade, to:
  * non-qualifying verdict into a qualifying one.
  *
  * This powers both the What-if Simulator and the advisor's "what grades do I
- * need for X?" answer — the difference between telling a student "no" and
+ * need for X?" answer, the difference between telling a student "no" and
  * telling them "raise Elective 2 from C4 to B3 and you're in".
  *
  * Strategy:
- *  1. Satisfy every subject-specific requirement first — these are mandatory
+ *  1. Satisfy every subject-specific requirement first, these are mandatory
  *     and no amount of aggregate improvement substitutes for them.
  *  2. Recompute; subject fixes often move the aggregate on their own.
  *  3. Close any remaining aggregate gap by improving counted subjects, taking

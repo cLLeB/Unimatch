@@ -17,14 +17,15 @@ interface Message {
 const OPENING: Message = {
   id: 0,
   role: 'assistant',
-  text: "Hi! I'm your UniMatch advisor. Ask me anything about admissions, cut-off points or career paths — every answer is computed from the programme data, so I won't guess.",
+  text: "Hi! I'm your UniMatch advisor. Ask me anything about admissions, cut-off points or career paths, every answer is computed from the programme data, so I won't guess.",
 }
 
 const STARTERS = [
   'What can I study with aggregate 12?',
+  'What courses does KNUST offer?',
+  'Where can I study Nursing?',
+  'Is there distance learning?',
   'Which university is easiest to enter?',
-  'What grades do I need for Medicine?',
-  'What careers fit my grades?',
 ] as const
 
 export default function AdvisorPage() {

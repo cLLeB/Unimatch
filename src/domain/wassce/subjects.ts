@@ -4,7 +4,7 @@
  *
  * The prototype's grade form collected four unnamed "Elective Subject" slots
  * with only a grade each. That makes programme-specific requirements
- * impossible to check — there is no way to know whether a student sat Biology,
+ * impossible to check, there is no way to know whether a student sat Biology,
  * so "Medicine requires Biology at C6" can never be evaluated. Naming the
  * electives is what turns the matcher from an aggregate comparison into a real
  * eligibility check.

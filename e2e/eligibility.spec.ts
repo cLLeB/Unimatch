@@ -81,9 +81,21 @@ test.describe('dashboard', () => {
     await expect(page).toHaveURL(/\/dashboard$/)
   })
 
-  test('shows three-tier verdicts with reasons', async ({ page }) => {
-    await expect(page.getByTitle('You meet the aggregate and every subject requirement').first()).toBeVisible()
-    await expect(page.getByText(/you miss it by \d+ point/i).first()).toBeVisible()
+  test('shows verdicts derived from the grades entered', async ({ page }) => {
+    // Default sort is best-match, so the first page is what this student reaches.
+    await expect(
+      page.getByTitle('You meet the aggregate and every subject requirement').first(),
+    ).toBeVisible()
+  })
+
+  test('explains a shortfall rather than only refusing', async ({ page }) => {
+    // KNUST Chemical Engineering: cut-off 14, so aggregate 17 is a close match
+    // three points short, with the subject requirements met.
+    await page.goto('/programme/knust-chemical-engineering')
+
+    await expect(page.getByRole('heading', { name: 'Chemical Engineering' })).toBeVisible()
+    await expect(page.getByText(/you miss it by 3 points/i)).toBeVisible()
+    await expect(page.getByText(/Raise .+ and you unlock/)).toBeVisible()
   })
 
   test('saves a programme and it appears on the shortlist', async ({ page }) => {
@@ -108,8 +120,8 @@ test.describe('dashboard', () => {
 
 test.describe('deep links', () => {
   test('a programme URL loads directly, with its data source', async ({ page }) => {
-    await page.goto('/programme/ug-medicine')
-    await expect(page.getByRole('heading', { name: 'Medicine & Surgery' })).toBeVisible()
+    await page.goto('/programme/ug-medicine-and-surgery')
+    await expect(page.getByRole('heading', { name: 'Medicine and Surgery' })).toBeVisible()
     await expect(page.getByText('Official · 2025').first()).toBeVisible()
   })
 

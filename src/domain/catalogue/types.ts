@@ -3,7 +3,7 @@ import type { Grade } from '../wassce/types'
 /**
  * How much we trust a record. Higher confidence supersedes lower when the
  * seed data and an authoritative import disagree about the same
- * (programmeId, year) — see scripts/data-pipeline.ts.
+ * (programmeId, year), see scripts/data-pipeline.ts.
  */
 export const CONFIDENCE_ORDER = ['estimated', 'researched', 'authoritative'] as const
 export type Confidence = (typeof CONFIDENCE_ORDER)[number]
@@ -64,6 +64,29 @@ export interface University {
   admissionsUrl?: string
 }
 
+/**
+ * How a student is admitted. Ghanaian universities publish different cut-offs
+ * for the same programme depending on the track, and a regular-track figure is
+ * misleading if the student is applying fee-paying or by distance.
+ */
+export const ADMISSION_TRACKS = [
+  'regular',
+  'fee-paying',
+  'distance',
+  'city-campus',
+] as const
+export type AdmissionTrack = (typeof ADMISSION_TRACKS)[number]
+
+export const ADMISSION_TRACK_LABELS: Record<AdmissionTrack, string> = {
+  regular: 'Regular',
+  'fee-paying': 'Fee-paying',
+  distance: 'Distance',
+  'city-campus': 'City campus',
+}
+
+export const QUALIFICATION_LEVELS = ['degree', 'diploma', 'certificate'] as const
+export type QualificationLevel = (typeof QUALIFICATION_LEVELS)[number]
+
 export interface Programme {
   id: string
   name: string
@@ -73,17 +96,30 @@ export interface Programme {
   durationYears: number
   campus: string
   region: string
-  overview: string
-  pros: string[]
-  cons: string[]
-  careers: string[]
-  /** Stored as a number so sorting and comparison are correct. */
-  annualFeesGhs: number
-  employmentRatePct: number
-  salary: SalaryRange
-  cutoffTrend: CutoffPoint[]
+  admissionTrack: AdmissionTrack
+  qualificationLevel: QualificationLevel
   requirements: EntryRequirements
   provenance: Provenance
+
+  /**
+   * Everything below is optional and omitted when we do not have a sourced
+   * figure.
+   *
+   * Fees, salaries and employment rates are not published per programme by
+   * most Ghanaian universities. Inventing them to fill a card would be exactly
+   * the fabrication this project set out to remove, so the UI renders
+   * "Not published" instead. See docs/superpowers/specs §8.
+   */
+  overview?: string
+  pros?: string[]
+  cons?: string[]
+  careers?: string[]
+  annualFeesGhs?: number
+  employmentRatePct?: number
+  salary?: SalaryRange
+  cutoffTrend?: CutoffPoint[]
+  /** UEW and some others publish separate male/female cut-offs. */
+  cutoffByGender?: { male: number; female: number }
 }
 
 export type DeadlineStatus = 'open' | 'closing-soon' | 'closed'

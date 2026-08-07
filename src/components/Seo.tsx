@@ -22,7 +22,7 @@ interface SeoProps {
  *
  * React 19 hoists `<title>`, `<meta>` and `<link>` out of components into
  * `<head>`, so this needs no helmet library. Without it every route shared one
- * title and had no description — which is exactly why a competitor with the
+ * title and had no description, which is exactly why a competitor with the
  * same data is discoverable and we were not.
  */
 export default function Seo({

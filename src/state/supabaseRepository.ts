@@ -57,7 +57,7 @@ function toRow(userId: string, state: StudentState): StudentStateRow {
  * Account-backed persistence.
  *
  * Same interface as the localStorage implementation, so switching from
- * device-local storage to real accounts changes no UI code — the provider is
+ * device-local storage to real accounts changes no UI code, the provider is
  * handed a different repository and nothing else moves.
  */
 export class SupabaseStudentRepository implements StudentRepository {

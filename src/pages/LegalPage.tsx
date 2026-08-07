@@ -22,7 +22,7 @@ function Privacy() {
           <h2 className="mb-2 text-base font-semibold text-ink">If you create an account</h2>
           <p>
             {isSupabaseConfigured
-              ? 'Signing in stores your grades, shortlist and preferences against your account so they follow you between devices. Only you can read them — access is enforced at the database level, not just in the app. Deleting your account deletes that record.'
+              ? 'Signing in stores your grades, shortlist and preferences against your account so they follow you between devices. Only you can read them, access is enforced at the database level, not just in the app. Deleting your account deletes that record.'
               : 'Accounts are not enabled on this deployment, so there is nothing stored on a server at all.'}
           </p>
         </div>

@@ -76,7 +76,7 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
           </div>
 
           <div className="mt-3 flex flex-wrap gap-1">
-            {programme.careers.slice(0, 3).map((career) => (
+            {(programme.careers ?? []).slice(0, 3).map((career) => (
               <Badge key={career} variant="info">
                 {career}
               </Badge>

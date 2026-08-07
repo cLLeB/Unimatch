@@ -28,7 +28,7 @@ test.describe('cut-off points browser', () => {
       await page.getByLabel('Search programmes and universities').fill('medicine')
 
       await expect(table.locator('tbody tr')).not.toHaveCount(rowsBefore)
-      await expect(table.getByText('Medicine & Surgery')).toBeVisible()
+      await expect(table.getByText('Medicine and Surgery')).toBeVisible()
     })
 
     test('every cut-off shows where it came from', async ({ page }) => {
@@ -52,8 +52,8 @@ test.describe('universities', () => {
     await expect(page.getByRole('heading', { level: 1 })).toContainText('University of Ghana')
     await expect(page.getByText('Programmes at University of Ghana')).toBeVisible()
 
-    await page.getByText('Medicine & Surgery').first().click()
-    await expect(page).toHaveURL(/\/programme\/ug-medicine$/)
+    await page.getByText('Medicine and Surgery').first().click()
+    await expect(page).toHaveURL(/\/programme\/ug-medicine-and-surgery$/)
   })
 
   test('an unknown university does not 500', async ({ page }) => {
@@ -78,7 +78,7 @@ test.describe('SEO', () => {
     expect(sitemap.status()).toBe(200)
     const body = await sitemap.text()
     expect(body).toContain('/cut-off-points')
-    expect(body).toContain('/programme/ug-medicine')
+    expect(body).toContain('/programme/ug-medicine-and-surgery')
 
     const robots = await request.get('/robots.txt')
     expect(robots.status()).toBe(200)

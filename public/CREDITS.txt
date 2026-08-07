@@ -1,0 +1,11 @@
+Image credits
+=============
+
+public/hero-students.jpg
+  Source:  Pexels (https://www.pexels.com/photo/27769510/)
+  Licence: Pexels License, free for commercial use, no attribution required.
+  Subject: Students attending a lecture in a hall, Lagos, Nigeria.
+
+  Note: this is West African rather than specifically Ghanaian. Freely
+  licensed photography of Ghanaian university students is scarce; replace
+  this with a Ghanaian photograph when one is available or commissioned.

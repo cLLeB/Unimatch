@@ -3,14 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0F766E" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>UniMatch Ghana — Find Every University Programme You Qualify For</title>
+    <title>UniMatch Ghana</title>
+    <script>
+      // Apply the saved theme before first paint, so a returning student in
+      // dark mode never sees a white flash. Falls back to the OS preference.
+      ;(function () {
+        try {
+          var raw = localStorage.getItem('unimatch:student:v1')
+          var saved = raw ? JSON.parse(raw).theme : null
+          var prefersDark =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark')
+          }
+        } catch (e) {
+          /* storage unavailable: stay light */
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

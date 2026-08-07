@@ -62,5 +62,93 @@
     "city": "Accra",
     "region": "Greater Accra",
     "admissionsUrl": "https://atu.edu.gh/admissions"
+  },
+  {
+    "id": "ashesi",
+    "name": "Ashesi University",
+    "shortName": "Ashesi",
+    "city": "Berekuso",
+    "region": "Eastern",
+    "admissionsUrl": "https://www.ashesi.edu.gh/admissions"
+  },
+  {
+    "id": "central",
+    "name": "Central University",
+    "shortName": "Central University",
+    "city": "Miotso",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://central.edu.gh/admissions"
+  },
+  {
+    "id": "valley-view",
+    "name": "Valley View University",
+    "shortName": "Valley View",
+    "city": "Oyibi",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://vvu.edu.gh/admissions"
+  },
+  {
+    "id": "pentecost",
+    "name": "Pentecost University",
+    "shortName": "Pentecost",
+    "city": "Sowutuom, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://pentvars.edu.gh/admissions"
+  },
+  {
+    "id": "gctu",
+    "name": "Ghana Communication Technology University",
+    "shortName": "GCTU",
+    "city": "Tesano, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://gctu.edu.gh/admissions"
+  },
+  {
+    "id": "academic-city",
+    "name": "Academic City University",
+    "shortName": "Academic City",
+    "city": "Haatso, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://acity.edu.gh/admissions"
+  },
+  {
+    "id": "methodist",
+    "name": "Methodist University Ghana",
+    "shortName": "Methodist",
+    "city": "Dansoman, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://mucg.edu.gh/admissions"
+  },
+  {
+    "id": "regent",
+    "name": "Regent University College of Science and Technology",
+    "shortName": "Regent",
+    "city": "McCarthy Hill, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://regent.edu.gh/admissions"
+  },
+  {
+    "id": "all-nations",
+    "name": "All Nations University",
+    "shortName": "All Nations",
+    "city": "Koforidua",
+    "region": "Eastern",
+    "admissionsUrl": "https://allnationsuniversity.org/admissions"
+  },
+  {
+    "id": "catholic",
+    "name": "Catholic University of Ghana",
+    "shortName": "Catholic University",
+    "city": "Fiapre, Sunyani",
+    "region": "Bono",
+    "admissionsUrl": "https://cug.edu.gh/admissions"
+  },
+  {
+    "id": "wisconsin",
+    "name": "Wisconsin International University College",
+    "shortName": "Wisconsin",
+    "city": "North Legon, Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://wiuc-ghana.edu.gh/admissions"
   }
 ]

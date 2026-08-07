@@ -19,7 +19,8 @@
     "start": "serve -s dist -l $PORT --no-clipboard",
     "heroku-postbuild": "npm run build",
     "deploy": "git push heroku HEAD:main",
-    "seo:build": "tsx scripts/generate-seo-assets.ts"
+    "seo:build": "tsx scripts/generate-seo-assets.ts",
+    "data:programmes": "tsx scripts/build-programmes.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

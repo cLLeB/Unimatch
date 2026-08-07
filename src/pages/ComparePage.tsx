@@ -3,14 +3,20 @@ import { useMemo } from 'react'
 import Badge, { type BadgeVariant } from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
 import EligibilityBadge from '../components/programme/EligibilityBadge'
+import ShortlistTabs from '../components/programme/ShortlistTabs'
 import {
+  byOptional,
+  CONFIDENCE_SHORT,
   formatCedis,
+  formatEmploymentRate,
   formatFeesPerYear,
   formatSalaryRange,
   getProgramme,
+  NOT_PUBLISHED,
   universityNameOf,
+  withValue,
 } from '../data/catalogue'
-import type { Programme } from '../domain/catalogue/types'
+import { ADMISSION_TRACK_LABELS, type Programme } from '../domain/catalogue/types'
 import { useEligibility } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
 import { MAX_COMPARE } from '../state/types'
@@ -38,16 +44,37 @@ function superlativesFor(programmes: Programme[]): Map<string, Superlative[]> {
   const byCutoff = [...programmes].sort(
     (a, b) => a.requirements.minimumAggregate - b.requirements.minimumAggregate,
   )
-  const byFees = [...programmes].sort((a, b) => a.annualFeesGhs - b.annualFeesGhs)
-  const byEmployment = [...programmes].sort((a, b) => b.employmentRatePct - a.employmentRatePct)
-  const bySalary = [...programmes].sort((a, b) => b.salary.maxMonthly - a.salary.maxMonthly)
   const byDuration = [...programmes].sort((a, b) => a.durationYears - b.durationYears)
 
   add(byCutoff[0], { label: 'Most Competitive', variant: 'danger' })
   add(byCutoff[byCutoff.length - 1], { label: 'Easiest Entry', variant: 'success' })
-  add(byFees[0], { label: 'Lowest Fees', variant: 'success' })
-  add(byEmployment[0], { label: 'Best Employment', variant: 'info' })
-  add(bySalary[0], { label: 'Highest Salary', variant: 'info' })
+
+  // A superlative is only awarded when every programme in the set publishes
+  // the figure. "Lowest fees" among two programmes when only one lists a fee
+  // would be meaningless.
+  const feePriced = withValue(programmes, (p) => p.annualFeesGhs)
+  if (feePriced.length === programmes.length) {
+    add(
+      [...programmes].sort(byOptional((p) => p.annualFeesGhs))[0],
+      { label: 'Lowest Fees', variant: 'success' },
+    )
+  }
+
+  const employmentKnown = withValue(programmes, (p) => p.employmentRatePct)
+  if (employmentKnown.length === programmes.length) {
+    add(
+      [...programmes].sort(byOptional((p) => p.employmentRatePct, 'desc'))[0],
+      { label: 'Best Employment', variant: 'info' },
+    )
+  }
+
+  const salaryKnown = withValue(programmes, (p) => p.salary?.maxMonthly)
+  if (salaryKnown.length === programmes.length) {
+    add(
+      [...programmes].sort(byOptional((p) => p.salary?.maxMonthly, 'desc'))[0],
+      { label: 'Highest Salary', variant: 'info' },
+    )
+  }
 
   // Only call out duration when it actually differs.
   if (byDuration[0]!.durationYears !== byDuration[byDuration.length - 1]!.durationYears) {
@@ -65,55 +92,76 @@ interface Row {
 }
 
 function buildRows(programmes: Programme[]): Row[] {
-  const indexOfMin = (values: number[]) => values.indexOf(Math.min(...values))
-  const indexOfMax = (values: number[]) => values.indexOf(Math.max(...values))
-
-  const cutoffs = programmes.map((p) => p.requirements.minimumAggregate)
-  const fees = programmes.map((p) => p.annualFeesGhs)
-  const employment = programmes.map((p) => p.employmentRatePct)
-  const salaries = programmes.map((p) => p.salary.maxMonthly)
-  const durations = programmes.map((p) => p.durationYears)
+  /**
+   * Index of the best value, or undefined when any programme is missing the
+   * figure, highlighting a "best" across an incomplete row would imply a
+   * comparison we cannot actually make.
+   */
+  const bestOf = (
+    get: (p: Programme) => number | undefined,
+    direction: 'min' | 'max',
+  ): number | undefined => {
+    const values = programmes.map(get)
+    if (values.some((value) => value === undefined)) return undefined
+    const numbers = values as number[]
+    const target = direction === 'min' ? Math.min(...numbers) : Math.max(...numbers)
+    return numbers.indexOf(target)
+  }
 
   return [
     { label: 'University', values: programmes.map(universityNameOf) },
     { label: 'Faculty', values: programmes.map((p) => p.faculty) },
     { label: 'Degree Type', values: programmes.map((p) => p.degreeType) },
     {
+      label: 'Track',
+      values: programmes.map((p) => ADMISSION_TRACK_LABELS[p.admissionTrack]),
+    },
+    {
       label: 'Duration',
       values: programmes.map((p) => `${p.durationYears} years`),
-      bestIndex: indexOfMin(durations),
+      bestIndex: bestOf((p) => p.durationYears, 'min'),
+    },
+    {
+      label: 'Cut-off Agg.',
+      values: programmes.map((p) => String(p.requirements.minimumAggregate)),
+      bestIndex: bestOf((p) => p.requirements.minimumAggregate, 'max'),
     },
     {
       label: 'Annual Fees',
       values: programmes.map(formatFeesPerYear),
-      bestIndex: indexOfMin(fees),
+      bestIndex: bestOf((p) => p.annualFeesGhs, 'min'),
     },
     {
-      label: 'Cut-off Agg.',
-      values: cutoffs.map(String),
-      bestIndex: indexOfMax(cutoffs),
+      label: 'Total Est. Fees',
+      values: programmes.map((p) =>
+        p.annualFeesGhs === undefined
+          ? NOT_PUBLISHED
+          : formatCedis(p.annualFeesGhs * p.durationYears),
+      ),
+      bestIndex: bestOf(
+        (p) => (p.annualFeesGhs === undefined ? undefined : p.annualFeesGhs * p.durationYears),
+        'min',
+      ),
     },
     {
       label: 'Employment Rate',
-      values: programmes.map((p) => `${p.employmentRatePct}%`),
-      bestIndex: indexOfMax(employment),
+      values: programmes.map(formatEmploymentRate),
+      bestIndex: bestOf((p) => p.employmentRatePct, 'max'),
     },
     {
       label: 'Avg. Salary',
       values: programmes.map(formatSalaryRange),
-      bestIndex: indexOfMax(salaries),
-    },
-    {
-      label: 'Total Est. Fees',
-      values: programmes.map((p) => formatCedis(p.annualFeesGhs * p.durationYears)),
-      bestIndex: indexOfMin(programmes.map((p) => p.annualFeesGhs * p.durationYears)),
+      bestIndex: bestOf((p) => p.salary?.maxMonthly, 'max'),
     },
     { label: 'Campus', values: programmes.map((p) => p.campus) },
     { label: 'Region', values: programmes.map((p) => p.region) },
-    { label: 'Career Paths', values: programmes.map((p) => p.careers.join(', ')) },
+    {
+      label: 'Career Paths',
+      values: programmes.map((p) => p.careers?.join(', ') ?? NOT_PUBLISHED),
+    },
     {
       label: 'Data Source',
-      values: programmes.map((p) => `${p.provenance.confidence} · ${p.provenance.year}`),
+      values: programmes.map((p) => `${CONFIDENCE_SHORT[p.provenance.confidence]} · ${p.provenance.year}`),
     },
   ]
 }
@@ -137,7 +185,8 @@ export default function ComparePage() {
     return (
       <div className="p-4 sm:p-6">
         <div className="mx-auto max-w-3xl">
-          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Programme Comparison</h1>
+          <ShortlistTabs />
+          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Shortlist</h1>
           <p className="mb-8 text-sm text-ink-muted">
             Side-by-side analysis of your selected programmes.
           </p>
@@ -163,9 +212,10 @@ export default function ComparePage() {
   return (
     <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-5xl">
+        <ShortlistTabs />
         <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
           <div>
-            <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Programme Comparison</h1>
+            <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Shortlist</h1>
             <p className="text-sm text-ink-muted">
               Side-by-side analysis of your selected programmes. Best value in each row is
               highlighted.
@@ -234,7 +284,7 @@ export default function ComparePage() {
               <div className="flex items-center p-4 text-xs font-semibold text-ink-muted">Pros</div>
               {selected.map((programme) => (
                 <div key={programme.id} className="border-l border-line p-4">
-                  {programme.pros.map((pro) => (
+                  {(programme.pros ?? []).map((pro) => (
                     <div key={pro} className="mb-1 flex items-start gap-1.5 text-xs text-ink-muted">
                       <CheckCircle
                         size={12}
@@ -252,7 +302,7 @@ export default function ComparePage() {
               <div className="flex items-center p-4 text-xs font-semibold text-ink-muted">Cons</div>
               {selected.map((programme) => (
                 <div key={programme.id} className="border-l border-line p-4">
-                  {programme.cons.map((con) => (
+                  {(programme.cons ?? []).map((con) => (
                     <div key={con} className="mb-1 flex items-start gap-1.5 text-xs text-ink-muted">
                       <AlertCircle
                         size={12}

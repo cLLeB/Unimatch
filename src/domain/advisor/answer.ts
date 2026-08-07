@@ -69,7 +69,7 @@ function provenanceNote(programme: Programme): string {
     case 'researched':
       return '(cut-off researched but not confirmed with the university)'
     case 'estimated':
-      return '(estimated cut-off — not an official figure)'
+      return '(estimated cut-off, not an official figure)'
   }
 }
 
@@ -128,7 +128,7 @@ function answerStudyWithAggregate(ctx: AdvisorContext, aggregate: number): Answe
   }
 
   lines.push(
-    'This compares aggregates only — individual programmes also require specific subjects, which I check once you enter your grades.',
+    'This compares aggregates only, individual programmes also require specific subjects, which I check once you enter your grades.',
   )
 
   return {
@@ -208,8 +208,7 @@ function answerGradesNeeded(ctx: AdvisorContext, query: string): Answer {
   const { requirements } = programme
 
   const subjectLines = [
-    ...requirements.coreSubjects.map((s) => `${s.subject} at ${s.minimumGrade}`),
-    ...requirements.electiveSubjects.map((s) =>
+    ...requirements.coreSubjects.map((s) => `${s.subject} at ${s.minimumGrade}`), ...requirements.electiveSubjects.map((s) =>
       s.alternatives?.length
         ? `${[s.subject, ...s.alternatives].join(' or ')} at ${s.minimumGrade}`
         : `${s.subject} at ${s.minimumGrade}`,
@@ -254,7 +253,7 @@ function answerEasiestUniversity(ctx: AdvisorContext): Answer {
         (e) =>
           `${e.university.shortName} (average ${e.average.toFixed(1)} across ${e.count} programme${e.count === 1 ? '' : 's'})`,
       ),
-    )}. Remember a higher aggregate is easier to reach — 24 is the general minimum for degree admission in Ghana.`,
+    )}. Remember a higher aggregate is easier to reach, 24 is the general minimum for degree admission in Ghana.`,
     programmeIds: ctx.catalogue.programmes
       .filter((p) => p.universityId === easiest[0]?.university.id)
       .sort((a, b) => b.requirements.minimumAggregate - a.requirements.minimumAggregate)
@@ -286,14 +285,32 @@ function answerCompare(ctx: AdvisorContext, left: string, right: string): Answer
   }
 
   const moreCompetitive = a.requirements.minimumAggregate < b.requirements.minimumAggregate ? a : b
-  const cheaper = a.annualFeesGhs < b.annualFeesGhs ? a : b
-  const betterEmployment = a.employmentRatePct > b.employmentRatePct ? a : b
+
+  const describe = (p: Programme) => {
+    const parts = [`a cut-off of ${p.requirements.minimumAggregate}`]
+    if (p.durationYears) parts.push(`${p.durationYears} years`)
+    if (p.annualFeesGhs !== undefined) {
+      parts.push(`fees of GH₵${p.annualFeesGhs.toLocaleString('en-GH')}/yr`)
+    }
+    return `${label(ctx.catalogue, p)} has ${list(parts)}.`
+  }
+
+  const sentences = [describe(a), describe(b)]
+
+  sentences.push(
+    `${label(ctx.catalogue, moreCompetitive)} is the more competitive entry.`,
+  )
+
+  // Only claim a fee comparison when both sides actually publish one.
+  if (a.annualFeesGhs !== undefined && b.annualFeesGhs !== undefined) {
+    const cheaper = a.annualFeesGhs < b.annualFeesGhs ? a : b
+    sentences.push(`${label(ctx.catalogue, cheaper)} is cheaper.`)
+  } else {
+    sentences.push('Neither university publishes comparable fees for these programmes.')
+  }
 
   return {
-    text:
-      `${label(ctx.catalogue, a)} has a cut-off of ${a.requirements.minimumAggregate}, fees of GH₵${a.annualFeesGhs.toLocaleString('en-GH')}/yr and ${a.employmentRatePct}% employment. ` +
-      `${label(ctx.catalogue, b)} has a cut-off of ${b.requirements.minimumAggregate}, fees of GH₵${b.annualFeesGhs.toLocaleString('en-GH')}/yr and ${b.employmentRatePct}% employment. ` +
-      `${label(ctx.catalogue, moreCompetitive)} is the more competitive entry, ${label(ctx.catalogue, cheaper)} is cheaper, and ${label(ctx.catalogue, betterEmployment)} reports better employment.`,
+    text: sentences.join(' '),
     programmeIds: [a.id, b.id],
     followUps: [`Do I qualify for ${a.name}?`, `What grades do I need for ${b.name}?`],
   }
@@ -318,16 +335,19 @@ function answerCareers(ctx: AdvisorContext): Answer {
 
   const frequency = new Map<string, number>()
   for (const programme of qualified) {
-    for (const career of programme.careers) {
+    for (const career of programme.careers ?? []) {
       frequency.set(career, (frequency.get(career) ?? 0) + 1)
     }
   }
 
   const top = [...frequency.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([c]) => c)
-  const best = [...qualified].sort((a, b) => b.employmentRatePct - a.employmentRatePct)[0]!
+
+  // Fall back to faculties when career data is not held for these programmes.
+  const faculties = [...new Set(qualified.map((p) => p.faculty))].slice(0, 4)
+  const areas = top.length > 0 ? top : faculties
 
   return {
-    text: `You qualify for ${qualified.length} programme${qualified.length === 1 ? '' : 's'}, opening careers in ${list(top)}. The strongest reported employment among them is ${label(ctx.catalogue, best)} at ${best.employmentRatePct}%.`,
+    text: `You qualify for ${qualified.length} programme${qualified.length === 1 ? '' : 's'}, across ${list(areas)}. Open any of them to see its requirements and where its cut-off came from.`,
     programmeIds: qualified.slice(0, 5).map((p) => p.id),
     followUps: ['What are the cheapest programmes?', 'Which deadlines are closing soon?'],
   }
@@ -337,27 +357,58 @@ function answerSuperlative(
   ctx: AdvisorContext,
   kind: 'cheapest' | 'highest-salary' | 'shortest',
 ): Answer {
-  const sorted = [...ctx.catalogue.programmes]
+  const all = ctx.catalogue.programmes
+
+  /** Only rank programmes that actually publish the figure being ranked. */
+  const withField = <T>(get: (p: Programme) => T | undefined) =>
+    all.filter((p) => get(p) !== undefined)
+
+  let ranked: Programme[]
   let sentence: string
+  let caveat =
+    'Fee and salary figures, where shown, are indicative estimates rather than official publications.'
 
   switch (kind) {
-    case 'cheapest':
-      sorted.sort((a, b) => a.annualFeesGhs - b.annualFeesGhs)
-      sentence = `The lowest annual fees are ${list(sorted.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at GH₵${p.annualFeesGhs.toLocaleString('en-GH')}/yr`))}.`
+    case 'cheapest': {
+      ranked = withField((p) => p.annualFeesGhs).sort(
+        (a, b) => a.annualFeesGhs! - b.annualFeesGhs!,
+      )
+      if (ranked.length === 0) {
+        return {
+          text: 'None of the programmes I hold publish their fees, so I cannot rank them by cost. University portals list fees per academic year.',
+          programmeIds: [],
+          followUps: DEFAULT_FOLLOW_UPS,
+        }
+      }
+      sentence = `The lowest annual fees I hold are ${list(ranked.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at GH₵${p.annualFeesGhs!.toLocaleString('en-GH')}/yr`))}.`
+      caveat = `Only ${ranked.length} of ${all.length} programmes publish a fee, so this ranks a small subset. ${caveat}`
       break
-    case 'highest-salary':
-      sorted.sort((a, b) => b.salary.maxMonthly - a.salary.maxMonthly)
-      sentence = `The highest reported earning ranges are ${list(sorted.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at GH₵${p.salary.minMonthly.toLocaleString('en-GH')}–${p.salary.maxMonthly.toLocaleString('en-GH')}/mo`))}.`
+    }
+    case 'highest-salary': {
+      ranked = withField((p) => p.salary).sort(
+        (a, b) => b.salary!.maxMonthly - a.salary!.maxMonthly,
+      )
+      if (ranked.length === 0) {
+        return {
+          text: 'I do not hold salary data for these programmes, so I would rather not guess at earnings.',
+          programmeIds: [],
+          followUps: DEFAULT_FOLLOW_UPS,
+        }
+      }
+      sentence = `The highest earning ranges I hold are ${list(ranked.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at GH₵${p.salary!.minMonthly.toLocaleString('en-GH')}, ${p.salary!.maxMonthly.toLocaleString('en-GH')}/mo`))}.`
       break
-    case 'shortest':
-      sorted.sort((a, b) => a.durationYears - b.durationYears)
-      sentence = `The shortest programmes are ${list(sorted.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at ${p.durationYears} years`))}.`
+    }
+    case 'shortest': {
+      ranked = [...all].sort((a, b) => a.durationYears - b.durationYears)
+      sentence = `The shortest programmes are ${list(ranked.slice(0, 3).map((p) => `${label(ctx.catalogue, p)} at ${p.durationYears} years`))}.`
+      caveat = 'Diplomas are shorter than degrees but are a different qualification.'
       break
+    }
   }
 
   return {
-    text: `${sentence} Fee and salary figures are indicative estimates, not official university publications.`,
-    programmeIds: sorted.slice(0, 3).map((p) => p.id),
+    text: `${sentence} ${caveat}`,
+    programmeIds: ranked.slice(0, 3).map((p) => p.id),
     followUps: DEFAULT_FOLLOW_UPS,
   }
 }
@@ -381,7 +432,7 @@ function answerDeadlines(ctx: AdvisorContext): Answer {
   })
 
   return {
-    text: `Closing soonest: ${list(soonest)}. These dates are indicative — always confirm on the university's own portal before relying on them.`,
+    text: `Closing soonest: ${list(soonest)}. These dates are indicative, always confirm on the university's own portal before relying on them.`,
     programmeIds: [],
     followUps: DEFAULT_FOLLOW_UPS,
   }
@@ -416,6 +467,131 @@ function answerMyAggregate(ctx: AdvisorContext): Answer {
   }
 }
 
+/** Best-matching university for a free-text name or abbreviation. */
+function findUniversity(catalogue: Catalogue, query: string) {
+  const q = query.toLowerCase().trim()
+  if (!q) return undefined
+
+  return catalogue.universities
+    .map((university) => {
+      const haystack = `${university.name} ${university.shortName} ${university.city}`.toLowerCase()
+      let score = 0
+      if (university.shortName.toLowerCase() === q) score = 100
+      else if (university.name.toLowerCase() === q) score = 95
+      else if (haystack.includes(q)) score = 70
+      else {
+        const tokens = q.split(/\s+/).filter((t) => t.length > 2)
+        const hits = tokens.filter((t) => haystack.includes(t)).length
+        score = tokens.length && hits ? (hits / tokens.length) * 50 : 0
+      }
+      return { university, score }
+    })
+    .filter((m) => m.score > 0)
+    .sort((a, b) => b.score - a.score)[0]?.university
+}
+
+function answerUniversityProgrammes(ctx: AdvisorContext, query: string): Answer {
+  const university = findUniversity(ctx.catalogue, query)
+  if (!university) {
+    return {
+      text: `I could not find a university matching "${query}". I currently hold ${list(ctx.catalogue.universities.slice(0, 6).map((u) => u.shortName))} and others.`,
+      programmeIds: [],
+      followUps: DEFAULT_FOLLOW_UPS,
+    }
+  }
+
+  const owned = ctx.catalogue.programmes
+    .filter((p) => p.universityId === university.id)
+    .sort((a, b) => a.requirements.minimumAggregate - b.requirements.minimumAggregate)
+
+  if (owned.length === 0) {
+    return {
+      text: `I do not hold any programmes for ${university.shortName} yet.`,
+      programmeIds: [],
+      followUps: DEFAULT_FOLLOW_UPS,
+    }
+  }
+
+  const cutoffs = owned.map((p) => p.requirements.minimumAggregate)
+  const tracks = [...new Set(owned.map((p) => p.admissionTrack))]
+  const trackNote =
+    tracks.length > 1
+      ? ` That includes ${list(tracks.filter((t) => t !== 'regular').map((t) => `${t.replace('-', ' ')} intakes`))}.`
+      : ''
+
+  return {
+    text:
+      `${university.shortName} has ${owned.length} programme${owned.length === 1 ? '' : 's'} in the catalogue, with cut-offs from ${Math.min(...cutoffs)} to ${Math.max(...cutoffs)}.${trackNote} ` +
+      `The most competitive are ${list(owned.slice(0, 5).map((p) => `${p.name} (${p.requirements.minimumAggregate})`))}.`,
+    programmeIds: owned.slice(0, 6).map((p) => p.id),
+    followUps: [
+      `What is the easiest programme at ${university.shortName}?`,
+      'Which university is easiest to enter?',
+      'Which deadlines are closing soon?',
+    ],
+  }
+}
+
+function answerWhereToStudy(ctx: AdvisorContext, query: string): Answer {
+  const matches = findProgrammes(ctx.catalogue, query, 40)
+
+  if (matches.length === 0) {
+    return {
+      text: `I could not find a programme matching "${query}" at any university I hold.`,
+      programmeIds: [],
+      followUps: DEFAULT_FOLLOW_UPS,
+    }
+  }
+
+  const byUniversity = new Map<string, typeof matches>()
+  for (const programme of matches) {
+    const bucket = byUniversity.get(programme.universityId) ?? []
+    bucket.push(programme)
+    byUniversity.set(programme.universityId, bucket)
+  }
+
+  const ranked = [...byUniversity.entries()]
+    .map(([id, list_]) => ({
+      name: ctx.catalogue.universities.find((u) => u.id === id)?.shortName ?? id,
+      best: Math.min(...list_.map((p) => p.requirements.minimumAggregate)),
+    }))
+    .sort((a, b) => a.best - b.best)
+
+  return {
+    text: `${matches.length} matching programme${matches.length === 1 ? '' : 's'} across ${ranked.length} institution${ranked.length === 1 ? '' : 's'}: ${list(ranked.slice(0, 6).map((r) => `${r.name} (from ${r.best})`))}. Lower is more competitive.`,
+    programmeIds: matches.slice(0, 6).map((p) => p.id),
+    followUps: [`Do I qualify for ${matches[0]!.name}?`, 'What are the cheapest programmes?'],
+  }
+}
+
+function answerByTrack(ctx: AdvisorContext, track: 'distance' | 'fee-paying'): Answer {
+  const owned = ctx.catalogue.programmes.filter((p) => p.admissionTrack === track)
+  const wording = track === 'distance' ? 'distance-learning' : 'fee-paying'
+
+  if (owned.length === 0) {
+    return {
+      text: `I do not hold any ${wording} intakes yet.`,
+      programmeIds: [],
+      followUps: DEFAULT_FOLLOW_UPS,
+    }
+  }
+
+  const institutions = [
+    ...new Set(
+      owned.map(
+        (p) => ctx.catalogue.universities.find((u) => u.id === p.universityId)?.shortName ?? p.universityId,
+      ),
+    ),
+  ]
+  const cutoffs = owned.map((p) => p.requirements.minimumAggregate)
+
+  return {
+    text: `There are ${owned.length} ${wording} intakes, at ${list(institutions)}, with cut-offs from ${Math.min(...cutoffs)} to ${Math.max(...cutoffs)}. ${track === 'distance' ? 'Distance intakes usually accept a higher aggregate than the regular track.' : 'Fee-paying places accept a higher aggregate than the regular track, at a higher cost.'}`,
+    programmeIds: owned.slice(0, 6).map((p) => p.id),
+    followUps: ['What can I study with aggregate 24?', 'Which university is easiest to enter?'],
+  }
+}
+
 /** Answer a parsed intent. Exported for direct testing. */
 export function answerIntent(ctx: AdvisorContext, intent: Intent): Answer {
   switch (intent.kind) {
@@ -439,6 +615,12 @@ export function answerIntent(ctx: AdvisorContext, intent: Intent): Answer {
       return answerDeadlines(ctx)
     case 'my-aggregate':
       return answerMyAggregate(ctx)
+    case 'university-programmes':
+      return answerUniversityProgrammes(ctx, intent.universityQuery)
+    case 'where-to-study':
+      return answerWhereToStudy(ctx, intent.programmeQuery)
+    case 'by-track':
+      return answerByTrack(ctx, intent.track)
     case 'unknown':
       return {
         text: `I can only answer from the ${ctx.catalogue.programmes.length} programmes I hold, so I would rather not guess at that. Try one of these:`,

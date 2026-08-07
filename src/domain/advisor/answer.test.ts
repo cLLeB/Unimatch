@@ -26,6 +26,8 @@ function programme(
     durationYears: 4,
     campus: 'Accra',
     region: 'Greater Accra',
+    admissionTrack: 'regular' as const,
+    qualificationLevel: 'degree' as const,
     overview: 'A test programme used to exercise the advisor answer engine end to end.',
     pros: ['Pro'],
     cons: ['Con'],

@@ -217,7 +217,7 @@ describe('describeShortfall', () => {
   it('explains a failed credit pass', () => {
     expect(
       describeShortfall({ kind: 'no-credit-pass', subject: 'Core Mathematics', actual: 'E8' }),
-    ).toContain('credit pass (A1–C6)')
+    ).toContain('credit pass (A1 to C6)')
   })
 })
 

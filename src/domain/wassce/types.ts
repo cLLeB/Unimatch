@@ -30,7 +30,7 @@ export const CORE_SUBJECT_LABELS: Record<CoreSubjectKey, string> = {
 
 /**
  * The two core subjects that always count. The third slot is contested between
- * `science` and `social` — whichever grade is better is used.
+ * `science` and `social`, whichever grade is better is used.
  */
 export const ALWAYS_COUNTED_CORES = ['english', 'mathematics'] as const
 export const CONTESTED_CORES = ['science', 'social'] as const
@@ -81,7 +81,7 @@ export const REQUIRED_ELECTIVE_COUNT = 3
 export const MAX_ELECTIVE_COUNT = 4
 
 /**
- * A pass at credit level. Ghanaian universities require credit passes (A1–C6)
+ * A pass at credit level. Ghanaian universities require credit passes (A1 to C6)
  * in the subjects used for admission; D7 and below do not count.
  */
 export const LOWEST_CREDIT_PASS: Grade = 'C6'

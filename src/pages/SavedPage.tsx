@@ -2,6 +2,7 @@ import { Star } from 'lucide-react'
 import { useMemo } from 'react'
 import { LinkButton } from '../components/ui/Button'
 import ProgrammeCard from '../components/programme/ProgrammeCard'
+import ShortlistTabs from '../components/programme/ShortlistTabs'
 import { getProgramme } from '../data/catalogue'
 import type { Programme } from '../domain/catalogue/types'
 import { useEligibility } from '../hooks/useEligibility'
@@ -22,14 +23,16 @@ export default function SavedPage() {
   return (
     <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
-        <div className="mb-6">
-          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Saved Programmes</h1>
+        <div className="mb-4">
+          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Shortlist</h1>
           <p className="text-sm text-ink-muted">
             {saved.length === 0
               ? 'Your shortlist will appear here.'
               : `${saved.length} programme${saved.length === 1 ? '' : 's'} on your shortlist.`}
           </p>
         </div>
+
+        <ShortlistTabs />
 
         {saved.length === 0 ? (
           <div className="flex flex-col items-center gap-4 rounded-2xl border border-dashed border-line bg-surface p-12 text-center">

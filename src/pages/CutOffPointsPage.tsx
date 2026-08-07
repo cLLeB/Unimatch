@@ -1,5 +1,5 @@
 import { ArrowUpDown, Search, SlidersHorizontal, X } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Seo from '../components/Seo'
 import EligibilityBadge from '../components/programme/EligibilityBadge'
@@ -9,7 +9,9 @@ import Button, { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import Select from '../components/ui/Select'
 import {
+  byOptional,
   catalogueStats,
+  hasAnyFees,
   degreeTypes,
   formatFeesPerYear,
   regions,
@@ -18,15 +20,20 @@ import {
 } from '../data/catalogue'
 import { useEligibility } from '../hooks/useEligibility'
 
+const PAGE_SIZE = 40
+
 type SortKey = 'cutoff-asc' | 'cutoff-desc' | 'name' | 'fees' | 'university'
 
-const SORTS: { value: SortKey; label: string }[] = [
+const ALL_SORTS: { value: SortKey; label: string }[] = [
   { value: 'cutoff-asc', label: 'Most competitive first' },
   { value: 'cutoff-desc', label: 'Easiest to enter first' },
-  { value: 'name', label: 'Programme A–Z' },
-  { value: 'university', label: 'University A–Z' },
+  { value: 'name', label: 'Programme A to Z' },
+  { value: 'university', label: 'University A to Z' },
   { value: 'fees', label: 'Lowest fees' },
 ]
+
+/** Drop the fee sort when nothing in the catalogue publishes a fee. */
+const SORTS = ALL_SORTS.filter((option) => option.value !== 'fees' || hasAnyFees)
 
 /**
  * A browsable cut-off reference that needs no grades and no account.
@@ -44,6 +51,9 @@ export default function CutOffPointsPage() {
   const [degreeType, setDegreeType] = useState('')
   const [sort, setSort] = useState<SortKey>('cutoff-asc')
   const [filtersOpen, setFiltersOpen] = useState(false)
+  // 365 programmes is far too many rows to paint at once, especially on a
+  // phone. Show a screenful and let the student ask for more.
+  const [visible, setVisible] = useState(PAGE_SIZE)
 
   const { verdicts } = useEligibility()
 
@@ -55,7 +65,7 @@ export default function CutOffPointsPage() {
       if (region && programme.region !== region) return false
       if (degreeType && programme.degreeType !== degreeType) return false
       if (!needle) return true
-      return `${programme.name} ${universityNameOf(programme)} ${programme.faculty} ${programme.careers.join(' ')}`
+      return `${programme.name} ${universityNameOf(programme)} ${programme.faculty} ${programme.degreeType} ${(programme.careers ?? []).join(' ')}`
         .toLowerCase()
         .includes(needle)
     })
@@ -71,10 +81,16 @@ export default function CutOffPointsPage() {
         case 'university':
           return universityNameOf(a.programme).localeCompare(universityNameOf(b.programme))
         case 'fees':
-          return a.programme.annualFeesGhs - b.programme.annualFeesGhs
+          return byOptional<(typeof a)>((row) => row.programme.annualFeesGhs)(a, b)
       }
     })
   }, [verdicts, query, university, region, degreeType, sort])
+
+  const shown = rows.slice(0, visible)
+
+  useEffect(() => {
+    setVisible(PAGE_SIZE)
+  }, [query, university, region, degreeType, sort])
 
   const activeFilters = [university, region, degreeType].filter(Boolean).length
 
@@ -92,7 +108,7 @@ export default function CutOffPointsPage() {
     itemListElement: rows.slice(0, 50).map((row, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      name: `${row.programme.name} — ${universityNameOf(row.programme)}`,
+      name: `${row.programme.name}, ${universityNameOf(row.programme)}`,
       url: `/programme/${row.programme.id}`,
     })),
   }
@@ -100,7 +116,7 @@ export default function CutOffPointsPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-10">
       <Seo
-        title={`Cut-Off Points ${catalogueStats.latestCycleYear} — All Universities in Ghana`}
+        title={`Cut-Off Points ${catalogueStats.latestCycleYear}, All Universities in Ghana`}
         description={`Browse cut-off points for ${catalogueStats.programmeCount} programmes across ${catalogueStats.universityCount} Ghanaian universities. ${catalogueStats.authoritativeCount} taken directly from official admissions lists, each showing its source.`}
         path="/cut-off-points"
         structuredData={structuredData}
@@ -116,7 +132,7 @@ export default function CutOffPointsPage() {
         </p>
       </header>
 
-      {/* Search — full width and first, because it is what most visitors want. */}
+      {/* Search, full width and first, because it is what most visitors want. */}
       <div className="sticky top-16 z-30 -mx-4 mb-4 bg-canvas/95 px-4 py-3 backdrop-blur-sm sm:static sm:mx-0 sm:bg-transparent sm:p-0 sm:pb-4 sm:backdrop-blur-none">
         <div className="relative">
           <Search
@@ -208,7 +224,7 @@ export default function CutOffPointsPage() {
 
       {/* ── Mobile: compact cards ───────────────────────────────────────── */}
       <ul className="space-y-2 sm:hidden">
-        {rows.map(({ programme }) => (
+        {shown.map(({ programme }) => (
           <li key={programme.id}>
             <Link to={`/programme/${programme.id}`} className="block">
               <Card className="p-3.5" hover>
@@ -273,7 +289,7 @@ export default function CutOffPointsPage() {
             </tr>
           </thead>
           <tbody>
-            {rows.map(({ programme }, index) => (
+            {shown.map(({ programme }, index) => (
               <tr
                 key={programme.id}
                 className={`border-b border-line last:border-0 ${index % 2 ? 'bg-canvas/40' : ''}`}
@@ -317,6 +333,17 @@ export default function CutOffPointsPage() {
         </table>
       </div>
 
+      {shown.length < rows.length && (
+        <div className="mt-4 text-center">
+          <Button variant="outline" onClick={() => setVisible((n) => n + PAGE_SIZE)}>
+            Show {Math.min(PAGE_SIZE, rows.length - shown.length)} more
+          </Button>
+          <p className="mt-2 text-xs text-ink-muted">
+            Showing {shown.length} of {rows.length}
+          </p>
+        </div>
+      )}
+
       {rows.length === 0 && (
         <div className="rounded-2xl border border-dashed border-line bg-surface p-10 text-center text-sm text-ink-muted">
           Nothing matches &ldquo;{query}&rdquo;. Try a shorter search, or clear the filters.
@@ -330,7 +357,7 @@ export default function CutOffPointsPage() {
           <Badge variant="warning">Unconfirmed</Badge>
           <span>researched but not verified with the university.</span>
           <Badge variant="warning">Estimate</Badge>
-          <span>our own estimate — treat as a starting point only.</span>
+          <span>our own estimate, treat as a starting point only.</span>
         </div>
         <p className="mt-2 text-xs text-ink-muted">
           Cut-offs move each year with the pass rate and available places. Always confirm on the

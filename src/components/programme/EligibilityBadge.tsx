@@ -16,7 +16,7 @@ const PRESENTATION: Record<
     label: 'Close Match',
     variant: 'warning',
     Icon: Zap,
-    title: 'Within reach — see what you would need to change',
+    title: 'Within reach, see what you would need to change',
   },
   'not-eligible': {
     label: 'Not Eligible',

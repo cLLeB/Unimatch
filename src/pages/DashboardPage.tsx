@@ -1,17 +1,26 @@
 import { ArrowUpDown, Filter, GitCompare, Search, X } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { LinkButton } from '../components/ui/Button'
 import Button from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import Select from '../components/ui/Select'
 import ProgrammeCard from '../components/programme/ProgrammeCard'
-import { catalogueStats, regions, universities } from '../data/catalogue'
+import {
+  byOptional,
+  catalogueStats,
+  hasAnyFees,
+  hasAnySalary,
+  regions,
+  universities,
+} from '../data/catalogue'
 import { compareVerdicts } from '../domain/wassce/eligibility'
 import { useEligibility } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
 
 type SortKey = 'best-match' | 'most-competitive' | 'lowest-cutoff' | 'lowest-fees' | 'highest-salary'
+
+const PAGE_SIZE = 25
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: 'best-match', label: 'Best match for me' },
@@ -27,7 +36,7 @@ function SummaryCard() {
 
   if (!hasResults) {
     return (
-      <Card className="mb-6 border-0 bg-gradient-to-r from-brand to-secondary p-5 text-white">
+      <Card className="mb-6 border-0 bg-brand p-5 text-white">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
           <div>
             <div className="mb-1 text-sm text-on-brand">You haven&apos;t entered your grades yet</div>
@@ -54,7 +63,7 @@ function SummaryCard() {
   ).size
 
   return (
-    <Card className="mb-6 border-0 bg-gradient-to-r from-brand to-secondary p-5 text-white">
+    <Card className="mb-6 border-0 bg-brand p-5 text-white">
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
           <div className="mb-1 text-sm text-on-brand">
@@ -100,6 +109,7 @@ export default function DashboardPage() {
   const [university, setUniversity] = useState(searchParams.get('university') ?? '')
   const [region, setRegion] = useState('')
   const [sort, setSort] = useState<SortKey>('best-match')
+  const [visible, setVisible] = useState(PAGE_SIZE)
 
   const filtered = useMemo(() => {
     const matching = verdicts.filter(
@@ -130,21 +140,35 @@ export default function DashboardPage() {
         )
         break
       case 'lowest-fees':
-        sorted.sort((a, b) => a.programme.annualFeesGhs - b.programme.annualFeesGhs)
+        sorted.sort(byOptional((row) => row.programme.annualFeesGhs))
         break
       case 'highest-salary':
-        sorted.sort((a, b) => b.programme.salary.maxMonthly - a.programme.salary.maxMonthly)
+        sorted.sort(byOptional((row) => row.programme.salary?.maxMonthly, 'desc'))
         break
     }
     return sorted
   }, [verdicts, university, region, sort])
+
+  const shown = filtered.slice(0, visible)
+
+  useEffect(() => {
+    setVisible(PAGE_SIZE)
+  }, [university, region, sort])
 
   const handleUniversityChange = (value: string) => {
     setUniversity(value)
     setSearchParams(value ? { university: value } : {}, { replace: true })
   }
 
-  const sortOptions = hasResults ? SORT_OPTIONS : SORT_OPTIONS.filter((o) => o.value !== 'best-match')
+  // Only offer a sort the data can actually satisfy. Most Ghanaian
+  // universities publish no fee or salary, so those options would silently
+  // reorder nothing.
+  const sortOptions = SORT_OPTIONS.filter((option) => {
+    if (option.value === 'best-match') return hasResults
+    if (option.value === 'lowest-fees') return hasAnyFees
+    if (option.value === 'highest-salary') return hasAnySalary
+    return true
+  })
 
   return (
     <div className="p-4 sm:p-6">
@@ -214,7 +238,7 @@ export default function DashboardPage() {
         </div>
 
         <div className="space-y-4">
-          {filtered.map(({ programme, verdict }) => (
+          {shown.map(({ programme, verdict }) => (
             <ProgrammeCard
               key={programme.id}
               programme={programme}
@@ -222,6 +246,17 @@ export default function DashboardPage() {
               expanded={verdict.status === 'close-match'}
             />
           ))}
+
+          {shown.length < filtered.length && (
+            <div className="pt-2 text-center">
+              <Button variant="outline" onClick={() => setVisible((n) => n + PAGE_SIZE)}>
+                Show {Math.min(PAGE_SIZE, filtered.length - shown.length)} more
+              </Button>
+              <p className="mt-2 text-xs text-ink-muted">
+                Showing {shown.length} of {filtered.length}
+              </p>
+            </div>
+          )}
 
           {filtered.length === 0 && (
             <div className="rounded-2xl border border-dashed border-line bg-surface p-10 text-center text-sm text-ink-muted">

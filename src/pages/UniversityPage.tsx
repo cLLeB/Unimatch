@@ -34,7 +34,7 @@ export function UniversitiesPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-10">
       <Seo
-        title="Universities in Ghana — Cut-Off Points & Programmes"
+        title="Universities in Ghana, Cut-Off Points & Programmes"
         description={`Cut-off points and programme requirements for ${catalogueStats.universityCount} Ghanaian universities, including KNUST, the University of Ghana and UCC.`}
         path="/universities"
       />
@@ -70,7 +70,7 @@ export function UniversitiesPage() {
                     <span>
                       Cut-offs{' '}
                       <span className="font-semibold text-brand">
-                        {lowest}–{highest}
+                        {lowest}, {highest}
                       </span>
                     </span>
                   )}
@@ -109,7 +109,7 @@ export default function UniversityPage() {
   }
 
   const cutoffs = owned.map((p) => p.requirements.minimumAggregate)
-  const fees = owned.map((p) => p.annualFeesGhs)
+  const fees = owned.map((p) => p.annualFeesGhs).filter((f): f is number => f !== undefined)
   const officialCount = owned.filter((p) => p.provenance.confidence === 'authoritative').length
 
   const structuredData = {
@@ -122,19 +122,18 @@ export default function UniversityPage() {
       addressLocality: university.city,
       addressRegion: university.region,
       addressCountry: 'GH',
-    },
-    ...(university.admissionsUrl ? { url: university.admissionsUrl } : {}),
+    }, ...(university.admissionsUrl ? { url: university.admissionsUrl } : {}),
   }
 
   const stats = [
     { label: 'Programmes', value: String(owned.length) },
     {
       label: 'Cut-off range',
-      value: cutoffs.length ? `${Math.min(...cutoffs)}–${Math.max(...cutoffs)}` : '—',
+      value: cutoffs.length ? `${Math.min(...cutoffs)}, ${Math.max(...cutoffs)}` : ', ',
     },
     {
       label: 'Fees from',
-      value: fees.length ? formatCedis(Math.min(...fees)) : '—',
+      value: fees.length ? formatCedis(Math.min(...fees)) : ', ',
     },
     { label: 'Official figures', value: `${officialCount}/${owned.length}` },
   ]
@@ -148,7 +147,7 @@ export default function UniversityPage() {
         structuredData={structuredData}
       />
 
-      <div className="bg-gradient-to-r from-brand to-brand-deep px-4 py-6 text-white sm:px-6 sm:py-8">
+      <div className="bg-brand px-4 py-6 text-white sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/universities"

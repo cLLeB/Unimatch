@@ -52,17 +52,104 @@
     scroll-behavior: smooth;
   }
 
-  body {
-    @apply bg-canvas font-sans text-ink antialiased;
+  /*
+   * Dark mode works by re-pointing the surface and text tokens, not by adding
+   * a `dark:` variant to every element. Because components are written against
+   * these tokens (bg-surface, text-ink, border-line) rather than raw palette
+   * steps, the whole app follows from this one block.
+   */
+  .dark {
+    --color-canvas: #0b1220;
+    --color-surface: #131c2e;
+    --color-line: #24314a;
+    --color-ink: #e8eef7;
+    --color-ink-muted: #93a4bd;
+
+    /* Lift the brand so it keeps AA contrast on a dark surface. */
+    --color-brand: #2dd4bf;
+    --color-brand-hover: #5eead4;
+    --color-brand-subtle: #10261f;
+    --color-brand-deep: #0b3b36;
+    --color-secondary: #60a5fa;
+    --color-secondary-hover: #93c5fd;
+
+    --color-footer-text: #93a4bd;
+    --color-footer-line: #24314a;
+
+    color-scheme: dark;
   }
 
-  .dark body {
-    @apply bg-ink text-canvas;
+  body {
+    @apply bg-canvas font-sans text-ink antialiased;
+    transition:
+      background-color 150ms ease,
+      color 150ms ease;
   }
 
   /* Brief: keyboard accessibility. A visible, consistent focus ring. */
   :focus-visible {
     @apply outline-2 outline-offset-2 outline-brand;
+  }
+}
+
+@layer components {
+  /*
+   * A few places legitimately need a raw neutral (tab strips, chat bubbles,
+   * chips). These give them a dark counterpart without scattering `dark:`
+   * variants through the components.
+   */
+  .dark .bg-slate-100 {
+    background-color: #1c2740;
+  }
+
+  .dark .bg-slate-300 {
+    background-color: #3a4a68;
+  }
+
+  .dark .border-slate-100,
+  .dark .border-slate-200 {
+    border-color: var(--color-line);
+  }
+
+  /* Status chips: keep the hue, drop the brightness. */
+  .dark .bg-green-50 {
+    background-color: #10291c;
+  }
+  .dark .bg-amber-50 {
+    background-color: #2a1f08;
+  }
+  .dark .bg-red-50 {
+    background-color: #2b1414;
+  }
+  .dark .bg-blue-50 {
+    background-color: #12203a;
+  }
+  .dark .text-green-700 {
+    color: #4ade80;
+  }
+  .dark .text-amber-700 {
+    color: #fbbf24;
+  }
+  .dark .text-red-700 {
+    color: #f87171;
+  }
+  .dark .text-blue-700 {
+    color: #60a5fa;
+  }
+  .dark .border-green-200 {
+    border-color: #1d5136;
+  }
+  .dark .border-amber-200 {
+    border-color: #55400f;
+  }
+  .dark .border-red-200 {
+    border-color: #5a2626;
+  }
+  .dark .border-blue-200 {
+    border-color: #1e3a6b;
+  }
+  .dark .bg-slate-100.text-slate-600 {
+    color: var(--color-ink-muted);
   }
 }
 

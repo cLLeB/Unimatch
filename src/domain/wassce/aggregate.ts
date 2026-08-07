@@ -21,7 +21,7 @@ import {
  * the rule the design itself documents on the Programme Detail page ("Aggregate
  * is sum of best 6 grades"). The Figma prototype's simulator sums all seven
  * entered subjects instead, which inflates every student's aggregate and makes
- * them look less eligible than they are — see docs/superpowers/specs §7.1.
+ * them look less eligible than they are, see docs/superpowers/specs §7.1.
  */
 export function computeAggregate(results: StudentResults): AggregateResult {
   const counted: CountedSubject[] = []
@@ -64,7 +64,7 @@ export function computeAggregate(results: StudentResults): AggregateResult {
       excludedReason: 'weaker-core',
     })
   } else if (science || social) {
-    // Only one entered — it takes the slot by default.
+    // Only one entered, it takes the slot by default.
     const key = science ? scienceKey : socialKey
     const grade = (science ?? social) as NonNullable<typeof science>
     counted.push({ subject: CORE_SUBJECT_LABELS[key], grade, points: toPoints(grade) })

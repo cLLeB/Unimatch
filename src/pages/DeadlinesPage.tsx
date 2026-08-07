@@ -20,7 +20,7 @@ const STATUS_PRESENTATION: Record<
 /**
  * SMS and WhatsApp need paid providers (Africa's Talking / WhatsApp Business).
  * The controls are built and persist, but are disabled until credentials are
- * provisioned — a toggle that silently does nothing is worse than one that
+ * provisioned, a toggle that silently does nothing is worse than one that
  * says so.
  */
 const CHANNELS = [

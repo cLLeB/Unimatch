@@ -27,7 +27,7 @@ import EligibilityBadge from '../components/programme/EligibilityBadge'
 import ProvenanceBadge from '../components/programme/ProvenanceBadge'
 import ShortfallList from '../components/programme/ShortfallList'
 import {
-  formatCedis,
+  formatEmploymentRate,
   formatFeesPerYear,
   formatSalaryRange,
   getProgramme,
@@ -72,14 +72,14 @@ export default function ProgrammeDetailPage() {
   const shortfalls =
     verdict.status === 'qualified' || verdict.status === 'incomplete' ? [] : verdict.shortfalls
 
-  const trend = programme.cutoffTrend.map((point) => ({
+  const trend = (programme.cutoffTrend ?? []).map((point) => ({
     year: String(point.year),
     cutoff: point.aggregate,
   }))
 
   return (
     <>
-      <div className="bg-gradient-to-r from-brand to-brand-deep px-4 py-6 text-white sm:px-6 sm:py-8">
+      <div className="bg-brand px-4 py-6 text-white sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/dashboard"
@@ -152,13 +152,13 @@ export default function ProgrammeDetailPage() {
             { label: 'Annual Fees', value: formatFeesPerYear(programme), sub: 'Estimate' },
             {
               label: 'Employment Rate',
-              value: `${programme.employmentRatePct}%`,
+              value: formatEmploymentRate(programme),
               sub: 'Within 1 year (estimate)',
             },
             {
               label: 'Avg. Salary',
-              value: formatCedis(programme.salary.minMonthly),
-              sub: 'Starting (estimate)',
+              value: formatSalaryRange(programme),
+              sub: 'Monthly range (estimate)',
             },
           ].map((metric) => (
             <div key={metric.label} className="text-center">
@@ -215,7 +215,7 @@ export default function ProgrammeDetailPage() {
 
               <Card className="p-5">
                 <h3 className="mb-4 font-semibold text-ink">
-                  Cut-off Trend ({trend[0]?.year}–{trend[trend.length - 1]?.year})
+                  Cut-off Trend ({trend[0]?.year}, {trend[trend.length - 1]?.year})
                 </h3>
                 <div className="h-[200px] w-full">
                   <ResponsiveContainer width="100%" height="100%">
@@ -260,7 +260,7 @@ export default function ProgrammeDetailPage() {
               <Card className="p-4">
                 <h4 className="mb-3 text-sm font-semibold text-ink">Pros</h4>
                 <ul className="space-y-2">
-                  {programme.pros.map((pro) => (
+                  {(programme.pros ?? []).map((pro) => (
                     <li key={pro} className="flex items-start gap-2 text-sm text-ink-muted">
                       <CheckCircle
                         size={14}
@@ -276,7 +276,7 @@ export default function ProgrammeDetailPage() {
               <Card className="p-4">
                 <h4 className="mb-3 text-sm font-semibold text-ink">Cons</h4>
                 <ul className="space-y-2">
-                  {programme.cons.map((con) => (
+                  {(programme.cons ?? []).map((con) => (
                     <li key={con} className="flex items-start gap-2 text-sm text-ink-muted">
                       <AlertCircle
                         size={14}
@@ -292,7 +292,7 @@ export default function ProgrammeDetailPage() {
               <Card className="p-4">
                 <h4 className="mb-3 text-sm font-semibold text-ink">Career Paths</h4>
                 <div className="flex flex-wrap gap-2">
-                  {programme.careers.map((career) => (
+                  {(programme.careers ?? []).map((career) => (
                     <Badge key={career} variant="info">
                       {career}
                     </Badge>
@@ -309,15 +309,14 @@ export default function ProgrammeDetailPage() {
               <h3 className="mb-4 font-semibold text-ink">WASSCE Requirements</h3>
               <div className="space-y-3 text-sm">
                 {[
-                  ...programme.requirements.coreSubjects,
-                  ...programme.requirements.electiveSubjects,
+                  ...programme.requirements.coreSubjects, ...programme.requirements.electiveSubjects,
                 ].map((requirement) => (
                   <div
                     key={`${requirement.subject}-${requirement.minimumGrade}`}
                     className="flex items-center gap-2 text-ink-muted"
                   >
                     <CheckCheck size={15} className="shrink-0 text-brand" aria-hidden="true" />
-                    {[requirement.subject, ...(requirement.alternatives ?? [])].join(' or ')} — minimum{' '}
+                    {[requirement.subject, ...(requirement.alternatives ?? [])].join(' or ')}, minimum{' '}
                     {requirement.minimumGrade}
                   </div>
                 ))}
@@ -367,7 +366,7 @@ export default function ProgrammeDetailPage() {
             <Card className="p-5">
               <h3 className="mb-4 font-semibold text-ink">Career Opportunities</h3>
               <div className="grid gap-3 sm:grid-cols-2">
-                {programme.careers.map((career) => (
+                {(programme.careers ?? []).map((career) => (
                   <div
                     key={career}
                     className="flex items-center gap-3 rounded-xl border border-line bg-canvas p-3"

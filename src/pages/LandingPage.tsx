@@ -49,7 +49,7 @@ const FEATURES = [
   {
     icon: Brain,
     title: 'Career Advisor',
-    desc: 'Ask questions about admissions, cut-offs and careers — answered from the data.',
+    desc: 'Ask questions about admissions, cut-offs and careers, answered from the data.',
   },
   {
     icon: Share2,
@@ -97,7 +97,7 @@ const FAQS = [
   },
   {
     q: 'Which universities does UniMatch cover?',
-    a: `Right now ${catalogueStats.universityCount} institutions and ${catalogueStats.programmeCount} programmes, including KNUST, the University of Ghana, UCC, UDS, UEW, UHAS, UPSA and Accra Technical University. Coverage is being expanded — it is not yet every programme at every university.`,
+    a: `Right now ${catalogueStats.universityCount} institutions and ${catalogueStats.programmeCount} programmes, including KNUST, the University of Ghana, UCC, UDS, UEW, UHAS, UPSA and Accra Technical University. Coverage is being expanded, it is not yet every programme at every university.`,
   },
   {
     q: 'Is the platform free to use?',
@@ -148,7 +148,7 @@ function Hero() {
 
           <p className="mb-6 max-w-xl text-base leading-relaxed text-ink-muted sm:mb-8 sm:text-lg">
             Enter your WASSCE grades and instantly discover programmes across Ghana&apos;s public
-            universities — no guessing, no stress.
+            universities, no guessing, no stress.
           </p>
 
           {/* Full-width stacked CTAs on a phone: easier to hit, no awkward wrap. */}
@@ -179,12 +179,13 @@ function Hero() {
             a screen of scrolling before the CTAs, so it is desktop-only. */}
         <div className="relative hidden lg:block">
           <div className="relative mx-auto aspect-square w-full max-w-md">
-            <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-brand/10 to-secondary/10" />
+            <div className="absolute inset-0 rounded-3xl bg-brand/10" />
             <img
-              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=600&fit=crop&auto=format"
-              alt="Students working together on a laptop"
-              width={600}
-              height={600}
+              src="/hero-students.jpg"
+              alt="Senior secondary students seated in a university lecture hall"
+              width={900}
+              height={900}
+              loading="eager"
               className="size-full rounded-3xl object-cover"
             />
 
@@ -365,7 +366,7 @@ function Faq() {
 
 function CallToAction() {
   return (
-    <section className="mx-4 mb-12 rounded-3xl bg-gradient-to-r from-brand to-secondary px-5 py-12 text-center sm:mb-16 sm:px-6 sm:py-16 lg:mx-auto lg:max-w-7xl">
+    <section className="mx-4 mb-12 rounded-3xl bg-brand px-5 py-12 text-center sm:mb-16 sm:px-6 sm:py-16 lg:mx-auto lg:max-w-7xl">
       <h2 className="mb-3 text-2xl font-bold text-white sm:text-3xl">
         Ready to find your programme?
       </h2>
@@ -374,7 +375,7 @@ function CallToAction() {
         across Ghana.
       </p>
       <LinkButton to="/eligibility" variant="outline" size="lg" className="w-full sm:w-auto">
-        Check My Eligibility — It&apos;s Free
+        Check My Eligibility, It&apos;s Free
       </LinkButton>
     </section>
   )

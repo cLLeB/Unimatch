@@ -114,8 +114,7 @@ export default function SimulatorPage() {
       label: CORE_SUBJECT_LABELS[key],
       grade: draft.core[key]!,
       onChange: (points: number) => setCore(key, points),
-    })),
-    ...draft.electives.map((elective, index) => ({
+    })), ...draft.electives.map((elective, index) => ({
       id: `elective-${index}`,
       label: elective.subject,
       grade: elective.grade,
@@ -196,7 +195,7 @@ export default function SimulatorPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <div className="mb-1 text-xs text-ink-muted">Simulated Aggregate</div>
-                  <div className="text-4xl font-bold text-brand">{simulated ?? '—'}</div>
+                  <div className="text-4xl font-bold text-brand">{simulated ?? ', '}</div>
                 </div>
                 <div className="text-right">
                   <div className="mb-1 text-xs text-ink-muted">Qualifying Programmes</div>
@@ -229,7 +228,7 @@ export default function SimulatorPage() {
                   <>
                     <CheckCheck size={16} className="text-brand" aria-hidden="true" />
                     <span className="text-sm text-brand">
-                      Same as your baseline aggregate of {baselineAggregate ?? '—'}
+                      Same as your baseline aggregate of {baselineAggregate ?? ', '}
                     </span>
                   </>
                 )}
@@ -289,7 +288,7 @@ export default function SimulatorPage() {
 
             <Card className="p-5">
               <div className="mb-3 text-sm font-semibold text-ink">
-                Eligible with aggregate {simulated ?? '—'}
+                Eligible with aggregate {simulated ?? ', '}
               </div>
               <div className="space-y-2">
                 {qualified.map(({ programme }) => (

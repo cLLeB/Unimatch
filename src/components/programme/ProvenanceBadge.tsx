@@ -13,7 +13,7 @@ interface ProvenanceBadgeProps {
  * Surfaces where a cut-off came from.
  *
  * Anything short of an official university source is visibly flagged, because
- * students make application decisions on these numbers — see the spec's
+ * students make application decisions on these numbers, see the spec's
  * integrity requirements.
  */
 export default function ProvenanceBadge({ provenance, detailed = false }: ProvenanceBadgeProps) {
@@ -44,7 +44,7 @@ export default function ProvenanceBadge({ provenance, detailed = false }: Proven
         {CONFIDENCE_LABELS[provenance.confidence]}. Source: {provenance.source}
         {provenance.sourceUrl && (
           <>
-            {' — '}
+            {', '}
             <a
               href={provenance.sourceUrl}
               target="_blank"

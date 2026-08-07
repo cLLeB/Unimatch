@@ -8,7 +8,7 @@
  *   src/data/catalogue.generated.ts   (what the app imports)
  *
  * Precedence: when two records describe the same programme, the one with the
- * higher confidence wins — authoritative > researched > estimated. Ties break
+ * higher confidence wins, authoritative > researched > estimated. Ties break
  * on the more recent admissions year, then the more recent verification date.
  * This is what lets supplied authoritative data supersede our researched seed
  * without anyone hand-editing the seed files.
@@ -148,8 +148,7 @@ function build(verbose: boolean) {
         provenance: z
           .object({ confidence: z.string(), year: z.number(), lastVerified: z.string() })
           .default({ confidence: 'authoritative', year: 2026, lastVerified: '2026-08-07' }),
-      })),
-      ...loadLayer(IMPORTS_DIR, 'import', 'universities.json', universitySchema.extend({
+      })), ...loadLayer(IMPORTS_DIR, 'import', 'universities.json', universitySchema.extend({
         provenance: z
           .object({ confidence: z.string(), year: z.number(), lastVerified: z.string() })
           .default({ confidence: 'authoritative', year: 2026, lastVerified: '2026-08-07' }),
@@ -161,8 +160,7 @@ function build(verbose: boolean) {
 
   const programmes = mergeByPrecedence<Programme>(
     [
-      ...loadLayer(SEED_DIR, 'seed', 'programmes.json', programmeSchema as z.ZodType<Programme>),
-      ...loadLayer(IMPORTS_DIR, 'import', 'programmes.json', programmeSchema as z.ZodType<Programme>),
+      ...loadLayer(SEED_DIR, 'seed', 'programmes.json', programmeSchema as z.ZodType<Programme>), ...loadLayer(IMPORTS_DIR, 'import', 'programmes.json', programmeSchema as z.ZodType<Programme>),
     ],
     'programme',
     verbose,
@@ -170,8 +168,7 @@ function build(verbose: boolean) {
 
   const deadlines = mergeByPrecedence<AdmissionDeadline>(
     [
-      ...loadLayer(SEED_DIR, 'seed', 'deadlines.json', admissionDeadlineSchema as z.ZodType<AdmissionDeadline>),
-      ...loadLayer(IMPORTS_DIR, 'import', 'deadlines.json', admissionDeadlineSchema as z.ZodType<AdmissionDeadline>),
+      ...loadLayer(SEED_DIR, 'seed', 'deadlines.json', admissionDeadlineSchema as z.ZodType<AdmissionDeadline>), ...loadLayer(IMPORTS_DIR, 'import', 'deadlines.json', admissionDeadlineSchema as z.ZodType<AdmissionDeadline>),
     ],
     'deadline',
     verbose,
@@ -210,7 +207,7 @@ function summarise(catalogue: ReturnType<typeof build>) {
 
 function emit(catalogue: ReturnType<typeof build>) {
   const banner = `/**
- * GENERATED FILE — DO NOT EDIT BY HAND.
+ * GENERATED FILE, DO NOT EDIT BY HAND.
  *
  * Produced by scripts/data-pipeline.ts from data/seed/ and data/imports/.
  * Run \`npm run data:build\` to regenerate.

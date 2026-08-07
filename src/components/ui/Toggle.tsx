@@ -3,7 +3,7 @@ import { cn } from '../../lib/cn'
 interface ToggleProps {
   checked: boolean
   onChange: (checked: boolean) => void
-  /** Accessible name — required, since the control has no visible label. */
+  /** Accessible name, required, since the control has no visible label. */
   label: string
   disabled?: boolean
 }

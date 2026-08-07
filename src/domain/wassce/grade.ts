@@ -12,7 +12,7 @@ export function toPoints(grade: Grade): number {
 export function fromPoints(points: number): Grade {
   const grade = GRADES[points - 1]
   if (!grade) {
-    throw new RangeError(`No WASSCE grade for ${points} points (expected 1–${GRADES.length})`)
+    throw new RangeError(`No WASSCE grade for ${points} points (expected 1, ${GRADES.length})`)
   }
   return grade
 }
@@ -23,7 +23,7 @@ export function isGrade(value: unknown): value is Grade {
 }
 
 /**
- * A credit pass is A1–C6. Universities disregard D7 and below, so a subject
+ * A credit pass is A1 to C6. Universities disregard D7 and below, so a subject
  * that is not a credit pass cannot satisfy a requirement no matter what the
  * aggregate says.
  */

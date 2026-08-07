@@ -19,8 +19,8 @@ import UniversityPage, { UniversitiesPage } from './pages/UniversityPage'
 /**
  * Both of these pull in Recharts, the single largest dependency. Splitting
  * them keeps it out of the initial bundle, so the landing page and grade form
- * — the entry point for every new student, usually on a phone over a Ghanaian
- * mobile connection — load without it.
+ *, the entry point for every new student, usually on a phone over a Ghanaian
+ * mobile connection, load without it.
  */
 const ProgrammeDetailPage = lazy(() => import('./pages/ProgrammeDetailPage'))
 const SimulatorPage = lazy(() => import('./pages/SimulatorPage'))

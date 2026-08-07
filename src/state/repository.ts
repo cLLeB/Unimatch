@@ -20,7 +20,9 @@ const STORAGE_KEY = 'unimatch:student:v1'
  * release doesn't break a student whose stored data predates it.
  */
 function reconcile(stored: unknown): StudentState {
-  if (!stored || typeof stored !== 'object') return INITIAL_STATE
+  if (!stored || typeof stored !== 'object') {
+    return { ...INITIAL_STATE, theme: prefersDarkScheme() ? 'dark' : 'light' }
+  }
   const raw = stored as Partial<StudentState>
 
   return {
@@ -31,8 +33,18 @@ function reconcile(stored: unknown): StudentState {
     checklist: typeof raw.checklist === 'object' && raw.checklist ? raw.checklist : {},
     searchHistory: Array.isArray(raw.searchHistory) ? raw.searchHistory : [],
     reminders: { ...INITIAL_STATE.reminders, ...(raw.reminders ?? {}) },
-    theme: raw.theme === 'dark' ? 'dark' : 'light',
+    // No stored preference: follow the device. The boot script in index.html
+    // applies the same rule before first paint.
+    theme: raw.theme ?? (prefersDarkScheme() ? 'dark' : 'light'),
   }
+}
+
+function prefersDarkScheme(): boolean {
+  return (
+    typeof window !== 'undefined' &&
+    typeof window.matchMedia === 'function' &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  )
 }
 
 export class LocalStorageStudentRepository implements StudentRepository {
@@ -41,7 +53,7 @@ export class LocalStorageStudentRepository implements StudentRepository {
   async load(): Promise<StudentState> {
     try {
       const raw = localStorage.getItem(this.key)
-      if (!raw) return INITIAL_STATE
+      if (!raw) return reconcile(null)
       return reconcile(JSON.parse(raw))
     } catch {
       // Corrupt or unavailable storage must never break the app; the student
@@ -54,7 +66,7 @@ export class LocalStorageStudentRepository implements StudentRepository {
     try {
       localStorage.setItem(this.key, JSON.stringify(state))
     } catch {
-      // Quota exceeded or private mode — the session still works in memory.
+      // Quota exceeded or private mode, the session still works in memory.
     }
   }
 

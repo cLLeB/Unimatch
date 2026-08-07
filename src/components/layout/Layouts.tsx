@@ -7,7 +7,7 @@ import Sidebar from './Sidebar'
 /**
  * Public shell: navbar + footer, no sidebar.
  *
- * The footer's internal links matter here — these are the pages a search
+ * The footer's internal links matter here, these are the pages a search
  * engine actually lands on. The bottom bar rides along so a student browsing
  * cut-offs on a phone isn't stranded without navigation; it hides itself on
  * the landing and single-purpose pages.
@@ -29,7 +29,7 @@ export function MarketingLayout() {
  * Signed-in shell.
  *
  * Sidebar from `lg` up; a bottom tab bar below it. The trailing padding keeps
- * page content clear of that bar — without it, the last card on every screen
+ * page content clear of that bar, without it, the last card on every screen
  * sits underneath the navigation on a phone.
  */
 export function AppLayout() {

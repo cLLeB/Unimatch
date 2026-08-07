@@ -17,7 +17,7 @@ import { useStudent } from '../state/StudentProvider'
 interface ChecklistItem {
   id: string
   label: string
-  /** Derived items cannot be ticked by hand — they reflect real progress. */
+  /** Derived items cannot be ticked by hand, they reflect real progress. */
   derived?: boolean
 }
 
@@ -99,9 +99,9 @@ function ProfileCard() {
             <div className="text-xl font-bold text-ink">
               {state.profile.name || 'Add your name'}
             </div>
-            <div className="text-sm text-ink-muted">{state.profile.email || '—'}</div>
+            <div className="text-sm text-ink-muted">{state.profile.email || ', '}</div>
             <div className="mt-1 text-sm text-ink-muted">
-              {[state.profile.school, state.profile.track].filter(Boolean).join(' · ') || '—'}
+              {[state.profile.school, state.profile.track].filter(Boolean).join(' · ') || ', '}
             </div>
 
             <div className="my-5 rounded-xl bg-brand-subtle py-4">

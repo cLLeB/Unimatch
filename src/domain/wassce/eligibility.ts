@@ -76,7 +76,7 @@ function checkSubject(
 /**
  * Evaluate a student's results against one programme's entry requirements.
  *
- * Returns reasons, not just a boolean — "you miss this by 2 points" and "needs
+ * Returns reasons, not just a boolean, "you miss this by 2 points" and "needs
  * Elective Mathematics at B3, you have C4" are the whole value of the product.
  */
 export function evaluate(
@@ -159,13 +159,13 @@ export function evaluate(
 export function describeShortfall(shortfall: Shortfall): string {
   switch (shortfall.kind) {
     case 'aggregate':
-      return `Your aggregate is ${shortfall.actual}; this programme needs ${shortfall.needed} — you miss it by ${shortfall.shortBy} point${shortfall.shortBy === 1 ? '' : 's'}.`
+      return `Your aggregate is ${shortfall.actual}; this programme needs ${shortfall.needed}, you miss it by ${shortfall.shortBy} point${shortfall.shortBy === 1 ? '' : 's'}.`
     case 'subject':
       return `${shortfall.subject} needs at least ${shortfall.needed}; you have ${shortfall.actual}.`
     case 'missing-subject':
       return `You have not entered ${shortfall.subject}, which this programme requires at ${shortfall.needed}.`
     case 'no-credit-pass':
-      return `${shortfall.subject} needs a credit pass (A1–C6); you have ${shortfall.actual}.`
+      return `${shortfall.subject} needs a credit pass (A1 to C6); you have ${shortfall.actual}.`
   }
 }
 

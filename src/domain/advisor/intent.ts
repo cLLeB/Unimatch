@@ -2,7 +2,7 @@ import { GRADES, type Grade } from '../wassce/types'
 
 /**
  * Intents the advisor can answer. Every one is answered by computing over the
- * catalogue and the eligibility engine — never by a canned paragraph.
+ * catalogue and the eligibility engine, never by a canned paragraph.
  *
  * The Figma prototype's advisor returned one of five hardcoded strings chosen
  * by substring match, with figures that drift from the dataset. This replaces
@@ -20,6 +20,12 @@ export type Intent =
   | { kind: 'shortest' }
   | { kind: 'deadlines' }
   | { kind: 'my-aggregate' }
+  /** "What courses does KNUST offer?" */
+  | { kind: 'university-programmes'; universityQuery: string }
+  /** "Where can I study Nursing?" */
+  | { kind: 'where-to-study'; programmeQuery: string }
+  /** "Is there distance learning?" / "fee paying options" */
+  | { kind: 'by-track'; track: 'distance' | 'fee-paying' }
   | { kind: 'unknown'; text: string }
 
 const NUMBER_WORDS: Record<string, number> = {
@@ -122,6 +128,28 @@ export function parseIntent(input: string): Intent {
   const comparison = extractComparison(text)
   if (comparison) return { kind: 'compare', ...comparison }
 
+  // "Is there distance learning?" / "any fee paying options?"
+  if (/\b(distance|online|remote)\s*(learning|education|programme|program|course)?\b/i.test(lower)) {
+    return { kind: 'by-track', track: 'distance' }
+  }
+  if (/\b(fee[\s-]?paying|full[\s-]?fee|self[\s-]?sponsor)/i.test(lower)) {
+    return { kind: 'by-track', track: 'fee-paying' }
+  }
+
+  // "Where can I study Nursing?" / "which universities offer Law?"
+  if (
+    /\b(?:where can i (?:study|read|do)|which (?:universit\w+|schools?)\s+(?:offer|teach|have|do))\b/i.test(
+      lower,
+    )
+  ) {
+    return {
+      kind: 'where-to-study',
+      programmeQuery: extractProgrammeQuery(text, [
+        /(?:study|read|do|offer|teach|have)\s+(.+)/i,
+      ]),
+    }
+  }
+
   if (/\b(?:easiest|easier|lowest cut ?-?off|least competitive|most accessible)\b/i.test(lower)) {
     if (/\buniversit/i.test(lower)) return { kind: 'easiest-university' }
     return { kind: 'easiest-university' }
@@ -149,6 +177,23 @@ export function parseIntent(input: string): Intent {
 
   if (/\b(?:my|what is my)\b.*\baggregate\b/i.test(lower)) {
     return { kind: 'my-aggregate' }
+  }
+
+  /*
+   * "What courses does KNUST offer?" / "programmes at Ashesi" / "KNUST courses".
+   *
+   * Deliberately last of the keyword rules: "the cheapest programmes" and "the
+   * shortest programme" also contain the word, so the superlatives must get
+   * first refusal. A university has to actually resolve for this to win.
+   */
+  if (/\b(?:courses?|programmes?|programs?)\b/i.test(lower)) {
+    const does = text.match(/does\s+([A-Za-z.'()&-]+(?:\s+[A-Za-z.'()&-]+){0,4}?)\s+(?:offer|have|teach|run)/i)
+    const at = text.match(/\b(?:at|in|from)\s+([A-Za-z.'()&-]+(?:\s+[A-Za-z.'()&-]+){0,4})\s*\??$/i)
+    const leading = text.match(/^([A-Za-z.'()&-]+(?:\s+[A-Za-z.'()&-]+){0,3}?)\s+(?:courses?|programmes?|programs?)\b/i)
+    const target = does?.[1] ?? at?.[1] ?? leading?.[1]
+    if (target && !/^(what|which|the|any|all|are|is|do|does|show|list|me)\b/i.test(target.trim())) {
+      return { kind: 'university-programmes', universityQuery: cleanSubject(target) }
+    }
   }
 
   const aggregate = extractAggregate(text)

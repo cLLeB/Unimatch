@@ -51,8 +51,7 @@ export default function Button({
   size = 'md',
   icon,
   className,
-  type = 'button',
-  ...rest
+  type = 'button', ...rest
 }: ButtonProps) {
   return (
     <button type={type} className={classesFor({ children, variant, size, className })} {...rest}>

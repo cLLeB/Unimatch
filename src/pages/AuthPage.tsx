@@ -58,7 +58,7 @@ export default function AuthPage() {
             <h1 className="mb-2 text-2xl font-bold text-ink">Check your email</h1>
             <p className="text-sm leading-relaxed text-ink-muted">
               We sent a sign-in link to <span className="font-medium text-ink">{email}</span>. Open
-              it on this device and you&apos;ll be signed in — no password to remember.
+              it on this device and you&apos;ll be signed in, no password to remember.
             </p>
             <button
               type="button"
@@ -77,7 +77,7 @@ export default function AuthPage() {
               <h1 className="mb-2 text-2xl font-bold text-ink">Save your shortlist</h1>
               <p className="text-sm leading-relaxed text-ink-muted">
                 Sign in to keep your grades and saved programmes across devices. We&apos;ll email
-                you a one-time link — there is no password.
+                you a one-time link, there is no password.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function AuthPage() {
             </form>
 
             <p className="mt-6 text-center text-xs text-ink-muted">
-              You can keep using UniMatch without an account —{' '}
+              You can keep using UniMatch without an account, {' '}
               <Link to="/eligibility" className="text-brand underline underline-offset-2">
                 just enter your grades
               </Link>

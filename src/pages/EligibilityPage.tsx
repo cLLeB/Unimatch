@@ -104,7 +104,7 @@ export default function EligibilityPage() {
     setSubmitted(true)
     if (!isValid) return
 
-    // Matching is computed locally and instantly — there is nothing to wait
+    // Matching is computed locally and instantly, there is nothing to wait
     // for, so we don't manufacture a loading delay.
     setResults(draftResults)
     navigate('/dashboard')
@@ -241,7 +241,7 @@ export default function EligibilityPage() {
               })}
             </div>
             <p className="mt-2 text-xs text-ink-muted">
-              Enter at least three. A fourth is optional — we count your best three, and naming them
+              Enter at least three. A fourth is optional, we count your best three, and naming them
               lets us check subject requirements like &ldquo;Biology at C6&rdquo;.
             </p>
           </fieldset>

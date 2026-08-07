@@ -6,7 +6,7 @@ const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 /**
  * Supabase is optional.
  *
- * With no credentials the app still works end to end — grades and shortlists
+ * With no credentials the app still works end to end, grades and shortlists
  * live in the student's own browser. Accounts only add sync between devices,
  * so a missing key degrades the product rather than breaking it.
  */
