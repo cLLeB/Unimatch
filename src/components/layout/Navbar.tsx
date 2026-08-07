@@ -97,7 +97,7 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <LinkButton to="/dashboard" variant="ghost" size="sm">
+              <LinkButton to="/login" variant="ghost" size="sm">
                 Log in
               </LinkButton>
               <LinkButton to="/eligibility" variant="primary" size="sm">

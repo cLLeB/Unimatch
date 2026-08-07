@@ -19,3 +19,8 @@ if (typeof ResizeObserver === 'undefined') {
     disconnect() {}
   } as unknown as typeof ResizeObserver
 }
+
+// jsdom defines these but throws "Not implemented" from both, so they are
+// stubbed unconditionally rather than only when absent.
+Element.prototype.scrollIntoView = () => {}
+globalThis.scrollTo = (() => {}) as typeof globalThis.scrollTo

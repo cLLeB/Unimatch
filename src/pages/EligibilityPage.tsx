@@ -1,4 +1,4 @@
-import { AlertCircle, BookOpen, Loader2, Search } from 'lucide-react'
+﻿import { AlertCircle, BookOpen, Search } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Button from '../components/ui/Button'
@@ -64,7 +64,6 @@ export default function EligibilityPage() {
   const [programmeInterest, setProgrammeInterest] = useState('')
   const [preferredRegion, setPreferredRegion] = useState('')
   const [submitted, setSubmitted] = useState(false)
-  const [saving, setSaving] = useState(false)
 
   const takenSubjects = electives.map((e) => e.subject).filter(Boolean)
 
@@ -105,13 +104,10 @@ export default function EligibilityPage() {
     setSubmitted(true)
     if (!isValid) return
 
-    setSaving(true)
+    // Matching is computed locally and instantly — there is nothing to wait
+    // for, so we don't manufacture a loading delay.
     setResults(draftResults)
-    // Brief pause so the state write settles before the dashboard reads it.
-    window.setTimeout(() => {
-      setSaving(false)
-      navigate('/dashboard')
-    }, 400)
+    navigate('/dashboard')
   }
 
   return (
@@ -310,16 +306,9 @@ export default function EligibilityPage() {
           size="lg"
           className="w-full"
           onClick={handleSubmit}
-          disabled={saving}
-          icon={
-            saving ? (
-              <Loader2 size={18} className="animate-spin" aria-hidden="true" />
-            ) : (
-              <Search size={18} aria-hidden="true" />
-            )
-          }
+          icon={<Search size={18} aria-hidden="true" />}
         >
-          {saving ? 'Finding eligible programmes…' : 'Find Eligible Programmes'}
+          Find Eligible Programmes
         </Button>
 
         <p className="mt-4 text-center text-xs text-ink-muted">

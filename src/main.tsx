@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App'
-import { StudentProvider } from './state/StudentProvider'
+import { AuthProvider } from './state/AuthProvider'
+import PersistenceGate from './state/PersistenceGate'
 import './index.css'
 
 const root = document.getElementById('root')
@@ -13,9 +14,11 @@ if (!root) {
 createRoot(root).render(
   <StrictMode>
     <BrowserRouter>
-      <StudentProvider>
-        <App />
-      </StudentProvider>
+      <AuthProvider>
+        <PersistenceGate>
+          <App />
+        </PersistenceGate>
+      </AuthProvider>
     </BrowserRouter>
   </StrictMode>,
 )

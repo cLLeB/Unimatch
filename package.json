@@ -15,7 +15,9 @@
     "data:validate": "tsx scripts/data-pipeline.ts validate",
     "data:build": "tsx scripts/data-pipeline.ts build",
     "data:import": "tsx scripts/data-pipeline.ts import",
-    "verify": "npm run typecheck && npm run data:validate && npm run test"
+    "verify": "npm run typecheck && npm run data:validate && npm run test",
+    "start": "npx serve -s dist -l $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",
@@ -45,5 +47,8 @@
     "recharts": "^3.10.1",
     "tailwind-merge": "^3.6.0",
     "zod": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
