@@ -37,3 +37,7 @@ blob-report/
 .env
 .env.*
 !.env.example
+
+# Supabase CLI scratch space
+supabase/.temp/
+.env.local
