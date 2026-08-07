@@ -77,8 +77,10 @@ export default function AdvisorPage() {
   )
 
   return (
-    <div className="flex max-h-[calc(100vh-4rem)] min-h-[calc(100vh-4rem)] flex-col">
-      <div className="border-b border-line px-6 pb-3 pt-6">
+    // 4rem navbar, plus the 5rem the layout reserves for the bottom bar on
+    // phones. Without accounting for it the composer sits under the tab bar.
+    <div className="flex h-[calc(100vh-9rem)] flex-col lg:h-[calc(100vh-4rem)]">
+      <div className="border-b border-line px-4 pb-3 pt-5 sm:px-6 sm:pt-6">
         <h1 className="text-xl font-bold text-ink">Career Advisor</h1>
         <p className="flex flex-wrap items-center gap-2 text-sm text-ink-muted">
           <span>

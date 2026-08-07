@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Personal pages hold nothing useful to a crawler.
+Disallow: /profile
+Disallow: /saved
+Disallow: /compare
+Disallow: /login
+Disallow: /signup
+
+Sitemap: https://unimatch-ghana.herokuapp.com/sitemap.xml

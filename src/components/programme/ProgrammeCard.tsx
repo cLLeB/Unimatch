@@ -29,17 +29,17 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
   const shortfalls = verdict.status === 'qualified' || verdict.status === 'incomplete' ? [] : verdict.shortfalls
 
   return (
-    <Card className="p-5">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
+    <Card className="p-4 sm:p-5">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
         <div className="min-w-0 flex-1">
-          <div className="mb-2 flex flex-wrap items-center gap-2">
-            <h3 className="text-lg font-semibold text-ink">{programme.name}</h3>
+          <div className="mb-2 flex flex-wrap items-center gap-1.5 sm:gap-2">
+            <h3 className="text-base font-semibold text-ink sm:text-lg">{programme.name}</h3>
             <EligibilityBadge status={verdict.status} />
             <Badge variant="neutral">{programme.degreeType}</Badge>
             <ProvenanceBadge provenance={programme.provenance} />
           </div>
 
-          <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-ink-muted">
+          <div className="mb-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink-muted sm:gap-x-4 sm:text-sm">
             <span className="flex items-center gap-1">
               <Building2 size={13} aria-hidden="true" />
               {universityNameOf(programme)}
@@ -95,8 +95,15 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
           )}
         </div>
 
-        <div className="flex shrink-0 gap-2 sm:flex-col">
-          <LinkButton to={`/programme/${programme.id}`} variant="primary" size="sm">
+        {/* On a phone: primary action full width, secondary pair beneath it.
+            Three buttons abreast at 360px leaves each below the 44px target. */}
+        <div className="grid shrink-0 grid-cols-2 gap-2 sm:flex sm:flex-col">
+          <LinkButton
+            to={`/programme/${programme.id}`}
+            variant="primary"
+            size="sm"
+            className="col-span-2 sm:col-span-1"
+          >
             View Details
           </LinkButton>
           <Button

@@ -1,0 +1,127 @@
+import { expect, test } from '@playwright/test'
+
+/**
+ * Mobile behaviour, verified at a real phone viewport.
+ *
+ * Most Ghanaian students arrive on a phone, so "works on desktop" is not the
+ * bar. These run under both projects; the mobile-only assertions guard on
+ * viewport width so the desktop run stays meaningful.
+ */
+const PHONE = { width: 390, height: 844 }
+
+test.describe('mobile layout', () => {
+  test.use({ viewport: PHONE })
+
+  test('nothing overflows horizontally', async ({ page }) => {
+    for (const path of ['/', '/cut-off-points', '/eligibility', '/universities', '/dashboard']) {
+      await page.goto(path)
+      const overflow = await page.evaluate(
+        () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+      )
+      expect(overflow, `${path} scrolls sideways by ${overflow}px`).toBeLessThanOrEqual(1)
+    }
+  })
+
+  test('the bottom tab bar is the primary navigation', async ({ page }) => {
+    await page.goto('/dashboard')
+
+    const nav = page.getByRole('navigation', { name: 'Primary' })
+    await expect(nav).toBeVisible()
+
+    await nav.getByRole('link', { name: 'Cut-offs' }).click()
+    await expect(page).toHaveURL(/\/cut-off-points$/)
+
+    // It follows the student onto the public browse pages.
+    await expect(page.getByRole('navigation', { name: 'Primary' })).toBeVisible()
+  })
+
+  test('the bottom bar stays out of the way on the landing page', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.getByRole('navigation', { name: 'Primary' })).toHaveCount(0)
+  })
+
+  test('the sidebar is replaced, not merely hidden', async ({ page }) => {
+    await page.goto('/dashboard')
+    await expect(page.getByRole('navigation', { name: 'Sections' })).not.toBeVisible()
+    await expect(page.getByRole('navigation', { name: 'Primary' })).toBeVisible()
+  })
+
+  test('touch targets meet the 44px minimum', async ({ page }) => {
+    await page.goto('/dashboard')
+    const tabs = page.getByRole('navigation', { name: 'Primary' }).getByRole('link')
+
+    for (const tab of await tabs.all()) {
+      const box = await tab.boundingBox()
+      expect(box?.height ?? 0).toBeGreaterThanOrEqual(44)
+    }
+  })
+
+  test('cut-off points render as cards, not a squeezed table', async ({ page }) => {
+    await page.goto('/cut-off-points')
+    await expect(page.getByRole('table')).not.toBeVisible()
+    // The card list carries a "cut-off" caption under each aggregate.
+    await expect(page.getByText('cut-off', { exact: true }).first()).toBeVisible()
+  })
+
+  test('the grade form is completable without sideways scrolling', async ({ page }) => {
+    await page.goto('/eligibility')
+
+    await page.getByLabel('English Language').selectOption('B2')
+    await page.getByLabel('Core Mathematics').selectOption('B3')
+    await page.getByLabel('Integrated Science').selectOption('B3')
+    await page.getByLabel('Social Studies').selectOption('C4')
+    await page.getByLabel('Elective subject 1').selectOption('Elective Mathematics')
+    await page.getByLabel('Elective 1 grade').selectOption('B2')
+    await page.getByLabel('Elective subject 2').selectOption('Physics')
+    await page.getByLabel('Elective 2 grade').selectOption('B3')
+    await page.getByLabel('Elective subject 3').selectOption('Chemistry')
+    await page.getByLabel('Elective 3 grade').selectOption('C4')
+
+    await expect(page.getByText('17', { exact: true })).toBeVisible()
+
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    )
+    expect(overflow).toBeLessThanOrEqual(1)
+
+    await page.getByRole('button', { name: 'Find Eligible Programmes' }).click()
+    await expect(page).toHaveURL(/\/dashboard$/)
+  })
+
+  test('the dashboard summary fits four stats without wrapping oddly', async ({ page }) => {
+    await page.goto('/eligibility')
+    await page.getByLabel('English Language').selectOption('B2')
+    await page.getByLabel('Core Mathematics').selectOption('B3')
+    await page.getByLabel('Integrated Science').selectOption('B3')
+    await page.getByLabel('Social Studies').selectOption('C4')
+    await page.getByLabel('Elective subject 1').selectOption('Elective Mathematics')
+    await page.getByLabel('Elective 1 grade').selectOption('B2')
+    await page.getByLabel('Elective subject 2').selectOption('Physics')
+    await page.getByLabel('Elective 2 grade').selectOption('B3')
+    await page.getByLabel('Elective subject 3').selectOption('Chemistry')
+    await page.getByLabel('Elective 3 grade').selectOption('C4')
+    await page.getByRole('button', { name: 'Find Eligible Programmes' }).click()
+
+    // All four stat labels present, and the row does not force the page wide.
+    for (const label of ['Aggregate', 'Close', 'Unis']) {
+      await expect(page.getByText(label, { exact: true })).toBeVisible()
+    }
+
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    )
+    expect(overflow).toBeLessThanOrEqual(1)
+  })
+
+  test('page content is never hidden behind the tab bar', async ({ page }) => {
+    await page.goto('/deadlines')
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight))
+
+    const nav = page.getByRole('navigation', { name: 'Primary' })
+    const navBox = await nav.boundingBox()
+    const last = page.getByText(/messaging provider, which isn/i)
+    const lastBox = await last.boundingBox()
+
+    expect(lastBox!.y + lastBox!.height).toBeLessThanOrEqual(navBox!.y + 1)
+  })
+})

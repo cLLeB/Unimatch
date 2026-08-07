@@ -135,9 +135,9 @@ export default function ComparePage() {
 
   if (selected.length === 0) {
     return (
-      <div className="p-6">
+      <div className="p-4 sm:p-6">
         <div className="mx-auto max-w-3xl">
-          <h1 className="mb-1 text-2xl font-bold text-ink">Programme Comparison</h1>
+          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Programme Comparison</h1>
           <p className="mb-8 text-sm text-ink-muted">
             Side-by-side analysis of your selected programmes.
           </p>
@@ -161,11 +161,11 @@ export default function ComparePage() {
   const columns = `grid-cols-[minmax(7rem,1fr)_repeat(${selected.length},minmax(0,1fr))]`
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
           <div>
-            <h1 className="mb-1 text-2xl font-bold text-ink">Programme Comparison</h1>
+            <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Programme Comparison</h1>
             <p className="text-sm text-ink-muted">
               Side-by-side analysis of your selected programmes. Best value in each row is
               highlighted.

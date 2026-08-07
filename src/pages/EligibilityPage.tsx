@@ -111,13 +111,13 @@ export default function EligibilityPage() {
   }
 
   return (
-    <div className="min-h-screen bg-canvas px-4 py-12">
+    <div className="min-h-screen bg-canvas px-4 py-6 sm:py-12">
       <div className="mx-auto max-w-xl">
-        <div className="mb-8 text-center">
+        <div className="mb-6 text-center sm:mb-8">
           <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-2xl bg-brand">
             <BookOpen size={22} className="text-white" aria-hidden="true" />
           </div>
-          <h1 className="mb-2 text-3xl font-bold text-ink">Enter Your WASSCE Grades</h1>
+          <h1 className="mb-2 text-2xl font-bold text-ink sm:text-3xl">Enter Your WASSCE Grades</h1>
           <p className="text-ink-muted">
             We&apos;ll match you against every programme we hold and show you exactly where you
             stand.
@@ -146,7 +146,7 @@ export default function EligibilityPage() {
           </div>
         </div>
 
-        <Card className="mb-4 p-6">
+        <Card className="mb-4 p-4 sm:p-6">
           <div className="mb-6">
             <label
               htmlFor="exam-year"

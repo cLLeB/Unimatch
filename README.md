@@ -18,18 +18,44 @@ Enter your grades → see every programme ranked by whether you qualify, with re
 shortlisted programmes, simulate better grades, track deadlines, and ask an advisor questions
 that are answered from the data rather than guessed.
 
-| Screen | Route |
-|---|---|
-| Landing | `/` |
-| WASSCE grade entry | `/eligibility` |
-| Results dashboard | `/dashboard` |
-| Programme detail | `/programme/:id` |
-| What-if simulator | `/simulator` |
-| Comparison | `/compare` |
-| Career advisor | `/advisor` |
-| Deadline tracker | `/deadlines` |
-| Saved shortlist | `/saved` |
-| Profile | `/profile` |
+| Screen | Route | Needs grades? |
+|---|---|---|
+| Landing | `/` | no |
+| **Cut-off points browser** | `/cut-off-points` | no |
+| **Universities index** | `/universities` | no |
+| **University profile** | `/university/:id` | no |
+| Programme detail | `/programme/:id` | no |
+| WASSCE grade entry | `/eligibility` | — |
+| Results dashboard | `/dashboard` | yes |
+| What-if simulator | `/simulator` | no |
+| Comparison | `/compare` | no |
+| Career advisor | `/advisor` | better with |
+| Deadline tracker | `/deadlines` | no |
+| Saved shortlist | `/saved` | no |
+| Profile | `/profile` | no |
+
+The public pages matter: students search "KNUST cut off points" long before they're
+ready to enter eight grades. Everything above marked "no" is browsable and crawlable
+without a form or an account.
+
+## Mobile
+
+Most Ghanaian students arrive on a phone, so mobile is the primary target rather than a
+fallback:
+
+- A **bottom tab bar** replaces the sidebar below `lg` — previously the sidebar was simply
+  `hidden` on phones, leaving no in-app navigation at all
+- Tables become **card lists** rather than squeezed columns
+- Touch targets are ≥44px; the tab bar clears the iOS home indicator
+- Layout is verified at a Pixel 7 viewport in CI, including an assertion that **no page
+  scrolls sideways**
+
+## SEO
+
+Each route sets its own `<title>`, description, canonical, Open Graph tags and JSON-LD via
+`src/components/Seo.tsx` (React 19 hoists these natively — no helmet library).
+`npm run build` regenerates `sitemap.xml` and `robots.txt` from the catalogue, so every
+programme and university has a crawlable URL.
 
 ## How the aggregate is computed
 

@@ -5,6 +5,7 @@ import ScrollToTop from './components/layout/ScrollToTop'
 import AdvisorPage from './pages/AdvisorPage'
 import AuthPage from './pages/AuthPage'
 import ComparePage from './pages/ComparePage'
+import CutOffPointsPage from './pages/CutOffPointsPage'
 import DashboardPage from './pages/DashboardPage'
 import DeadlinesPage from './pages/DeadlinesPage'
 import EligibilityPage from './pages/EligibilityPage'
@@ -13,12 +14,13 @@ import LegalPage from './pages/LegalPage'
 import NotFoundPage from './pages/NotFoundPage'
 import ProfilePage from './pages/ProfilePage'
 import SavedPage from './pages/SavedPage'
+import UniversityPage, { UniversitiesPage } from './pages/UniversityPage'
 
 /**
- * Both of these pull in Recharts, which is the single largest dependency.
- * Splitting them keeps it out of the initial bundle, so the landing page and
- * grade form — the entry point for every new student, often on a phone over a
- * Ghanaian mobile connection — load without it.
+ * Both of these pull in Recharts, the single largest dependency. Splitting
+ * them keeps it out of the initial bundle, so the landing page and grade form
+ * — the entry point for every new student, usually on a phone over a Ghanaian
+ * mobile connection — load without it.
  */
 const ProgrammeDetailPage = lazy(() => import('./pages/ProgrammeDetailPage'))
 const SimulatorPage = lazy(() => import('./pages/SimulatorPage'))
@@ -38,15 +40,20 @@ export default function App() {
       <ScrollToTop />
       <Suspense fallback={<RouteFallback />}>
         <Routes>
+          {/* Public and crawlable. */}
           <Route element={<MarketingLayout />}>
             <Route path="/" element={<LandingPage />} />
             <Route path="/eligibility" element={<EligibilityPage />} />
+            <Route path="/cut-off-points" element={<CutOffPointsPage />} />
+            <Route path="/universities" element={<UniversitiesPage />} />
+            <Route path="/university/:universityId" element={<UniversityPage />} />
             <Route path="/login" element={<AuthPage />} />
             <Route path="/signup" element={<AuthPage />} />
             <Route path="/privacy" element={<LegalPage />} />
             <Route path="/terms" element={<LegalPage />} />
           </Route>
 
+          {/* Signed-in app shell. */}
           <Route element={<AppLayout />}>
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/programme/:programmeId" element={<ProgrammeDetailPage />} />
@@ -58,7 +65,7 @@ export default function App() {
             <Route path="/profile" element={<ProfilePage />} />
           </Route>
 
-          {/* A real 404, rather than the prototype's silent redirect to /dashboard. */}
+          {/* A real 404, rather than the prototype's silent redirect. */}
           <Route element={<MarketingLayout />}>
             <Route path="*" element={<NotFoundPage />} />
           </Route>

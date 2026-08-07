@@ -79,7 +79,7 @@ export default function ProgrammeDetailPage() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-brand to-brand-deep p-8 text-white">
+      <div className="bg-gradient-to-r from-brand to-brand-deep px-4 py-6 text-white sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/dashboard"
@@ -95,8 +95,8 @@ export default function ProgrammeDetailPage() {
 
             <div className="flex-1">
               <EligibilityBadge status={verdict.status} />
-              <h1 className="mb-1 mt-2 text-3xl font-bold">{programme.name}</h1>
-              <p className="text-lg text-on-brand">
+              <h1 className="mb-1 mt-2 text-2xl font-bold sm:text-3xl">{programme.name}</h1>
+              <p className="text-sm text-on-brand sm:text-lg">
                 {university?.name} · {programme.faculty}
               </p>
               <div className="mt-4 flex flex-wrap gap-4 text-sm text-on-brand-bright">
@@ -110,22 +110,15 @@ export default function ProgrammeDetailPage() {
               </div>
             </div>
 
-            <div className="flex flex-col gap-2">
+            <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-col">
               <LinkButton
                 to={university?.admissionsUrl ?? '#'}
                 external
                 variant="outline"
+                className="col-span-2 sm:col-span-1"
                 icon={<ArrowRight size={16} aria-hidden="true" />}
               >
                 Apply Now
-              </LinkButton>
-              <LinkButton
-                to="/advisor"
-                variant="ghost"
-                className="text-white hover:bg-white/10"
-                icon={<MessageSquare size={16} aria-hidden="true" />}
-              >
-                Ask the advisor
               </LinkButton>
               <Button
                 variant="ghost"
@@ -135,13 +128,21 @@ export default function ProgrammeDetailPage() {
               >
                 {saved ? 'Saved' : 'Save'}
               </Button>
+              <LinkButton
+                to="/advisor"
+                variant="ghost"
+                className="text-white hover:bg-white/10"
+                icon={<MessageSquare size={16} aria-hidden="true" />}
+              >
+                Ask AI
+              </LinkButton>
             </div>
           </div>
         </div>
       </div>
 
       <div className="border-b border-line bg-surface">
-        <div className="mx-auto grid max-w-4xl grid-cols-2 gap-4 px-6 py-4 sm:grid-cols-4">
+        <div className="mx-auto grid max-w-4xl grid-cols-2 gap-3 px-4 py-4 sm:grid-cols-4 sm:gap-4 sm:px-6">
           {[
             {
               label: 'Cut-off',
@@ -169,11 +170,12 @@ export default function ProgrammeDetailPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-6 pt-6">
+      <div className="mx-auto max-w-4xl px-4 pt-6 sm:px-6">
+        {/* Full-width equal columns on a phone so four tabs never overflow. */}
         <div
           role="tablist"
           aria-label="Programme details"
-          className="mb-6 flex w-fit gap-1 rounded-xl bg-slate-100 p-1"
+          className="mb-6 grid w-full grid-cols-4 gap-1 rounded-xl bg-slate-100 p-1 sm:flex sm:w-fit"
         >
           {TABS.map((name) => (
             <button
@@ -182,7 +184,7 @@ export default function ProgrammeDetailPage() {
               aria-selected={tab === name}
               type="button"
               onClick={() => setTab(name)}
-              className={`rounded-lg px-4 py-2 text-sm font-medium capitalize transition-all ${
+              className={`rounded-lg px-2 py-2 text-xs font-medium capitalize transition-all sm:px-4 sm:text-sm ${
                 tab === name ? 'bg-surface text-ink shadow-sm' : 'text-ink-muted hover:text-ink'
               }`}
             >

@@ -20,10 +20,10 @@ export default function SavedPage() {
   )
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
         <div className="mb-6">
-          <h1 className="mb-1 text-2xl font-bold text-ink">Saved Programmes</h1>
+          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Saved Programmes</h1>
           <p className="text-sm text-ink-muted">
             {saved.length === 0
               ? 'Your shortlist will appear here.'

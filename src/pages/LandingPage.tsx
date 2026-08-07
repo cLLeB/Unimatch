@@ -14,12 +14,14 @@ import {
   Zap,
 } from 'lucide-react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   authoritativeSharePct,
   catalogueStats,
   programmes,
   universities,
 } from '../data/catalogue'
+import Seo, { SITE_URL } from '../components/Seo'
 import { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
 
@@ -115,10 +117,10 @@ function TrustIndicators() {
   ]
 
   return (
-    <div className="flex flex-wrap gap-6 text-sm">
+    <div className="flex flex-col gap-2 text-sm sm:flex-row sm:flex-wrap sm:gap-6">
       {items.map(({ icon: Icon, text }) => (
         <div key={text} className="flex items-center gap-1.5 text-brand">
-          <Icon size={16} aria-hidden="true" />
+          <Icon size={16} className="shrink-0" aria-hidden="true" />
           <span className="text-ink-muted">{text}</span>
         </div>
       ))}
@@ -132,45 +134,50 @@ function Hero() {
   )[0]
 
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-20 pt-16 lg:px-6 lg:pb-28 lg:pt-24">
-      <div className="grid items-center gap-12 lg:grid-cols-2">
+    <section className="mx-auto max-w-7xl px-4 pb-12 pt-8 sm:pb-20 sm:pt-16 lg:px-6 lg:pb-28 lg:pt-24">
+      <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2">
         <div>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/20 bg-brand-subtle px-4 py-1.5 text-sm font-medium text-brand">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-brand/20 bg-brand-subtle px-3 py-1 text-xs font-medium text-brand sm:mb-6 sm:px-4 sm:py-1.5 sm:text-sm">
             <Check size={14} aria-hidden="true" />
             {catalogueStats.latestCycleYear} cut-off data available
           </div>
 
-          <h1 className="mb-6 text-5xl font-bold leading-tight text-ink lg:text-6xl">
+          <h1 className="mb-4 text-[2rem] font-bold leading-[1.15] text-ink sm:mb-6 sm:text-5xl lg:text-6xl">
             Find Every University Programme <span className="text-brand">You Qualify For.</span>
           </h1>
 
-          <p className="mb-8 max-w-xl text-lg leading-relaxed text-ink-muted">
+          <p className="mb-6 max-w-xl text-base leading-relaxed text-ink-muted sm:mb-8 sm:text-lg">
             Enter your WASSCE grades and instantly discover programmes across Ghana&apos;s public
             universities — no guessing, no stress.
           </p>
 
-          <div className="mb-10 flex flex-wrap gap-3">
+          {/* Full-width stacked CTAs on a phone: easier to hit, no awkward wrap. */}
+          <div className="mb-6 flex flex-col gap-2.5 sm:mb-10 sm:flex-row sm:flex-wrap sm:gap-3">
             <LinkButton
               to="/eligibility"
               size="lg"
+              className="w-full sm:w-auto"
               icon={<Search size={18} aria-hidden="true" />}
             >
               Check My Eligibility
             </LinkButton>
             <LinkButton
-              to="/dashboard"
+              to="/cut-off-points"
               variant="outline"
               size="lg"
+              className="w-full sm:w-auto"
               icon={<Building2 size={18} aria-hidden="true" />}
             >
-              Explore Universities
+              Browse Cut-Off Points
             </LinkButton>
           </div>
 
           <TrustIndicators />
         </div>
 
-        <div className="relative">
+        {/* The illustration is decorative; below the fold it costs a phone user
+            a screen of scrolling before the CTAs, so it is desktop-only. */}
+        <div className="relative hidden lg:block">
           <div className="relative mx-auto aspect-square w-full max-w-md">
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-brand/10 to-secondary/10" />
             <img
@@ -207,10 +214,10 @@ function Hero() {
 
 function Features() {
   return (
-    <section className="border-y border-line bg-surface py-20">
+    <section className="border-y border-line bg-surface py-12 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
-        <div className="mb-12 text-center">
-          <h2 className="mb-3 text-3xl font-bold text-ink">
+        <div className="mb-8 text-center sm:mb-12">
+          <h2 className="mb-3 text-2xl font-bold text-ink sm:text-3xl">
             Everything you need to decide your future
           </h2>
           <p className="mx-auto max-w-xl text-ink-muted">
@@ -236,21 +243,22 @@ function Features() {
 
 function Universities() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 lg:px-6">
-      <p className="mb-8 text-center text-sm font-medium uppercase tracking-widest text-ink-muted">
+    <section className="mx-auto max-w-7xl px-4 py-12 lg:px-6 lg:py-20">
+      <p className="mb-6 text-center text-xs font-medium uppercase tracking-widest text-ink-muted sm:mb-8 sm:text-sm">
         Cut-off data from Ghana&apos;s leading universities
       </p>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
         {universities.map((university) => (
-          <div
+          <Link
             key={university.id}
-            className="flex items-center gap-2.5 rounded-xl border border-line bg-surface px-4 py-3 text-sm font-medium text-ink shadow-sm"
+            to={`/university/${university.id}`}
+            className="flex items-center gap-2 rounded-xl border border-line bg-surface px-3 py-2.5 text-xs font-medium text-ink shadow-sm transition-colors hover:border-brand hover:text-brand sm:gap-2.5 sm:px-4 sm:py-3 sm:text-sm"
           >
-            <span className="flex size-6 items-center justify-center rounded-full bg-brand/10 text-xs font-bold text-brand">
+            <span className="flex size-5 items-center justify-center rounded-full bg-brand/10 text-[0.625rem] font-bold text-brand sm:size-6 sm:text-xs">
               {university.shortName.charAt(0)}
             </span>
             {university.shortName}
-          </div>
+          </Link>
         ))}
       </div>
     </section>
@@ -272,13 +280,13 @@ function Stats() {
   ]
 
   return (
-    <section className="bg-brand py-16">
+    <section className="bg-brand py-10 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
-        <div className="grid grid-cols-2 gap-8 text-center lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-6 text-center sm:gap-8 lg:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label}>
-              <div className="mb-1 text-4xl font-bold text-white">{stat.value}</div>
-              <div className="text-sm text-on-brand">{stat.label}</div>
+              <div className="mb-1 text-3xl font-bold text-white sm:text-4xl">{stat.value}</div>
+              <div className="text-xs text-on-brand sm:text-sm">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -289,10 +297,10 @@ function Stats() {
 
 function HowItWorks() {
   return (
-    <section className="border-y border-line bg-surface py-20">
+    <section className="border-y border-line bg-surface py-12 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
-        <div className="mb-12 text-center">
-          <h2 className="mb-3 text-3xl font-bold text-ink">How UniMatch works</h2>
+        <div className="mb-8 text-center sm:mb-12">
+          <h2 className="mb-3 text-2xl font-bold text-ink sm:text-3xl">How UniMatch works</h2>
           <p className="mx-auto max-w-xl text-ink-muted">
             Three steps, about two minutes, and no account required.
           </p>
@@ -323,7 +331,7 @@ function Faq() {
   return (
     <section id="faq" className="mx-auto max-w-3xl scroll-mt-20 px-4 py-20 lg:px-6">
       <div className="mb-10 text-center">
-        <h2 className="mb-3 text-3xl font-bold text-ink">Frequently asked questions</h2>
+        <h2 className="mb-3 text-2xl font-bold text-ink sm:text-3xl">Frequently asked questions</h2>
       </div>
 
       <div className="space-y-3">
@@ -357,13 +365,15 @@ function Faq() {
 
 function CallToAction() {
   return (
-    <section className="mx-auto mb-16 max-w-7xl rounded-3xl bg-gradient-to-r from-brand to-secondary px-6 py-16 text-center lg:mx-6">
-      <h2 className="mb-3 text-3xl font-bold text-white">Ready to find your programme?</h2>
-      <p className="mx-auto mb-8 max-w-lg text-on-brand-bright">
+    <section className="mx-4 mb-12 rounded-3xl bg-gradient-to-r from-brand to-secondary px-5 py-12 text-center sm:mb-16 sm:px-6 sm:py-16 lg:mx-auto lg:max-w-7xl">
+      <h2 className="mb-3 text-2xl font-bold text-white sm:text-3xl">
+        Ready to find your programme?
+      </h2>
+      <p className="mx-auto mb-6 max-w-lg text-sm text-on-brand-bright sm:mb-8 sm:text-base">
         It takes less than 2 minutes. Enter your grades and see every programme you qualify for
         across Ghana.
       </p>
-      <LinkButton to="/eligibility" variant="outline" size="lg">
+      <LinkButton to="/eligibility" variant="outline" size="lg" className="w-full sm:w-auto">
         Check My Eligibility — It&apos;s Free
       </LinkButton>
     </section>
@@ -371,8 +381,28 @@ function CallToAction() {
 }
 
 export default function LandingPage() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'UniMatch Ghana',
+    url: SITE_URL,
+    description:
+      'Match your WASSCE grades to Ghanaian university programmes, with sourced cut-off points.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE_URL}/cut-off-points?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
   return (
     <>
+      <Seo
+        title="UniMatch Ghana"
+        description={`Enter your WASSCE grades and see every Ghanaian university programme you qualify for. ${catalogueStats.programmeCount} programmes, ${catalogueStats.universityCount} universities, cut-off points with their sources shown.`}
+        path="/"
+        structuredData={structuredData}
+      />
       <Hero />
       <Features />
       <Universities />

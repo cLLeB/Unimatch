@@ -67,22 +67,24 @@ function SummaryCard() {
           </div>
         </div>
 
-        <div className="flex gap-6">
+        {/* A grid rather than a flex row: four stats side by side overflow a
+            360px screen, and wrapping mid-row looks broken. */}
+        <div className="grid grid-cols-4 gap-2 sm:flex sm:gap-6">
           <div className="text-center">
-            <div className="text-3xl font-bold">{aggregate?.aggregate}</div>
-            <div className="text-xs text-on-brand">Aggregate</div>
+            <div className="text-2xl font-bold sm:text-3xl">{aggregate?.aggregate}</div>
+            <div className="text-[0.6875rem] text-on-brand sm:text-xs">Aggregate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-green-300">{qualifiedCount}</div>
-            <div className="text-xs text-on-brand">Qualified</div>
+            <div className="text-2xl font-bold text-green-300 sm:text-3xl">{qualifiedCount}</div>
+            <div className="text-[0.6875rem] text-on-brand sm:text-xs">Qualified</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-amber-300">{closeCount}</div>
-            <div className="text-xs text-on-brand">Close</div>
+            <div className="text-2xl font-bold text-amber-300 sm:text-3xl">{closeCount}</div>
+            <div className="text-[0.6875rem] text-on-brand sm:text-xs">Close</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold">{universityCount}</div>
-            <div className="text-xs text-on-brand">Universities</div>
+            <div className="text-2xl font-bold sm:text-3xl">{universityCount}</div>
+            <div className="text-[0.6875rem] text-on-brand sm:text-xs">Unis</div>
           </div>
         </div>
       </div>
@@ -145,39 +147,43 @@ export default function DashboardPage() {
   const sortOptions = hasResults ? SORT_OPTIONS : SORT_OPTIONS.filter((o) => o.value !== 'best-match')
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
         <SummaryCard />
 
-        <div className="mb-6 flex flex-wrap items-center gap-3">
-          <div className="flex items-center gap-2 text-sm text-ink-muted">
-            <Filter size={14} aria-hidden="true" /> Filters:
+        {/* Two columns on a phone, one row from sm up. Fixed widths overflow
+            small screens, so the controls flex instead. */}
+        <div className="mb-6">
+          <div className="mb-2 hidden items-center gap-2 text-sm text-ink-muted sm:flex">
+            <Filter size={14} aria-hidden="true" /> Filters
           </div>
-          <Select
-            className="w-44"
-            ariaLabel="Filter by university"
-            value={university}
-            onChange={handleUniversityChange}
-            options={universities.map((u) => ({ value: u.id, label: u.shortName }))}
-            placeholder="All Universities"
-          />
-          <Select
-            className="w-40"
-            ariaLabel="Filter by region"
-            value={region}
-            onChange={setRegion}
-            options={regions}
-            placeholder="All Regions"
-          />
-          <div className="ml-auto flex items-center gap-2">
-            <ArrowUpDown size={14} className="text-ink-muted" aria-hidden="true" />
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-3">
             <Select
-              className="w-48"
-              ariaLabel="Sort programmes"
-              value={sort}
-              onChange={(value) => setSort(value as SortKey)}
-              options={sortOptions}
+              className="sm:w-44"
+              ariaLabel="Filter by university"
+              value={university}
+              onChange={handleUniversityChange}
+              options={universities.map((u) => ({ value: u.id, label: u.shortName }))}
+              placeholder="All Universities"
             />
+            <Select
+              className="sm:w-40"
+              ariaLabel="Filter by region"
+              value={region}
+              onChange={setRegion}
+              options={regions}
+              placeholder="All Regions"
+            />
+            <div className="col-span-2 flex items-center gap-2 sm:ml-auto">
+              <ArrowUpDown size={14} className="hidden shrink-0 text-ink-muted sm:block" aria-hidden="true" />
+              <Select
+                className="w-full sm:w-48"
+                ariaLabel="Sort programmes"
+                value={sort}
+                onChange={(value) => setSort(value as SortKey)}
+                options={sortOptions}
+              />
+            </div>
           </div>
         </div>
 

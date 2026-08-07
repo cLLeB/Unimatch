@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run data:build && tsx scripts/generate-seo-assets.ts && tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "test": "vitest run",
@@ -18,7 +18,8 @@
     "verify": "npm run typecheck && npm run data:validate && npm run test",
     "start": "serve -s dist -l $PORT --no-clipboard",
     "heroku-postbuild": "npm run build",
-    "deploy": "git push heroku HEAD:main"
+    "deploy": "git push heroku HEAD:main",
+    "seo:build": "tsx scripts/generate-seo-assets.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

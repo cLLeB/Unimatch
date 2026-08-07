@@ -52,10 +52,10 @@ export default function DeadlinesPage() {
   const resolved = useMemo(() => resolveAll(deadlines), [])
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-3xl">
         <div className="mb-6">
-          <h1 className="mb-1 text-2xl font-bold text-ink">Deadline Tracker</h1>
+          <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Deadline Tracker</h1>
           <p className="text-sm text-ink-muted">
             Counting down live from today. Always confirm dates on the university&apos;s own portal.
           </p>

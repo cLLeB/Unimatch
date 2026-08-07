@@ -345,10 +345,10 @@ export default function ProfilePage() {
   }, [aggregate, qualifiedCount, saved])
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-          <h1 className="text-2xl font-bold text-ink">Student Profile</h1>
+          <h1 className="text-xl font-bold text-ink sm:text-2xl">Student Profile</h1>
           <LinkButton
             to={shareUrl}
             external

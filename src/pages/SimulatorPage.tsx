@@ -124,11 +124,11 @@ export default function SimulatorPage() {
   ]
 
   return (
-    <div className="p-6">
+    <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-5xl">
         <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
           <div>
-            <h1 className="mb-1 text-2xl font-bold text-ink">What-if Grade Simulator</h1>
+            <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">What-if Grade Simulator</h1>
             <p className="text-sm text-ink-muted">
               Adjust your grades to explore how eligibility changes. Results update live.
             </p>
