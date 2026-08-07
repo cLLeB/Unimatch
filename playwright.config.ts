@@ -1,7 +1,14 @@
 import { defineConfig, devices } from '@playwright/test'
 
 const PORT = 4173
-const BASE_URL = `http://localhost:${PORT}`
+
+/**
+ * Point at a deployment to smoke-test it:
+ *   PLAYWRIGHT_BASE_URL=https://… npm run test:e2e
+ * With no override, a local preview server is built and started.
+ */
+const DEPLOYED_URL = process.env.PLAYWRIGHT_BASE_URL
+const BASE_URL = DEPLOYED_URL ?? `http://localhost:${PORT}`
 
 export default defineConfig({
   testDir: './e2e',
@@ -26,10 +33,13 @@ export default defineConfig({
     { name: 'mobile', use: { ...devices['Pixel 7'] } },
   ],
 
-  webServer: {
-    command: `npm run build && npm run preview -- --port ${PORT} --strictPort`,
-    url: BASE_URL,
-    reuseExistingServer: !process.env.CI,
-    timeout: 180_000,
-  },
+  // Only spin up a local server when we aren't testing a real deployment.
+  webServer: DEPLOYED_URL
+    ? undefined
+    : {
+        command: `npm run build && npm run preview -- --port ${PORT} --strictPort`,
+        url: BASE_URL,
+        reuseExistingServer: !process.env.CI,
+        timeout: 180_000,
+      },
 })
