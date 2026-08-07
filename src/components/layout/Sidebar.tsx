@@ -1,4 +1,4 @@
-import { Brain, Clock, LogOut } from 'lucide-react'
+import { Brain, Clock, House, LogOut } from 'lucide-react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { cn } from '../../lib/cn'
 import { useStudent } from '../../state/StudentProvider'
@@ -8,6 +8,7 @@ import { isNavItemActive, PRIMARY_NAV } from './navItems'
 const SECONDARY_NAV = [
   { label: 'Deadlines', to: '/deadlines', icon: Clock },
   { label: 'Advisor', to: '/advisor', icon: Brain },
+  { label: 'Home', to: '/', icon: House },
 ] as const
 
 export default function Sidebar() {

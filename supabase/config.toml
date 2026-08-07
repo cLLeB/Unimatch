@@ -1,0 +1,55 @@
+project_id = "fttzuizvvwekmjtdqgmh"
+
+[auth]
+# The sign-in link landed on http://localhost:3000 because this was still the
+# Supabase default. It must be the live site, or every emailed link is broken
+# for a real student.
+site_url = "https://unimatchgh.app"
+
+# Any URL a magic link may return to has to be listed, or Supabase silently
+# falls back to site_url.
+additional_redirect_urls = [
+  "https://unimatchgh.app",
+  "https://unimatchgh.app/**",
+  "https://www.unimatchgh.app",
+  "https://www.unimatchgh.app/**",
+  "https://unimatch-ghana-e5dff32fb7a4.herokuapp.com/**",
+  "http://localhost:5173/**",
+]
+
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+# Supabase's shared SMTP is rate limited and sends from their domain. Point
+# this at a real sender before launch.
+max_frequency = "60s"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Branded emails: blocked until a custom SMTP sender is configured.
+#
+# Supabase refuses template changes on the free tier while the default sender is
+# in use ("Email template modification is not available for free tier projects
+# using the default email provider"). Until then every student gets Supabase's
+# own wording and a "powered by Supabase" footer, and sending is rate limited.
+#
+# To switch it on, with no cost:
+#   1. Create a Resend account and verify unimatchgh.app as a sending domain
+#   2. In Supabase: Authentication > Emails > SMTP Settings, enter
+#      smtp.resend.com:465, user "resend", the API key as the password, and
+#      a sender such as no-reply@unimatchgh.app
+#   3. Uncomment the two blocks below and run: npm run supabase:config
+#
+# The templates themselves are written and committed in supabase/templates/.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# [auth.email.template.confirmation]
+# subject = "Confirm your email for UniMatch Ghana"
+# content_path = "./supabase/templates/confirmation.html"
+
+# [auth.email.template.magic_link]
+# subject = "Your UniMatch Ghana sign-in link"
+# content_path = "./supabase/templates/magic-link.html"

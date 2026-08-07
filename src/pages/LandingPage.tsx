@@ -1,6 +1,7 @@
 import {
   Brain,
   Building2,
+  ChevronRight,
   Check,
   ChevronDown,
   Clock,
@@ -9,7 +10,6 @@ import {
   ListChecks,
   RefreshCw,
   Search,
-  Share2,
   ShieldCheck,
   Zap,
 } from 'lucide-react'
@@ -22,39 +22,47 @@ import {
   universities,
 } from '../data/catalogue'
 import Seo, { SITE_URL } from '../components/Seo'
+import Carousel from '../components/ui/Carousel'
 import { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
 
+/** Every card links to the thing it describes. */
 const FEATURES = [
   {
     icon: Search,
     title: 'Grade Matcher',
     desc: 'Enter your WASSCE grades and instantly see every programme you qualify for.',
+    to: '/eligibility',
   },
   {
     icon: Zap,
     title: 'What-if Simulator',
     desc: 'Adjust your grades and see how eligibility changes in real time.',
+    to: '/simulator',
   },
   {
     icon: GitCompare,
     title: 'Programme Comparison',
-    desc: 'Compare up to 3 programmes side-by-side across key metrics.',
+    desc: 'Compare up to 3 programmes side by side across key metrics.',
+    to: '/compare',
   },
   {
     icon: Clock,
     title: 'Deadline Tracker',
     desc: 'Never miss an application deadline, with email reminders.',
+    to: '/deadlines',
   },
   {
     icon: Brain,
     title: 'Career Advisor',
     desc: 'Ask questions about admissions, cut-offs and careers, answered from the data.',
+    to: '/advisor',
   },
   {
-    icon: Share2,
-    title: 'WhatsApp Sharing',
-    desc: 'Share your results and eligible programmes directly via WhatsApp.',
+    icon: Building2,
+    title: 'All Universities',
+    desc: 'Browse every institution we cover and the cut-offs for each programme.',
+    to: '/universities',
   },
 ] as const
 
@@ -69,18 +77,21 @@ const HOW_IT_WORKS = [
   {
     icon: ListChecks,
     step: '1',
+    to: '/eligibility',
     title: 'Enter your grades',
     desc: 'Eight WASSCE subjects, or as many as you have. We compute your aggregate from the best six, the way universities do.',
   },
   {
     icon: FileSearch,
     step: '2',
+    to: '/dashboard',
     title: 'See every match, with reasons',
     desc: 'Not just a yes or no. Where you fall short, we show by how much and exactly which grade would change it.',
   },
   {
     icon: GitCompare,
     step: '3',
+    to: '/compare',
     title: 'Compare and track',
     desc: 'Shortlist programmes, compare them side by side, and keep every application deadline in view.',
   },
@@ -226,17 +237,23 @@ function Features() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map(({ icon: Icon, title, desc }) => (
-            <Card key={title} className="p-6" hover>
-              <div className="mb-4 flex size-10 items-center justify-center rounded-xl bg-brand-subtle text-brand">
-                <Icon size={20} aria-hidden="true" />
-              </div>
-              <h3 className="mb-2 font-semibold text-ink">{title}</h3>
-              <p className="text-sm leading-relaxed text-ink-muted">{desc}</p>
-            </Card>
+        <Carousel label="What UniMatch does">
+          {FEATURES.map(({ icon: Icon, title, desc, to }) => (
+            <Link key={title} to={to} className="block h-full">
+              <Card className="flex h-full flex-col p-5 sm:p-6" hover>
+                <div className="mb-4 flex size-10 items-center justify-center rounded-xl bg-brand-subtle text-brand">
+                  <Icon size={20} aria-hidden="true" />
+                </div>
+                <h3 className="mb-2 font-semibold text-ink">{title}</h3>
+                <p className="flex-1 text-sm leading-relaxed text-ink-muted">{desc}</p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand">
+                  Open
+                  <ChevronRight size={14} aria-hidden="true" />
+                </span>
+              </Card>
+            </Link>
           ))}
-        </div>
+        </Carousel>
       </div>
     </section>
   )
@@ -307,20 +324,22 @@ function HowItWorks() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-3">
-          {HOW_IT_WORKS.map(({ icon: Icon, step, title, desc }) => (
-            <Card key={step} className="p-6">
-              <div className="mb-4 flex items-center gap-3">
-                <span className="flex size-9 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
-                  {step}
-                </span>
-                <Icon size={20} className="text-brand" aria-hidden="true" />
-              </div>
-              <h3 className="mb-2 font-semibold text-ink">{title}</h3>
-              <p className="text-sm leading-relaxed text-ink-muted">{desc}</p>
-            </Card>
+        <Carousel label="How UniMatch works" gridClassName="sm:grid-cols-3">
+          {HOW_IT_WORKS.map(({ icon: Icon, step, title, desc, to }) => (
+            <Link key={step} to={to} className="block h-full">
+              <Card className="flex h-full flex-col p-5 sm:p-6" hover>
+                <div className="mb-4 flex items-center gap-3">
+                  <span className="flex size-9 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+                    {step}
+                  </span>
+                  <Icon size={20} className="text-brand" aria-hidden="true" />
+                </div>
+                <h3 className="mb-2 font-semibold text-ink">{title}</h3>
+                <p className="flex-1 text-sm leading-relaxed text-ink-muted">{desc}</p>
+              </Card>
+            </Link>
           ))}
-        </div>
+        </Carousel>
       </div>
     </section>
   )

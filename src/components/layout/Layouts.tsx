@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import BottomNav from './BottomNav'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -13,13 +13,18 @@ import Sidebar from './Sidebar'
  * the landing and single-purpose pages.
  */
 export function MarketingLayout() {
+  const { pathname } = useLocation()
+  // The footer is a landing-page element. Repeating it under every browse page
+  // just adds a screen of links a student has already skipped past.
+  const showFooter = pathname === '/'
+
   return (
     <div className="flex min-h-screen flex-col bg-canvas">
       <Navbar />
       <main className="flex-1 pb-20 lg:pb-0">
         <Outlet />
       </main>
-      <Footer />
+      {showFooter && <Footer />}
       <BottomNav />
     </div>
   )

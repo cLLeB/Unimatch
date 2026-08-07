@@ -124,3 +124,29 @@ test.describe('mobile layout', () => {
     expect(lastBox!.y + lastBox!.height).toBeLessThanOrEqual(navBox!.y + 1)
   })
 })
+
+test.describe('mobile carousels', () => {
+  test.use({ viewport: { width: 390, height: 844 } })
+
+  test('features and steps are swipeable with pagination dots', async ({ page }) => {
+    await page.goto('/')
+
+    const features = page.getByRole('group', { name: 'What UniMatch does' })
+    await expect(features).toBeVisible()
+
+    // A horizontal track, not a tall stack.
+    const scrollable = await features.evaluate((el) => el.scrollWidth > el.clientWidth + 10)
+    expect(scrollable).toBe(true)
+
+    await expect(page.getByRole('button', { name: /Go to item 2 of 6/ })).toBeVisible()
+    await expect(page.getByRole('group', { name: 'How UniMatch works' })).toBeVisible()
+  })
+
+  test('the footer stays compact', async ({ page }) => {
+    await page.goto('/')
+    const footer = page.locator('footer')
+    const box = await footer.boundingBox()
+    // Three columns side by side, so it must not run past one screen.
+    expect(box!.height).toBeLessThan(700)
+  })
+})

@@ -34,9 +34,9 @@ const COLUMNS = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-ink py-12">
+    <footer className="border-t border-line bg-ink py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
-        <div className="mb-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mb-8 space-y-6 sm:mb-8 sm:grid sm:gap-8 sm:space-y-0 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-3 flex items-center gap-2 font-bold text-white">
               <span className="flex size-7 items-center justify-center rounded-lg bg-brand">
@@ -49,20 +49,28 @@ export default function Footer() {
             </p>
           </div>
 
-          {COLUMNS.map((column) => (
-            <div key={column.title}>
-              <div className="mb-3 text-sm font-semibold text-white">{column.title}</div>
-              {column.links.map((link) => (
-                <Link
-                  key={link.label}
-                  to={link.to}
-                  className="block py-0.5 text-sm text-footer-text transition-colors hover:text-white"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          ))}
+          {/*
+            Three link columns side by side on a phone. Stacked, they made the
+            footer taller than the page it sat under.
+          */}
+          <div className="grid grid-cols-3 gap-4 sm:col-span-2 sm:contents">
+            {COLUMNS.map((column) => (
+              <div key={column.title}>
+                <div className="mb-2 text-xs font-semibold text-white sm:mb-3 sm:text-sm">
+                  {column.title}
+                </div>
+                {column.links.map((link) => (
+                  <Link
+                    key={link.label}
+                    to={link.to}
+                    className="block py-0.5 text-xs leading-relaxed text-footer-text transition-colors hover:text-white sm:text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="flex flex-col justify-between gap-2 border-t border-footer-line pt-6 text-xs text-footer-text sm:flex-row">

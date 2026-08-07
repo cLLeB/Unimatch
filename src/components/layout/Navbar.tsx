@@ -16,11 +16,19 @@ import { PRIMARY_NAV } from './navItems'
  * sidebar and tab bar navigate; here the navbar only markets.
  */
 const PUBLIC_NAV = [
+  // The logo was the only route home, which is not discoverable enough.
+  { label: 'Home', to: '/' },
   { label: 'Cut-Off Points', to: '/dashboard' },
   { label: 'Universities', to: '/universities' },
   { label: 'How it works', to: '/#faq' },
 ] as const
 
+/*
+ * Routes that render inside the signed-in shell, where the sidebar and tab bar
+ * navigate. The public browse pages are deliberately not here: they keep the
+ * public navbar so a visitor always has a Home link, which was the only way
+ * back apart from the logo.
+ */
 const APP_ROUTES = [
   '/dashboard',
   '/programme',
@@ -30,9 +38,6 @@ const APP_ROUTES = [
   '/deadlines',
   '/saved',
   '/profile',
-  '/cut-off-points',
-  '/universities',
-  '/university',
 ]
 
 export function initialsOf(name: string): string {
@@ -71,6 +76,7 @@ export default function Navbar() {
               <NavLink
                 key={item.label}
                 to={item.to}
+                end={item.to === '/'}
                 className={({ isActive }) =>
                   cn(
                     'rounded-lg px-3 py-2 text-sm font-medium transition-colors',

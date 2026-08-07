@@ -128,3 +128,60 @@ test.describe('SEO', () => {
     expect(await robots.text()).toContain('Sitemap:')
   })
 })
+
+test.describe('getting back home', () => {
+  test('public browse pages offer a Home link, not just the logo', async ({ page, viewport }) => {
+    await page.goto('/universities')
+
+    // The public nav collapses behind the menu button on a phone.
+    if ((viewport?.width ?? 1280) < 768) {
+      await page.getByRole('button', { name: 'Open menu' }).click()
+    }
+
+    await page.getByRole('link', { name: 'Home', exact: true }).first().click()
+    await expect(page).toHaveURL(/\/$/)
+  })
+
+  test('the app shell offers a Home link too', async ({ page, viewport }) => {
+    await page.goto('/dashboard')
+    // The sidebar carries it on desktop; on a phone the logo does.
+    const target =
+      (viewport?.width ?? 1280) >= 1024
+        ? page.getByRole('link', { name: 'Home', exact: true }).first()
+        : page.getByRole('link', { name: /UniMatch Ghana/ }).first()
+    await target.click()
+    await expect(page).toHaveURL(/\/$/)
+  })
+
+  test('the logo still works as a route home', async ({ page }) => {
+    await page.goto('/universities')
+    await page.getByRole('link', { name: /UniMatch Ghana/ }).first().click()
+    await expect(page).toHaveURL(/\/$/)
+  })
+})
+
+test.describe('footer', () => {
+  test('appears on the landing page', async ({ page }) => {
+    await page.goto('/')
+    await expect(page.getByText('Built for Ghana')).toBeVisible()
+  })
+
+  test('does not repeat on every browse page', async ({ page }) => {
+    await page.goto('/universities')
+    await expect(page.getByText('Built for Ghana')).toHaveCount(0)
+  })
+})
+
+test.describe('landing feature cards', () => {
+  test('each card links to the feature it describes', async ({ page }) => {
+    await page.goto('/')
+    await page.getByRole('link', { name: /What-if Simulator/ }).click()
+    await expect(page).toHaveURL(/\/simulator$/)
+  })
+
+  test('the how-it-works steps are links too', async ({ page }) => {
+    await page.goto('/')
+    await page.getByRole('link', { name: /Enter your grades/ }).first().click()
+    await expect(page).toHaveURL(/\/eligibility$/)
+  })
+})
