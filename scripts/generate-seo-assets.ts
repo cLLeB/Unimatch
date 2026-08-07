@@ -26,7 +26,7 @@ interface Entry {
 
 const staticEntries: Entry[] = [
   { path: '/', changefreq: 'weekly', priority: 1.0 },
-  { path: '/cut-off-points', changefreq: 'weekly', priority: 0.9 },
+  { path: '/dashboard', changefreq: 'weekly', priority: 0.9 },
   { path: '/eligibility', changefreq: 'monthly', priority: 0.9 },
   { path: '/universities', changefreq: 'weekly', priority: 0.8 },
   { path: '/simulator', changefreq: 'monthly', priority: 0.7 },

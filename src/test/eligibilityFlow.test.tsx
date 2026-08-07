@@ -105,7 +105,7 @@ describe('programme detail', () => {
       await screen.findByRole('heading', { name: 'Medicine and Surgery' }, LAZY_TIMEOUT),
     ).toBeInTheDocument()
     expect(screen.getByText(/Agg\. 8/)).toBeInTheDocument()
-    expect(screen.getAllByText(/Official · 2025/).length).toBeGreaterThan(0)
+    expect(screen.getAllByText(/Confirmed 2025\/26/).length).toBeGreaterThan(0)
   })
 
   it('shows a real not-found state for an unknown programme', async () => {

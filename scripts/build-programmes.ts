@@ -18,11 +18,13 @@ import type {
   SubjectRequirement,
 } from '../src/domain/catalogue/types'
 import type { Grade } from '../src/domain/wassce/types'
+import universitiesJson from '../data/seed/universities.json' with { type: 'json' }
 import { knust } from './sources/knust'
 import { atu, uds, uew, uhas, upsa } from './sources/others'
 import { PRIVATE_SOURCES } from './sources/private'
 import { ucc } from './sources/ucc'
 import { ug } from './sources/ug'
+import { careersFor, feeBandFor, overviewFor } from './sources/enrichment'
 import type { RawProgramme, SourceFile } from './sources/types'
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)))
@@ -151,6 +153,11 @@ function buildRecord(
 
   const id = uniqueId(`${source.universityId}-${slug(row.n)}${TRACK_SUFFIX[track]}`)
 
+  const universityName =
+    (universitiesJson as { id: string; name: string }[]).find((u) => u.id === source.universityId)
+      ?.name ?? source.universityId
+  const fees = feeBandFor(source, row)
+
   return {
     id,
     name: row.n,
@@ -168,7 +175,11 @@ function buildRecord(
       electiveSubjects: (row.req ?? []).map(parseRequirement),
       notes,
     },
-    provenance: { ...source.provenance }, ...(row.male !== undefined && row.female !== undefined
+    provenance: { ...source.provenance },
+    overview: overviewFor(row, universityName, degree, duration, cutoff, track),
+    careers: careersFor(row),
+    ...(fees ? { fees, annualFeesGhs: Math.round((fees.minGhs + fees.maxGhs) / 2) } : {}),
+    ...(row.male !== undefined && row.female !== undefined
       ? { cutoffByGender: { male: row.male, female: row.female } }
       : {}),
   }

@@ -6,6 +6,7 @@ const COLUMNS = [
     title: 'Platform',
     links: [
       { label: 'Grade Checker', to: '/eligibility' },
+      { label: 'All Programmes', to: '/dashboard' },
       { label: 'Simulator', to: '/simulator' },
       { label: 'Compare', to: '/compare' },
       { label: 'AI Advisor', to: '/advisor' },

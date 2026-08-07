@@ -162,7 +162,7 @@ function Hero() {
               Check My Eligibility
             </LinkButton>
             <LinkButton
-              to="/cut-off-points"
+              to="/dashboard"
               variant="outline"
               size="lg"
               className="w-full sm:w-auto"

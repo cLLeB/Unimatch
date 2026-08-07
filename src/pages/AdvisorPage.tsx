@@ -5,6 +5,7 @@ import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
 import { catalogue, catalogueStats, getProgramme, universityNameOf } from '../data/catalogue'
 import { ask, type Answer } from '../domain/advisor/answer'
+import type { AdvisorMemory } from '../domain/advisor/intent'
 import { useStudent } from '../state/StudentProvider'
 
 interface Message {
@@ -36,6 +37,9 @@ export default function AdvisorPage() {
   const [followUps, setFollowUps] = useState<readonly string[]>(STARTERS)
   const bottomRef = useRef<HTMLDivElement>(null)
   const nextId = useRef(1)
+  // Carried between turns so a follow-up like "what about KNUST?" resolves
+  // against what was just discussed.
+  const memory = useRef<AdvisorMemory>({})
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -58,9 +62,10 @@ export default function AdvisorPage() {
       // typing indicator reads as a considered reply rather than a flash.
       window.setTimeout(() => {
         const answer: Answer = ask(
-          { catalogue, results: state.results, now: new Date() },
+          { catalogue, results: state.results, now: new Date(), memory: memory.current },
           question,
         )
+        memory.current = answer.memory ?? memory.current
         setMessages((current) => [
           ...current,
           {

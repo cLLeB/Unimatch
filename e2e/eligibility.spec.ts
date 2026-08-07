@@ -122,7 +122,7 @@ test.describe('deep links', () => {
   test('a programme URL loads directly, with its data source', async ({ page }) => {
     await page.goto('/programme/ug-medicine-and-surgery')
     await expect(page.getByRole('heading', { name: 'Medicine and Surgery' })).toBeVisible()
-    await expect(page.getByText('Official · 2025').first()).toBeVisible()
+    await expect(page.getByText('Confirmed 2025/26').first()).toBeVisible()
   })
 
   test('an unknown URL renders a 404, not a redirect', async ({ page }) => {

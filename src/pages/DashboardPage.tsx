@@ -1,4 +1,4 @@
-import { ArrowUpDown, Filter, GitCompare, Search, X } from 'lucide-react'
+import { Filter, GitCompare, Search, SlidersHorizontal, X } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { LinkButton } from '../components/ui/Button'
@@ -9,11 +9,14 @@ import ProgrammeCard from '../components/programme/ProgrammeCard'
 import {
   byOptional,
   catalogueStats,
+  degreeTypes,
   hasAnyFees,
   hasAnySalary,
   regions,
   universities,
+  universityNameOf,
 } from '../data/catalogue'
+import { ADMISSION_TRACK_LABELS, ADMISSION_TRACKS } from '../domain/catalogue/types'
 import { compareVerdicts } from '../domain/wassce/eligibility'
 import { useEligibility } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
@@ -106,17 +109,27 @@ export default function DashboardPage() {
   const { state, clearCompared } = useStudent()
   const { verdicts, hasResults } = useEligibility()
 
+  const [query, setQuery] = useState(searchParams.get('q') ?? '')
   const [university, setUniversity] = useState(searchParams.get('university') ?? '')
   const [region, setRegion] = useState('')
+  const [track, setTrack] = useState('')
+  const [degreeType, setDegreeType] = useState('')
   const [sort, setSort] = useState<SortKey>('best-match')
   const [visible, setVisible] = useState(PAGE_SIZE)
 
   const filtered = useMemo(() => {
-    const matching = verdicts.filter(
-      ({ programme }) =>
-        (!university || programme.universityId === university) &&
-        (!region || programme.region === region),
-    )
+    const needle = query.trim().toLowerCase()
+
+    const matching = verdicts.filter(({ programme }) => {
+      if (university && programme.universityId !== university) return false
+      if (region && programme.region !== region) return false
+      if (track && programme.admissionTrack !== track) return false
+      if (degreeType && programme.degreeType !== degreeType) return false
+      if (!needle) return true
+      return `${programme.name} ${universityNameOf(programme)} ${programme.faculty} ${programme.degreeType} ${(programme.careers ?? []).join(' ')}`
+        .toLowerCase()
+        .includes(needle)
+    })
 
     const sorted = [...matching]
     switch (sort) {
@@ -147,13 +160,13 @@ export default function DashboardPage() {
         break
     }
     return sorted
-  }, [verdicts, university, region, sort])
+  }, [verdicts, query, university, region, track, degreeType, sort])
 
   const shown = filtered.slice(0, visible)
 
   useEffect(() => {
     setVisible(PAGE_SIZE)
-  }, [university, region, sort])
+  }, [query, university, region, track, degreeType, sort])
 
   const handleUniversityChange = (value: string) => {
     setUniversity(value)
@@ -163,6 +176,9 @@ export default function DashboardPage() {
   // Only offer a sort the data can actually satisfy. Most Ghanaian
   // universities publish no fee or salary, so those options would silently
   // reorder nothing.
+  const [filtersOpen, setFiltersOpen] = useState(false)
+  const activeFilters = [university, region, track, degreeType].filter(Boolean).length
+
   const sortOptions = SORT_OPTIONS.filter((option) => {
     if (option.value === 'best-match') return hasResults
     if (option.value === 'lowest-fees') return hasAnyFees
@@ -175,39 +191,94 @@ export default function DashboardPage() {
       <div className="mx-auto max-w-4xl">
         <SummaryCard />
 
-        {/* Two columns on a phone, one row from sm up. Fixed widths overflow
-            small screens, so the controls flex instead. */}
+        {/*
+          Search first: this screen absorbed the old Cut-offs page, so it is now
+          the one place to browse all 448 programmes as well as your matches.
+        */}
+        <div className="mb-3">
+          <div className="relative">
+            <Search
+              size={16}
+              aria-hidden="true"
+              className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-ink-muted"
+            />
+            <input
+              type="search"
+              value={query}
+              onChange={(event) => {
+                setQuery(event.target.value)
+                setSearchParams(event.target.value ? { q: event.target.value } : {}, {
+                  replace: true,
+                })
+              }}
+              aria-label="Search programmes and universities"
+              placeholder="Search a programme, university or career..."
+              className="w-full rounded-xl border border-line bg-surface py-3 pl-10 pr-4 text-base text-ink focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/40 sm:py-2.5 sm:text-sm"
+            />
+          </div>
+        </div>
+
+        <div className="mb-4 flex gap-2 sm:hidden">
+          <Button
+            variant="outline"
+            size="sm"
+            className="flex-1"
+            icon={<SlidersHorizontal size={14} aria-hidden="true" />}
+            onClick={() => setFiltersOpen((open) => !open)}
+          >
+            Filters{activeFilters > 0 ? ` (${activeFilters})` : ''}
+          </Button>
+          <Select
+            className="flex-1"
+            ariaLabel="Sort programmes"
+            value={sort}
+            onChange={(value) => setSort(value as SortKey)}
+            options={sortOptions}
+          />
+        </div>
+
         <div className="mb-6">
           <div className="mb-2 hidden items-center gap-2 text-sm text-ink-muted sm:flex">
             <Filter size={14} aria-hidden="true" /> Filters
           </div>
-          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-3">
+          <div
+            className={`${filtersOpen ? 'grid' : 'hidden'} grid-cols-2 gap-2 sm:!grid sm:grid-cols-5 sm:gap-3`}
+          >
             <Select
-              className="sm:w-44"
               ariaLabel="Filter by university"
               value={university}
               onChange={handleUniversityChange}
               options={universities.map((u) => ({ value: u.id, label: u.shortName }))}
-              placeholder="All Universities"
+              placeholder="All universities"
             />
             <Select
-              className="sm:w-40"
               ariaLabel="Filter by region"
               value={region}
               onChange={setRegion}
               options={regions}
-              placeholder="All Regions"
+              placeholder="All regions"
             />
-            <div className="col-span-2 flex items-center gap-2 sm:ml-auto">
-              <ArrowUpDown size={14} className="hidden shrink-0 text-ink-muted sm:block" aria-hidden="true" />
-              <Select
-                className="w-full sm:w-48"
-                ariaLabel="Sort programmes"
-                value={sort}
-                onChange={(value) => setSort(value as SortKey)}
-                options={sortOptions}
-              />
-            </div>
+            <Select
+              ariaLabel="Filter by degree type"
+              value={degreeType}
+              onChange={setDegreeType}
+              options={degreeTypes}
+              placeholder="All degrees"
+            />
+            <Select
+              ariaLabel="Filter by admission track"
+              value={track}
+              onChange={setTrack}
+              options={ADMISSION_TRACKS.map((t) => ({ value: t, label: ADMISSION_TRACK_LABELS[t] }))}
+              placeholder="All tracks"
+            />
+            <Select
+              className="hidden sm:block"
+              ariaLabel="Sort programmes"
+              value={sort}
+              onChange={(value) => setSort(value as SortKey)}
+              options={sortOptions}
+            />
           </div>
         </div>
 

@@ -1,11 +1,10 @@
 import { lazy, Suspense } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout, MarketingLayout } from './components/layout/Layouts'
 import ScrollToTop from './components/layout/ScrollToTop'
 import AdvisorPage from './pages/AdvisorPage'
 import AuthPage from './pages/AuthPage'
 import ComparePage from './pages/ComparePage'
-import CutOffPointsPage from './pages/CutOffPointsPage'
 import DashboardPage from './pages/DashboardPage'
 import DeadlinesPage from './pages/DeadlinesPage'
 import EligibilityPage from './pages/EligibilityPage'
@@ -44,7 +43,9 @@ export default function App() {
           <Route element={<MarketingLayout />}>
             <Route path="/" element={<LandingPage />} />
             <Route path="/eligibility" element={<EligibilityPage />} />
-            <Route path="/cut-off-points" element={<CutOffPointsPage />} />
+            {/* Cut-offs merged into Matches; the URL is kept for anyone who
+                has it bookmarked or arrives from search. */}
+            <Route path="/cut-off-points" element={<Navigate to="/dashboard" replace />} />
             <Route path="/universities" element={<UniversitiesPage />} />
             <Route path="/university/:universityId" element={<UniversityPage />} />
             <Route path="/login" element={<AuthPage />} />

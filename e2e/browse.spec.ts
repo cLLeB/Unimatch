@@ -1,40 +1,56 @@
 import { expect, test } from '@playwright/test'
 
-test.describe('cut-off points browser', () => {
+/**
+ * Browsing the catalogue without grades and without an account.
+ *
+ * Cut-offs used to be its own page; it is now merged into Matches, which
+ * browses all 448 programmes and narrows to your grades once you have entered
+ * them.
+ */
+test.describe('programme browser', () => {
   test('is usable with no grades and no account', async ({ page }) => {
-    await page.goto('/cut-off-points')
+    await page.goto('/dashboard')
 
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Cut-Off Points')
-    await expect(page.getByText(/\d+ programmes?$/)).toBeVisible()
-    await expect(page.getByRole('link', { name: /check what i qualify for/i })).toBeVisible()
+    await expect(page.getByText(/\d+ programmes? found/)).toBeVisible()
+    await expect(page.getByLabel('Search programmes and universities')).toBeVisible()
+    await expect(page.getByRole('link', { name: /enter my grades/i })).toBeVisible()
+  })
+
+  test('the old cut-off URL still works', async ({ page }) => {
+    await page.goto('/cut-off-points')
+    await expect(page).toHaveURL(/\/dashboard$/)
+  })
+
+  test('search narrows the list', async ({ page }) => {
+    await page.goto('/dashboard')
+    const count = page.getByText(/^\d+ programmes? found$/)
+    const before = await count.textContent()
+
+    await page.getByLabel('Search programmes and universities').fill('nursing')
+
+    await expect(count).not.toHaveText(before ?? '')
+    await expect(page.getByRole('heading', { name: 'Nursing', exact: true }).first()).toBeVisible()
   })
 
   test('tells the visitor when nothing matches', async ({ page }) => {
-    await page.goto('/cut-off-points')
+    await page.goto('/dashboard')
     await page.getByLabel('Search programmes and universities').fill('zzzzzz')
-    await expect(page.getByText(/nothing matches/i)).toBeVisible()
+    await expect(page.getByText(/no programmes match/i)).toBeVisible()
   })
 
-  // The table is the desktop rendering; phones get a card list instead, which
-  // e2e/mobile.spec.ts covers. Pinned wide so these run under both projects.
-  test.describe('desktop table', () => {
-    test.use({ viewport: { width: 1280, height: 800 } })
+  test('every cut-off states the year it is confirmed for', async ({ page }) => {
+    await page.goto('/dashboard')
+    // Positive labelling: never "Unconfirmed", always the year it holds for.
+    await expect(
+      page.getByText(/Confirmed 20\d\d\/\d\d|Published 20\d\d\/\d\d/).first(),
+    ).toBeVisible()
+    await expect(page.getByText('Unconfirmed')).toHaveCount(0)
+  })
 
-    test('search narrows the list', async ({ page }) => {
-      await page.goto('/cut-off-points')
-      const table = page.getByRole('table')
-      const rowsBefore = await table.locator('tbody tr').count()
-
-      await page.getByLabel('Search programmes and universities').fill('medicine')
-
-      await expect(table.locator('tbody tr')).not.toHaveCount(rowsBefore)
-      await expect(table.getByText('Medicine and Surgery')).toBeVisible()
-    })
-
-    test('every cut-off shows where it came from', async ({ page }) => {
-      await page.goto('/cut-off-points')
-      await expect(page.getByRole('table').getByText(/Official · 2025/).first()).toBeVisible()
-    })
+  test('loads more on demand rather than painting every row', async ({ page }) => {
+    await page.goto('/dashboard')
+    await expect(page.getByRole('button', { name: /show \d+ more/i })).toBeVisible()
+    await expect(page.getByText(/showing \d+ of \d+/i)).toBeVisible()
   })
 })
 
@@ -44,6 +60,11 @@ test.describe('universities', () => {
     await expect(page.getByRole('heading', { level: 1, name: 'Universities' })).toBeVisible()
     await expect(page.getByRole('link', { name: /KNUST/ }).first()).toBeVisible()
     await expect(page.getByText(/Cut-offs/).first()).toBeVisible()
+  })
+
+  test('includes private universities', async ({ page }) => {
+    await page.goto('/universities')
+    await expect(page.getByRole('link', { name: /Ashesi/ }).first()).toBeVisible()
   })
 
   test('a university page lists its programmes and links to them', async ({ page }) => {
@@ -62,12 +83,34 @@ test.describe('universities', () => {
   })
 })
 
+test.describe('programme detail is complete', () => {
+  test('shows fees, competitiveness, careers and an overview', async ({ page }) => {
+    await page.goto('/programme/knust-human-biology-medicine')
+
+    await expect(page.getByRole('heading', { name: 'Human Biology (Medicine)' })).toBeVisible()
+
+    // No empty cards, and no "Not published" in the headline metrics.
+    await expect(page.getByText('Annual Fees')).toBeVisible()
+    await expect(page.getByText(/GH₵ [\d,]+ to [\d,]+\/yr/)).toBeVisible()
+    await expect(page.getByText('Competitiveness')).toBeVisible()
+
+    await expect(page.getByText('How competitive')).toBeVisible()
+    await expect(page.getByText(/Ranks \d+ of \d+ nationally/)).toBeVisible()
+
+    await expect(page.getByText('Career paths')).toBeVisible()
+    await expect(page.getByText('Medical Doctor')).toBeVisible()
+
+    // The overview is populated rather than an empty card.
+    await expect(page.getByText(/is a 6-year MBChB programme/)).toBeVisible()
+  })
+})
+
 test.describe('SEO', () => {
   test('each route carries its own title and description', async ({ page }) => {
-    await page.goto('/cut-off-points')
-    await expect(page).toHaveTitle(/Cut-Off Points .* \| UniMatch Ghana/)
+    await page.goto('/universities')
+    await expect(page).toHaveTitle(/Universities in Ghana.*UniMatch Ghana/)
     const description = page.locator('meta[name="description"]')
-    await expect(description).toHaveAttribute('content', /cut-off points for \d+ programmes/i)
+    await expect(description).toHaveAttribute('content', /Cut-off points/i)
 
     await page.goto('/university/knust')
     await expect(page).toHaveTitle(/KNUST Cut-Off Points/)
@@ -77,7 +120,7 @@ test.describe('SEO', () => {
     const sitemap = await request.get('/sitemap.xml')
     expect(sitemap.status()).toBe(200)
     const body = await sitemap.text()
-    expect(body).toContain('/cut-off-points')
+    expect(body).toContain('/universities')
     expect(body).toContain('/programme/ug-medicine-and-surgery')
 
     const robots = await request.get('/robots.txt')

@@ -249,7 +249,7 @@ describe('advisor answers', () => {
   describe('unknown', () => {
     it('declines rather than guessing, and offers real questions', () => {
       const answer = ask(withResults, 'who will win the election')
-      expect(answer.text).toContain('would rather not guess')
+      expect(answer.text).toMatch(/rather (?:not guess|say so than guess)/)
       expect(answer.followUps.length).toBeGreaterThan(0)
     })
   })

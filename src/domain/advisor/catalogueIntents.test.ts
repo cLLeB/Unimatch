@@ -30,6 +30,66 @@ describe('intent routing on real phrasings', () => {
   })
 })
 
+describe('phrasings that previously fell through to "unknown"', () => {
+  it('handles the exact question from the live advisor screenshot', () => {
+    const answer = ask(ctx, 'Give me cutoffs for Computer Science in all Universities offering it')
+    expect(answer.text).not.toMatch(/rather (?:not guess|say so)/)
+    expect(answer.text).toMatch(/institutions?/)
+    expect(answer.programmeIds.length).toBeGreaterThan(0)
+  })
+
+  it('greets instead of refusing', () => {
+    const answer = ask(ctx, 'hello')
+    expect(answer.text).toMatch(/^Hello/)
+    expect(answer.text).toContain('programmes')
+  })
+
+  it('explains what it can do', () => {
+    expect(ask(ctx, 'help').text).toContain('cut-off')
+  })
+
+  it('treats a bare programme name as a lookup', () => {
+    const answer = ask(ctx, 'Nursing')
+    expect(answer.text).toMatch(/cut-off of \d+/)
+  })
+
+  it('treats a bare university name as a lookup', () => {
+    const answer = ask(ctx, 'KNUST')
+    expect(answer.text).toMatch(/KNUST has \d+ programmes/)
+  })
+
+  it('answers "cut off for Law"', () => {
+    expect(ask(ctx, 'cut off for Law').text).toMatch(/cut-off of \d+/)
+  })
+})
+
+describe('conversation memory', () => {
+  it('resolves "what about X?" against the previous question', () => {
+    const first = ask(ctx, 'What courses does KNUST offer?')
+    expect(first.memory?.lastIntent).toBe('university-programmes')
+
+    const second = ask({ ...ctx, memory: first.memory }, 'what about Ashesi?')
+    expect(second.text).toMatch(/Ashesi has \d+ programmes/)
+  })
+
+  it('carries a where-to-study thread forward', () => {
+    const first = ask(ctx, 'Where can I study Nursing?')
+    const second = ask({ ...ctx, memory: first.memory }, 'and Law?')
+    expect(second.text).toMatch(/institutions?/)
+  })
+
+  it('remembers the programme just discussed', () => {
+    const answer = ask(ctx, 'Nursing')
+    expect(answer.memory?.lastProgrammeId).toBeTruthy()
+  })
+
+  it('does not misread a follow-up with no prior context', () => {
+    // Without memory, "and Law?" is not a follow-up and must not crash.
+    const answer = ask(ctx, 'and Law?')
+    expect(answer.text.length).toBeGreaterThan(10)
+  })
+})
+
 describe('answers over the real catalogue', () => {
   it('lists a public university with its cut-off range', () => {
     const answer = ask(ctx, 'What courses does KNUST offer?')

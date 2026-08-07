@@ -13,7 +13,7 @@ test.describe('mobile layout', () => {
   test.use({ viewport: PHONE })
 
   test('nothing overflows horizontally', async ({ page }) => {
-    for (const path of ['/', '/cut-off-points', '/eligibility', '/universities', '/dashboard']) {
+    for (const path of ['/', '/dashboard', '/eligibility', '/universities', '/simulator']) {
       await page.goto(path)
       const overflow = await page.evaluate(
         () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
@@ -28,8 +28,8 @@ test.describe('mobile layout', () => {
     const nav = page.getByRole('navigation', { name: 'Primary' })
     await expect(nav).toBeVisible()
 
-    await nav.getByRole('link', { name: 'Cut-offs' }).click()
-    await expect(page).toHaveURL(/\/cut-off-points$/)
+    await nav.getByRole('link', { name: 'Universities' }).click()
+    await expect(page).toHaveURL(/\/universities$/)
 
     // It follows the student onto the public browse pages.
     await expect(page.getByRole('navigation', { name: 'Primary' })).toBeVisible()
@@ -56,11 +56,10 @@ test.describe('mobile layout', () => {
     }
   })
 
-  test('cut-off points render as cards, not a squeezed table', async ({ page }) => {
-    await page.goto('/cut-off-points')
-    await expect(page.getByRole('table')).not.toBeVisible()
-    // The card list carries a "cut-off" caption under each aggregate.
-    await expect(page.getByText('cut-off', { exact: true }).first()).toBeVisible()
+  test('programmes render as cards, not a squeezed table', async ({ page }) => {
+    await page.goto('/dashboard')
+    await expect(page.getByRole('table')).toHaveCount(0)
+    await expect(page.getByText(/Cut-off:/).first()).toBeVisible()
   })
 
   test('the grade form is completable without sideways scrolling', async ({ page }) => {
@@ -119,7 +118,7 @@ test.describe('mobile layout', () => {
 
     const nav = page.getByRole('navigation', { name: 'Primary' })
     const navBox = await nav.boundingBox()
-    const last = page.getByText(/messaging provider, which isn/i)
+    const last = page.getByText(/Email reminders need an address/i)
     const lastBox = await last.boundingBox()
 
     expect(lastBox!.y + lastBox!.height).toBeLessThanOrEqual(navBox!.y + 1)

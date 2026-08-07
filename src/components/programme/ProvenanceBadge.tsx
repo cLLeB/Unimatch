@@ -1,6 +1,6 @@
 import { AlertTriangle, ShieldCheck } from 'lucide-react'
 import type { Provenance } from '../../domain/catalogue/types'
-import { CONFIDENCE_LABELS, CONFIDENCE_SHORT } from '../../data/catalogue'
+import { confidenceDetail, confidenceLabel } from '../../data/catalogue'
 import Badge from '../ui/Badge'
 
 interface ProvenanceBadgeProps {
@@ -22,7 +22,7 @@ export default function ProvenanceBadge({ provenance, detailed = false }: Proven
   const badge = (
     <Badge
       variant={official ? 'info' : 'warning'}
-      title={CONFIDENCE_LABELS[provenance.confidence]}
+      title={confidenceDetail(provenance)}
       icon={
         official ? (
           <ShieldCheck size={12} aria-hidden="true" />
@@ -31,7 +31,7 @@ export default function ProvenanceBadge({ provenance, detailed = false }: Proven
         )
       }
     >
-      {CONFIDENCE_SHORT[provenance.confidence]} · {provenance.year}
+      {confidenceLabel(provenance)}
     </Badge>
   )
 
@@ -41,7 +41,7 @@ export default function ProvenanceBadge({ provenance, detailed = false }: Proven
     <div className="space-y-1.5">
       {badge}
       <p className="text-xs leading-relaxed text-ink-muted">
-        {CONFIDENCE_LABELS[provenance.confidence]}. Source: {provenance.source}
+        {confidenceDetail(provenance)} Source: {provenance.source}
         {provenance.sourceUrl && (
           <>
             {', '}

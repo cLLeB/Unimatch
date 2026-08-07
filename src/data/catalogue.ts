@@ -1,5 +1,6 @@
 import type {
   AdmissionDeadline,
+  Provenance,
   Catalogue,
   Confidence,
   Programme,
@@ -57,16 +58,45 @@ export function isVerified(confidence: Confidence): boolean {
   return confidence === 'authoritative'
 }
 
-export const CONFIDENCE_LABELS: Record<Confidence, string> = {
-  authoritative: 'Official university source',
-  researched: 'Researched, not yet confirmed with the university',
-  estimated: 'Estimate, not an official figure',
+/** 2025 -> "2025/26". Ghanaian admissions are quoted by academic year. */
+export function academicYear(startYear: number): string {
+  return `${startYear}/${String((startYear + 1) % 100).padStart(2, '0')}`
+}
+
+/**
+ * Labels state the most recent year a figure IS confirmed for, rather than
+ * leading with what is missing. A cut-off confirmed for 2025/26 is useful
+ * information; calling it "unconfirmed" because 2026/27 has not been published
+ * yet tells a student nothing and reads as a fault in the data.
+ */
+export function confidenceLabel(provenance: Provenance): string {
+  const year = academicYear(provenance.year)
+  switch (provenance.confidence) {
+    case 'authoritative':
+      return `Confirmed ${year}`
+    case 'researched':
+      return `Published ${year}`
+    case 'estimated':
+      return `Indicative ${year}`
+  }
+}
+
+export function confidenceDetail(provenance: Provenance): string {
+  const year = academicYear(provenance.year)
+  switch (provenance.confidence) {
+    case 'authoritative':
+      return `Confirmed against the university's own published admissions list for ${year}.`
+    case 'researched':
+      return `Published for ${year} by a credible admissions source. Confirm on the university portal before applying.`
+    case 'estimated':
+      return `This university does not publish a per-programme cut-off. Shown is the general minimum for degree admission in ${year}.`
+  }
 }
 
 export const CONFIDENCE_SHORT: Record<Confidence, string> = {
-  authoritative: 'Official',
-  researched: 'Unconfirmed',
-  estimated: 'Estimate',
+  authoritative: 'Confirmed',
+  researched: 'Published',
+  estimated: 'Indicative',
 }
 
 /** Format Ghana cedis without decimals, e.g. "GH₵ 4,200". */
@@ -83,7 +113,25 @@ export function formatCedis(amount: number): string {
  */
 export const NOT_PUBLISHED = 'Not published'
 
+/**
+ * Fees as a band, which is how universities publish them, e.g.
+ * "GH₵ 4,900 to 6,400/yr".
+ */
 export function formatFeesPerYear(programme: Programme): string {
+  if (programme.fees) {
+    const { minGhs, maxGhs } = programme.fees
+    return minGhs === maxGhs
+      ? `${formatCedis(minGhs)}/yr`
+      : `${formatCedis(minGhs)} to ${maxGhs.toLocaleString('en-GH')}/yr`
+  }
+  return programme.annualFeesGhs === undefined
+    ? NOT_PUBLISHED
+    : `${formatCedis(programme.annualFeesGhs)}/yr`
+}
+
+/** Short form for dense rows, e.g. "GH₵ 4,900+". */
+export function formatFeesCompact(programme: Programme): string {
+  if (programme.fees) return `${formatCedis(programme.fees.minGhs)}+`
   return programme.annualFeesGhs === undefined
     ? NOT_PUBLISHED
     : `${formatCedis(programme.annualFeesGhs)}/yr`

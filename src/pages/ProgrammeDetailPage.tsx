@@ -1,5 +1,5 @@
 import {
-  AlertCircle,
+  Building2,
   ArrowRight,
   CheckCheck,
   CheckCircle,
@@ -12,7 +12,10 @@ import {
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
+  Bar,
+  BarChart,
   CartesianGrid,
+  Cell,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -27,12 +30,13 @@ import EligibilityBadge from '../components/programme/EligibilityBadge'
 import ProvenanceBadge from '../components/programme/ProvenanceBadge'
 import ShortfallList from '../components/programme/ShortfallList'
 import {
-  formatEmploymentRate,
+  catalogue,
   formatFeesPerYear,
-  formatSalaryRange,
   getProgramme,
   getUniversity,
+  universityNameOf,
 } from '../data/catalogue'
+import { computeStats, describeCompetitiveness } from '../domain/catalogue/stats'
 import { useProgrammeVerdict } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
 
@@ -76,6 +80,17 @@ export default function ProgrammeDetailPage() {
     year: String(point.year),
     cutoff: point.aggregate,
   }))
+
+  const stats = computeStats(catalogue, programme)
+
+  /** This programme plus its faculty peers, for the comparison chart. */
+  const comparison = [programme, ...stats.peers]
+    .map((entry) => ({
+      name: entry.name.length > 22 ? `${entry.name.slice(0, 22)}...` : entry.name,
+      cutoff: entry.requirements.minimumAggregate,
+      isThis: entry.id === programme.id,
+    }))
+    .sort((a, b) => a.cutoff - b.cutoff)
 
   return (
     <>
@@ -149,16 +164,20 @@ export default function ProgrammeDetailPage() {
               value: `Agg. ${programme.requirements.minimumAggregate}`,
               sub: `${programme.provenance.year} admission`,
             },
-            { label: 'Annual Fees', value: formatFeesPerYear(programme), sub: 'Estimate' },
             {
-              label: 'Employment Rate',
-              value: formatEmploymentRate(programme),
-              sub: 'Within 1 year (estimate)',
+              label: 'Annual Fees',
+              value: formatFeesPerYear(programme),
+              sub: programme.fees ? `Published band, ${programme.fees.year}` : 'Not published',
             },
             {
-              label: 'Avg. Salary',
-              value: formatSalaryRange(programme),
-              sub: 'Monthly range (estimate)',
+              label: 'Duration',
+              value: `${programme.durationYears} years`,
+              sub: programme.qualificationLevel === 'degree' ? 'Full-time degree' : 'Diploma',
+            },
+            {
+              label: 'Competitiveness',
+              value: `Top ${stats.nationalPercentile}%`,
+              sub: `${stats.nationalRank} of ${stats.totalProgrammes} nationally`,
             },
           ].map((metric) => (
             <div key={metric.label} className="text-center">
@@ -213,84 +232,126 @@ export default function ProgrammeDetailPage() {
                 <p className="text-sm leading-relaxed text-ink-muted">{programme.overview}</p>
               </Card>
 
+              {trend.length > 1 ? (
+                <Card className="p-5">
+                  <h3 className="mb-4 font-semibold text-ink">
+                    Cut-off trend {trend[0]?.year} to {trend[trend.length - 1]?.year}
+                  </h3>
+                  <div className="h-[200px] w-full">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <LineChart data={trend}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
+                        <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#475569' }} />
+                        <YAxis
+                          tick={{ fontSize: 12, fill: '#475569' }}
+                          domain={[0, 36]}
+                          reversed
+                          allowDecimals={false}
+                        />
+                        <Tooltip
+                          contentStyle={{ borderRadius: 12, border: '1px solid #E2E8F0', fontSize: 13 }}
+                          formatter={(value) => [`Aggregate ${value}`, 'Cut-off']}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="cutoff"
+                          stroke="#0F766E"
+                          strokeWidth={2.5}
+                          dot={{ fill: '#0F766E', r: 4 }}
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </div>
+                  <p className="mt-2 text-xs text-ink-muted">
+                    Lower aggregate means more competitive.
+                  </p>
+                </Card>
+              ) : (
+                comparison.length > 1 && (
+                  <Card className="p-5">
+                    <h3 className="mb-4 font-semibold text-ink">
+                      How this compares in {programme.faculty}
+                    </h3>
+                    <div className="w-full" style={{ height: Math.max(160, comparison.length * 34) }}>
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={comparison} layout="vertical" margin={{ left: 8, right: 16 }}>
+                          <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" horizontal={false} />
+                          <XAxis
+                            type="number"
+                            domain={[0, 36]}
+                            reversed
+                            tick={{ fontSize: 11, fill: '#475569' }}
+                            allowDecimals={false}
+                          />
+                          <YAxis
+                            type="category"
+                            dataKey="name"
+                            width={130}
+                            tick={{ fontSize: 11, fill: '#475569' }}
+                          />
+                          <Tooltip
+                            contentStyle={{ borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 12 }}
+                            formatter={(value) => [`Aggregate ${value}`, 'Cut-off']}
+                          />
+                          <Bar dataKey="cutoff" radius={[0, 4, 4, 0]}>
+                            {comparison.map((entry) => (
+                              <Cell key={entry.name} fill={entry.isThis ? '#0F766E' : '#CBD5E1'} />
+                            ))}
+                          </Bar>
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                    <p className="mt-2 text-xs text-ink-muted">
+                      A longer bar is a higher aggregate, which is easier to reach. This programme
+                      is highlighted.
+                    </p>
+                  </Card>
+                )
+              )}
+
               <Card className="p-5">
-                <h3 className="mb-4 font-semibold text-ink">
-                  Cut-off Trend ({trend[0]?.year}, {trend[trend.length - 1]?.year})
-                </h3>
-                <div className="h-[200px] w-full">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={trend}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
-                      <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#475569' }} />
-                      <YAxis
-                        tick={{ fontSize: 12, fill: '#475569' }}
-                        domain={[0, 30]}
-                        reversed
-                        allowDecimals={false}
-                      />
-                      <Tooltip
-                        contentStyle={{
-                          borderRadius: 12,
-                          border: '1px solid #E2E8F0',
-                          fontSize: 13,
-                        }}
-                        formatter={(value) => [`Aggregate ${value}`, 'Cut-off']}
-                      />
-                      <Line
-                        type="monotone"
-                        dataKey="cutoff"
-                        stroke="#0F766E"
-                        strokeWidth={2.5}
-                        dot={{ fill: '#0F766E', r: 4 }}
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-                <p className="mt-2 text-xs text-ink-muted">
-                  Lower aggregate means more competitive. Aggregate is the sum of your best six
-                  subjects.
-                </p>
-                <div className="mt-3 border-t border-line pt-3">
-                  <ProvenanceBadge provenance={programme.provenance} detailed />
-                </div>
+                <h3 className="mb-3 font-semibold text-ink">Where this cut-off comes from</h3>
+                <ProvenanceBadge provenance={programme.provenance} detailed />
+                {programme.fees && (
+                  <p className="mt-3 border-t border-line pt-3 text-xs leading-relaxed text-ink-muted">
+                    Fees: {programme.fees.source}. Universities publish a band by college rather
+                    than a figure per programme, so a range is shown for {programme.fees.year}.
+                  </p>
+                )}
               </Card>
             </div>
 
             <div className="space-y-4">
               <Card className="p-4">
-                <h4 className="mb-3 text-sm font-semibold text-ink">Pros</h4>
-                <ul className="space-y-2">
-                  {(programme.pros ?? []).map((pro) => (
-                    <li key={pro} className="flex items-start gap-2 text-sm text-ink-muted">
-                      <CheckCircle
-                        size={14}
-                        className="mt-0.5 shrink-0 text-success"
-                        aria-hidden="true"
-                      />
-                      {pro}
+                <h4 className="mb-3 text-sm font-semibold text-ink">How competitive</h4>
+                <p className="text-sm font-medium text-brand">{describeCompetitiveness(stats)}</p>
+                <ul className="mt-3 space-y-2 text-sm text-ink-muted">
+                  <li className="flex items-start gap-2">
+                    <TrendingUp size={14} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" />
+                    Ranks {stats.nationalRank} of {stats.totalProgrammes} nationally by cut-off
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Building2 size={14} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" />
+                    {stats.universityRank} of {stats.universityTotal} at{' '}
+                    {university?.shortName ?? 'this university'}
+                  </li>
+                  {stats.isMostCompetitiveAtUniversity && (
+                    <li className="flex items-start gap-2">
+                      <CheckCircle size={14} className="mt-0.5 shrink-0 text-success" aria-hidden="true" />
+                      The hardest entry at this university
                     </li>
-                  ))}
+                  )}
+                  {stats.isMostAccessibleAtUniversity && (
+                    <li className="flex items-start gap-2">
+                      <CheckCircle size={14} className="mt-0.5 shrink-0 text-success" aria-hidden="true" />
+                      The most accessible entry at this university
+                    </li>
+                  )}
                 </ul>
               </Card>
 
               <Card className="p-4">
-                <h4 className="mb-3 text-sm font-semibold text-ink">Cons</h4>
-                <ul className="space-y-2">
-                  {(programme.cons ?? []).map((con) => (
-                    <li key={con} className="flex items-start gap-2 text-sm text-ink-muted">
-                      <AlertCircle
-                        size={14}
-                        className="mt-0.5 shrink-0 text-accent"
-                        aria-hidden="true"
-                      />
-                      {con}
-                    </li>
-                  ))}
-                </ul>
-              </Card>
-
-              <Card className="p-4">
-                <h4 className="mb-3 text-sm font-semibold text-ink">Career Paths</h4>
+                <h4 className="mb-3 text-sm font-semibold text-ink">Career paths</h4>
                 <div className="flex flex-wrap gap-2">
                   {(programme.careers ?? []).map((career) => (
                     <Badge key={career} variant="info">
@@ -298,7 +359,32 @@ export default function ProgrammeDetailPage() {
                     </Badge>
                   ))}
                 </div>
+                <p className="mt-3 text-xs text-ink-muted">
+                  Typical destinations for this qualification, not a prediction about any
+                  individual.
+                </p>
               </Card>
+
+              {stats.alternatives.length > 0 && (
+                <Card className="p-4">
+                  <h4 className="mb-3 text-sm font-semibold text-ink">Also offered elsewhere</h4>
+                  <div className="space-y-1">
+                    {stats.alternatives.map((alternative) => (
+                      <Link
+                        key={alternative.id}
+                        to={`/programme/${alternative.id}`}
+                        className="flex items-center justify-between gap-2 rounded-lg px-2 py-1.5 text-sm hover:bg-canvas"
+                      >
+                        <span className="min-w-0 truncate text-ink-muted">
+                          {universityNameOf(alternative)}
+                        </span>
+                        <Badge variant="neutral">{alternative.requirements.minimumAggregate}</Badge>
+                      </Link>
+                    ))}
+                  </div>
+                  <p className="mt-2 text-xs text-ink-muted">Same programme, different cut-offs.</p>
+                </Card>
+              )}
             </div>
           </div>
         )}
@@ -376,13 +462,13 @@ export default function ProgrammeDetailPage() {
                     </div>
                     <div>
                       <div className="text-sm font-medium text-ink">{career}</div>
-                      <div className="text-xs text-ink-muted">{formatSalaryRange(programme)}</div>
+                      <div className="text-xs text-ink-muted">{programme.faculty}</div>
                     </div>
                   </div>
                 ))}
               </div>
               <p className="mt-4 text-xs text-ink-muted">
-                Salary ranges are indicative estimates for orientation, not published figures.
+                Typical destinations for this qualification. Actual roles depend on specialisation, further study and the job market.
               </p>
             </Card>
           </div>

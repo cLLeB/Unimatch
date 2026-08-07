@@ -1,4 +1,4 @@
-import { AlertCircle, CheckCheck, CheckCircle, RotateCcw } from 'lucide-react'
+import { AlertCircle, CheckCheck, CheckCircle, ChevronDown, RotateCcw } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import {
   Bar,
@@ -14,6 +14,7 @@ import Badge from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import { programmes, universityNameOf } from '../data/catalogue'
+import { Link } from 'react-router-dom'
 import { computeAggregate } from '../domain/wassce/aggregate'
 import { evaluate } from '../domain/wassce/eligibility'
 import { fromPoints, toPoints } from '../domain/wassce/grade'
@@ -58,6 +59,7 @@ export default function SimulatorPage() {
   const baseline = state.results ?? DEFAULT_RESULTS
 
   const [draft, setDraft] = useState<StudentResults>(baseline)
+  const [expanded, setExpanded] = useState<string | null>(null)
 
   const baselineAggregate = computeAggregate(baseline).aggregate
   const baselineQualified = useMemo(() => countQualified(baseline), [baseline])
@@ -77,6 +79,25 @@ export default function SimulatorPage() {
   const qualified = evaluated.filter((e) => e.verdict.status === 'qualified')
   const close = evaluated.filter((e) => e.verdict.status === 'close-match')
   const delta = qualified.length - baselineQualified
+
+  /** Qualifying programmes bucketed by university, biggest group first. */
+  const grouped = useMemo(() => {
+    const buckets = new Map<string, typeof programmes>()
+    for (const { programme } of qualified) {
+      const bucket = buckets.get(programme.universityId) ?? []
+      bucket.push(programme)
+      buckets.set(programme.universityId, bucket)
+    }
+    return [...buckets.entries()]
+      .map(([universityId, items]) => ({
+        universityId,
+        name: universityNameOf(items[0]!),
+        items: [...items].sort(
+          (a, b) => a.requirements.minimumAggregate - b.requirements.minimumAggregate,
+        ),
+      }))
+      .sort((a, b) => b.items.length - a.items.length)
+  }, [qualified])
 
   const chartData = useMemo(
     () =>
@@ -287,24 +308,72 @@ export default function SimulatorPage() {
             </div>
 
             <Card className="p-5">
-              <div className="mb-3 text-sm font-semibold text-ink">
-                Eligible with aggregate {simulated ?? ', '}
+              <div className="mb-1 text-sm font-semibold text-ink">
+                Eligible with aggregate {simulated ?? '-'}
               </div>
-              <div className="space-y-2">
-                {qualified.map(({ programme }) => (
-                  <div
-                    key={programme.id}
-                    className="flex items-center justify-between border-b border-slate-100 py-2 last:border-0"
-                  >
-                    <div>
-                      <div className="text-sm font-medium text-ink">{programme.name}</div>
-                      <div className="text-xs text-ink-muted">{universityNameOf(programme)}</div>
-                    </div>
-                    <Badge variant="success">Agg. {programme.requirements.minimumAggregate}</Badge>
-                  </div>
-                ))}
+              <p className="mb-3 text-xs text-ink-muted">
+                Grouped by university. Tap one to see its programmes.
+              </p>
 
-                {qualified.length === 0 && (
+              {/*
+                448 programmes in a single scrolling column is unusable. Grouping
+                by university turns it into a short list of institutions, opened
+                one at a time.
+              */}
+              <div className="space-y-1.5">
+                {grouped.map(({ universityId, name, items }) => {
+                  const open = expanded === universityId
+                  return (
+                    <div key={universityId} className="rounded-xl border border-line">
+                      <button
+                        type="button"
+                        aria-expanded={open}
+                        onClick={() => setExpanded(open ? null : universityId)}
+                        className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left"
+                      >
+                        <span className="flex min-w-0 items-center gap-2">
+                          <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-brand/10 text-[0.625rem] font-bold text-brand">
+                            {name.charAt(0)}
+                          </span>
+                          <span className="truncate text-sm font-medium text-ink">{name}</span>
+                        </span>
+                        <span className="flex shrink-0 items-center gap-2">
+                          <Badge variant="success">{items.length}</Badge>
+                          <ChevronDown
+                            size={14}
+                            aria-hidden="true"
+                            className={`text-ink-muted transition-transform ${open ? 'rotate-180' : ''}`}
+                          />
+                        </span>
+                      </button>
+
+                      {open && (
+                        <ul className="border-t border-line px-3 py-2">
+                          {items.slice(0, 12).map((programme) => (
+                            <li key={programme.id}>
+                              <Link
+                                to={`/programme/${programme.id}`}
+                                className="flex items-center justify-between gap-2 rounded-lg px-1 py-1.5 text-sm hover:bg-canvas"
+                              >
+                                <span className="min-w-0 truncate text-ink">{programme.name}</span>
+                                <Badge variant="neutral">
+                                  {programme.requirements.minimumAggregate}
+                                </Badge>
+                              </Link>
+                            </li>
+                          ))}
+                          {items.length > 12 && (
+                            <li className="px-1 pt-1 text-xs text-ink-muted">
+                              and {items.length - 12} more at this university
+                            </li>
+                          )}
+                        </ul>
+                      )}
+                    </div>
+                  )
+                })}
+
+                {grouped.length === 0 && (
                   <p className="py-4 text-center text-sm text-ink-muted">
                     No programmes at this aggregate yet. Drag a slider towards A1 to see what opens
                     up.

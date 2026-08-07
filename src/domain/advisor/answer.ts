@@ -4,7 +4,7 @@ import { CLOSE_MATCH_MARGIN, describeShortfall, evaluate } from '../wassce/eligi
 import { describePlan, improvementsToQualify } from '../wassce/inverse'
 import { computeAggregate } from '../wassce/aggregate'
 import type { StudentResults } from '../wassce/types'
-import { parseIntent, type Intent } from './intent'
+import { parseIntent, type AdvisorMemory, type Intent } from './intent'
 
 export interface Answer {
   text: string
@@ -12,12 +12,16 @@ export interface Answer {
   programmeIds: string[]
   /** Suggested next questions. */
   followUps: string[]
+  /** Carried into the next turn so "what about KNUST?" resolves. */
+  memory?: AdvisorMemory
 }
 
 export interface AdvisorContext {
   catalogue: Catalogue
   results: StudentResults | null
   now?: Date
+  /** What the previous turn was about. */
+  memory?: AdvisorMemory
 }
 
 function universityName(catalogue: Catalogue, programme: Programme): string {
@@ -592,6 +596,111 @@ function answerByTrack(ctx: AdvisorContext, track: 'distance' | 'fee-paying'): A
   }
 }
 
+function answerGreeting(ctx: AdvisorContext): Answer {
+  return {
+    text: `Hello. I can look up any of the ${ctx.catalogue.programmes.length} programmes I hold across ${ctx.catalogue.universities.length} Ghanaian universities: cut-off points, entry requirements, where a subject is taught, and what your own grades reach. Ask in your own words.`,
+    programmeIds: [],
+    followUps: DEFAULT_FOLLOW_UPS,
+  }
+}
+
+function answerHelp(ctx: AdvisorContext): Answer {
+  return {
+    text:
+      `I answer from the catalogue rather than guessing, so everything I say can be traced to a source. I can tell you: ` +
+      `the cut-off for a named programme; every university that teaches a subject; what a named university offers; ` +
+      `what your grades qualify you for and what would change the ones they do not; which entries are most accessible; ` +
+      `and which deadlines are closing. I hold ${ctx.catalogue.programmes.length} programmes, including distance and fee-paying intakes.`,
+    programmeIds: [],
+    followUps: DEFAULT_FOLLOW_UPS,
+  }
+}
+
+function answerAcknowledgement(): Answer {
+  return {
+    text: 'Happy to help. Ask me anything else about programmes, cut-offs or deadlines.',
+    programmeIds: [],
+    followUps: DEFAULT_FOLLOW_UPS,
+  }
+}
+
+/** One programme: its cut-off, requirements and where the figure came from. */
+function answerProgrammeDetail(ctx: AdvisorContext, query: string): Answer {
+  const matches = findProgrammes(ctx.catalogue, query, 4)
+  if (matches.length === 0) {
+    return {
+      text: `I could not find a programme matching "${query}". Try the full name, for example "Computer Science" or "Nursing".`,
+      programmeIds: [],
+      followUps: DEFAULT_FOLLOW_UPS,
+    }
+  }
+
+  const programme = matches[0]!
+  const requirements = [
+    ...programme.requirements.coreSubjects,
+    ...programme.requirements.electiveSubjects,
+  ].map((r) => `${[r.subject, ...(r.alternatives ?? [])].join(' or ')} at ${r.minimumGrade}`)
+
+  const others =
+    matches.length > 1
+      ? ` It is also offered at ${list(matches.slice(1).map((p) => `${universityName(ctx.catalogue, p)} (${p.requirements.minimumAggregate})`))}.`
+      : ''
+
+  const verdictLine = ctx.results
+    ? (() => {
+        const verdict = evaluate(programme.requirements, ctx.results!)
+        if (verdict.status === 'qualified') return ' You currently meet its requirements.'
+        if (verdict.status === 'incomplete') return ''
+        return ` ${describePlan(improvementsToQualify(programme.requirements, ctx.results!), programme.name)}`
+      })()
+    : ''
+
+  return {
+    text:
+      `${label(ctx.catalogue, programme)} has a cut-off of ${programme.requirements.minimumAggregate} ${provenanceNote(programme)}. ` +
+      `It is a ${programme.durationYears}-year ${programme.degreeType}${requirements.length ? `, requiring ${list(requirements)}` : ''}.` +
+      others +
+      verdictLine,
+    programmeIds: matches.map((p) => p.id),
+    followUps: [
+      `Where else can I study ${programme.name}?`,
+      `What grades do I need for ${programme.name}?`,
+      'Which deadlines are closing soon?',
+    ],
+    memory: { lastProgrammeId: programme.id, lastUniversityId: programme.universityId },
+  }
+}
+
+/**
+ * Last resort before declining: the text may simply be a programme or
+ * university name with no question around it.
+ */
+function answerUnknown(ctx: AdvisorContext, text: string): Answer {
+  const needle = text.trim().toLowerCase()
+
+  /*
+   * A university name has to be tested first. Programme matching scores against
+   * "<programme> <university>", so a bare "KNUST" would otherwise resolve to an
+   * arbitrary programme taught there rather than the institution.
+   */
+  const exactUniversity = ctx.catalogue.universities.find(
+    (u) => u.shortName.toLowerCase() === needle || u.name.toLowerCase() === needle,
+  )
+  if (exactUniversity) return answerUniversityProgrammes(ctx, text)
+
+  const programme = findProgrammes(ctx.catalogue, text, 1)[0]
+  if (programme) return answerProgrammeDetail(ctx, text)
+
+  const university = findUniversity(ctx.catalogue, text)
+  if (university) return answerUniversityProgrammes(ctx, text)
+
+  return {
+    text: `I could not match "${text}" to a programme or university in the ${ctx.catalogue.programmes.length} I hold, and I would rather say so than guess. Try a programme name, a university, or one of these:`,
+    programmeIds: [],
+    followUps: DEFAULT_FOLLOW_UPS,
+  }
+}
+
 /** Answer a parsed intent. Exported for direct testing. */
 export function answerIntent(ctx: AdvisorContext, intent: Intent): Answer {
   switch (intent.kind) {
@@ -621,16 +730,37 @@ export function answerIntent(ctx: AdvisorContext, intent: Intent): Answer {
       return answerWhereToStudy(ctx, intent.programmeQuery)
     case 'by-track':
       return answerByTrack(ctx, intent.track)
+    case 'programme-detail':
+      return answerProgrammeDetail(ctx, intent.programmeQuery)
+    case 'greeting':
+      return answerGreeting(ctx)
+    case 'help':
+      return answerHelp(ctx)
+    case 'acknowledgement':
+      return answerAcknowledgement()
     case 'unknown':
-      return {
-        text: `I can only answer from the ${ctx.catalogue.programmes.length} programmes I hold, so I would rather not guess at that. Try one of these:`,
-        programmeIds: [],
-        followUps: DEFAULT_FOLLOW_UPS,
-      }
+      return answerUnknown(ctx, intent.text)
   }
 }
 
-/** Parse and answer in one step. */
+/**
+ * Parse and answer in one step, carrying memory forward.
+ *
+ * The returned `memory` should be handed back on the next call so short
+ * follow-ups like "what about KNUST?" resolve against what was just discussed.
+ */
 export function ask(ctx: AdvisorContext, question: string): Answer {
-  return answerIntent(ctx, parseIntent(question))
+  const intent = parseIntent(question, ctx.memory)
+  const answer = answerIntent(ctx, intent)
+
+  return {
+    ...answer,
+    memory: {
+      lastIntent: intent.kind,
+      ...ctx.memory,
+      ...answer.memory,
+      // The current turn's intent always wins over the carried-forward one.
+      ...(intent.kind !== 'acknowledgement' ? { lastIntent: intent.kind } : {}),
+    },
+  }
 }

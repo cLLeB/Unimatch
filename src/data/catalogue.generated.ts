@@ -200,6 +200,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -249,6 +263,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -294,6 +322,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -343,6 +385,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -383,6 +439,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -423,6 +493,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Management and Entrepreneurship is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -472,6 +556,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 35000,
+      "fees": {
+        "minGhs": 28000,
+        "maxGhs": 42000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -521,6 +619,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Biomedical Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 11000,
+      "fees": {
+        "minGhs": 9000,
+        "maxGhs": 13000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -561,6 +673,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at All Nations University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -606,6 +732,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 11000,
+      "fees": {
+        "minGhs": 9000,
+        "maxGhs": 13000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -655,6 +795,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Electronics and Communication Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 11000,
+      "fees": {
+        "minGhs": 9000,
+        "maxGhs": 13000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -704,6 +858,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at All Nations University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 12000,
+      "fees": {
+        "minGhs": 10000,
+        "maxGhs": 14000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -744,6 +912,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Theology is a 4-year BA programme at All Nations University, offered through the Faculty of Theology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -784,6 +966,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -833,6 +1029,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -878,6 +1088,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -923,6 +1147,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Economics is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -972,6 +1210,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1012,6 +1264,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Law with Public Policy is a 4-year LLB programme at Ashesi University, offered through the Faculty of Humanities and Social Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1052,6 +1318,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Management Information Systems is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1101,6 +1381,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1150,6 +1444,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Mechatronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 57500,
+      "fees": {
+        "minGhs": 50000,
+        "maxGhs": 65000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1190,6 +1498,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting with Computing is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1239,6 +1561,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Civil Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 3400,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 4000,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1279,6 +1615,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1328,6 +1678,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 3400,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 4000,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1368,6 +1732,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Fashion Design and Textiles is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Arts. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1408,6 +1786,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Hospitality Management is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1448,6 +1840,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Hospitality Management is a 2-year Diploma programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1488,6 +1894,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Marketing is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1537,6 +1957,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Mechanical Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 3400,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 4000,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1577,6 +2011,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Statistics is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Statistician",
+        "Data Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2400,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -1617,6 +2065,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Economics and Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 7000,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 8500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1662,6 +2124,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Economics is a 4-year BA programme at Catholic University of Ghana, offered through the Faculty of Economics and Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 7000,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 8500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1702,6 +2178,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Education is a 4-year B.Ed programme at Catholic University of Ghana, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 7000,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 8500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1742,6 +2232,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 7000,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 8500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1791,6 +2295,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 11000,
+      "fees": {
+        "minGhs": 9000,
+        "maxGhs": 13000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1831,6 +2349,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Religious Studies is a 4-year BA programme at Catholic University of Ghana, offered through the Faculty of Religious Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 7000,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 8500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1876,6 +2408,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1916,6 +2462,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Banking and Finance is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1956,6 +2516,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -1997,6 +2571,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Central University by distance learning, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5400,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6600,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2037,6 +2625,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Communication Studies is a 4-year BA programme at Central University, offered through the Faculty of Arts and Social Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2077,6 +2679,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Human Resource Management is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2117,6 +2733,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Central University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2157,6 +2787,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Law is a 4-year LLB programme at Central University, offered through the Faculty of Law. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2197,6 +2841,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Marketing is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2246,6 +2904,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2295,6 +2967,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Pharmacy is a 6-year PharmD programme at Central University, offered through the School of Pharmacy. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2340,6 +3026,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Physician Assistantship is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Physician Assistant",
+        "Clinical Officer",
+        "Primary Care Provider"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2380,6 +3080,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Theology is a 4-year BA programme at Central University, offered through the School of Theology, Mission and Leadership. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 11000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2425,6 +3139,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2465,6 +3193,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2510,6 +3252,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2550,6 +3306,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Cybersecurity is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2599,6 +3369,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 10000,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 12000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2639,6 +3423,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2680,6 +3478,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Ghana Communication Technology University by distance learning, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 4950,
+      "fees": {
+        "minGhs": 3900,
+        "maxGhs": 6000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2729,6 +3541,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Telecommunications Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 10000,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 12000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -2774,6 +3600,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Actuarial Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Actuary",
+        "Risk Analyst",
+        "Pensions Consultant"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -2823,6 +3663,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Aerospace Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 10 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Aerospace Engineer",
+        "Avionics Engineer",
+        "Maintenance Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -2863,6 +3717,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agribusiness Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -2903,6 +3771,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agricultural Biotechnology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Biochemist",
+        "Research Scientist",
+        "Laboratory Analyst"
+      ],
+      "annualFeesGhs": 4200,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -2948,6 +3830,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agricultural Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 23 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -2988,6 +3884,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agriculture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 4200,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3028,6 +3938,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Akan is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3068,6 +3992,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Aquaculture and Water Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3108,6 +4046,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Architecture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
+      "careers": [
+        "Architect",
+        "Design Consultant",
+        "Urban Designer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3157,6 +4109,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Biochemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3202,6 +4168,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Biological Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3251,6 +4231,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Biomedical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Biomedical Engineer",
+        "Clinical Engineer",
+        "Medical Device Specialist"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3291,6 +4285,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the KNUST School of Business. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3340,6 +4348,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Chemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
+      "careers": [
+        "Process Engineer",
+        "Petroleum Engineer",
+        "Plant Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3385,6 +4407,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Chemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3434,6 +4470,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Civil Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3474,6 +4524,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Communication Design (Graphic Design) is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3523,6 +4587,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Computer Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3568,6 +4646,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3608,6 +4700,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Construction Technology and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3648,6 +4754,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Culture and Tourism is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Hotel Manager",
+        "Tourism Officer",
+        "Events Coordinator"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3688,6 +4808,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Dairy and Meat Science and Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3738,6 +4872,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Dental Surgery is a 6-year BDS programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dentist",
+        "Oral Surgeon",
+        "Dental Public Health Officer"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3778,6 +4926,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Development Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Urban Planner",
+        "Development Planner",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3818,6 +4980,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Disability and Rehabilitation Studies is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Rehabilitation Officer",
+        "Disability Services Coordinator",
+        "Case Manager"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3858,6 +5034,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Economics is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3907,6 +5097,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3947,6 +5151,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "English is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -3987,6 +5205,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Environmental Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4032,6 +5264,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Food Science and Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4072,6 +5318,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Forest Resources Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 4200,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4112,6 +5372,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "French is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4152,6 +5426,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Geography and Rural Development is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "GIS Analyst",
+        "Planning Officer",
+        "Environmental Consultant"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4197,6 +5485,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Geological Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4242,6 +5544,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Geomatic (Geodetic) Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4291,6 +5607,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Herbal Medicine is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Herbal Medicine Practitioner",
+        "Product Development Officer",
+        "Regulatory Officer"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4331,6 +5661,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "History is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Researcher",
+        "Heritage Officer",
+        "Educator"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4384,6 +5728,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Human Biology (Medicine) is a 6-year MBChB programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4424,6 +5782,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Human Settlement Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Urban Planner",
+        "Development Planner",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4464,6 +5836,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Industrial Art is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4504,6 +5890,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Integrated Rural Art and Industry is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4544,6 +5944,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Land Economy is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
+      "careers": [
+        "Estate Surveyor",
+        "Property Valuer",
+        "Land Administrator"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4584,6 +5998,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Landscape Design and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4624,6 +6052,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Law is a 4-year LLB programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Law. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5750,
+      "fees": {
+        "minGhs": 4500,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4669,6 +6111,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Materials Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4714,6 +6170,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 23 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4763,6 +6233,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4812,6 +6296,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Medical Laboratory Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4857,6 +6355,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Metallurgical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4902,6 +6414,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Meteorology and Climate Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4947,6 +6473,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Midwifery is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Midwife",
+        "Maternal Health Officer",
+        "Community Health Officer"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -4987,6 +6527,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Natural Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5250,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5036,6 +6590,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5085,6 +6653,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Optometry is a 6-year OD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
+      "careers": [
+        "Optometrist",
+        "Vision Care Specialist",
+        "Ophthalmic Officer"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5125,6 +6707,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Painting and Sculpture is a 4-year BFA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5174,6 +6770,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Petrochemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
+      "careers": [
+        "Process Engineer",
+        "Petroleum Engineer",
+        "Plant Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5223,6 +6833,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Petroleum Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Process Engineer",
+        "Petroleum Engineer",
+        "Plant Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5272,6 +6896,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Pharmacy is a 6-year PharmD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5321,6 +6959,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Physics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5361,6 +7013,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Political Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Policy Analyst",
+        "Public Administrator",
+        "Diplomat"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5401,6 +7067,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Post Harvest Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 4200,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5441,6 +7121,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Publishing Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5481,6 +7175,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Quantity Surveying and Construction Economics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5521,6 +7229,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Real Estate Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Estate Surveyor",
+        "Property Valuer",
+        "Land Administrator"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5561,6 +7283,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Religious Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5601,6 +7337,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Social Work is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Social Worker",
+        "Community Development Officer",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5641,6 +7391,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Sociology is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Social Worker",
+        "Community Development Officer",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5691,6 +7455,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Sonography is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5731,6 +7509,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Sports and Exercise Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Sports Scientist",
+        "Coach",
+        "Physical Education Teacher"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5776,6 +7568,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Statistics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Statistician",
+        "Data Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5825,6 +7631,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Telecommunication Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5874,6 +7694,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Veterinary Medicine is a 6-year DVM programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Veterinary Surgeon",
+        "Livestock Health Officer",
+        "Animal Research Scientist"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
       }
     },
     {
@@ -5919,6 +7753,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -5959,6 +7807,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6004,6 +7866,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Economics is a 4-year BA programme at Methodist University Ghana, offered through the Faculty of Social Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6044,6 +7920,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Human Resource Management is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6084,6 +7974,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6133,6 +8037,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 11750,
+      "fees": {
+        "minGhs": 9500,
+        "maxGhs": 14000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6173,6 +8091,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Sociology is a 4-year BA programme at Methodist University Ghana, offered through the Faculty of Social Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Social Worker",
+        "Community Development Officer",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 7500,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6218,6 +8150,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6258,6 +8204,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Banking and Finance is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6298,6 +8258,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6343,6 +8317,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Pentecost University, offered through the Faculty of Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6383,6 +8371,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Pentecost University, offered through the Faculty of Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6423,6 +8425,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Law is a 4-year LLB programme at Pentecost University, offered through the Faculty of Law. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 11000,
+      "fees": {
+        "minGhs": 9000,
+        "maxGhs": 13000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6472,6 +8488,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Pentecost University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 12500,
+      "fees": {
+        "minGhs": 10000,
+        "maxGhs": 15000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6512,6 +8542,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Theology is a 4-year BA programme at Pentecost University, offered through the Faculty of Theology and Ministry. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6557,6 +8601,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6597,6 +8655,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6642,6 +8714,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6682,6 +8768,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6722,6 +8822,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Theology is a 4-year BA programme at Regent University College of Science and Technology, offered through the School of Theology and Ministry. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -6767,6 +8881,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Accounting is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -6808,6 +8936,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Accounting is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 2000,
+      "fees": {
+        "minGhs": 1700,
+        "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -6853,6 +8995,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Actuarial Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Actuary",
+        "Risk Analyst",
+        "Pensions Consultant"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -6893,6 +9049,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "African Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Researcher",
+        "Heritage Officer",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -6933,6 +9103,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agri-Business is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -6973,6 +9157,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agricultural Extension and Community Development is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7013,6 +9211,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agriculture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7053,6 +9265,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Agro-Processing is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7093,6 +9319,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Anthropology is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Researcher",
+        "Heritage Officer",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7133,6 +9373,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Applied Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7173,6 +9427,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Arts is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7214,6 +9482,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Arts is a 4-year BA programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7254,6 +9536,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Arts Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Humanities and Social Sciences Education. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7294,6 +9590,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Basic Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7335,6 +9645,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Basic Education is a 4-year B.Ed programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 28 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7376,6 +9700,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Basic Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7425,6 +9763,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Biochemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7474,6 +9826,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Biomedical Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7515,6 +9881,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Business Administration is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2000,
+      "fees": {
+        "minGhs": 1700,
+        "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7560,6 +9940,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7600,6 +9994,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Chinese is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7640,6 +10048,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Commerce is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7681,6 +10103,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Commerce is a 4-year BCom programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2000,
+      "fees": {
+        "minGhs": 1700,
+        "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7722,6 +10158,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Commerce is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2000,
+      "fees": {
+        "minGhs": 1700,
+        "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7762,6 +10212,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Communication Design Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7802,6 +10266,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Communication Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7847,6 +10325,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Community Health Nursing is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7892,6 +10384,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7937,6 +10443,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Computer Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -7982,6 +10502,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Conservation Biology and Entomology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8022,6 +10556,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Construction Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8062,6 +10610,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Dance is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8102,6 +10664,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Development Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8147,6 +10723,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Diagnostic Imaging Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8192,6 +10782,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Diagnostic Medical Sonography is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8241,6 +10845,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Dietetics is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8281,6 +10899,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Early Childhood Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8322,6 +10954,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Early Childhood Education is a 4-year B.Ed programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 28 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8363,6 +11009,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Early Childhood Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8408,6 +11068,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Economics is a 4-year BA programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8453,6 +11127,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Economics with Finance is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8493,6 +11181,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Education is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8534,6 +11236,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8583,6 +11299,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Engineering Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8628,6 +11358,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "English is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8668,6 +11412,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Environmental Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8708,6 +11466,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Film Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8748,6 +11520,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Finance is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8788,6 +11574,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Fine Art Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8833,6 +11633,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Fisheries and Aquatic Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8882,6 +11696,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Forensic Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8927,6 +11755,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "French is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need French at C6.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -8967,6 +11809,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Geography is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "GIS Analyst",
+        "Planning Officer",
+        "Environmental Consultant"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9007,6 +11863,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Geography and Regional Planning is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Urban Planner",
+        "Development Planner",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9047,6 +11917,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Health Information Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Health Information Manager",
+        "Clinical Data Analyst",
+        "Records Officer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9087,6 +11971,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Health, Physical Education and Recreation is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9127,6 +12025,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Health Sciences Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9172,6 +12084,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "History is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need History at C6.",
+      "careers": [
+        "Researcher",
+        "Heritage Officer",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9212,6 +12138,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Home Economics Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9252,6 +12192,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Horticulture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9292,6 +12246,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Hospitality Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9332,6 +12300,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Human Resource Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9377,6 +12359,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Industrial Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9417,6 +12413,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9458,6 +12468,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 2150,
+      "fees": {
+        "minGhs": 1800,
+        "maxGhs": 2500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9499,6 +12523,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Information Technology is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 2150,
+      "fees": {
+        "minGhs": 1800,
+        "maxGhs": 2500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9539,6 +12577,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Information Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9579,6 +12631,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Junior High School Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9620,6 +12686,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Junior High School Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9660,6 +12740,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Laboratory Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9701,6 +12795,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Labour Policy Studies is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9741,6 +12849,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Law is a 4-year LLB programme at University of Cape Coast, offered through the Faculty of Law. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 3800,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9781,6 +12903,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Linguistics is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9821,6 +12957,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9862,6 +13012,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Management Studies is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2000,
+      "fees": {
+        "minGhs": 1700,
+        "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9902,6 +13066,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Marketing is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9947,6 +13125,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -9992,6 +13184,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics and Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Statistician",
+        "Data Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10037,6 +13243,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10078,6 +13298,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 2150,
+      "fees": {
+        "minGhs": 1800,
+        "maxGhs": 2500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10123,6 +13357,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics with Business is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10168,6 +13416,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Mathematics with Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10217,6 +13479,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Medical Laboratory Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10270,6 +13546,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Medicine is a 6-year MBChB programme at University of Cape Coast, offered through the School of Medical Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 9000,
+      "fees": {
+        "minGhs": 7500,
+        "maxGhs": 10500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10315,6 +13605,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Meteorology and Atmospheric Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10360,6 +13664,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Midwifery is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10405,6 +13723,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Molecular Biology and Biotechnology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Biochemist",
+        "Research Scientist",
+        "Laboratory Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10445,6 +13777,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Music is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10494,6 +13840,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Nursing is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10543,6 +13903,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Nutrition is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10592,6 +13966,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Optometry is a 6-year OD programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
+      "careers": [
+        "Optometrist",
+        "Vision Care Specialist",
+        "Ophthalmic Officer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10641,6 +14029,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Pharmacy is a 6-year PharmD programme at University of Cape Coast, offered through the School of Pharmacy. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10686,6 +14088,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Physician Assistant Studies is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Physician Assistant",
+        "Clinical Officer",
+        "Primary Care Provider"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10731,6 +14147,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10776,6 +14206,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Physiotherapy is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Therapist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10816,6 +14260,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Political Science is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Policy Analyst",
+        "Public Administrator",
+        "Diplomat"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10856,6 +14314,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Population and Health is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Health Professional",
+        "Clinical Officer",
+        "Public Health Officer"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10896,6 +14368,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Primary Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10936,6 +14422,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Procurement and Supply Chain Management is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Procurement Officer",
+        "Supply Chain Analyst",
+        "Logistics Manager"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -10976,6 +14476,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Psychology is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Counselling Psychologist",
+        "HR Officer",
+        "Research Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11017,6 +14531,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Psychology is a 4-year BA programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 1700,
+      "fees": {
+        "minGhs": 1500,
+        "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11057,6 +14585,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Religious Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11097,6 +14639,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11137,6 +14693,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Social Behaviour and Conflict Management is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11177,6 +14747,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Social Sciences is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11217,6 +14801,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Sociology is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Social Worker",
+        "Community Development Officer",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11257,6 +14855,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Sport and Exercise Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Sports Scientist",
+        "Coach",
+        "Physical Education Teacher"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11302,6 +14914,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Statistician",
+        "Data Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11342,6 +14968,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Theatre Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11382,6 +15022,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Tourism Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11422,6 +15076,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Water and Sanitation is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
       }
     },
     {
@@ -11467,6 +15135,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11507,6 +15189,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agribusiness is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11547,6 +15243,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agricultural Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11587,6 +15297,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11627,6 +15351,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Agricultural Economics and Extension) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11667,6 +15405,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Agronomy) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11707,6 +15459,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Animal Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11747,6 +15513,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Biotechnology) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Biochemist",
+        "Research Scientist",
+        "Laboratory Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11787,6 +15567,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Horticulture) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11827,6 +15621,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Mechanization and Irrigation) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11867,6 +15675,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture Technology (Soil Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11912,6 +15734,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Aquaculture and Fisheries Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Natural Resource Manager",
+        "Conservation Officer",
+        "Environmental Consultant"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11952,6 +15788,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Arabic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -11992,6 +15842,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Banking and Finance is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12032,6 +15896,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Basic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12081,6 +15959,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Biotechnology and Molecular Biology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Biochemist",
+        "Research Scientist",
+        "Laboratory Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12121,6 +16013,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 2-year Diploma programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12161,6 +16067,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Information Systems is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12201,6 +16121,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Studies Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12246,6 +16180,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Chemical Science and Technology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Process Engineer",
+        "Petroleum Engineer",
+        "Plant Engineer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12295,6 +16243,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Community Nutrition is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12340,6 +16302,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computing Mathematics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12380,6 +16356,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Development Education Studies is a 4-year BA programme at University for Development Studies, offered through the Faculty of Sustainable Development Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12420,6 +16410,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Early Childhood Care and Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12460,6 +16464,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Ecotourism and Hospitality Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12509,6 +16527,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Engineering Physics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12549,6 +16581,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Environmental Management and Sustainability is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12589,6 +16635,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Family and Consumer Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12629,6 +16689,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Family and Consumer Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12674,6 +16748,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Finance and Economics is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Financial Analyst",
+        "Banker",
+        "Investment Officer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12714,6 +16802,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Food Systems is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12763,6 +16865,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Forensic Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Forensic Scientist",
+        "Crime Laboratory Analyst",
+        "Investigator"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12803,6 +16919,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Forest Resource Conservation and Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12843,6 +16973,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Health Information Management is a 4-year BSc programme at University for Development Studies, offered through the School of Public Health. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12883,6 +17027,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Human Resource Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12923,6 +17081,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Marketing is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -12968,6 +17140,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Medical Imaging Technology is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13021,6 +17207,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Medicine is a 6-year MBChB programme at University for Development Studies, offered through the School of Medicine. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13070,6 +17270,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Microbiology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Biochemist",
+        "Research Scientist",
+        "Laboratory Analyst"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13115,6 +17329,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nurse Practitioner is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13160,6 +17388,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Paediatric Nursing is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13200,6 +17442,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Procurement Officer",
+        "Supply Chain Analyst",
+        "Logistics Manager"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13240,6 +17496,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Public Administration is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13280,6 +17550,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Renewable Natural Resources is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Environmental Officer",
+        "Sustainability Analyst",
+        "Climate Researcher"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13320,6 +17604,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Social Change Communication is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Communication and Media Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13360,6 +17658,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Social Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2900,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -13407,6 +17719,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Accounting Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 15,
         "female": 16
@@ -13450,6 +17776,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Arabic Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Foreign Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -13495,6 +17835,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Art Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13539,6 +17893,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Automotive Technology Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Technical Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Design Engineer"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13582,6 +17950,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Basic Education is a 4-year B.Ed programme at University of Education, Winneba, offered through the Faculty of Educational Studies. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -13632,6 +18014,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "English Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13675,6 +18071,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Ewe Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -13725,6 +18135,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "French Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Foreign Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need French at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13768,6 +18192,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Ga and Dangme Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -13813,6 +18251,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Ghanaian Languages Education (Dagaare, Dagbani, Gonja, Gurune, Kasem, Kusaal) is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13856,6 +18308,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Ghanaian Languages Education (Fante, Nzema, Twi) is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2700,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -13901,6 +18367,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Graphic Design is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -13944,6 +18424,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Health Administration and Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 24,
@@ -13989,6 +18483,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Information and Communication Technology Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 36,
         "female": 36
@@ -14032,6 +18540,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Management Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -14078,6 +18600,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Political Science Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 17,
         "female": 18
@@ -14121,6 +18657,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Secretarial Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -14166,6 +18716,20 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "overview": "Social Studies Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      },
       "cutoffByGender": {
         "male": 22,
         "female": 22
@@ -14209,6 +18773,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
+      },
+      "overview": "Theatre Arts is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2800,
+      "fees": {
+        "minGhs": 2200,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       },
       "cutoffByGender": {
         "male": 36,
@@ -14256,6 +18834,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Actuarial Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Actuary",
+        "Risk Analyst",
+        "Pensions Consultant"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14301,6 +18893,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Actuarial Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Actuary",
+        "Risk Analyst",
+        "Pensions Consultant"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14339,6 +18945,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Administration is a 4-year BSc programme at University of Ghana, offered through the Business School. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14377,6 +18997,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Administration is a 4-year BSc programme at University of Ghana at the city campus, offered through the Accra City Campus. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14417,6 +19051,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Administration is a 4-year BSc programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2900,
+        "maxGhs": 3700,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14457,6 +19105,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Administration is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the Business School. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14495,6 +19157,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Administration (Kumasi and Takoradi City Campuses) is a 4-year BSc programme at University of Ghana at the city campus, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14538,6 +19214,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Agricultural Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14583,6 +19273,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Agricultural Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14621,6 +19325,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Agriculture Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14659,6 +19377,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arabic Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14697,6 +19429,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts (Bouquets with Business subject) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14737,6 +19483,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts (Bouquets with Business subject) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5500,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6200,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14775,6 +19535,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts (Business, Science or Vocational background) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14813,6 +19587,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts is a 4-year BA programme at University of Ghana at the city campus, offered through the Accra City Campus. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14853,6 +19641,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts is a 4-year BA programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14891,6 +19693,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts (General Arts background) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14931,6 +19747,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Arts (General Arts background) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -14969,6 +19799,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Biological Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15009,6 +19853,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Biological Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15052,6 +19910,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Biomedical Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Biomedical Engineer",
+        "Clinical Engineer",
+        "Medical Device Specialist"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15097,6 +19969,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Biomedical Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Biomedical Engineer",
+        "Clinical Engineer",
+        "Medical Device Specialist"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15140,6 +20026,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15185,6 +20085,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Computer Engineer",
+        "Network Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15228,6 +20142,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15271,6 +20199,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Science Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C4.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15316,6 +20258,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Science Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C4.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15361,6 +20317,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15412,6 +20382,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Consumer Sciences Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Management in Living at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15465,6 +20449,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Consumer Sciences Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Management in Living at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15503,6 +20501,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Dental Surgery is a 6-year BDS programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Dentist",
+        "Oral Surgeon",
+        "Dental Public Health Officer"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15541,6 +20553,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Diagnostic Radiography is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15579,6 +20605,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Dietetics is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15622,6 +20662,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Earth Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15667,6 +20721,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Earth Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15705,6 +20773,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (Early Grade Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15745,6 +20827,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (Early Grade Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15783,6 +20879,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (JHS Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15823,6 +20933,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (JHS Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15861,6 +20985,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (Upper Grade Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15901,6 +21039,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Education (Upper Grade Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15944,6 +21096,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "English Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -15987,6 +21153,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Family and Consumer Sciences (Family and Child Studies) is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Management in Living at C6.",
+      "careers": [
+        "Consumer Sciences Officer",
+        "Food Service Manager",
+        "Textiles Specialist"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16032,6 +21212,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Family and Consumer Sciences (Family and Child Studies) is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Management in Living at C6.",
+      "careers": [
+        "Consumer Sciences Officer",
+        "Food Service Manager",
+        "Textiles Specialist"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16075,6 +21269,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Family and Consumer Sciences (Food and Clothing) is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Consumer Sciences Officer",
+        "Food Service Manager",
+        "Textiles Specialist"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16115,6 +21323,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Fine Arts is a 4-year BFA programme at University of Ghana, offered through the School of Performing Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16156,6 +21378,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Fine Arts is a 4-year BFA programme at University of Ghana on the full-fee-paying track, offered through the School of Performing Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16199,6 +21435,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Food Process Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Engineer",
+        "Project Manager",
+        "Technical Consultant"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16244,6 +21494,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Food Process Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Engineer",
+        "Project Manager",
+        "Technical Consultant"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16287,6 +21551,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "French Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need French at C6.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16325,6 +21603,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Information and Communication Technology Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16365,6 +21657,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Information and Communication Technology Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16403,6 +21709,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16443,6 +21763,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 3400,
+      "fees": {
+        "minGhs": 2950,
+        "maxGhs": 3850,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16483,6 +21817,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16521,6 +21869,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Law is a 4-year LLB programme at University of Ghana, offered through the School of Law. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 6000,
+      "fees": {
+        "minGhs": 5200,
+        "maxGhs": 6800,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16564,6 +21926,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Materials Science and Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16609,6 +21985,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Materials Science and Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Geologist",
+        "Survey Engineer",
+        "Materials Engineer"
+      ],
+      "annualFeesGhs": 6500,
+      "fees": {
+        "minGhs": 5600,
+        "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16652,6 +22042,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Mathematical Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16697,6 +22101,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Mathematical Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16740,6 +22158,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Mathematics Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16778,6 +22210,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Medical Laboratory Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16816,6 +22262,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Medicine and Surgery is a 6-year MBChB programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16854,6 +22314,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Midwifery is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Midwife",
+        "Maternal Health Officer",
+        "Community Health Officer"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16894,6 +22368,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Music is a 4-year BMus programme at University of Ghana, offered through the School of Performing Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16935,6 +22423,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Music is a 4-year BMus programme at University of Ghana on the full-fee-paying track, offered through the School of Performing Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -16973,6 +22475,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Nursing is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17011,6 +22527,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Occupational Therapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Therapist",
+        "Clinical Specialist",
+        "Rehabilitation Officer"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17049,6 +22579,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Performing Arts Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17087,6 +22631,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Pharmacy is a 6-year PharmD programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17134,6 +22692,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Physical Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Sports Scientist",
+        "Coach",
+        "Physical Education Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17183,6 +22755,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Physical Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Sports Scientist",
+        "Coach",
+        "Physical Education Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17221,6 +22807,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Physiotherapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Therapist"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17259,6 +22859,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Psychology is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Counselling Psychologist",
+        "HR Officer",
+        "Research Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17299,6 +22913,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Psychology is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Counselling Psychologist",
+        "HR Officer",
+        "Research Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17337,6 +22965,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Public Health is a 4-year BPH programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17375,6 +23017,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Respiratory Therapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Therapist",
+        "Clinical Specialist",
+        "Rehabilitation Officer"
+      ],
+      "annualFeesGhs": 7300,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17418,6 +23074,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Science Education (Biology) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17461,6 +23131,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Science Education (Chemistry) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17504,6 +23188,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Science Education (Physics) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17542,6 +23240,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Social Studies Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17580,6 +23292,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Spanish Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17618,6 +23344,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Sports and Physical Culture is a 4-year BA programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17656,6 +23396,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Veterinary Medicine is a 6-year DVM programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Veterinary Surgeon",
+        "Livestock Health Officer",
+        "Animal Research Scientist"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17696,6 +23450,20 @@ export const catalogue: Catalogue = {
         "year": 2025,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
+      },
+      "overview": "Veterinary Medicine is a 6-year DVM programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Veterinary Surgeon",
+        "Livestock Health Officer",
+        "Animal Research Scientist"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
       }
     },
     {
@@ -17745,6 +23513,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -17794,6 +23576,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Medical Laboratory Technology is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -17847,6 +23643,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Medicine is a 6-year MBChB programme at University of Health and Allied Sciences, offered through the School of Medicine. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 9500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -17892,6 +23702,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -17941,6 +23765,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -17990,6 +23828,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nutrition is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18039,6 +23891,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18084,6 +23950,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Physiotherapy and Sports Science is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "careers": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Therapist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18124,6 +24004,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18164,6 +24058,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18209,6 +24117,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18250,6 +24172,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18290,6 +24226,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Banking and Finance is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18330,6 +24280,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18371,6 +24335,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18411,6 +24389,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Information Systems is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18451,6 +24443,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Human Resource Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18491,6 +24497,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18531,6 +24551,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Law is a 4-year LLB programme at University of Professional Studies, Accra, offered through the Faculty of Law. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18571,6 +24605,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Marketing is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18611,6 +24659,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Procurement Officer",
+        "Supply Chain Analyst",
+        "Logistics Manager"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18651,6 +24713,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Public Relations Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
       }
     },
     {
@@ -18696,6 +24772,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Valley View University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18736,6 +24826,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Agriculture is a 4-year BSc programme at Valley View University, offered through the School of Agriculture. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18776,6 +24880,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Valley View University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18817,6 +24935,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Valley View University by distance learning, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 4650,
+      "fees": {
+        "minGhs": 3600,
+        "maxGhs": 5700,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18862,6 +24994,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Computer Science is a 4-year BSc programme at Valley View University, offered through the School of Computing. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18902,6 +25048,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Development Studies is a 4-year BA programme at Valley View University, offered through the Faculty of Arts and Social Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Development Officer",
+        "Programme Coordinator",
+        "NGO Officer"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18942,6 +25102,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Valley View University, offered through the School of Computing. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -18991,6 +25165,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Valley View University, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 12500,
+      "fees": {
+        "minGhs": 10000,
+        "maxGhs": 15000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19031,6 +25219,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Theology is a 4-year BA programme at Valley View University, offered through the School of Theology and Missions. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 7750,
+      "fees": {
+        "minGhs": 6000,
+        "maxGhs": 9500,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19076,6 +25278,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Accounting is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19116,6 +25332,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19157,6 +25387,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Business Administration is a 4-year BSc programme at Wisconsin International University College by distance learning, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 4950,
+      "fees": {
+        "minGhs": 3900,
+        "maxGhs": 6000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19197,6 +25441,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 6500,
+        "maxGhs": 10000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     },
     {
@@ -19246,6 +25504,20 @@ export const catalogue: Catalogue = {
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "estimated"
+      },
+      "overview": "Nursing is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 11750,
+      "fees": {
+        "minGhs": 9500,
+        "maxGhs": 14000,
+        "year": "2026",
+        "source": "Reported range for Ghanaian private universities, 2026",
+        "sourceUrl": "https://www.pulse.com.gh/story/top-10-private-universities-in-ghana-2026-full-list-fees-2026062509503708178"
       }
     }
   ],

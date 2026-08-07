@@ -86,6 +86,16 @@ export const programmeSchema = z.object({
   cons: z.array(z.string()).optional(),
   careers: z.array(z.string()).optional(),
   annualFeesGhs: z.int().positive().optional(),
+  fees: z
+    .object({
+      minGhs: z.int().positive(),
+      maxGhs: z.int().positive(),
+      year: z.string().min(4),
+      source: z.string().min(3),
+      sourceUrl: z.url().optional(),
+    })
+    .refine((f) => f.maxGhs >= f.minGhs, { message: 'maxGhs must be at least minGhs' })
+    .optional(),
   employmentRatePct: z.int().min(0).max(100).optional(),
   salary: salaryRangeSchema.optional(),
   cutoffTrend: z.array(cutoffPointSchema).min(1).optional(),

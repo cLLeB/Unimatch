@@ -48,6 +48,20 @@ export interface SalaryRange {
   maxMonthly: number
 }
 
+/**
+ * Fees as universities actually publish them: a band for a college or
+ * category, for a stated academic year. A single precise figure per programme
+ * would be a fiction, so the band and its year are carried instead.
+ */
+export interface FeeBand {
+  minGhs: number
+  maxGhs: number
+  /** Academic year the band was published for, e.g. "2025/26". */
+  year: string
+  source: string
+  sourceUrl?: string
+}
+
 export interface CutoffPoint {
   year: number
   aggregate: number
@@ -115,6 +129,7 @@ export interface Programme {
   cons?: string[]
   careers?: string[]
   annualFeesGhs?: number
+  fees?: FeeBand
   employmentRatePct?: number
   salary?: SalaryRange
   cutoffTrend?: CutoffPoint[]

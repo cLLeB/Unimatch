@@ -16,7 +16,7 @@ import { PRIMARY_NAV } from './navItems'
  * sidebar and tab bar navigate; here the navbar only markets.
  */
 const PUBLIC_NAV = [
-  { label: 'Cut-Off Points', to: '/cut-off-points' },
+  { label: 'Cut-Off Points', to: '/dashboard' },
   { label: 'Universities', to: '/universities' },
   { label: 'How it works', to: '/#faq' },
 ] as const

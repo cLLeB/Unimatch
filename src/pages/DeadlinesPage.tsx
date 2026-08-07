@@ -142,8 +142,7 @@ export default function DeadlinesPage() {
           </div>
 
           <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
-            Email reminders need an address on your profile. SMS and WhatsApp require a Ghanaian
-            messaging provider, which isn&apos;t connected yet.
+            Email reminders need an address on your profile.
           </p>
         </Card>
       </div>
