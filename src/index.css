@@ -1,13 +1,50 @@
 @import 'tailwindcss';
 
+/* Class-based dark mode, driven by the Profile > Dark Mode toggle. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Design tokens taken verbatim from the Figma Make source and the original
+ * design brief. Components must use these tokens rather than raw hex or
+ * generic Tailwind palette steps, so a theme change is a one-file change.
+ */
 @theme {
-  --color-brand: #0d6d63;
-  --color-brand-dark: #134e48;
-  --color-brand-light: #e6f4f1;
-  --color-brand-muted: #ecfdf5;
-  --color-surface: #f9fafb;
-  --color-footer: #0a1120;
+  /* Brand */
+  --color-brand: #0f766e;
+  --color-brand-hover: #0d6560;
+  --color-brand-deep: #134e4a;
+  --color-brand-subtle: #f0fdf9;
+
+  /* Secondary / accent / status */
+  --color-secondary: #2563eb;
+  --color-secondary-hover: #1d4ed8;
+  --color-accent: #f59e0b;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+
+  /* Surfaces & lines */
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-line: #e2e8f0;
+
+  /* Text */
+  --color-ink: #0f172a;
+  --color-ink-muted: #475569;
+
+  /* On-gradient text (hero, summary card, programme header) */
+  --color-on-brand: #99d9d4;
+  --color-on-brand-bright: #a5f3ef;
+  --color-on-secondary: #a5c3f7;
+
+  /* Footer */
+  --color-footer-text: #64748b;
+  --color-footer-line: #1e293b;
+
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Brief: rounded corners 12–16px */
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
 }
 
 @layer base {
@@ -16,6 +53,22 @@
   }
 
   body {
-    @apply bg-surface font-sans text-slate-900 antialiased;
+    @apply bg-canvas font-sans text-ink antialiased;
+  }
+
+  .dark body {
+    @apply bg-ink text-canvas;
+  }
+
+  /* Brief: keyboard accessibility. A visible, consistent focus ring. */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+}
+
+@layer utilities {
+  /* Range inputs in the What-if Simulator */
+  .slider-brand {
+    accent-color: var(--color-brand);
   }
 }

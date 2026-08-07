@@ -1,0 +1,66 @@
+[
+  {
+    "id": "knust",
+    "name": "Kwame Nkrumah University of Science and Technology",
+    "shortName": "KNUST",
+    "city": "Kumasi",
+    "region": "Ashanti",
+    "admissionsUrl": "https://apps.knust.edu.gh/admissions"
+  },
+  {
+    "id": "ug",
+    "name": "University of Ghana",
+    "shortName": "University of Ghana",
+    "city": "Accra (Legon)",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://admission.ug.edu.gh"
+  },
+  {
+    "id": "ucc",
+    "name": "University of Cape Coast",
+    "shortName": "University of Cape Coast",
+    "city": "Cape Coast",
+    "region": "Central",
+    "admissionsUrl": "https://admission.ucc.edu.gh"
+  },
+  {
+    "id": "uds",
+    "name": "University for Development Studies",
+    "shortName": "UDS",
+    "city": "Tamale",
+    "region": "Northern",
+    "admissionsUrl": "https://uds.edu.gh/admissions"
+  },
+  {
+    "id": "uew",
+    "name": "University of Education, Winneba",
+    "shortName": "UEW",
+    "city": "Winneba",
+    "region": "Central",
+    "admissionsUrl": "https://uew.edu.gh/admissions"
+  },
+  {
+    "id": "uhas",
+    "name": "University of Health and Allied Sciences",
+    "shortName": "UHAS",
+    "city": "Ho",
+    "region": "Volta",
+    "admissionsUrl": "https://uhas.edu.gh/admissions"
+  },
+  {
+    "id": "upsa",
+    "name": "University of Professional Studies, Accra",
+    "shortName": "UPSA",
+    "city": "Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://upsa.edu.gh/admissions"
+  },
+  {
+    "id": "atu",
+    "name": "Accra Technical University",
+    "shortName": "Accra Technical Univ.",
+    "city": "Accra",
+    "region": "Greater Accra",
+    "admissionsUrl": "https://atu.edu.gh/admissions"
+  }
+]

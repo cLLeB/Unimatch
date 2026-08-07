@@ -278,29 +278,65 @@ Radius 12–16px, 8-point spacing, WCAG AA contrast. Gradients only in hero/CTA 
 
 ## 7. Correctness decisions (deviations from the prototype)
 
-### 7.1 The prototype's aggregate math is wrong — do not reproduce it
+### 7.1 The prototype's aggregate math contradicts the prototype's own stated rule
 
-The simulator shows English B2, Maths B3, Science B3, Social C4, Electives B2/B3/C4 and
-reports **"Simulated Aggregate 21"** — the sum of all seven subjects (2+3+3+4+2+3+4).
+Confirmed against the Make source (`src/app/App.tsx`, `WhatIfSimulator`):
 
-The Ghanaian WASSCE aggregate is **best six**: 3 cores + best 3 electives. Correctly
-computed that student's aggregate is **17**.
+```ts
+const [simGrades, setSimGrades] = useState<number[]>([2, 3, 3, 4, 2, 3, 4]);
+const aggregate = simGrades.reduce((a, b) => a + b, 0);   // sums all 7 subjects
+```
+
+That yields **21**. But the same file's Programme Detail page states the rule explicitly,
+twice:
+
+> *"Note: Aggregate is sum of best 6 grades."*
+> *"Based on best six subjects"*
+
+So best-six is **the design's own documented rule**; the simulator is simply an
+implementation bug that violates it. Correctly computed — English 2 + Maths 3 +
+better of (Science 3, Social 4) + best three electives (2+3+4) — that student's
+aggregate is **17**.
 
 This is not cosmetic. UDS Nursing has a cut-off of 20. At the true aggregate of 17 the
-student **qualifies**; the prototype reports 21 and tells them they **do not**. The error
+student **qualifies**; the simulator reports 21 and tells them they **do not**. The bug
 inflates every student's aggregate and under-reports eligibility — the precise opposite of
-the product's purpose. Corroborating: the repo's own Medicine cut-off of `6` is
-unreachable if the minimum possible aggregate is 7.
+the product's purpose.
 
-**Decision: implement best-six. Deviate from the prototype.**
+**Decision: implement best-six. This aligns with the design's stated rule, and fixes the
+prototype's implementation.**
 
-### 7.2 Three-tier eligibility, threshold +2
+### 7.2 Three-tier eligibility, margin 3
 
 The prototype badges Qualified / Close Match / Not Eligible; the code has only two states.
-Threshold derived from prototype data at student aggregate 14: Electrical (cut-off 14) →
-Qualified; CS (12) → Close Match; Law (10) → Not Eligible; Medicine (8) → Not Eligible.
-Consistent with `close-match ⟺ aggregate ≤ cutoff + 2`. Made a named constant, not a
-magic number.
+The exact rule from the Make source (`ResultsDashboard`):
+
+```ts
+if (p.cutoff >= studentAggregate) return "qualified";
+if (p.cutoff >= studentAggregate - 3) return "close";
+return "not-eligible";
+```
+
+So `close-match ⟺ aggregate ≤ cutoff + 3`. (An earlier reading of the screenshots
+inferred a margin of 2; the source is authoritative and the margin is **3**.) Made a
+named constant, `CLOSE_MATCH_MARGIN = 3`, not a magic number.
+
+### 7.2a Comparison superlatives are computed, not hardcoded
+
+The Make source assigns comparison badges by hardcoded row id:
+
+```ts
+<Badge label={p.id === 2 ? "Most Competitive" : p.id === 3 ? "Lowest Fees" : "Best Employment"} />
+```
+
+These are computed across the compared set instead, so they remain correct for any
+selection of programmes.
+
+### 7.2b The advisor's answers are canned strings
+
+The Make source's `AI_RESPONSES` is five hardcoded paragraphs keyed by substring match,
+containing figures that drift from the dataset. Replaced by the deterministic engine
+in §5.6, which computes every answer from the data.
 
 ### 7.3 Deadlines are computed
 

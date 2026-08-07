@@ -1,0 +1,106 @@
+[
+  {
+    "id": "knust-all",
+    "universityId": "knust",
+    "scope": "All Programmes",
+    "closesOn": "2026-09-30",
+    "provenance": {
+      "source": "KNUST undergraduate admissions cycle (typical closing date; confirm on the portal)",
+      "sourceUrl": "https://apps.knust.edu.gh/admissions",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "ug-medicine-law",
+    "universityId": "ug",
+    "scope": "Medicine & Law",
+    "closesOn": "2026-08-31",
+    "provenance": {
+      "source": "University of Ghana restricted-programme deadline (typical; confirm on the portal)",
+      "sourceUrl": "https://admission.ug.edu.gh",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "ug-all",
+    "universityId": "ug",
+    "scope": "All Other Programmes",
+    "closesOn": "2026-10-15",
+    "provenance": {
+      "source": "University of Ghana general admissions deadline (typical; confirm on the portal)",
+      "sourceUrl": "https://admission.ug.edu.gh",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "ucc-all",
+    "universityId": "ucc",
+    "scope": "All Programmes",
+    "closesOn": "2026-09-15",
+    "provenance": {
+      "source": "University of Cape Coast admissions cycle (typical; confirm on the portal)",
+      "sourceUrl": "https://admission.ucc.edu.gh",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "uds-health-sciences",
+    "universityId": "uds",
+    "scope": "Health Sciences",
+    "closesOn": "2026-08-21",
+    "provenance": {
+      "source": "UDS health sciences deadline (typical; confirm on the portal)",
+      "sourceUrl": "https://uds.edu.gh/admissions",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "uew-education",
+    "universityId": "uew",
+    "scope": "Education Programmes",
+    "closesOn": "2026-07-31",
+    "provenance": {
+      "source": "UEW education programmes deadline (typical; confirm on the portal)",
+      "sourceUrl": "https://uew.edu.gh/admissions",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "uhas-allied-health",
+    "universityId": "uhas",
+    "scope": "Allied Health",
+    "closesOn": "2026-09-18",
+    "provenance": {
+      "source": "UHAS allied health deadline (typical; confirm on the portal)",
+      "sourceUrl": "https://uhas.edu.gh/admissions",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  },
+  {
+    "id": "upsa-all",
+    "universityId": "upsa",
+    "scope": "All Programmes",
+    "closesOn": "2026-09-25",
+    "provenance": {
+      "source": "UPSA admissions cycle (typical; confirm on the portal)",
+      "sourceUrl": "https://upsa.edu.gh/admissions",
+      "year": 2026,
+      "lastVerified": "2026-08-07",
+      "confidence": "estimated"
+    }
+  }
+]
