@@ -35,9 +35,14 @@ export const EMPTY_PROFILE: StudentProfile = {
   track: '',
 }
 
+/**
+ * Every channel starts off. Email defaulted to true while no job existed to
+ * send it, which opted every student in to a Monday summary that could never
+ * arrive. Nothing is on here until something can act on it.
+ */
 export const DEFAULT_REMINDERS: ReminderPreferences = {
   sms: false,
-  email: true,
+  email: false,
   whatsapp: false,
 }
 

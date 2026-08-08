@@ -26,7 +26,9 @@ const CHECKLIST: ChecklistItem[] = [
   { id: 'review', label: 'Review eligible programmes', derived: true },
   { id: 'save-top-5', label: 'Save 5 programmes', derived: true },
   { id: 'compare', label: 'Compare shortlisted programmes', derived: true },
-  { id: 'set-reminders', label: 'Set deadline reminders', derived: true },
+  // 'set-reminders' is out until a reminder channel actually sends. Every
+  // toggle on the Deadlines page is disabled, so the step was uncompletable
+  // and capped every student's progress bar below 100%.
   { id: 'submit', label: 'Submit applications' },
 ]
 
@@ -228,7 +230,6 @@ function ApplicationChecklist() {
     review: hasResults,
     'save-top-5': state.savedProgrammeIds.length >= 5,
     compare: state.comparedProgrammeIds.length >= 2,
-    'set-reminders': state.reminders.email || state.reminders.sms || state.reminders.whatsapp,
     submit: state.checklist.submit ?? false,
   }
 

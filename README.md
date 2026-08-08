@@ -162,11 +162,10 @@ Everything is optional — see `.env.example`.
 - **Supabase** (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) enables accounts so a shortlist
   follows a student between devices. Apply `supabase/migrations/0001_student_state.sql` first;
   row-level security is what protects the data, since the anon key is public by design.
-- **Email reminders** need a `RESEND_API_KEY` on the server. Never prefix it with `VITE_`, or it
-  would be inlined into the browser bundle.
-- **SMS and WhatsApp reminders** are built but disabled. They need a Ghanaian provider
-  (Africa's Talking has a free sandbox but no production free tier). The toggles say "Coming
-  soon" rather than silently doing nothing.
+- **Reminders are not sending yet — no channel is connected.** The toggles on the Deadlines page
+  are all disabled and labelled "Coming soon". Email needs a scheduled job and a verified sending
+  domain; SMS and WhatsApp need a Ghanaian provider (Africa's Talking has a free sandbox but no
+  production free tier). A toggle that silently does nothing is worse than one that says so.
 
 ## Deployment
 

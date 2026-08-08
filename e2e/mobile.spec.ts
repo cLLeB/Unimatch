@@ -118,7 +118,7 @@ test.describe('mobile layout', () => {
 
     const nav = page.getByRole('navigation', { name: 'Primary' })
     const navBox = await nav.boundingBox()
-    const last = page.getByText(/Email reminders need an address/i)
+    const last = page.getByText(/None of these are sending yet/i)
     const lastBox = await last.boundingBox()
 
     expect(lastBox!.y + lastBox!.height).toBeLessThanOrEqual(navBox!.y + 1)

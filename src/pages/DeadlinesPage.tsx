@@ -22,10 +22,14 @@ const STATUS_PRESENTATION: Record<
 const LEGEND_STATUSES: DeadlineStatus[] = ['open', 'closing-soon', 'closed']
 
 /**
- * SMS and WhatsApp need paid providers (Africa's Talking / WhatsApp Business).
- * The controls are built and persist, but are disabled until credentials are
- * provisioned, a toggle that silently does nothing is worse than one that
- * says so.
+ * No reminder channel is connected yet.
+ *
+ * Email needs a scheduled job and a verified sending domain; SMS and WhatsApp
+ * need paid providers (Africa's Talking / WhatsApp Business). The controls are
+ * built and the preference persists, but every one is disabled until the thing
+ * behind it exists — a toggle that silently does nothing is worse than one that
+ * says so. Email was marked available before the job was written, which told
+ * students a Monday summary was coming when nothing could send it.
  */
 const CHANNELS = [
   {
@@ -33,7 +37,7 @@ const CHANNELS = [
     label: 'Email Reminders',
     description: 'A deadline summary in your inbox every Monday',
     icon: Mail,
-    available: true,
+    available: false,
   },
   {
     key: 'sms' as const,
@@ -160,7 +164,8 @@ export default function DeadlinesPage() {
           </div>
 
           <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
-            Email reminders need an address on your profile.
+            None of these are sending yet. Until they are, check the countdowns above and the
+            university&apos;s own portal — don&apos;t wait to be reminded.
           </p>
         </Card>
       </div>
