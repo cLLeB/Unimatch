@@ -38,10 +38,14 @@ export function statusOf(closesOn: string, now: Date = new Date()): DeadlineStat
 
 export interface ResolvedDeadline extends AdmissionDeadline {
   status: DeadlineStatus
+  /** Infinite for a condition-based deadline, which sorts it after dated ones. */
   daysLeft: number
 }
 
 export function resolve(deadline: AdmissionDeadline, now: Date = new Date()): ResolvedDeadline {
+  if (deadline.closesOn === undefined) {
+    return { ...deadline, status: 'open-ended', daysLeft: Number.POSITIVE_INFINITY }
+  }
   return {
     ...deadline,
     status: statusOf(deadline.closesOn, now),

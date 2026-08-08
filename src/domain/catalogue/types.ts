@@ -4,8 +4,13 @@ import type { Grade } from '../wassce/types'
  * How much we trust a record. Higher confidence supersedes lower when the
  * seed data and an authoritative import disagree about the same
  * (programmeId, year), see scripts/data-pipeline.ts.
+ *
+ * There are deliberately only two levels. A figure either comes from the
+ * institution itself, or from a listing that has published Ghanaian admissions
+ * data reliably for years. Anything weaker than that is not shown at all, so
+ * there is no third level to name.
  */
-export const CONFIDENCE_ORDER = ['estimated', 'researched', 'authoritative'] as const
+export const CONFIDENCE_ORDER = ['researched', 'authoritative'] as const
 export type Confidence = (typeof CONFIDENCE_ORDER)[number]
 
 /**
@@ -36,8 +41,23 @@ export interface SubjectRequirement {
   minimumGrade: Grade
 }
 
+/**
+ * What the aggregate figure actually is.
+ *
+ * Most Ghanaian universities publish a competitive cut-off per programme: the
+ * aggregate of the last student admitted last cycle. Many private and newer
+ * institutions publish no such list, only the minimum aggregate that makes an
+ * applicant eligible at all. Those are different numbers answering different
+ * questions, and showing the second as though it were the first would tell a
+ * student a programme is easier to enter than it is.
+ */
+export const AGGREGATE_BASES = ['published-cutoff', 'general-minimum'] as const
+export type AggregateBasis = (typeof AGGREGATE_BASES)[number]
+
 export interface EntryRequirements {
   minimumAggregate: number
+  /** Defaults to a published cut-off when absent, for older seed records. */
+  aggregateBasis?: AggregateBasis
   coreSubjects: SubjectRequirement[]
   electiveSubjects: SubjectRequirement[]
   notes: string[]
@@ -121,8 +141,9 @@ export interface Programme {
    *
    * Fees, salaries and employment rates are not published per programme by
    * most Ghanaian universities. Inventing them to fill a card would be exactly
-   * the fabrication this project set out to remove, so the UI renders
-   * "Not published" instead. See docs/superpowers/specs §8.
+   * the fabrication this project set out to remove, and captioning the gap
+   * ("Not published", "Indicative") only makes a student read a fault in the
+   * data. So the UI omits the whole tile. See docs/superpowers/specs §8.
    */
   overview?: string
   pros?: string[]
@@ -137,15 +158,23 @@ export interface Programme {
   cutoffByGender?: { male: number; female: number }
 }
 
-export type DeadlineStatus = 'open' | 'closing-soon' | 'closed'
+export type DeadlineStatus = 'open' | 'closing-soon' | 'closed' | 'open-ended'
 
 export interface AdmissionDeadline {
   id: string
   universityId: string
   /** e.g. "All Programmes" or "Medicine & Law". */
   scope: string
-  /** ISO date. Status and days-remaining are derived from this, never stored. */
-  closesOn: string
+  /**
+   * ISO date. Status and days-remaining are derived from this, never stored.
+   *
+   * Absent where the university publishes a condition instead of a date, which
+   * UG does for general undergraduate entry. Inventing a date to fill the gap
+   * would put a countdown on the screen that no source supports.
+   */
+  closesOn?: string
+  /** The published condition, e.g. "Open until WASSCE results are released". */
+  closesWhen?: string
   provenance: Provenance
 }
 

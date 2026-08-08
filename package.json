@@ -21,7 +21,7 @@
     "deploy": "git push heroku HEAD:main",
     "seo:build": "tsx scripts/generate-seo-assets.ts",
     "data:programmes": "tsx scripts/build-programmes.ts",
-    "supabase:config": "supabase config push --project-ref fttzuizvvwekmjtdqgmh"
+    "supabase:config": "npx -y supabase@2.48.3 config push --project-ref fttzuizvvwekmjtdqgmh --yes"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

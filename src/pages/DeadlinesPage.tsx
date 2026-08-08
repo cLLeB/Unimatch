@@ -15,7 +15,11 @@ const STATUS_PRESENTATION: Record<
   open: { label: 'Open', variant: 'success', bar: 'bg-success', text: 'text-success' },
   'closing-soon': { label: 'Closing Soon', variant: 'warning', bar: 'bg-accent', text: 'text-accent' },
   closed: { label: 'Closed', variant: 'danger', bar: 'bg-danger', text: 'text-danger' },
+  'open-ended': { label: 'Open', variant: 'success', bar: 'bg-success', text: 'text-success' },
 }
+
+/** The legend describes the dated states; "open-ended" reuses the Open dot. */
+const LEGEND_STATUSES: DeadlineStatus[] = ['open', 'closing-soon', 'closed']
 
 /**
  * SMS and WhatsApp need paid providers (Africa's Talking / WhatsApp Business).
@@ -57,12 +61,14 @@ export default function DeadlinesPage() {
         <div className="mb-6">
           <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Deadline Tracker</h1>
           <p className="text-sm text-ink-muted">
-            Counting down live from today. Always confirm dates on the university&apos;s own portal.
+            Counting down live from today. Every date here is one a university has published, so the
+            list is short by design. Always confirm on the university&apos;s own portal before you
+            apply.
           </p>
         </div>
 
         <div className="mb-6 flex gap-4 text-sm">
-          {(Object.keys(STATUS_PRESENTATION) as DeadlineStatus[]).map((status) => (
+          {LEGEND_STATUSES.map((status) => (
             <div key={status} className="flex items-center gap-1.5">
               <span className={`size-2.5 rounded-full ${STATUS_PRESENTATION[status].bar}`} />
               <span className="text-ink-muted">{STATUS_PRESENTATION[status].label}</span>
@@ -90,12 +96,24 @@ export default function DeadlinesPage() {
                     <div className="text-xs text-ink-muted">{deadline.scope}</div>
                     <div className="mt-0.5 flex items-center gap-1 text-xs text-ink-muted">
                       <Calendar size={11} aria-hidden="true" />
-                      Deadline: {formatDeadlineDate(deadline.closesOn)}
+                      {deadline.closesOn
+                        ? `Deadline: ${formatDeadlineDate(deadline.closesOn)}`
+                        : deadline.closesWhen}
                     </div>
+                    <a
+                      href={deadline.provenance.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 inline-block text-xs font-medium text-brand hover:underline"
+                    >
+                      Check the university portal
+                    </a>
                   </div>
 
                   <div className="shrink-0 text-right">
-                    {deadline.daysLeft >= 0 ? (
+                    {deadline.status === 'open-ended' ? (
+                      <div className="text-sm font-semibold text-success">Open</div>
+                    ) : deadline.daysLeft >= 0 ? (
                       <>
                         <div className={`text-2xl font-bold ${presentation.text}`}>
                           {deadline.daysLeft}

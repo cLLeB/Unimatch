@@ -180,9 +180,11 @@ export const VERDICT_RANK: Record<VerdictStatus, number> = {
 export function compareVerdicts(a: Verdict, b: Verdict): number {
   const rank = VERDICT_RANK[a.status] - VERDICT_RANK[b.status]
   if (rank !== 0) return rank
-  const aggA = a.status === 'incomplete' ? Infinity : a.aggregate
-  const aggB = b.status === 'incomplete' ? Infinity : b.aggregate
-  return aggA - aggB
+  // Two incomplete verdicts have no aggregate to order by. Subtracting the
+  // sentinels would give Infinity - Infinity, i.e. NaN, and NaN makes Array
+  // .sort() order unpredictably.
+  if (a.status === 'incomplete' || b.status === 'incomplete') return 0
+  return a.aggregate - b.aggregate
 }
 
 /** True when every counted subject is a credit pass. */

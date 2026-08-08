@@ -143,9 +143,9 @@ function buildRecord(
       `Published separately by gender: ${row.male} for male applicants, ${row.female} for female applicants. The stricter figure is shown.`,
     )
   }
-  if (source.provenance.confidence === 'estimated') {
+  if (source.aggregateBasis === 'general-minimum') {
     notes.push(
-      'No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off.',
+      'This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply.',
     )
   } else if (source.provenance.confidence === 'researched') {
     notes.push('Reported by a secondary source. Confirm on the university portal before applying.')
@@ -171,6 +171,7 @@ function buildRecord(
     qualificationLevel: level,
     requirements: {
       minimumAggregate: cutoff,
+      aggregateBasis: source.aggregateBasis ?? 'published-cutoff',
       coreSubjects: coreRequirements(source, row),
       electiveSubjects: (row.req ?? []).map(parseRequirement),
       notes,

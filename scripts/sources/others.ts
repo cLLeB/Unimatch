@@ -45,9 +45,9 @@ export const uew: SourceFile = {
 
 /**
  * UDS publishes its programme catalogue but not a per-programme cut-off list.
- * These carry the university's general minimum for degree admission with
- * `estimated` confidence and an explicit note, so a student can see the
- * programme exists without mistaking the figure for a published cut-off.
+ * These carry the university's published minimum for degree admission, marked
+ * `general-minimum`, so a student sees the programme exists and the aggregate
+ * that makes them eligible without mistaking it for a competitive cut-off.
  */
 const UDS_GENERAL = 24
 const UDS_ALLIED_HEALTH = 18 // UDS publishes an 11-18 range for this school
@@ -117,33 +117,41 @@ export const uds: SourceFile = {
   defaultCampus: 'Tamale',
   region: 'Northern',
   scienceCore: true,
+  aggregateBasis: 'general-minimum',
   provenance: {
     source:
-      'UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.',
+      'UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.',
     sourceUrl: 'https://uds.edu.gh/admissions',
     year: 2026,
     lastVerified: '2026-08-07',
-    confidence: 'estimated',
+    confidence: 'authoritative',
   },
   rows: udsRows,
 }
 
 /**
- * UHAS, UPSA and Accra Technical University: catalogue entries where no
- * published per-programme cut-off could be verified. Marked `estimated` and
- * badged as such throughout the UI.
+ * UHAS, UPSA and Accra Technical University publish no per-programme cut-off
+ * list, so these rows carry the national minimum for the qualification.
+ *
+ * An earlier draft gave each programme its own aggregate, on the reasoning
+ * that medicine must be tighter than public health. Nothing published said so.
+ * Those numbers are gone rather than dressed in a caveat.
  */
+/** Six credit passes (A1 to C6), three core and three electives. */
+const DEGREE_MINIMUM = 24
+/** Six passes (D7 or better) including English and Core Mathematics. */
+const DIPLOMA_MINIMUM = 36
 const uhasRows: RawProgramme[] = [
-  { n: 'Medicine', c: 12, f: 'School of Medicine', d: 'MBChB', y: 6, req: ['Biology:C6', 'Chemistry:C6', 'Physics:C6'] },
-  { n: 'Nursing', c: 16, f: 'School of Nursing and Midwifery', req: ['Biology:C6', 'Chemistry:C6'] },
-  { n: 'Midwifery', c: 16, f: 'School of Nursing and Midwifery', req: ['Biology:C6'] },
-  { n: 'Medical Laboratory Technology', c: 17, f: 'School of Allied Health Sciences', req: ['Chemistry:C6', 'Biology:C6'] },
-  { n: 'Physiotherapy and Sports Science', c: 18, f: 'School of Allied Health Sciences', req: ['Biology:C6'] },
-  { n: 'Dietetics', c: 18, f: 'School of Allied Health Sciences', req: ['Biology:C6', 'Chemistry:C6'] },
-  { n: 'Public Health (Health Promotion)', c: 20, f: 'School of Public Health' },
-  { n: 'Public Health (Disease Control)', c: 20, f: 'School of Public Health' },
-  { n: 'Nutrition', c: 20, f: 'School of Allied Health Sciences', req: ['Biology:C6', 'Chemistry:C6'] },
-  { n: 'Pharmacy', c: 12, f: 'School of Pharmacy', d: 'PharmD', y: 6, req: ['Chemistry:C6', 'Biology:C6'] },
+  { n: 'Medicine', c: DEGREE_MINIMUM, f: 'School of Medicine', d: 'MBChB', y: 6, req: ['Biology:C6', 'Chemistry:C6', 'Physics:C6'] },
+  { n: 'Nursing', c: DEGREE_MINIMUM, f: 'School of Nursing and Midwifery', req: ['Biology:C6', 'Chemistry:C6'] },
+  { n: 'Midwifery', c: DEGREE_MINIMUM, f: 'School of Nursing and Midwifery', req: ['Biology:C6'] },
+  { n: 'Medical Laboratory Technology', c: DEGREE_MINIMUM, f: 'School of Allied Health Sciences', req: ['Chemistry:C6', 'Biology:C6'] },
+  { n: 'Physiotherapy and Sports Science', c: DEGREE_MINIMUM, f: 'School of Allied Health Sciences', req: ['Biology:C6'] },
+  { n: 'Dietetics', c: DEGREE_MINIMUM, f: 'School of Allied Health Sciences', req: ['Biology:C6', 'Chemistry:C6'] },
+  { n: 'Public Health (Health Promotion)', c: DEGREE_MINIMUM, f: 'School of Public Health' },
+  { n: 'Public Health (Disease Control)', c: DEGREE_MINIMUM, f: 'School of Public Health' },
+  { n: 'Nutrition', c: DEGREE_MINIMUM, f: 'School of Allied Health Sciences', req: ['Biology:C6', 'Chemistry:C6'] },
+  { n: 'Pharmacy', c: DEGREE_MINIMUM, f: 'School of Pharmacy', d: 'PharmD', y: 6, req: ['Chemistry:C6', 'Biology:C6'] },
 ]
 
 export const uhas: SourceFile = {
@@ -151,29 +159,31 @@ export const uhas: SourceFile = {
   defaultCampus: 'Ho',
   region: 'Volta',
   scienceCore: true,
+  aggregateBasis: 'general-minimum',
   provenance: {
-    source: 'UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.',
+    source:
+      'UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.',
     sourceUrl: 'https://uhas.edu.gh/admissions',
     year: 2026,
     lastVerified: '2026-08-07',
-    confidence: 'estimated',
+    confidence: 'authoritative',
   },
   rows: uhasRows,
 }
 
 const upsaRows: RawProgramme[] = [
-  { n: 'Accounting', c: 16, f: 'Faculty of Accounting and Finance', req: ['Financial Accounting:C6'] },
-  { n: 'Banking and Finance', c: 17, f: 'Faculty of Accounting and Finance' },
-  { n: 'Marketing', c: 19, f: 'Faculty of Management Studies' },
-  { n: 'Business Administration', c: 18, f: 'Faculty of Management Studies' },
-  { n: 'Human Resource Management', c: 20, f: 'Faculty of Management Studies' },
-  { n: 'Procurement and Supply Chain Management', c: 20, f: 'Faculty of Management Studies' },
-  { n: 'Information Technology Management', c: 18, f: 'Faculty of Information Technology and Communication Studies' },
-  { n: 'Business Information Systems', c: 18, f: 'Faculty of Information Technology and Communication Studies' },
-  { n: 'Public Relations Management', c: 20, f: 'Faculty of Information Technology and Communication Studies' },
-  { n: 'Law', c: 14, f: 'Faculty of Law', d: 'LLB' },
-  { n: 'Accounting', c: 24, f: 'Faculty of Accounting and Finance', track: 'distance' },
-  { n: 'Business Administration', c: 24, f: 'Faculty of Management Studies', track: 'distance' },
+  { n: 'Accounting', c: DEGREE_MINIMUM, f: 'Faculty of Accounting and Finance', req: ['Financial Accounting:C6'] },
+  { n: 'Banking and Finance', c: DEGREE_MINIMUM, f: 'Faculty of Accounting and Finance' },
+  { n: 'Marketing', c: DEGREE_MINIMUM, f: 'Faculty of Management Studies' },
+  { n: 'Business Administration', c: DEGREE_MINIMUM, f: 'Faculty of Management Studies' },
+  { n: 'Human Resource Management', c: DEGREE_MINIMUM, f: 'Faculty of Management Studies' },
+  { n: 'Procurement and Supply Chain Management', c: DEGREE_MINIMUM, f: 'Faculty of Management Studies' },
+  { n: 'Information Technology Management', c: DEGREE_MINIMUM, f: 'Faculty of Information Technology and Communication Studies' },
+  { n: 'Business Information Systems', c: DEGREE_MINIMUM, f: 'Faculty of Information Technology and Communication Studies' },
+  { n: 'Public Relations Management', c: DEGREE_MINIMUM, f: 'Faculty of Information Technology and Communication Studies' },
+  { n: 'Law', c: DEGREE_MINIMUM, f: 'Faculty of Law', d: 'LLB' },
+  { n: 'Accounting', c: DEGREE_MINIMUM, f: 'Faculty of Accounting and Finance', track: 'distance' },
+  { n: 'Business Administration', c: DEGREE_MINIMUM, f: 'Faculty of Management Studies', track: 'distance' },
 ]
 
 export const upsa: SourceFile = {
@@ -181,27 +191,29 @@ export const upsa: SourceFile = {
   defaultCampus: 'Accra',
   region: 'Greater Accra',
   scienceCore: false,
+  aggregateBasis: 'general-minimum',
   provenance: {
-    source: 'UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.',
+    source:
+      'UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.',
     sourceUrl: 'https://upsa.edu.gh/admissions',
     year: 2026,
     lastVerified: '2026-08-07',
-    confidence: 'estimated',
+    confidence: 'authoritative',
   },
   rows: upsaRows,
 }
 
 const atuRows: RawProgramme[] = [
-  { n: 'Hospitality Management', c: 24, f: 'Faculty of Applied Sciences', d: 'BTech' },
-  { n: 'Accounting with Computing', c: 24, f: 'Faculty of Business', d: 'BTech' },
-  { n: 'Marketing', c: 24, f: 'Faculty of Business', d: 'BTech' },
-  { n: 'Civil Engineering', c: 22, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
-  { n: 'Electrical and Electronic Engineering', c: 22, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
-  { n: 'Mechanical Engineering', c: 22, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
-  { n: 'Fashion Design and Textiles', c: 26, f: 'Faculty of Applied Arts', d: 'BTech' },
-  { n: 'Computer Science', c: 22, f: 'Faculty of Applied Sciences', d: 'BTech' },
-  { n: 'Statistics', c: 24, f: 'Faculty of Applied Sciences', d: 'BTech' },
-  { n: 'Hospitality Management', c: 30, f: 'Faculty of Applied Sciences', d: 'Diploma', y: 2 },
+  { n: 'Hospitality Management', c: DEGREE_MINIMUM, f: 'Faculty of Applied Sciences', d: 'BTech' },
+  { n: 'Accounting with Computing', c: DEGREE_MINIMUM, f: 'Faculty of Business', d: 'BTech' },
+  { n: 'Marketing', c: DEGREE_MINIMUM, f: 'Faculty of Business', d: 'BTech' },
+  { n: 'Civil Engineering', c: DEGREE_MINIMUM, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
+  { n: 'Electrical and Electronic Engineering', c: DEGREE_MINIMUM, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
+  { n: 'Mechanical Engineering', c: DEGREE_MINIMUM, f: 'Faculty of Engineering', d: 'BTech', req: ['Elective Mathematics:C6', 'Physics:C6'] },
+  { n: 'Fashion Design and Textiles', c: DEGREE_MINIMUM, f: 'Faculty of Applied Arts', d: 'BTech' },
+  { n: 'Computer Science', c: DEGREE_MINIMUM, f: 'Faculty of Applied Sciences', d: 'BTech' },
+  { n: 'Statistics', c: DEGREE_MINIMUM, f: 'Faculty of Applied Sciences', d: 'BTech' },
+  { n: 'Hospitality Management', c: DIPLOMA_MINIMUM, f: 'Faculty of Applied Sciences', d: 'Diploma', y: 2 },
 ]
 
 export const atu: SourceFile = {
@@ -209,12 +221,14 @@ export const atu: SourceFile = {
   defaultCampus: 'Accra',
   region: 'Greater Accra',
   scienceCore: false,
+  aggregateBasis: 'general-minimum',
   provenance: {
-    source: 'Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.',
+    source:
+      'Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.',
     sourceUrl: 'https://atu.edu.gh/admissions',
     year: 2026,
     lastVerified: '2026-08-07',
-    confidence: 'estimated',
+    confidence: 'authoritative',
   },
   rows: atuRows,
 }

@@ -1,6 +1,7 @@
 import { z } from 'zod'
 import {
   ADMISSION_TRACKS,
+  AGGREGATE_BASES,
   CONFIDENCE_ORDER,
   QUALIFICATION_LEVELS,
 } from '../domain/catalogue/types'
@@ -38,6 +39,7 @@ export const subjectRequirementSchema = z.object({
 
 export const entryRequirementsSchema = z.object({
   minimumAggregate: z.int().min(BEST_POSSIBLE_AGGREGATE).max(WORST_POSSIBLE_AGGREGATE),
+  aggregateBasis: z.enum(AGGREGATE_BASES).optional(),
   coreSubjects: z.array(subjectRequirementSchema),
   electiveSubjects: z.array(subjectRequirementSchema),
   notes: z.array(z.string()),
@@ -107,13 +109,19 @@ export const programmeSchema = z.object({
     .optional(),
 })
 
-export const admissionDeadlineSchema = z.object({
-  id: z.string().regex(/^[a-z0-9-]+$/),
-  universityId: z.string().min(2),
-  scope: z.string().min(2),
-  closesOn: isoDate,
-  provenance: provenanceSchema,
-})
+export const admissionDeadlineSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    universityId: z.string().min(2),
+    scope: z.string().min(2),
+    closesOn: isoDate.optional(),
+    closesWhen: z.string().min(4).optional(),
+    provenance: provenanceSchema,
+  })
+  .refine(
+    (d) => d.closesOn !== undefined || d.closesWhen !== undefined,
+    'A deadline needs either a closing date or the published condition that ends it',
+  )
 
 export const catalogueSchema = z
   .object({

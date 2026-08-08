@@ -1,106 +1,67 @@
 [
   {
-    "id": "knust-all",
-    "universityId": "knust",
-    "scope": "All Programmes",
-    "closesOn": "2026-09-30",
-    "provenance": {
-      "source": "KNUST undergraduate admissions cycle (typical closing date; confirm on the portal)",
-      "sourceUrl": "https://apps.knust.edu.gh/admissions",
-      "year": 2026,
-      "lastVerified": "2026-08-07",
-      "confidence": "estimated"
-    }
-  },
-  {
-    "id": "ug-medicine-law",
+    "id": "ug-general-undergraduate",
     "universityId": "ug",
-    "scope": "Medicine & Law",
-    "closesOn": "2026-08-31",
+    "scope": "General Undergraduate (Ghanaian applicants)",
+    "closesWhen": "Open until WASSCE results are released",
     "provenance": {
-      "source": "University of Ghana restricted-programme deadline (typical; confirm on the portal)",
-      "sourceUrl": "https://admission.ug.edu.gh",
+      "source": "University of Ghana admissions deadlines page",
+      "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
       "year": 2026,
       "lastVerified": "2026-08-07",
-      "confidence": "estimated"
+      "confidence": "authoritative"
     }
   },
   {
-    "id": "ug-all",
+    "id": "ug-diploma-to-degree",
     "universityId": "ug",
-    "scope": "All Other Programmes",
-    "closesOn": "2026-10-15",
-    "provenance": {
-      "source": "University of Ghana general admissions deadline (typical; confirm on the portal)",
-      "sourceUrl": "https://admission.ug.edu.gh",
-      "year": 2026,
-      "lastVerified": "2026-08-07",
-      "confidence": "estimated"
-    }
-  },
-  {
-    "id": "ucc-all",
-    "universityId": "ucc",
-    "scope": "All Programmes",
-    "closesOn": "2026-09-15",
-    "provenance": {
-      "source": "University of Cape Coast admissions cycle (typical; confirm on the portal)",
-      "sourceUrl": "https://admission.ucc.edu.gh",
-      "year": 2026,
-      "lastVerified": "2026-08-07",
-      "confidence": "estimated"
-    }
-  },
-  {
-    "id": "uds-health-sciences",
-    "universityId": "uds",
-    "scope": "Health Sciences",
+    "scope": "Diploma to Degree (Regular)",
     "closesOn": "2026-08-21",
     "provenance": {
-      "source": "UDS health sciences deadline (typical; confirm on the portal)",
-      "sourceUrl": "https://uds.edu.gh/admissions",
+      "source": "University of Ghana admissions deadlines page",
+      "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
       "year": 2026,
       "lastVerified": "2026-08-07",
-      "confidence": "estimated"
+      "confidence": "authoritative"
     }
   },
   {
-    "id": "uew-education",
-    "universityId": "uew",
-    "scope": "Education Programmes",
-    "closesOn": "2026-07-31",
+    "id": "ug-health-sciences",
+    "universityId": "ug",
+    "scope": "College of Health Sciences (selected programmes)",
+    "closesOn": "2026-07-24",
     "provenance": {
-      "source": "UEW education programmes deadline (typical; confirm on the portal)",
-      "sourceUrl": "https://uew.edu.gh/admissions",
+      "source": "University of Ghana admissions deadlines page",
+      "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
       "year": 2026,
       "lastVerified": "2026-08-07",
-      "confidence": "estimated"
+      "confidence": "authoritative"
     }
   },
   {
-    "id": "uhas-allied-health",
-    "universityId": "uhas",
-    "scope": "Allied Health",
-    "closesOn": "2026-09-18",
+    "id": "knust-undergraduate",
+    "universityId": "knust",
+    "scope": "Undergraduate admissions",
+    "closesOn": "2026-08-31",
     "provenance": {
-      "source": "UHAS allied health deadline (typical; confirm on the portal)",
-      "sourceUrl": "https://uhas.edu.gh/admissions",
+      "source": "KNUST 2026/2027 undergraduate admissions, as reported by YEN Ghana",
+      "sourceUrl": "https://yen.com.gh/156571-knust-admission-forms-deadline-requirements-portal.html",
       "year": 2026,
       "lastVerified": "2026-08-07",
-      "confidence": "estimated"
+      "confidence": "researched"
     }
   },
   {
-    "id": "upsa-all",
-    "universityId": "upsa",
-    "scope": "All Programmes",
-    "closesOn": "2026-09-25",
+    "id": "ucc-regular-first-degree",
+    "universityId": "ucc",
+    "scope": "Regular First Degree",
+    "closesOn": "2026-06-15",
     "provenance": {
-      "source": "UPSA admissions cycle (typical; confirm on the portal)",
-      "sourceUrl": "https://upsa.edu.gh/admissions",
+      "source": "University of Cape Coast, Admission of Regular First Degree Students 2026/2027",
+      "sourceUrl": "https://admissions.ucc.edu.gh/announcement/admission-of-regular-first-degree-students-20262027",
       "year": 2026,
       "lastVerified": "2026-08-07",
-      "confidence": "estimated"
+      "confidence": "authoritative"
     }
   }
 ]

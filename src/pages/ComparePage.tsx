@@ -12,7 +12,7 @@ import {
   formatFeesPerYear,
   formatSalaryRange,
   getProgramme,
-  NOT_PUBLISHED,
+  hasPublishedCutoff,
   universityNameOf,
   withValue,
 } from '../data/catalogue'
@@ -86,7 +86,8 @@ function superlativesFor(programmes: Programme[]): Map<string, Superlative[]> {
 
 interface Row {
   label: string
-  values: string[]
+  /** null where nothing is published, rendered as an empty cell. */
+  values: (string | null)[]
   /** Index of the best value, highlighted. */
   bestIndex?: number
 }
@@ -108,7 +109,7 @@ function buildRows(programmes: Programme[]): Row[] {
     return numbers.indexOf(target)
   }
 
-  return [
+  const rows: Row[] = [
     { label: 'University', values: programmes.map(universityNameOf) },
     { label: 'Faculty', values: programmes.map((p) => p.faculty) },
     { label: 'Degree Type', values: programmes.map((p) => p.degreeType) },
@@ -122,9 +123,17 @@ function buildRows(programmes: Programme[]): Row[] {
       bestIndex: bestOf((p) => p.durationYears, 'min'),
     },
     {
-      label: 'Cut-off Agg.',
+      label: 'Aggregate',
       values: programmes.map((p) => String(p.requirements.minimumAggregate)),
       bestIndex: bestOf((p) => p.requirements.minimumAggregate, 'max'),
+    },
+    {
+      // The same number means different things at different universities, and
+      // a comparison table is exactly where that difference matters.
+      label: 'Aggregate is',
+      values: programmes.map((p) =>
+        hasPublishedCutoff(p) ? 'Published cut-off' : 'Minimum entry requirement',
+      ),
     },
     {
       label: 'Annual Fees',
@@ -134,9 +143,7 @@ function buildRows(programmes: Programme[]): Row[] {
     {
       label: 'Total Est. Fees',
       values: programmes.map((p) =>
-        p.annualFeesGhs === undefined
-          ? NOT_PUBLISHED
-          : formatCedis(p.annualFeesGhs * p.durationYears),
+        p.annualFeesGhs === undefined ? null : formatCedis(p.annualFeesGhs * p.durationYears),
       ),
       bestIndex: bestOf(
         (p) => (p.annualFeesGhs === undefined ? undefined : p.annualFeesGhs * p.durationYears),
@@ -157,13 +164,17 @@ function buildRows(programmes: Programme[]): Row[] {
     { label: 'Region', values: programmes.map((p) => p.region) },
     {
       label: 'Career Paths',
-      values: programmes.map((p) => p.careers?.join(', ') ?? NOT_PUBLISHED),
+      values: programmes.map((p) => p.careers?.join(', ') ?? null),
     },
     {
       label: 'Data Source',
-      values: programmes.map((p) => `${CONFIDENCE_SHORT[p.provenance.confidence]} · ${p.provenance.year}`),
+      values: programmes.map(
+        (p) => `${CONFIDENCE_SHORT[p.provenance.confidence]} · ${p.provenance.year}`,
+      ),
     },
   ]
+
+  return rows.filter((row) => row.values.some((value) => value !== null))
 }
 
 export default function ComparePage() {
@@ -319,8 +330,8 @@ export default function ComparePage() {
         </div>
 
         <p className="mt-4 text-xs text-ink-muted">
-          Fees, employment rates and salary ranges are indicative estimates. Cut-offs show their own
-          source on each programme page.
+          Fees are the band the university publishes for the year shown. A blank cell means nothing
+          is published for that programme. Each figure&apos;s source is on its programme page.
         </p>
       </div>
     </div>

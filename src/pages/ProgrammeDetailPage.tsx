@@ -30,10 +30,12 @@ import EligibilityBadge from '../components/programme/EligibilityBadge'
 import ProvenanceBadge from '../components/programme/ProvenanceBadge'
 import ShortfallList from '../components/programme/ShortfallList'
 import {
+  aggregateLabel,
   catalogue,
   formatFeesPerYear,
   getProgramme,
   getUniversity,
+  hasPublishedCutoff,
   universityNameOf,
 } from '../data/catalogue'
 import { computeStats, describeCompetitiveness } from '../domain/catalogue/stats'
@@ -158,16 +160,19 @@ export default function ProgrammeDetailPage() {
 
       <div className="border-b border-line bg-surface">
         <div className="mx-auto grid max-w-4xl grid-cols-2 gap-3 px-4 py-4 sm:grid-cols-4 sm:gap-4 sm:px-6">
+          {/* A metric with nothing published behind it is dropped, not captioned. */}
           {[
             {
-              label: 'Cut-off',
+              label: aggregateLabel(programme),
               value: `Agg. ${programme.requirements.minimumAggregate}`,
-              sub: `${programme.provenance.year} admission`,
+              sub: hasPublishedCutoff(programme)
+                ? `${programme.provenance.year} admission`
+                : 'Minimum to be eligible',
             },
             {
               label: 'Annual Fees',
               value: formatFeesPerYear(programme),
-              sub: programme.fees ? `Published band, ${programme.fees.year}` : 'Not published',
+              sub: programme.fees ? `Published band, ${programme.fees.year}` : null,
             },
             {
               label: 'Duration',
@@ -179,13 +184,15 @@ export default function ProgrammeDetailPage() {
               value: `Top ${stats.nationalPercentile}%`,
               sub: `${stats.nationalRank} of ${stats.totalProgrammes} nationally`,
             },
-          ].map((metric) => (
-            <div key={metric.label} className="text-center">
-              <div className="text-xl font-bold text-brand">{metric.value}</div>
-              <div className="text-xs font-semibold text-ink">{metric.label}</div>
-              <div className="text-xs text-ink-muted">{metric.sub}</div>
-            </div>
-          ))}
+          ]
+            .filter((metric) => metric.value !== null)
+            .map((metric) => (
+              <div key={metric.label} className="text-center">
+                <div className="text-xl font-bold text-brand">{metric.value}</div>
+                <div className="text-xs font-semibold text-ink">{metric.label}</div>
+                <div className="text-xs text-ink-muted">{metric.sub}</div>
+              </div>
+            ))}
         </div>
       </div>
 

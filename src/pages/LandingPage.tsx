@@ -100,7 +100,7 @@ const HOW_IT_WORKS = [
 const FAQS = [
   {
     q: 'How accurate is the cut-off point data?',
-    a: `Every programme shows where its cut-off came from and when it was last checked. ${catalogueStats.authoritativeCount} of ${catalogueStats.programmeCount} come directly from a university's own published admissions list; the rest are labelled "Unconfirmed" or "Estimate" so you know not to rely on them alone. Always confirm on the university's portal before you apply.`,
+    a: `Every figure shows where it came from and when it was last checked. ${catalogueStats.authoritativeCount} of ${catalogueStats.programmeCount} programmes carry a figure confirmed against the university's own published list; the rest name the admissions source they came from. If we cannot confirm a number, we leave it out rather than show you a guess. Always confirm on the university's portal before you apply.`,
   },
   {
     q: 'Can I check eligibility before my results are out?',

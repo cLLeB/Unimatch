@@ -1,4 +1,3 @@
-import { GRADES, type Grade } from '../wassce/types'
 
 /**
  * Intents the advisor can answer. Every one is answered by computing over the
@@ -98,10 +97,6 @@ function extractProgrammeQuery(text: string, patterns: RegExp[]): string {
   return cleanSubject(text)
 }
 
-export function isGradeToken(token: string): token is Grade {
-  return (GRADES as readonly string[]).includes(token.toUpperCase())
-}
-
 /**
  * Classify a free-text question. Order matters: more specific patterns are
  * tested before broader ones.
@@ -159,7 +154,7 @@ export function parseIntent(input: string, memory?: AdvisorMemory): Intent {
   }
 
   // "What grades do I need for Medicine?"
-  if (/\b(?:what|which)\b.*\bgrades?\b.*\b(?:need|require|get into|for)\b/i.test(lower)) {
+  if (/\b(?:what|which)\b.*\bgrades?\b.*\b(?:need(?:ed|s)?|require[ds]?|get into|for)\b/i.test(lower)) {
     return {
       kind: 'grades-needed',
       programmeQuery: extractProgrammeQuery(text, [

@@ -174,7 +174,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -191,17 +192,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Business Administration is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Business Administration is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -228,7 +229,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -254,17 +256,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Computer Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Computer Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
         "Network Engineer",
@@ -291,7 +293,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -313,17 +316,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Computer Science is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Computer Science is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -350,7 +353,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -376,17 +380,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
         "Power Systems Engineer",
@@ -413,7 +417,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -430,17 +435,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Information Technology is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Information Technology is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -467,7 +472,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -484,17 +490,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Management and Entrepreneurship is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Management and Entrepreneurship is a 4-year BSc programme at Academic City University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -521,7 +527,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -547,17 +554,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Academic City University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://acity.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Mechanical Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
         "Maintenance Engineer",
@@ -584,7 +591,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -610,17 +618,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Biomedical Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Biomedical Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -648,6 +656,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -664,15 +673,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at All Nations University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -702,6 +711,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -723,15 +733,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -760,7 +770,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -786,17 +797,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Electronics and Communication Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electronics and Communication Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -823,7 +834,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -849,17 +861,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at All Nations University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at All Nations University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -887,6 +899,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -903,15 +916,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "All Nations University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://allnationsuniversity.org/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Theology is a 4-year BA programme at All Nations University, offered through the Faculty of Theology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -940,7 +953,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -957,17 +971,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Business Administration is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Business Administration is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -994,7 +1008,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1020,17 +1035,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Computer Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Computer Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
         "Network Engineer",
@@ -1057,7 +1072,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1079,17 +1095,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Computer Science is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Computer Science is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -1116,7 +1132,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1138,17 +1155,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Economics is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "overview": "Economics is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
         "Economist",
         "Policy Analyst",
@@ -1175,7 +1192,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1201,17 +1219,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
         "Power Systems Engineer",
@@ -1238,7 +1256,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1255,17 +1274,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Law with Public Policy is a 4-year LLB programme at Ashesi University, offered through the Faculty of Humanities and Social Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Law with Public Policy is a 4-year LLB programme at Ashesi University, offered through the Faculty of Humanities and Social Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
         "Legal Consultant",
@@ -1292,7 +1311,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1309,17 +1329,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Management Information Systems is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Management Information Systems is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -1346,7 +1366,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1372,17 +1393,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Mechanical Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
         "Maintenance Engineer",
@@ -1409,7 +1430,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1435,17 +1457,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ashesi University programme catalogue. Ashesi admits holistically rather than by a published aggregate cut-off; the figures shown are indicative only and it is among the most selective institutions in Ghana.",
+        "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
         "sourceUrl": "https://www.ashesi.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Mechatronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Mechatronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
         "Maintenance Engineer",
@@ -1473,6 +1495,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1489,15 +1512,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting with Computing is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -1526,7 +1549,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1552,17 +1576,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Civil Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Civil Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Civil Engineer",
         "Site Engineer",
@@ -1589,7 +1613,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1606,17 +1631,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Computer Science is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "overview": "Computer Science is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -1643,7 +1668,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1669,17 +1695,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Electrical and Electronic Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electrical and Electronic Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
         "Power Systems Engineer",
@@ -1706,7 +1732,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 26,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1723,17 +1750,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Fashion Design and Textiles is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Arts. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
+      "overview": "Fashion Design and Textiles is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
         "Designer",
@@ -1761,6 +1788,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1777,15 +1805,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Hospitality Management is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -1814,7 +1842,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "diploma",
       "requirements": {
-        "minimumAggregate": 30,
+        "minimumAggregate": 36,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1831,17 +1860,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Hospitality Management is a 2-year Diploma programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "overview": "Hospitality Management is a 2-year Diploma programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -1869,6 +1898,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1885,15 +1915,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Marketing is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -1922,7 +1952,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -1948,17 +1979,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Mechanical Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Mechanical Engineering is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
         "Maintenance Engineer",
@@ -1986,6 +2017,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2002,15 +2034,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Accra Technical University programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://atu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Statistics is a 4-year BTech programme at Accra Technical University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2040,6 +2072,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2056,15 +2089,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Economics and Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2094,6 +2127,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2115,15 +2149,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Economics is a 4-year BA programme at Catholic University of Ghana, offered through the Faculty of Economics and Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
@@ -2153,6 +2187,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2169,15 +2204,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Education is a 4-year B.Ed programme at Catholic University of Ghana, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2207,6 +2242,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2223,15 +2259,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2260,7 +2296,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2286,17 +2323,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Catholic University of Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -2324,6 +2361,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2340,15 +2378,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Catholic University of Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://cug.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Religious Studies is a 4-year BA programme at Catholic University of Ghana, offered through the Faculty of Religious Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2378,6 +2416,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2399,15 +2438,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -2437,6 +2476,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2453,15 +2493,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Banking and Finance is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2491,6 +2531,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2507,15 +2548,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2545,6 +2586,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2562,15 +2604,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Central University by distance learning, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2600,6 +2642,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2616,15 +2659,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Communication Studies is a 4-year BA programme at Central University, offered through the Faculty of Arts and Social Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2654,6 +2697,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2670,15 +2714,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Human Resource Management is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2708,6 +2752,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2724,15 +2769,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Central University, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2761,7 +2806,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2778,17 +2824,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Law is a 4-year LLB programme at Central University, offered through the Faculty of Law. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Law is a 4-year LLB programme at Central University, offered through the Faculty of Law. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
         "Legal Consultant",
@@ -2816,6 +2862,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2832,15 +2879,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Marketing is a 4-year BSc programme at Central University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -2869,7 +2916,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2895,17 +2943,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -2932,7 +2980,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -2958,17 +3007,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Pharmacy is a 6-year PharmD programme at Central University, offered through the School of Pharmacy. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Pharmacy is a 6-year PharmD programme at Central University, offered through the School of Pharmacy. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Pharmacist",
         "Clinical Pharmacist",
@@ -2995,7 +3044,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3017,17 +3067,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Physician Assistantship is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Physician Assistantship is a 4-year BSc programme at Central University, offered through the School of Medicine and Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Physician Assistant",
         "Clinical Officer",
@@ -3055,6 +3105,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3071,15 +3122,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Central University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://central.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Theology is a 4-year BA programme at Central University, offered through the School of Theology, Mission and Leadership. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -3109,6 +3160,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3130,15 +3182,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -3168,6 +3220,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3184,15 +3237,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -3222,6 +3275,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3243,15 +3297,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -3281,6 +3335,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3297,15 +3352,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Cybersecurity is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -3334,7 +3389,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3360,17 +3416,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
         "Power Systems Engineer",
@@ -3398,6 +3454,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3414,15 +3471,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -3452,6 +3509,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3469,15 +3527,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Ghana Communication Technology University by distance learning, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -3506,7 +3564,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3532,17 +3591,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Ghana Communication Technology University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://gctu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Telecommunications Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Telecommunications Engineering is a 4-year BSc programme at Ghana Communication Technology University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
         "Network Engineer",
@@ -3570,6 +3629,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3629,6 +3689,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3692,6 +3753,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3746,6 +3808,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3800,6 +3863,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3859,6 +3923,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3913,6 +3978,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -3967,6 +4033,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4021,6 +4088,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4075,6 +4143,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4138,6 +4207,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4197,6 +4267,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4260,6 +4331,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4314,6 +4386,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4377,6 +4450,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4436,6 +4510,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4499,6 +4574,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4553,6 +4629,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4616,6 +4693,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4675,6 +4753,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4729,6 +4808,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4783,6 +4863,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4837,6 +4918,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4901,6 +4983,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -4955,6 +5038,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5009,6 +5093,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5063,6 +5148,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5126,6 +5212,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5180,6 +5267,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5234,6 +5322,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5293,6 +5382,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5347,6 +5437,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5401,6 +5492,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5455,6 +5547,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5514,6 +5607,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5573,6 +5667,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5636,6 +5731,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5690,6 +5786,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 6,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5757,6 +5854,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5811,6 +5909,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5865,6 +5964,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5919,6 +6019,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -5973,6 +6074,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6027,6 +6129,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6081,6 +6184,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6140,6 +6244,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6199,6 +6304,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6262,6 +6368,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6325,6 +6432,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6384,6 +6492,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6443,6 +6552,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6502,6 +6612,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6556,6 +6667,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6619,6 +6731,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6682,6 +6795,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6736,6 +6850,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6799,6 +6914,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6862,6 +6978,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6925,6 +7042,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -6988,6 +7106,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7042,6 +7161,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7096,6 +7216,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7150,6 +7271,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7204,6 +7326,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7258,6 +7381,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7312,6 +7436,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7366,6 +7491,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7420,6 +7546,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7484,6 +7611,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7538,6 +7666,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7597,6 +7726,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7660,6 +7790,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7723,6 +7854,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7744,15 +7876,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -7782,6 +7914,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7798,15 +7931,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -7836,6 +7969,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7857,15 +7991,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Economics is a 4-year BA programme at Methodist University Ghana, offered through the Faculty of Social Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
@@ -7895,6 +8029,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7911,15 +8046,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Human Resource Management is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -7949,6 +8084,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -7965,15 +8101,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8002,7 +8138,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8028,17 +8165,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Methodist University Ghana, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -8066,6 +8203,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8082,15 +8220,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Methodist University Ghana programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://mucg.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Sociology is a 4-year BA programme at Methodist University Ghana, offered through the Faculty of Social Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8120,6 +8258,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8141,15 +8280,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -8179,6 +8318,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8195,15 +8335,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Banking and Finance is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8233,6 +8373,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8249,15 +8390,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Pentecost University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8287,6 +8428,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8308,15 +8450,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at Pentecost University, offered through the Faculty of Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -8346,6 +8488,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8362,15 +8505,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Pentecost University, offered through the Faculty of Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8399,7 +8542,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8416,17 +8560,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Law is a 4-year LLB programme at Pentecost University, offered through the Faculty of Law. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Law is a 4-year LLB programme at Pentecost University, offered through the Faculty of Law. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
         "Legal Consultant",
@@ -8453,7 +8597,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8479,17 +8624,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Pentecost University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Pentecost University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -8517,6 +8662,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8533,15 +8679,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Pentecost University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Pentecost University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://pentvars.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Theology is a 4-year BA programme at Pentecost University, offered through the Faculty of Theology and Ministry. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8571,6 +8717,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8592,15 +8739,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Regent University College of Science and Technology programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://regent.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -8630,6 +8777,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8646,15 +8794,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Regent University College of Science and Technology programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://regent.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8684,6 +8832,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8705,15 +8854,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Regent University College of Science and Technology programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://regent.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -8743,6 +8892,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8759,15 +8909,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Regent University College of Science and Technology programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://regent.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8797,6 +8947,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8813,15 +8964,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Regent University College of Science and Technology programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://regent.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Theology is a 4-year BA programme at Regent University College of Science and Technology, offered through the School of Theology and Ministry. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -8851,6 +9002,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8910,6 +9062,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -8965,6 +9118,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9024,6 +9178,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9078,6 +9233,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9132,6 +9288,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9186,6 +9343,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9240,6 +9398,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9294,6 +9453,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9348,6 +9508,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9402,6 +9563,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9456,6 +9618,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9511,6 +9674,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9565,6 +9729,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9619,6 +9784,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 28,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9674,6 +9840,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 32,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9729,6 +9896,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9792,6 +9960,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9855,6 +10024,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9910,6 +10080,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -9969,6 +10140,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 25,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10023,6 +10195,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10077,6 +10250,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 26,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10132,6 +10306,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10187,6 +10362,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10241,6 +10417,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10295,6 +10472,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10354,6 +10532,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10413,6 +10592,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10472,6 +10652,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 25,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10531,6 +10712,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10585,6 +10767,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10639,6 +10822,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10693,6 +10877,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10752,6 +10937,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10811,6 +10997,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10874,6 +11061,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10928,6 +11116,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 28,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -10983,6 +11172,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11038,6 +11228,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11097,6 +11288,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11156,6 +11348,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11210,6 +11403,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 32,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11265,6 +11459,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11328,6 +11523,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11387,6 +11583,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11441,6 +11638,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 25,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11495,6 +11693,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11549,6 +11748,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11603,6 +11803,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11662,6 +11863,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11725,6 +11927,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11784,6 +11987,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11838,6 +12042,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11892,6 +12097,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -11946,6 +12152,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12000,6 +12207,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12054,6 +12262,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12113,6 +12322,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12167,6 +12377,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12221,6 +12432,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12275,6 +12487,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12329,6 +12542,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12388,6 +12602,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12442,6 +12657,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 32,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12497,6 +12713,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12552,6 +12769,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12606,6 +12824,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12660,6 +12879,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12715,6 +12935,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12769,6 +12990,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12824,6 +13046,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12878,6 +13101,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12932,6 +13156,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -12986,6 +13211,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 26,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13041,6 +13267,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13095,6 +13322,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13154,6 +13382,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13213,6 +13442,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13272,6 +13502,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13327,6 +13558,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13386,6 +13618,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13445,6 +13678,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13508,6 +13742,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13575,6 +13810,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13634,6 +13870,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13693,6 +13930,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13752,6 +13990,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13806,6 +14045,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13869,6 +14109,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13932,6 +14173,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -13995,6 +14237,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14058,6 +14301,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14117,6 +14361,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14176,6 +14421,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14235,6 +14481,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14289,6 +14536,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14343,6 +14591,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14397,6 +14646,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14451,6 +14701,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14505,6 +14756,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 32,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14560,6 +14812,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14614,6 +14867,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14668,6 +14922,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14722,6 +14977,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14776,6 +15032,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14830,6 +15087,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14884,6 +15142,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 25,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14943,6 +15202,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -14997,6 +15257,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15051,6 +15312,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15105,6 +15367,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15126,15 +15389,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -15164,6 +15427,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15180,15 +15444,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agribusiness is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15218,6 +15482,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15234,15 +15499,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agricultural Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15272,6 +15537,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15288,15 +15554,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15326,6 +15592,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15342,15 +15609,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Agricultural Economics and Extension) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15380,6 +15647,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15396,15 +15664,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Agronomy) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15434,6 +15702,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15450,15 +15719,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Animal Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15488,6 +15757,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15504,15 +15774,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Biotechnology) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15542,6 +15812,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15558,15 +15829,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Horticulture) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15596,6 +15867,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15612,15 +15884,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Mechanization and Irrigation) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15650,6 +15922,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15666,15 +15939,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture Technology (Soil Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15704,6 +15977,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15725,15 +15999,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Aquaculture and Fisheries Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -15763,6 +16037,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15779,15 +16054,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Arabic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15817,6 +16092,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15833,15 +16109,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Banking and Finance is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15871,6 +16147,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15887,15 +16164,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Basic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -15925,6 +16202,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -15950,15 +16228,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Biotechnology and Molecular Biology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -15988,6 +16266,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "diploma",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16004,15 +16283,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 2-year Diploma programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16042,6 +16321,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16058,15 +16338,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Information Systems is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16096,6 +16376,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16112,15 +16393,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Studies Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16150,6 +16431,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16171,15 +16453,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Chemical Science and Technology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
@@ -16209,6 +16491,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16234,15 +16517,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Community Nutrition is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -16272,6 +16555,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16293,15 +16577,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computing Mathematics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -16331,6 +16615,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16347,15 +16632,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Development Education Studies is a 4-year BA programme at University for Development Studies, offered through the Faculty of Sustainable Development Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16385,6 +16670,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16401,15 +16687,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Early Childhood Care and Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16439,6 +16725,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16455,15 +16742,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Ecotourism and Hospitality Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16493,6 +16780,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16518,15 +16806,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Engineering Physics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
@@ -16556,6 +16844,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16572,15 +16861,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Environmental Management and Sustainability is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16610,6 +16899,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16626,15 +16916,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Family and Consumer Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16664,6 +16954,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16680,15 +16971,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Family and Consumer Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16718,6 +17009,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16739,15 +17031,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Finance and Economics is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
@@ -16777,6 +17069,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16793,15 +17086,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Food Systems is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16831,6 +17124,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16856,15 +17150,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Forensic Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -16894,6 +17188,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16910,15 +17205,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Forest Resource Conservation and Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -16948,6 +17243,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -16964,15 +17260,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Health Information Management is a 4-year BSc programme at University for Development Studies, offered through the School of Public Health. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -17002,6 +17298,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17018,15 +17315,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Human Resource Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17056,6 +17353,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17072,15 +17370,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Marketing is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17110,6 +17408,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17131,15 +17430,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Medical Imaging Technology is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -17169,6 +17468,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17198,15 +17498,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Medicine is a 6-year MBChB programme at University for Development Studies, offered through the School of Medicine. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
       "careers": [
@@ -17236,6 +17536,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17261,15 +17562,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Microbiology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -17299,6 +17600,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17320,15 +17622,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Nurse Practitioner is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -17358,6 +17660,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17379,15 +17682,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Paediatric Nursing is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -17417,6 +17720,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17433,15 +17737,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17471,6 +17775,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17487,15 +17792,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Public Administration is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17525,6 +17830,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17541,15 +17847,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Renewable Natural Resources is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17579,6 +17885,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17595,15 +17902,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Social Change Communication is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Communication and Media Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17633,6 +17940,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17649,15 +17957,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UDS programme catalogue. UDS does not publish a per-programme cut-off list, so these show the general minimum aggregate for degree admission rather than a programme-specific figure.",
+        "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
         "sourceUrl": "https://uds.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Social Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -17687,6 +17995,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17751,6 +18060,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17809,6 +18119,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17867,6 +18178,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17925,6 +18237,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -17983,6 +18296,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18046,6 +18360,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18104,6 +18419,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18167,6 +18483,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18225,6 +18542,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18283,6 +18601,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18341,6 +18660,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18399,6 +18719,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18457,6 +18778,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18515,6 +18837,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18573,6 +18896,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18632,6 +18956,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18690,6 +19015,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18748,6 +19074,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18806,6 +19133,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 11,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18863,6 +19191,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18922,6 +19251,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -18974,6 +19304,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19026,6 +19357,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19080,6 +19412,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19134,6 +19467,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19186,6 +19520,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19243,6 +19578,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19302,6 +19638,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19354,6 +19691,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19406,6 +19744,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19458,6 +19797,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19512,6 +19852,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19564,6 +19905,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19616,6 +19958,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19670,6 +20013,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19722,6 +20066,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19776,6 +20121,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19828,6 +20174,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19882,6 +20229,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 6,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19939,6 +20287,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -19998,6 +20347,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20055,6 +20405,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20114,6 +20465,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20171,6 +20523,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20228,6 +20581,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20287,6 +20641,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20346,6 +20701,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20411,6 +20767,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 21,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20478,6 +20835,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20530,6 +20888,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20582,6 +20941,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20634,6 +20994,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20691,6 +21052,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20750,6 +21112,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20802,6 +21165,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20856,6 +21220,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20908,6 +21273,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -20962,6 +21328,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21014,6 +21381,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21068,6 +21436,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21125,6 +21494,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21182,6 +21552,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21241,6 +21612,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21298,6 +21670,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21352,6 +21725,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21407,6 +21781,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21464,6 +21839,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21523,6 +21899,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21580,6 +21957,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21632,6 +22010,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21686,6 +22065,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21738,6 +22118,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21792,6 +22173,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21846,6 +22228,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21898,6 +22281,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 13,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21955,6 +22339,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22014,6 +22399,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22071,6 +22457,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22130,6 +22517,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22187,6 +22575,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22239,6 +22628,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22291,6 +22681,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22343,6 +22734,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22397,6 +22789,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22452,6 +22845,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22504,6 +22898,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22556,6 +22951,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22608,6 +23004,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22660,6 +23057,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22721,6 +23119,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22784,6 +23183,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22836,6 +23236,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22888,6 +23289,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22942,6 +23344,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22994,6 +23397,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23046,6 +23450,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23103,6 +23508,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23160,6 +23566,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23217,6 +23624,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23269,6 +23677,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23321,6 +23730,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23373,6 +23783,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23425,6 +23836,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23478,7 +23890,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23504,17 +23917,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
         "Nutrition Officer",
@@ -23541,7 +23954,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23567,17 +23981,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Medical Laboratory Technology is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Medical Laboratory Technology is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Medical Laboratory Scientist",
         "Biomedical Scientist",
@@ -23604,7 +24018,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23634,17 +24049,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Medicine is a 6-year MBChB programme at University of Health and Allied Sciences, offered through the School of Medicine. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "overview": "Medicine is a 6-year MBChB programme at University of Health and Allied Sciences, offered through the School of Medicine. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
       "careers": [
         "Medical Doctor",
         "Surgeon",
@@ -23671,7 +24086,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23693,17 +24109,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -23730,7 +24146,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23756,17 +24173,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -23793,7 +24210,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23819,17 +24237,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nutrition is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nutrition is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
         "Nutrition Officer",
@@ -23856,7 +24274,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23882,17 +24301,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Pharmacist",
         "Clinical Pharmacist",
@@ -23919,7 +24338,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23941,17 +24361,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Physiotherapy and Sports Science is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Physiotherapy and Sports Science is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Physiotherapist",
         "Rehabilitation Specialist",
@@ -23978,7 +24398,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23995,17 +24416,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
         "Epidemiologist",
@@ -24032,7 +24453,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24049,17 +24471,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UHAS programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://uhas.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
         "Epidemiologist",
@@ -24086,7 +24508,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24108,17 +24531,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
         "Accountant",
         "Auditor",
@@ -24146,6 +24569,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24163,15 +24587,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -24200,7 +24624,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24217,17 +24642,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Banking and Finance is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "overview": "Banking and Finance is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
         "Auditor",
@@ -24254,7 +24679,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24271,17 +24697,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -24309,6 +24735,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24326,15 +24753,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -24363,7 +24790,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24380,17 +24808,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Business Information Systems is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Business Information Systems is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
         "Systems Administrator",
@@ -24417,7 +24845,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24434,17 +24863,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Human Resource Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Human Resource Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "HR Officer",
         "Talent Manager",
@@ -24471,7 +24900,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24488,17 +24918,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Information Technology Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Information Technology Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
         "Systems Administrator",
@@ -24525,7 +24955,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24542,17 +24973,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Law is a 4-year LLB programme at University of Professional Studies, Accra, offered through the Faculty of Law. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Law is a 4-year LLB programme at University of Professional Studies, Accra, offered through the Faculty of Law. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
         "Legal Consultant",
@@ -24579,7 +25010,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 19,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24596,17 +25028,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Marketing is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "overview": "Marketing is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Marketing Executive",
         "Brand Manager",
@@ -24633,7 +25065,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24650,17 +25083,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Procurement Officer",
         "Supply Chain Analyst",
@@ -24687,7 +25120,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24704,17 +25138,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UPSA programme catalogue. No published per-programme cut-off list was found; these are estimates.",
+        "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
         "sourceUrl": "https://upsa.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Public Relations Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Public Relations Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the Faculty of Information Technology and Communication Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
         "Systems Administrator",
@@ -24742,6 +25176,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24763,15 +25198,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Valley View University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -24801,6 +25236,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24817,15 +25253,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Agriculture is a 4-year BSc programme at Valley View University, offered through the School of Agriculture. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -24855,6 +25291,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24871,15 +25308,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Valley View University, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -24909,6 +25346,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24926,15 +25364,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Valley View University by distance learning, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -24964,6 +25402,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24985,15 +25424,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at Valley View University, offered through the School of Computing. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -25023,6 +25462,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25039,15 +25479,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Development Studies is a 4-year BA programme at Valley View University, offered through the Faculty of Arts and Social Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25077,6 +25517,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25093,15 +25534,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Valley View University, offered through the School of Computing. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25130,7 +25571,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25156,17 +25598,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Valley View University, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Valley View University, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -25194,6 +25636,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25210,15 +25653,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Valley View University programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://vvu.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Theology is a 4-year BA programme at Valley View University, offered through the School of Theology and Missions. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25248,6 +25691,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25269,15 +25713,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Wisconsin International University College programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -25307,6 +25751,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25323,15 +25768,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Wisconsin International University College programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25361,6 +25806,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25378,15 +25824,15 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Wisconsin International University College programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Business Administration is a 4-year BSc programme at Wisconsin International University College by distance learning, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25416,6 +25862,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25432,15 +25879,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Wisconsin International University College programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
@@ -25469,7 +25916,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -25495,17 +25943,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "No per-programme cut-off is published for this university. This shows the general minimum for admission and must not be relied on as a programme cut-off."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "Wisconsin International University College programme catalogue. This institution does not publish a per-programme cut-off list, so records show the national minimum aggregate for degree admission.",
+        "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
         "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -25523,107 +25971,68 @@ export const catalogue: Catalogue = {
   ],
   "deadlines": [
     {
-      "id": "knust-all",
+      "id": "knust-undergraduate",
       "universityId": "knust",
-      "scope": "All Programmes",
-      "closesOn": "2026-09-30",
-      "provenance": {
-        "source": "KNUST undergraduate admissions cycle (typical closing date; confirm on the portal)",
-        "sourceUrl": "https://apps.knust.edu.gh/admissions",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "estimated"
-      }
-    },
-    {
-      "id": "ucc-all",
-      "universityId": "ucc",
-      "scope": "All Programmes",
-      "closesOn": "2026-09-15",
-      "provenance": {
-        "source": "University of Cape Coast admissions cycle (typical; confirm on the portal)",
-        "sourceUrl": "https://admission.ucc.edu.gh",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "estimated"
-      }
-    },
-    {
-      "id": "uds-health-sciences",
-      "universityId": "uds",
-      "scope": "Health Sciences",
-      "closesOn": "2026-08-21",
-      "provenance": {
-        "source": "UDS health sciences deadline (typical; confirm on the portal)",
-        "sourceUrl": "https://uds.edu.gh/admissions",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "estimated"
-      }
-    },
-    {
-      "id": "uew-education",
-      "universityId": "uew",
-      "scope": "Education Programmes",
-      "closesOn": "2026-07-31",
-      "provenance": {
-        "source": "UEW education programmes deadline (typical; confirm on the portal)",
-        "sourceUrl": "https://uew.edu.gh/admissions",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "estimated"
-      }
-    },
-    {
-      "id": "ug-all",
-      "universityId": "ug",
-      "scope": "All Other Programmes",
-      "closesOn": "2026-10-15",
-      "provenance": {
-        "source": "University of Ghana general admissions deadline (typical; confirm on the portal)",
-        "sourceUrl": "https://admission.ug.edu.gh",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "estimated"
-      }
-    },
-    {
-      "id": "ug-medicine-law",
-      "universityId": "ug",
-      "scope": "Medicine & Law",
+      "scope": "Undergraduate admissions",
       "closesOn": "2026-08-31",
       "provenance": {
-        "source": "University of Ghana restricted-programme deadline (typical; confirm on the portal)",
-        "sourceUrl": "https://admission.ug.edu.gh",
+        "source": "KNUST 2026/2027 undergraduate admissions, as reported by YEN Ghana",
+        "sourceUrl": "https://yen.com.gh/156571-knust-admission-forms-deadline-requirements-portal.html",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "researched"
       }
     },
     {
-      "id": "uhas-allied-health",
-      "universityId": "uhas",
-      "scope": "Allied Health",
-      "closesOn": "2026-09-18",
+      "id": "ucc-regular-first-degree",
+      "universityId": "ucc",
+      "scope": "Regular First Degree",
+      "closesOn": "2026-06-15",
       "provenance": {
-        "source": "UHAS allied health deadline (typical; confirm on the portal)",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "University of Cape Coast, Admission of Regular First Degree Students 2026/2027",
+        "sourceUrl": "https://admissions.ucc.edu.gh/announcement/admission-of-regular-first-degree-students-20262027",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
       }
     },
     {
-      "id": "upsa-all",
-      "universityId": "upsa",
-      "scope": "All Programmes",
-      "closesOn": "2026-09-25",
+      "id": "ug-diploma-to-degree",
+      "universityId": "ug",
+      "scope": "Diploma to Degree (Regular)",
+      "closesOn": "2026-08-21",
       "provenance": {
-        "source": "UPSA admissions cycle (typical; confirm on the portal)",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "source": "University of Ghana admissions deadlines page",
+        "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
         "year": 2026,
         "lastVerified": "2026-08-07",
-        "confidence": "estimated"
+        "confidence": "authoritative"
+      }
+    },
+    {
+      "id": "ug-general-undergraduate",
+      "universityId": "ug",
+      "scope": "General Undergraduate (Ghanaian applicants)",
+      "closesWhen": "Open until WASSCE results are released",
+      "provenance": {
+        "source": "University of Ghana admissions deadlines page",
+        "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
+        "year": 2026,
+        "lastVerified": "2026-08-07",
+        "confidence": "authoritative"
+      }
+    },
+    {
+      "id": "ug-health-sciences",
+      "universityId": "ug",
+      "scope": "College of Health Sciences (selected programmes)",
+      "closesOn": "2026-07-24",
+      "provenance": {
+        "source": "University of Ghana admissions deadlines page",
+        "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
+        "year": 2026,
+        "lastVerified": "2026-08-07",
+        "confidence": "authoritative"
       }
     }
   ]

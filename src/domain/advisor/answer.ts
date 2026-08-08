@@ -67,13 +67,14 @@ function findProgrammes(catalogue: Catalogue, query: string, limit = 3): Program
 }
 
 function provenanceNote(programme: Programme): string {
+  if (programme.requirements.aggregateBasis === 'general-minimum') {
+    return '(this university publishes a minimum entry requirement rather than a per-programme cut-off)'
+  }
   switch (programme.provenance.confidence) {
     case 'authoritative':
       return `(${programme.provenance.year} cut-off, ${programme.provenance.source})`
     case 'researched':
-      return '(cut-off researched but not confirmed with the university)'
-    case 'estimated':
-      return '(estimated cut-off, not an official figure)'
+      return `(${programme.provenance.year} cut-off, published by ${programme.provenance.source})`
   }
 }
 
@@ -88,8 +89,7 @@ const DEFAULT_FOLLOW_UPS = [
 ]
 
 function list(items: string[]): string {
-  if (items.length === 0) return ''
-  if (items.length === 1) return items[0]!
+  if (items.length <= 1) return items.join('')
   return `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`
 }
 
@@ -291,8 +291,10 @@ function answerCompare(ctx: AdvisorContext, left: string, right: string): Answer
   const moreCompetitive = a.requirements.minimumAggregate < b.requirements.minimumAggregate ? a : b
 
   const describe = (p: Programme) => {
-    const parts = [`a cut-off of ${p.requirements.minimumAggregate}`]
-    if (p.durationYears) parts.push(`${p.durationYears} years`)
+    const parts = [
+      `a cut-off of ${p.requirements.minimumAggregate}`,
+      `${p.durationYears} years`,
+    ]
     if (p.annualFeesGhs !== undefined) {
       parts.push(`fees of GH₵${p.annualFeesGhs.toLocaleString('en-GH')}/yr`)
     }
@@ -497,6 +499,14 @@ function findUniversity(catalogue: Catalogue, query: string) {
 function answerUniversityProgrammes(ctx: AdvisorContext, query: string): Answer {
   const university = findUniversity(ctx.catalogue, query)
   if (!university) {
+    /*
+     * The phrasing rule can fire on a programme whose own name contains
+     * "programme" or "course". Try that reading before telling the student we
+     * have nothing.
+     */
+    if (findProgrammes(ctx.catalogue, query, 1).length > 0) {
+      return answerProgrammeDetail(ctx, query)
+    }
     return {
       text: `I could not find a university matching "${query}". I currently hold ${list(ctx.catalogue.universities.slice(0, 6).map((u) => u.shortName))} and others.`,
       programmeIds: [],

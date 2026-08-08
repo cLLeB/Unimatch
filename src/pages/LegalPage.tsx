@@ -70,19 +70,33 @@ function Terms() {
         <div>
           <h2 className="mb-2 text-base font-semibold text-ink">Where our numbers come from</h2>
           <p>
-            Every programme shows its source and the date it was last checked.{' '}
-            {catalogueStats.authoritativeCount} of {catalogueStats.programmeCount} cut-offs come
-            from a university&apos;s own published list. The rest are labelled &ldquo;Unconfirmed&rdquo;
-            or &ldquo;Estimate&rdquo; and should be treated as a starting point for your own
-            research, not as fact.
+            Every figure shows its source and the date it was last checked, and there are only two
+            kinds. &ldquo;Confirmed&rdquo; means it comes from the university&apos;s own published
+            list: {catalogueStats.authoritativeCount} of {catalogueStats.programmeCount} programmes.
+            &ldquo;Published&rdquo; means it comes from an admissions source with a long track
+            record, which we name. Anything we cannot place in one of those two is not shown at all
+            rather than shown with a warning attached.
           </p>
         </div>
 
         <div>
-          <h2 className="mb-2 text-base font-semibold text-ink">Fees, salaries and employment</h2>
+          <h2 className="mb-2 text-base font-semibold text-ink">
+            Cut-offs and entry requirements
+          </h2>
           <p>
-            These figures are indicative estimates for orientation only. They are not published
-            university fees and should not be used for financial planning.
+            These are different numbers. A cut-off is the aggregate of the last student admitted in
+            a cycle and moves year to year. An entry requirement is the aggregate that makes you
+            eligible to apply at all. Universities that publish no per-programme cut-off list are
+            labelled &ldquo;Entry requirement&rdquo;, never dressed up as a cut-off.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="mb-2 text-base font-semibold text-ink">Fees</h2>
+          <p>
+            Fees are shown as the band a university publishes for a college or category, for a
+            stated academic year, because that is how they are published. Confirm the exact figure
+            for your programme before you pay anything.
           </p>
         </div>
 

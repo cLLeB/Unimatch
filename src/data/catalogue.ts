@@ -68,6 +68,10 @@ export function academicYear(startYear: number): string {
  * leading with what is missing. A cut-off confirmed for 2025/26 is useful
  * information; calling it "unconfirmed" because 2026/27 has not been published
  * yet tells a student nothing and reads as a fault in the data.
+ *
+ * There is no hedging vocabulary here on purpose. A figure is either confirmed
+ * by the university or published by a source with a long track record, and
+ * anything we cannot put in one of those two boxes is not shown at all.
  */
 export function confidenceLabel(provenance: Provenance): string {
   const year = academicYear(provenance.year)
@@ -76,8 +80,6 @@ export function confidenceLabel(provenance: Provenance): string {
       return `Confirmed ${year}`
     case 'researched':
       return `Published ${year}`
-    case 'estimated':
-      return `Indicative ${year}`
   }
 }
 
@@ -85,18 +87,15 @@ export function confidenceDetail(provenance: Provenance): string {
   const year = academicYear(provenance.year)
   switch (provenance.confidence) {
     case 'authoritative':
-      return `Confirmed against the university's own published admissions list for ${year}.`
+      return `Confirmed against the university's own published figures for ${year}.`
     case 'researched':
-      return `Published for ${year} by a credible admissions source. Confirm on the university portal before applying.`
-    case 'estimated':
-      return `This university does not publish a per-programme cut-off. Shown is the general minimum for degree admission in ${year}.`
+      return `Published for ${year} by an admissions source with a long track record. Confirm on the university portal before applying.`
   }
 }
 
 export const CONFIDENCE_SHORT: Record<Confidence, string> = {
   authoritative: 'Confirmed',
   researched: 'Published',
-  estimated: 'Indicative',
 }
 
 /** Format Ghana cedis without decimals, e.g. "GH₵ 4,200". */
@@ -104,20 +103,20 @@ export function formatCedis(amount: number): string {
   return `GH₵ ${amount.toLocaleString('en-GH')}`
 }
 
-/**
- * What the UI shows where a university publishes no figure.
+/*
+ * The formatters below return null where nothing is published, and every
+ * caller omits the row or tile entirely when they do.
  *
- * Most Ghanaian universities do not publish per-programme fees, salaries or
- * employment rates. Filling those gaps with plausible numbers is precisely the
- * fabrication this project removed, so the absence is stated instead.
+ * They used to return the string "Not published". Captioning a gap does not
+ * inform a student, it just spends a tile telling them the product failed to
+ * find something. An absent stat is quieter and no less honest.
  */
-export const NOT_PUBLISHED = 'Not published'
 
 /**
  * Fees as a band, which is how universities publish them, e.g.
  * "GH₵ 4,900 to 6,400/yr".
  */
-export function formatFeesPerYear(programme: Programme): string {
+export function formatFeesPerYear(programme: Programme): string | null {
   if (programme.fees) {
     const { minGhs, maxGhs } = programme.fees
     return minGhs === maxGhs
@@ -125,28 +124,40 @@ export function formatFeesPerYear(programme: Programme): string {
       : `${formatCedis(minGhs)} to ${maxGhs.toLocaleString('en-GH')}/yr`
   }
   return programme.annualFeesGhs === undefined
-    ? NOT_PUBLISHED
+    ? null
     : `${formatCedis(programme.annualFeesGhs)}/yr`
 }
 
 /** Short form for dense rows, e.g. "GH₵ 4,900+". */
-export function formatFeesCompact(programme: Programme): string {
+export function formatFeesCompact(programme: Programme): string | null {
   if (programme.fees) return `${formatCedis(programme.fees.minGhs)}+`
   return programme.annualFeesGhs === undefined
-    ? NOT_PUBLISHED
+    ? null
     : `${formatCedis(programme.annualFeesGhs)}/yr`
 }
 
-export function formatSalaryRange(programme: Programme): string {
-  if (!programme.salary) return NOT_PUBLISHED
+export function formatSalaryRange(programme: Programme): string | null {
+  if (!programme.salary) return null
   const { minMonthly, maxMonthly } = programme.salary
   return `${formatCedis(minMonthly)}, ${maxMonthly.toLocaleString('en-GH')}/mo`
 }
 
-export function formatEmploymentRate(programme: Programme): string {
-  return programme.employmentRatePct === undefined
-    ? NOT_PUBLISHED
-    : `${programme.employmentRatePct}%`
+export function formatEmploymentRate(programme: Programme): string | null {
+  return programme.employmentRatePct === undefined ? null : `${programme.employmentRatePct}%`
+}
+
+/** True when the aggregate is a competitive cut-off rather than an entry floor. */
+export function hasPublishedCutoff(programme: Programme): boolean {
+  return programme.requirements.aggregateBasis !== 'general-minimum'
+}
+
+/**
+ * What to call the aggregate on a card. A university that publishes no
+ * per-programme list still publishes the aggregate you need to be eligible,
+ * which is a real, confirmed figure, just a different one.
+ */
+export function aggregateLabel(programme: Programme): string {
+  return hasPublishedCutoff(programme) ? 'Cut-off' : 'Entry requirement'
 }
 
 /**

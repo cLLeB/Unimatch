@@ -21,7 +21,7 @@ function deadline(id: string, closesOn: string): AdmissionDeadline {
       source: 'test',
       year: 2025,
       lastVerified: '2025-01-01',
-      confidence: 'estimated',
+      confidence: 'authoritative',
     },
   }
 }

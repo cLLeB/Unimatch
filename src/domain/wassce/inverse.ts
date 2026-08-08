@@ -104,6 +104,8 @@ export function improvementsToQualify(
   // --- 1. Mandatory subject fixes ----------------------------------------
   const allRequirements = [...requirements.coreSubjects, ...requirements.electiveSubjects]
 
+  /* v8 ignore next 2 -- the incomplete arm is unreachable: line 81 already
+     returned for incomplete results. It exists so TypeScript can narrow. */
   for (const shortfall of verdict.status === 'incomplete' ? [] : verdict.shortfalls) {
     if (shortfall.kind === 'missing-subject') {
       return {
@@ -117,6 +119,8 @@ export function improvementsToQualify(
 
     if (shortfall.kind === 'subject' || shortfall.kind === 'no-credit-pass') {
       const requirement = allRequirements.find((r) => r.subject === shortfall.subject)
+      /* v8 ignore next -- unreachable: every shortfall is raised from one of
+         these same requirements, under that requirement's own subject name. */
       if (!requirement) continue
       const target = requirement.minimumGrade
       record(improvements, shortfall.subject, shortfall.actual, target)
@@ -126,6 +130,8 @@ export function improvementsToQualify(
 
   // --- 2. Recompute after mandatory fixes --------------------------------
   let current = computeAggregate(working)
+  /* v8 ignore next -- the ?? 0 arm is unreachable: `working` only ever has
+     grades raised, so an aggregate that computed once still computes. */
   let deficit = (current.aggregate ?? 0) - requirements.minimumAggregate
 
   // --- 3. Close the remaining aggregate gap ------------------------------

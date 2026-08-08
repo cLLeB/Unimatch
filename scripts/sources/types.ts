@@ -1,4 +1,4 @@
-import type { AdmissionTrack, Provenance } from '../../src/domain/catalogue/types'
+import type { AdmissionTrack, AggregateBasis, Provenance } from '../../src/domain/catalogue/types'
 
 /**
  * Compact source rows.
@@ -41,6 +41,11 @@ export interface SourceFile {
    * (science-led institutions); false where Social Studies is as common.
    */
   scienceCore: boolean
+  /**
+   * Whether `c` on each row is a competitive cut-off or the institution's
+   * minimum entry requirement. Defaults to a published cut-off.
+   */
+  aggregateBasis?: AggregateBasis
   provenance: Provenance
   rows: RawProgramme[]
 }
