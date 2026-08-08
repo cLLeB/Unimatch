@@ -259,3 +259,35 @@ describe('programme detail is complete, not a shell', () => {
     expect(screen.getByText('Application Process')).toBeInTheDocument()
   })
 })
+
+describe('a programme admitted more than one way', () => {
+  /**
+   * Cape Coast runs Accounting on the regular track at 15 and by distance at
+   * 24. A student who misses the first may well reach the second, and before
+   * this the two pages had no connection at all.
+   */
+  it('links the other routes, loosest first', async () => {
+    renderApp('/programme/ucc-accounting')
+    expect(await screen.findByText('Other ways in', {}, LAZY)).toBeInTheDocument()
+
+    const route = screen.getByRole('link', { name: /Distance/ })
+    expect(route).toHaveAttribute('href', '/programme/ucc-accounting-distance')
+    expect(within(route).getByText('Agg. 24')).toBeInTheDocument()
+    expect(within(route).getByText('9 looser')).toBeInTheDocument()
+  })
+
+  it('says the cut-off is the first-choice figure, not a guarantee', async () => {
+    const { user } = renderApp('/programme/ucc-accounting')
+    await screen.findByRole('heading', { name: 'Accounting' }, LAZY)
+
+    await user.click(within(screen.getByRole('tablist')).getByRole('tab', { name: 'requirements' }))
+    expect(screen.getByText(/is the first-choice figure/)).toBeInTheDocument()
+    expect(screen.getByText(/do not publish a separate figure for lower choices/)).toBeInTheDocument()
+  })
+
+  it('omits the section for a programme offered one way only', async () => {
+    renderApp('/programme/knust-chemical-engineering')
+    await screen.findByRole('heading', { name: 'Chemical Engineering' }, LAZY)
+    expect(screen.queryByText('Other ways in')).not.toBeInTheDocument()
+  })
+})

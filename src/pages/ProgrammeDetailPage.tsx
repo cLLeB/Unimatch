@@ -38,7 +38,9 @@ import {
   hasPublishedCutoff,
   universityNameOf,
 } from '../data/catalogue'
+import { otherRoutesFor } from '../domain/catalogue/routes'
 import { computeStats, describeCompetitiveness } from '../domain/catalogue/stats'
+import { ADMISSION_TRACK_LABELS } from '../domain/catalogue/types'
 import { useProgrammeVerdict } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
 
@@ -84,6 +86,13 @@ export default function ProgrammeDetailPage() {
   }))
 
   const stats = computeStats(catalogue, programme)
+
+  /*
+   * The same subject at the same university, admitted a different way. These
+   * are separate records with their own cut-offs, and without this a student
+   * reading the regular page never learns the distance route may take them.
+   */
+  const routes = otherRoutesFor(catalogue, programme)
 
   /** This programme plus its faculty peers, for the comparison chart. */
   const comparison = [programme, ...stats.peers]
@@ -357,6 +366,40 @@ export default function ProgrammeDetailPage() {
                 </ul>
               </Card>
 
+              {routes.length > 0 && (
+                <Card className="p-4">
+                  <h4 className="mb-1 text-sm font-semibold text-ink">Other ways in</h4>
+                  <p className="mb-3 text-xs text-ink-muted">
+                    {university?.shortName ?? 'This university'} admits this programme more than one
+                    way, each with its own cut-off.
+                  </p>
+                  <ul className="space-y-2">
+                    {routes.map((route) => (
+                      <li key={route.programme.id}>
+                        <Link
+                          to={`/programme/${route.programme.id}`}
+                          className="flex items-center justify-between gap-3 rounded-xl border border-line px-3 py-2.5 transition-colors hover:bg-canvas"
+                        >
+                          <span className="text-sm font-medium text-ink">
+                            {ADMISSION_TRACK_LABELS[route.track]}
+                          </span>
+                          <span className="flex items-center gap-2">
+                            <span className="text-sm font-semibold text-brand">
+                              Agg. {route.aggregate}
+                            </span>
+                            {route.difference !== 0 && (
+                              <Badge variant={route.difference > 0 ? 'success' : 'warning'}>
+                                {route.difference > 0 ? `${route.difference} looser` : `${-route.difference} tighter`}
+                              </Badge>
+                            )}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </Card>
+              )}
+
               <Card className="p-4">
                 <h4 className="mb-3 text-sm font-semibold text-ink">Career paths</h4>
                 <div className="flex flex-wrap gap-2">
@@ -400,6 +443,19 @@ export default function ProgrammeDetailPage() {
           <div className="space-y-4 pb-8">
             <Card className="p-5">
               <h3 className="mb-4 font-semibold text-ink">WASSCE Requirements</h3>
+
+              {hasPublishedCutoff(programme) && (
+                <div className="mb-4 rounded-xl bg-brand-subtle p-3 text-sm text-ink-muted">
+                  <span className="font-semibold text-ink">
+                    Aggregate {programme.requirements.minimumAggregate} is the first-choice figure.
+                  </span>{' '}
+                  Universities publish cut-offs for applicants who list a programme first, and do
+                  not publish a separate figure for lower choices. Listing this lower is more
+                  competitive, so treat {programme.requirements.minimumAggregate} as the floor
+                  rather than a guarantee.
+                  {routes.length > 0 && ' The other routes below have their own cut-offs.'}
+                </div>
+              )}
               <div className="space-y-3 text-sm">
                 {[
                   ...programme.requirements.coreSubjects, ...programme.requirements.electiveSubjects,
