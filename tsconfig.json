@@ -24,5 +24,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "scripts", "e2e", "vite.config.ts"]
+  // supabase/functions/_shared only. The function entrypoints use Deno globals
+  // that do not exist here, and are typechecked by the Supabase CLI on deploy.
+  "include": [
+    "src",
+    "scripts",
+    "e2e",
+    "vite.config.ts",
+    "supabase/functions/_shared"
+  ]
 }

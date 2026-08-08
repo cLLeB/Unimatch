@@ -63,17 +63,24 @@ export function buildReminderData(): ReminderData {
   return { universities, programmeUniversity, deadlines }
 }
 
-export const REMINDER_DATA_PATH = resolve(
-  join(fileURLToPath(new URL('.', import.meta.url)), '..'),
-  'supabase',
-  'functions',
-  '_shared',
-  'reminder-data.json',
-)
+/**
+ * Resolved lazily. Computing it at module scope broke reminder-data.test.ts,
+ * which imports buildReminderData for the drift check: under vitest
+ * import.meta.url is not a file: URL and fileURLToPath throws on import.
+ */
+export function reminderDataPath(): string {
+  return resolve(
+    join(fileURLToPath(new URL('.', import.meta.url)), '..'),
+    'supabase',
+    'functions',
+    '_shared',
+    'reminder-data.json',
+  )
+}
 
 function main(): void {
   const data = buildReminderData()
-  writeFileSync(REMINDER_DATA_PATH, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
+  writeFileSync(reminderDataPath(), `${JSON.stringify(data, null, 2)}\n`, 'utf8')
 
   const dated = data.deadlines.filter((deadline) => deadline.closesOn).length
   process.stdout.write(

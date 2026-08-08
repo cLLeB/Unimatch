@@ -15,7 +15,13 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
-    include: ['src/**/*.{test,spec}.{ts,tsx}'],
+    // The Edge Function's pure modules live outside src because the Supabase
+    // CLI only bundles what sits under supabase/functions/. They are still the
+    // product, so they are still held to the suite.
+    include: [
+      'src/**/*.{test,spec}.{ts,tsx}',
+      'supabase/functions/_shared/*.{test,spec}.ts',
+    ],
     // Integration tests drive multi-step forms through the real router.
     testTimeout: 15_000,
     coverage: {

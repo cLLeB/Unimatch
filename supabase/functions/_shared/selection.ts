@@ -10,11 +10,8 @@
  *
  * `daysUntil` is deliberately a copy of src/domain/deadlines/status.ts rather
  * than an import: this file is bundled by the Supabase CLI, which only reliably
- * ships what lives under supabase/functions/. The copy is line-for-line the
- * same; if the domain version changes, change this one with it.
- *
- * NOT YET COVERED BY TESTS. Everything else in the repo is; this was built
- * under a token budget that ran out before the suite was written.
+ * ships what lives under supabase/functions/. selection.test.ts asserts the two
+ * agree across a range of dates, so the copy cannot drift silently.
  */
 
 export interface ReminderDeadline {
