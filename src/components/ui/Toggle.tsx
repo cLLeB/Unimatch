@@ -20,7 +20,11 @@ export default function Toggle({ checked, onChange, label, disabled = false }: T
       className={cn(
         'relative h-5 w-10 shrink-0 rounded-full transition-all',
         'focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2',
-        checked ? 'bg-brand' : 'bg-slate-300',
+        // The off track has to be visible on a white card, not just on a dark
+        // one: slate-300 was 1.4:1 against the surface and read as nothing at
+        // all in light mode. slate-500 clears 3:1 in both themes, and keeps the
+        // white knob legible against the track it sits on.
+        checked ? 'bg-brand' : 'bg-slate-500',
         disabled && 'cursor-not-allowed opacity-50',
       )}
     >

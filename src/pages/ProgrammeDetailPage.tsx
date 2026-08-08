@@ -323,6 +323,7 @@ export default function ProgrammeDetailPage() {
                             tick={{ fontSize: 11, fill: chart.axis }}
                           />
                           <Tooltip
+                            cursor={{ fill: chart.cursor }}
                             contentStyle={{
                               borderRadius: 10,
                               border: `1px solid ${chart.tooltipBorder}`,

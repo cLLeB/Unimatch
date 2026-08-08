@@ -283,6 +283,7 @@ export default function SimulatorPage() {
                       tick={{ fontSize: 11, fill: chart.axis }}
                     />
                     <Tooltip
+                      cursor={{ fill: chart.cursor }}
                       contentStyle={{
                         borderRadius: 10,
                         border: `1px solid ${chart.tooltipBorder}`,
@@ -293,7 +294,7 @@ export default function SimulatorPage() {
                     />
                     <Legend />
                     <Bar dataKey="cutoff" name="Programme Cut-off" fill={chart.brand} radius={[0, 4, 4, 0]} />
-                    <Bar dataKey="yours" name="Your Aggregate" fill="#F59E0B" radius={[0, 4, 4, 0]} />
+                    <Bar dataKey="yours" name="Your Aggregate" fill={chart.accent} radius={[0, 4, 4, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
