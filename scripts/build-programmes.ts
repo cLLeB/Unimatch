@@ -25,6 +25,7 @@ import { PRIVATE_SOURCES } from './sources/private'
 import { ucc } from './sources/ucc'
 import { ug } from './sources/ug'
 import { careersFor, feeBandFor, overviewFor } from './sources/enrichment'
+import { KNUST_OFFICIAL, KNUST_OFFICIAL_PROVENANCE } from './sources/knustOfficial'
 import { MASTER_OVERRIDES, MASTER_SOURCES } from './sources/master'
 import type { RawProgramme, SourceFile } from './sources/types'
 
@@ -226,7 +227,20 @@ function withConfirmed(
   track: AdmissionTrack,
   cutoff: number,
 ): { source: SourceFile; cutoff: number } {
-  const override = MASTER_OVERRIDES.get(idFor(source, row, track))
+  const id = idFor(source, row, track)
+
+  /*
+   * The spreadsheet first, then KNUST's own guide for the programmes the
+   * spreadsheet did not reach. They are the same authority, so there is no
+   * conflict to resolve, only a gap to fill.
+   */
+  const official = KNUST_OFFICIAL.get(id)
+  const override =
+    MASTER_OVERRIDES.get(id) ??
+    (official === undefined
+      ? undefined
+      : { aggregate: official, provenance: KNUST_OFFICIAL_PROVENANCE })
+
   if (!override) return { source, cutoff }
 
   superseded += 1

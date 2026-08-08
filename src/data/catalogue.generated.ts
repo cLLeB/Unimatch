@@ -3685,7 +3685,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 10,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3711,19 +3711,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Aerospace Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 10 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Aerospace Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Aerospace Engineer",
         "Avionics Engineer",
@@ -3750,7 +3747,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3767,19 +3764,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Agribusiness Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Agribusiness Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -3806,7 +3800,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 21,
+        "minimumAggregate": 17,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3823,19 +3817,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Agricultural Biotechnology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "overview": "Agricultural Biotechnology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Biochemist",
         "Research Scientist",
@@ -3862,7 +3853,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 23,
+        "minimumAggregate": 13,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3884,19 +3875,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Agricultural Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 23 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Agricultural Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Agronomist",
         "Extension Officer",
@@ -3923,7 +3911,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 20,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3940,19 +3928,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Agriculture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Agriculture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
         "Extension Officer",
@@ -3979,7 +3964,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 23,
+        "minimumAggregate": 22,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3996,19 +3981,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Akan is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "overview": "Akan is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
         "Language Teacher",
@@ -4089,7 +4071,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 23,
+        "minimumAggregate": 20,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4106,19 +4088,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Aquaculture and Water Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "overview": "Aquaculture and Water Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -4145,7 +4124,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 13,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4162,19 +4141,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Architecture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
+      "overview": "Architecture is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
       "careers": [
         "Architect",
         "Design Consultant",
@@ -4831,7 +4807,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 19,
+        "minimumAggregate": 11,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4848,19 +4824,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Communication Design (Graphic Design) is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "overview": "Communication Design (Graphic Design) is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 11 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -5005,7 +4978,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5022,19 +4995,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Construction Technology and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Construction Technology and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Civil Engineer",
         "Site Engineer",
@@ -5236,7 +5206,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5253,19 +5223,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Development Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "overview": "Development Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Urban Planner",
         "Development Planner",
@@ -5726,7 +5693,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 23,
+        "minimumAggregate": 24,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5743,19 +5710,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Forest Resources Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "overview": "Forest Resources Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
         "Extension Officer",
@@ -5782,7 +5746,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 14,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5799,19 +5763,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "French is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "overview": "French is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
         "Language Teacher",
@@ -6255,17 +6216,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Human Biology (Medicine) is a 6-year MBChB programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
       "careers": [
@@ -6348,7 +6306,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 19,
+        "minimumAggregate": 10,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6365,19 +6323,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Human Settlement Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "overview": "Human Settlement Planning is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
       "careers": [
         "Urban Planner",
         "Development Planner",
@@ -6514,7 +6469,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 21,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6531,19 +6486,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Integrated Rural Art and Industry is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
+      "overview": "Integrated Rural Art and Industry is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -6570,7 +6522,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 13,
+        "minimumAggregate": 8,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6587,19 +6539,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Land Economy is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
+      "overview": "Land Economy is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
       "careers": [
         "Estate Surveyor",
         "Property Valuer",
@@ -6626,7 +6575,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 17,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6643,19 +6592,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Landscape Design and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Landscape Design and Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -6682,7 +6628,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 9,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6699,19 +6645,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Law is a 4-year LLB programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Law. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "overview": "Law is a 4-year LLB programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Law. Entry is competitive at aggregate 6 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
         "Legal Consultant",
@@ -7237,7 +7180,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 9,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7263,19 +7206,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Medical Laboratory Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Medical Laboratory Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Medical Laboratory Scientist",
         "Biomedical Scientist",
@@ -7473,7 +7413,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 18,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7490,19 +7430,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Natural Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Natural Resource Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Agriculture and Natural Resources. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -7829,7 +7766,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 8,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7855,19 +7792,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Pharmacy is a 6-year PharmD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Pharmacy is a 6-year PharmD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Pharmacist",
         "Clinical Pharmacist",
@@ -8117,7 +8051,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 12,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -8134,19 +8068,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Publishing Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "overview": "Publishing Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -8173,7 +8104,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -8190,19 +8121,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Quantity Surveying and Construction Economics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Quantity Surveying and Construction Economics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Civil Engineer",
         "Site Engineer",
@@ -8229,7 +8157,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -8246,19 +8174,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Real Estate Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Real Estate Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Art and Built Environment. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Estate Surveyor",
         "Property Valuer",
@@ -8681,7 +8606,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 13,
+        "minimumAggregate": 10,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -8707,19 +8632,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Veterinary Medicine is a 6-year DVM programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Veterinary Medicine is a 6-year DVM programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Veterinary Surgeon",
         "Livestock Health Officer",

@@ -1,0 +1,165 @@
+{
+  "source": "KNUST, Entry Requirements and Guidelines for Selecting an Undergraduate Programme, Academic Affairs Division, April 2026",
+  "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
+  "year": 2024,
+  "lastVerified": "2026-08-08",
+  "rows": [
+    {
+      "id": "knust-aerospace-engineering",
+      "name": "Aerospace Engineering",
+      "was": 10,
+      "cutoff": 7
+    },
+    {
+      "id": "knust-agribusiness-management",
+      "name": "Agribusiness Management",
+      "was": 14,
+      "cutoff": 15
+    },
+    {
+      "id": "knust-agricultural-biotechnology",
+      "name": "Agricultural Biotechnology",
+      "was": 21,
+      "cutoff": 17
+    },
+    {
+      "id": "knust-agricultural-engineering",
+      "name": "Agricultural Engineering",
+      "was": 23,
+      "cutoff": 13
+    },
+    {
+      "id": "knust-agriculture",
+      "name": "Agriculture",
+      "was": 24,
+      "cutoff": 20
+    },
+    {
+      "id": "knust-akan",
+      "name": "Akan",
+      "was": 23,
+      "cutoff": 22
+    },
+    {
+      "id": "knust-aquaculture-and-water-resource-management",
+      "name": "Aquaculture and Water Resource Management",
+      "was": 23,
+      "cutoff": 20
+    },
+    {
+      "id": "knust-architecture",
+      "name": "Architecture",
+      "was": 13,
+      "cutoff": 7
+    },
+    {
+      "id": "knust-communication-design-graphic-design",
+      "name": "Communication Design (Graphic Design)",
+      "was": 19,
+      "cutoff": 11
+    },
+    {
+      "id": "knust-construction-technology-and-management",
+      "name": "Construction Technology and Management",
+      "was": 18,
+      "cutoff": 9
+    },
+    {
+      "id": "knust-development-planning",
+      "name": "Development Planning",
+      "was": 15,
+      "cutoff": 9
+    },
+    {
+      "id": "knust-forest-resources-technology",
+      "name": "Forest Resources Technology",
+      "was": 23,
+      "cutoff": 24
+    },
+    {
+      "id": "knust-french",
+      "name": "French",
+      "was": 16,
+      "cutoff": 14
+    },
+    {
+      "id": "knust-human-biology-medicine",
+      "name": "Human Biology (Medicine)",
+      "was": 6,
+      "cutoff": 6
+    },
+    {
+      "id": "knust-human-settlement-planning",
+      "name": "Human Settlement Planning",
+      "was": 19,
+      "cutoff": 10
+    },
+    {
+      "id": "knust-integrated-rural-art-and-industry",
+      "name": "Integrated Rural Art and Industry",
+      "was": 21,
+      "cutoff": 15
+    },
+    {
+      "id": "knust-land-economy",
+      "name": "Land Economy",
+      "was": 13,
+      "cutoff": 8
+    },
+    {
+      "id": "knust-landscape-design-and-management",
+      "name": "Landscape Design and Management",
+      "was": 24,
+      "cutoff": 17
+    },
+    {
+      "id": "knust-law",
+      "name": "Law",
+      "was": 9,
+      "cutoff": 6
+    },
+    {
+      "id": "knust-medical-laboratory-technology",
+      "name": "Medical Laboratory Technology",
+      "was": 9,
+      "cutoff": 7
+    },
+    {
+      "id": "knust-natural-resource-management",
+      "name": "Natural Resource Management",
+      "was": 24,
+      "cutoff": 18
+    },
+    {
+      "id": "knust-pharmacy",
+      "name": "Pharmacy",
+      "was": 8,
+      "cutoff": 6
+    },
+    {
+      "id": "knust-publishing-studies",
+      "name": "Publishing Studies",
+      "was": 14,
+      "cutoff": 12
+    },
+    {
+      "id": "knust-quantity-surveying-and-construction-economics",
+      "name": "Quantity Surveying and Construction Economics",
+      "was": 18,
+      "cutoff": 9
+    },
+    {
+      "id": "knust-real-estate-management",
+      "name": "Real Estate Management",
+      "was": 18,
+      "cutoff": 9
+    },
+    {
+      "id": "knust-veterinary-medicine",
+      "name": "Veterinary Medicine",
+      "was": 13,
+      "cutoff": 10
+    }
+  ],
+  "note": "Cut-off aggregates read from KNUST's own admissions guide, which the supplied spreadsheet was transcribed from and agrees with on 45 of the 47 programmes they share. These cover programmes the spreadsheet missed, including the College of Engineering rows its own note records as cropped from the source image."
+}
