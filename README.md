@@ -172,28 +172,29 @@ Everything is optional — see `.env.example`.
 
 ### Reminder setup
 
-Four one-time steps, none of which are in git because two of them are secrets:
+Already done on the live project: migrations pushed, both functions deployed, the schedule
+running, and `REMINDER_UNSUBSCRIBE_SECRET` set. **One thing is outstanding — `RESEND_API_KEY`:**
 
 ```bash
-npm run data:functions      # regenerate the function's catalogue lookup
-npx supabase db push        # applies migrations 0002 and 0003
-npx supabase secrets set RESEND_API_KEY=... \
-  REMINDER_CRON_SECRET=... REMINDER_UNSUBSCRIBE_SECRET=...
+npx supabase secrets set RESEND_API_KEY=re_xxx --project-ref fttzuizvvwekmjtdqgmh
+```
+
+Until it is set the function authenticates, finds its recipients, and then fails before sending.
+Nothing is mailed and nothing is lost, because no student is opted in yet either: migration 0002
+cleared the opt-ins that were never a real choice.
+
+There is no vault SQL to paste and no cron secret to invent. Migration 0004 has the database
+generate its own secret into Vault; `pg_cron` reads it to sign the call and the function checks it
+back through `verify_reminder_secret()`, so the value exists in exactly one place and no human
+ever holds a copy.
+
+To redeploy after a change:
+
+```bash
+npm run data:functions   # only if the catalogue or deadlines changed
+npx supabase db push
 npm run functions:deploy
 ```
-
-Then, once, in the SQL editor — the cron needs the URL and the shared secret from Vault, and
-migration 0003 deliberately does not hardcode them:
-
-```sql
-select vault.create_secret(
-  'https://fttzuizvvwekmjtdqgmh.supabase.co/functions/v1/send-deadline-reminders',
-  'reminder_function_url');
-select vault.create_secret('<the same REMINDER_CRON_SECRET>', 'reminder_cron_secret');
-```
-
-`REMINDER_CRON_SECRET` is the only thing guarding a URL that mails every student, since the
-function is deployed with `--no-verify-jwt` so `pg_cron` can reach it. Treat it like a password.
 
 `npm run data:functions` must be re-run whenever the catalogue or deadlines change, or the
 function will keep mailing last week's dates.
