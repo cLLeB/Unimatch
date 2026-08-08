@@ -1,4 +1,4 @@
-import type { Catalogue, Programme } from '../catalogue/types'
+import { ADMISSION_TRACK_LABELS, type Catalogue, type Programme } from '../catalogue/types'
 import { resolveAll } from '../deadlines/status'
 import { CLOSE_MATCH_MARGIN, describeShortfall, evaluate } from '../wassce/eligibility'
 import { describePlan, improvementsToQualify } from '../wassce/inverse'
@@ -32,7 +32,13 @@ function universityName(catalogue: Catalogue, programme: Programme): string {
 }
 
 function label(catalogue: Catalogue, programme: Programme): string {
-  return `${programme.name} at ${universityName(catalogue, programme)}`
+  // The track belongs in the name: "Computer Science at UG" is two different
+  // programmes at two different cut-offs without it.
+  const track =
+    programme.admissionTrack === 'regular'
+      ? ''
+      : ` (${ADMISSION_TRACK_LABELS[programme.admissionTrack]})`
+  return `${programme.name}${track} at ${universityName(catalogue, programme)}`
 }
 
 /** Score a programme name against a free-text query. Higher is better. */

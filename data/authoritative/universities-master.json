@@ -1261,8 +1261,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-social-studies-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1274,8 +1276,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": "C6 in Literature in English",
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-english-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1287,8 +1291,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": "C6 in Elective Mathematics",
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-mathematics-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1408,8 +1414,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": "C6 in French",
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-french-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1421,8 +1429,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-spanish-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1448,7 +1458,7 @@
       "degreeType": "B.Ed",
       "requiredSubjects": "C4 or better in Core Mathematics",
       "matchesId": "ug-information-and-communication-technology-education",
-      "matchedBy": "fuzzy",
+      "matchedBy": "exact",
       "previousAggregate": 12,
       "previousConfidence": "authoritative"
     },
@@ -1462,8 +1472,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": "C6 in Biology, Chemistry and Management in Living",
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-consumer-sciences-education",
+      "matchedBy": "exact",
+      "previousAggregate": 20,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1475,8 +1487,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-arabic-education",
+      "matchedBy": "exact",
+      "previousAggregate": 24,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -1488,8 +1502,10 @@
       "faculty": "College of Education",
       "degreeType": "B.Ed",
       "requiredSubjects": "C4 or better in Elective Mathematics, C4 or better in Core Mathematics",
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ug-computer-science-education",
+      "matchedBy": "exact",
+      "previousAggregate": 9,
+      "previousConfidence": "authoritative"
     },
     {
       "universityId": "ug",
@@ -2282,8 +2298,10 @@
       "faculty": "Degree",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ucc-arts-education",
+      "matchedBy": "exact",
+      "previousAggregate": 16,
+      "previousConfidence": "researched"
     },
     {
       "universityId": "ucc",
@@ -2321,8 +2339,10 @@
       "faculty": "Degree",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ucc-communication-design-education",
+      "matchedBy": "exact",
+      "previousAggregate": 17,
+      "previousConfidence": "researched"
     },
     {
       "universityId": "ucc",
@@ -2509,8 +2529,10 @@
       "faculty": "Degree",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ucc-home-economics-education",
+      "matchedBy": "exact",
+      "previousAggregate": 18,
+      "previousConfidence": "researched"
     },
     {
       "universityId": "ucc",
@@ -2602,8 +2624,10 @@
       "faculty": "Degree",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ucc-mathematics-education",
+      "matchedBy": "exact",
+      "previousAggregate": 18,
+      "previousConfidence": "researched"
     },
     {
       "universityId": "ucc",
@@ -2682,8 +2706,10 @@
       "faculty": "Degree",
       "degreeType": "B.Ed",
       "requiredSubjects": null,
-      "matchesId": null,
-      "matchedBy": null
+      "matchesId": "ucc-science-education",
+      "matchedBy": "exact",
+      "previousAggregate": 22,
+      "previousConfidence": "researched"
     },
     {
       "universityId": "ucc",

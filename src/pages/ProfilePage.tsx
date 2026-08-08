@@ -8,7 +8,7 @@ import Card from '../components/ui/Card'
 import Select from '../components/ui/Select'
 import Toggle from '../components/ui/Toggle'
 import { initialsOf } from '../components/layout/Navbar'
-import { getProgramme, universityNameOf } from '../data/catalogue'
+import { getProgramme, universityNameOf, programmeLabel } from '../data/catalogue'
 import { SHS_TRACKS } from '../domain/wassce/subjects'
 import type { Programme } from '../domain/catalogue/types'
 import { useEligibility } from '../hooks/useEligibility'
@@ -187,7 +187,7 @@ function SavedProgrammes({ saved }: { saved: Programme[] }) {
             >
               <Link to={`/programme/${programme.id}`} className="min-w-0 flex-1">
                 <div className="truncate text-sm font-medium text-ink hover:text-brand">
-                  {programme.name}
+                  {programmeLabel(programme)}
                 </div>
                 <div className="truncate text-xs text-ink-muted">
                   {universityNameOf(programme)} · {programme.degreeType}
@@ -341,7 +341,7 @@ export default function ProfilePage() {
       aggregate?.aggregate != null ? `Aggregate: ${aggregate.aggregate}` : null,
       `Programmes I qualify for: ${qualifiedCount}`,
       saved.length > 0
-        ? `Shortlist: ${saved.map((p) => `${p.name} (${universityNameOf(p)})`).join(', ')}`
+        ? `Shortlist: ${saved.map((p) => `${programmeLabel(p)} (${universityNameOf(p)})`).join(', ')}`
         : null,
       'Check yours at UniMatch Ghana.',
     ].filter(Boolean)

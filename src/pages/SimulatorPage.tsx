@@ -13,7 +13,7 @@ import {
 import Badge from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
-import { programmes, universityNameOf } from '../data/catalogue'
+import { programmes, universityNameOf, programmeLabel } from '../data/catalogue'
 import { Link } from 'react-router-dom'
 import { computeAggregate } from '../domain/wassce/aggregate'
 import { evaluate } from '../domain/wassce/eligibility'
@@ -366,7 +366,7 @@ export default function SimulatorPage() {
                                 to={`/programme/${programme.id}`}
                                 className="flex items-center justify-between gap-2 rounded-lg px-1 py-1.5 text-sm hover:bg-canvas"
                               >
-                                <span className="min-w-0 truncate text-ink">{programme.name}</span>
+                                <span className="min-w-0 truncate text-ink">{programmeLabel(programme)}</span>
                                 <Badge variant="neutral">
                                   {programme.requirements.minimumAggregate}
                                 </Badge>

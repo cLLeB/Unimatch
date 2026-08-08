@@ -4,6 +4,7 @@ import type { Programme } from '../../domain/catalogue/types'
 import type { Verdict } from '../../domain/wassce/eligibility'
 import { useStudent } from '../../state/StudentProvider'
 import { MAX_COMPARE } from '../../state/types'
+import { ADMISSION_TRACK_LABELS } from '../../domain/catalogue/types'
 import Badge from '../ui/Badge'
 import Button, { LinkButton } from '../ui/Button'
 import Card from '../ui/Card'
@@ -36,6 +37,14 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
             <h3 className="text-base font-semibold text-ink sm:text-lg">{programme.name}</h3>
             <EligibilityBadge status={verdict.status} />
             <Badge variant="neutral">{programme.degreeType}</Badge>
+            {/*
+              Without this, the regular and full-fee-paying records for one
+              programme are two identical cards at different cut-offs, which
+              reads as a duplicate rather than as the two routes it is.
+            */}
+            {programme.admissionTrack !== 'regular' && (
+              <Badge variant="warning">{ADMISSION_TRACK_LABELS[programme.admissionTrack]}</Badge>
+            )}
             <ProvenanceBadge provenance={programme.provenance} />
           </div>
 

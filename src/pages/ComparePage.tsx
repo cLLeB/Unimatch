@@ -1,7 +1,8 @@
-import { AlertCircle, CheckCircle, GitCompare, X } from 'lucide-react'
+import { GitCompare, X } from 'lucide-react'
 import { useMemo } from 'react'
 import Badge, { type BadgeVariant } from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
+import CompareBars from '../components/programme/CompareBars'
 import EligibilityBadge from '../components/programme/EligibilityBadge'
 import ShortlistTabs from '../components/programme/ShortlistTabs'
 import {
@@ -218,7 +219,18 @@ export default function ComparePage() {
     )
   }
 
-  const columns = `grid-cols-[minmax(7rem,1fr)_repeat(${selected.length},minmax(0,1fr))]`
+  /*
+   * An inline style, not a class.
+   *
+   * This was `grid-cols-[...repeat(${selected.length}...)]`, built at runtime.
+   * Tailwind only emits classes it can see in the source, so that class never
+   * existed and the grid fell back to a single column: the comparison had
+   * never actually been side by side on any screen, which is what made it read
+   * as one long vertical list.
+   */
+  const gridStyle = {
+    gridTemplateColumns: `minmax(6rem, 0.8fr) repeat(${selected.length}, minmax(0, 1fr))`,
+  }
 
   return (
     <div className="p-4 sm:p-6">
@@ -228,7 +240,7 @@ export default function ComparePage() {
           <div>
             <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">Shortlist</h1>
             <p className="text-sm text-ink-muted">
-              Side-by-side analysis of your selected programmes. Best value in each row is
+              Side by side, with the figures drawn to scale. The best value in each row is
               highlighted.
             </p>
           </div>
@@ -237,14 +249,25 @@ export default function ComparePage() {
           </Button>
         </div>
 
-        <div className="overflow-x-auto rounded-2xl border border-line bg-surface shadow-sm">
-          <div className="min-w-[46rem]">
-            <div className={`grid ${columns} sticky top-0 z-10 border-b border-line bg-canvas`}>
+        <CompareBars programmes={selected} />
+
+        {/*
+          The grid stays side by side on every width, because a comparison
+          folded into one column per programme is no longer a comparison. It is
+          narrower than it was so two programmes fit a phone without scrolling,
+          and scroll-snaps when a third pushes it over.
+        */}
+        <div className="snap-x snap-mandatory overflow-x-auto rounded-2xl border border-line bg-surface shadow-sm">
+          <div className="min-w-[34rem] sm:min-w-[42rem]">
+            <div className="sticky top-0 z-10 grid border-b border-line bg-canvas" style={gridStyle}>
               <div className="p-4 text-xs font-semibold uppercase tracking-widest text-ink-muted">
                 Criteria
               </div>
               {selected.map((programme) => (
-                <div key={programme.id} className="relative border-l border-line p-4">
+                <div
+                  key={programme.id}
+                  className="relative snap-start border-l border-line p-3 sm:p-4"
+                >
                   <Button
                     variant="ghost"
                     size="sm"
@@ -255,7 +278,11 @@ export default function ComparePage() {
                     <X size={14} />
                   </Button>
                   <div className="pr-6 text-sm font-bold text-ink">{programme.name}</div>
-                  <div className="mb-2 text-xs text-ink-muted">{universityNameOf(programme)}</div>
+                  <div className="mb-2 text-xs text-ink-muted">
+                    {universityNameOf(programme)}
+                    {programme.admissionTrack !== 'regular' &&
+                      ` · ${ADMISSION_TRACK_LABELS[programme.admissionTrack]}`}
+                  </div>
                   <div className="flex flex-wrap gap-1">
                     <EligibilityBadge status={byId.get(programme.id)?.status ?? 'incomplete'} />
                     {superlatives.get(programme.id)?.map((superlative) => (
@@ -271,9 +298,10 @@ export default function ComparePage() {
             {rows.map((row, rowIndex) => (
               <div
                 key={row.label}
-                className={`grid ${columns} border-b border-line last:border-0 ${
+                className={`grid border-b border-line last:border-0 ${
                   rowIndex % 2 === 0 ? '' : 'bg-canvas/40'
                 }`}
+                style={gridStyle}
               >
                 <div className="flex items-center p-4 text-xs font-semibold text-ink-muted">
                   {row.label}
@@ -290,42 +318,6 @@ export default function ComparePage() {
                 ))}
               </div>
             ))}
-
-            <div className={`grid ${columns} border-b border-line bg-brand-subtle/30`}>
-              <div className="flex items-center p-4 text-xs font-semibold text-ink-muted">Pros</div>
-              {selected.map((programme) => (
-                <div key={programme.id} className="border-l border-line p-4">
-                  {(programme.pros ?? []).map((pro) => (
-                    <div key={pro} className="mb-1 flex items-start gap-1.5 text-xs text-ink-muted">
-                      <CheckCircle
-                        size={12}
-                        className="mt-0.5 shrink-0 text-success"
-                        aria-hidden="true"
-                      />
-                      {pro}
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-
-            <div className={`grid ${columns}`}>
-              <div className="flex items-center p-4 text-xs font-semibold text-ink-muted">Cons</div>
-              {selected.map((programme) => (
-                <div key={programme.id} className="border-l border-line p-4">
-                  {(programme.cons ?? []).map((con) => (
-                    <div key={con} className="mb-1 flex items-start gap-1.5 text-xs text-ink-muted">
-                      <AlertCircle
-                        size={12}
-                        className="mt-0.5 shrink-0 text-accent"
-                        aria-hidden="true"
-                      />
-                      {con}
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
           </div>
         </div>
 

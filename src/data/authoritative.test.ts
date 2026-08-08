@@ -95,3 +95,48 @@ describe('supplied confirmed cut-offs', () => {
     expect(cs?.careers?.length).toBeGreaterThan(0)
   })
 })
+
+describe('nothing is listed twice', () => {
+  /**
+   * Superseding means replacing. A confirmed cut-off that lands beside the
+   * researched one it was meant to replace shows a student the same programme
+   * twice at two different figures, which is worse than either figure alone.
+   */
+  function subjectKey(name: string): string {
+    return name
+      .toLowerCase()
+      .replace(/\((?:bsc|ba|b\.?ed|bcom|llb|btech|dvm|bds|pharmd|mbchb)\)/g, '')
+      .replace(/[^a-z0-9]+/g, ' ')
+      .replace(/\bsciences\b/, 'science')
+      .trim()
+      .replace(/\s+education$/, '')
+  }
+
+  it('no university offers the same subject twice on one track at one degree', () => {
+    const seen = new Map<string, string[]>()
+
+    for (const programme of programmes) {
+      const key = [
+        programme.universityId,
+        programme.admissionTrack,
+        programme.degreeType,
+        subjectKey(programme.name),
+      ].join(' | ')
+      seen.set(key, [...(seen.get(key) ?? []), programme.id])
+    }
+
+    const duplicated = [...seen.entries()].filter(([, ids]) => ids.length > 1)
+    expect(duplicated).toEqual([])
+  })
+
+  it('keeps genuinely different routes to the same subject', () => {
+    // Legon admits Computer Science at 7 on the regular track and 15
+    // full-fee-paying. Those are two records on purpose.
+    const regular = getProgramme('ug-computer-science')
+    const feePaying = getProgramme('ug-computer-science-fee-paying')
+
+    expect(regular?.requirements.minimumAggregate).toBe(7)
+    expect(feePaying?.requirements.minimumAggregate).toBe(15)
+    expect(feePaying?.admissionTrack).toBe('fee-paying')
+  })
+})

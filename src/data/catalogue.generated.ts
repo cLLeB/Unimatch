@@ -10802,61 +10802,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ucc-arts-b-ed",
-      "name": "Arts (B.Ed)",
-      "universityId": "ucc",
-      "faculty": "Degree",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Cape Coast",
-      "region": "Central",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Social Studies",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as - (Post-WASSCE 2025).",
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
-      },
-      "provenance": {
-        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Arts (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 2850,
-      "fees": {
-        "minGhs": 2500,
-        "maxGhs": 3200,
-        "year": "2025/26",
-        "source": "University of Cape Coast fees, 2025/26 (reported range)",
-        "sourceUrl": "https://admissions.ucc.edu.gh"
-      }
-    },
-    {
       "id": "ucc-arts-distance",
       "name": "Arts",
       "universityId": "ucc",
@@ -11760,60 +11705,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ucc-communication-design",
-      "name": "Communication Design",
-      "universityId": "ucc",
-      "faculty": "Degree",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Cape Coast",
-      "region": "Central",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 17,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Social Studies",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 17.0 (Post-WASSCE 2025)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Communication Design is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
-      "careers": [
-        "Communications Officer",
-        "Journalist",
-        "Public Relations Officer"
-      ],
-      "annualFeesGhs": 2850,
-      "fees": {
-        "minGhs": 2500,
-        "maxGhs": 3200,
-        "year": "2025/26",
-        "source": "University of Cape Coast fees, 2025/26 (reported range)",
-        "sourceUrl": "https://admissions.ucc.edu.gh"
-      }
-    },
-    {
       "id": "ucc-communication-design-education",
       "name": "Communication Design Education",
       "universityId": "ucc",
@@ -11842,17 +11733,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Communication Design Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -14550,61 +14437,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ucc-home-economics",
-      "name": "Home Economics",
-      "universityId": "ucc",
-      "faculty": "Degree",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Cape Coast",
-      "region": "Central",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Social Studies",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as - (Post-WASSCE 2025).",
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
-      },
-      "provenance": {
-        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Home Economics is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Economist",
-        "Policy Analyst",
-        "Research Officer"
-      ],
-      "annualFeesGhs": 3300,
-      "fees": {
-        "minGhs": 2800,
-        "maxGhs": 3800,
-        "year": "2025/26",
-        "source": "University of Cape Coast fees, 2025/26 (reported range)",
-        "sourceUrl": "https://admissions.ucc.edu.gh"
-      }
-    },
-    {
       "id": "ucc-home-economics-education",
       "name": "Home Economics Education",
       "universityId": "ucc",
@@ -16187,60 +16019,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ucc-mathematics-b-ed",
-      "name": "Mathematics (B.Ed)",
-      "universityId": "ucc",
-      "faculty": "Degree",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Cape Coast",
-      "region": "Central",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 18,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Social Studies",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 18.0 (Post-WASSCE 2025)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Mathematics (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
-      "careers": [
-        "Data Analyst",
-        "Mathematics Teacher",
-        "Quantitative Analyst"
-      ],
-      "annualFeesGhs": 3600,
-      "fees": {
-        "minGhs": 3000,
-        "maxGhs": 4200,
-        "year": "2025/26",
-        "source": "University of Cape Coast fees, 2025/26 (reported range)",
-        "sourceUrl": "https://admissions.ucc.edu.gh"
-      }
-    },
-    {
       "id": "ucc-mathematics-education",
       "name": "Mathematics Education",
       "universityId": "ucc",
@@ -16274,17 +16052,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -18013,60 +17787,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ucc-science",
-      "name": "Science",
-      "universityId": "ucc",
-      "faculty": "Degree",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Cape Coast",
-      "region": "Central",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 22,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Social Studies",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 22.0 (Post-WASSCE 2025)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Science is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
-      "careers": [
-        "Research Scientist",
-        "Laboratory Analyst",
-        "Science Teacher"
-      ],
-      "annualFeesGhs": 3600,
-      "fees": {
-        "minGhs": 3000,
-        "maxGhs": 4200,
-        "year": "2025/26",
-        "source": "University of Cape Coast fees, 2025/26 (reported range)",
-        "sourceUrl": "https://admissions.ucc.edu.gh"
-      }
-    },
-    {
       "id": "ucc-science-education",
       "name": "Science Education",
       "universityId": "ucc",
@@ -18095,17 +17815,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
@@ -23035,60 +22751,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-arabic",
-      "name": "Arabic",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Arabic is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-arabic-education",
       "name": "Arabic Education",
       "universityId": "ug",
@@ -23120,10 +22782,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Arabic Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -24131,60 +23792,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-computer-science-b-ed",
-      "name": "Computer Science (B.Ed)",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 9,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 9.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Computer Science (B.Ed) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
-      "careers": [
-        "Software Engineer",
-        "Data Scientist",
-        "Systems Analyst"
-      ],
-      "annualFeesGhs": 5650,
-      "fees": {
-        "minGhs": 4900,
-        "maxGhs": 6400,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-computer-science-education",
       "name": "Computer Science Education",
       "universityId": "ug",
@@ -24221,10 +23828,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Computer Science Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C4.",
@@ -24363,60 +23969,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-consumer-sciences",
-      "name": "Consumer Sciences",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 20,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 20.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Consumer Sciences is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5650,
-      "fees": {
-        "minGhs": 4900,
-        "maxGhs": 6400,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-consumer-sciences-education",
       "name": "Consumer Sciences Education",
       "universityId": "ug",
@@ -24461,10 +24013,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Consumer Sciences Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Management in Living at C6.",
@@ -24878,59 +24429,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-education-early-grade-specialism",
-      "name": "Education (Early Grade Specialism)",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": []
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (Early Grade Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-education-early-grade-specialism-b-ed",
       "name": "Education (Early Grade Specialism) (B.Ed)",
       "universityId": "ug",
@@ -25034,114 +24532,6 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3200,
         "maxGhs": 3350,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
-      "id": "ug-education-early-grade-specialism-distance",
-      "name": "Education (Early Grade Specialism)",
-      "universityId": "ug",
-      "faculty": "School of Continuing and Distance Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "distance",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 30,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Distance-learning intake, which has its own cut-off."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (Early Grade Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 3275,
-      "fees": {
-        "minGhs": 3200,
-        "maxGhs": 3350,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
-      "id": "ug-education-jhs-specialism",
-      "name": "Education (JHS Specialism)",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": []
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (JHS Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -25257,114 +24647,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-education-jhs-specialism-distance",
-      "name": "Education (JHS Specialism)",
-      "universityId": "ug",
-      "faculty": "School of Continuing and Distance Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "distance",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 30,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Distance-learning intake, which has its own cut-off."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (JHS Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 3275,
-      "fees": {
-        "minGhs": 3200,
-        "maxGhs": 3350,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
-      "id": "ug-education-upper-grade-specialism",
-      "name": "Education (Upper Grade Specialism)",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": []
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (Upper Grade Specialism) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-education-upper-grade-specialism-b-ed",
       "name": "Education (Upper Grade Specialism) (B.Ed)",
       "universityId": "ug",
@@ -25474,115 +24756,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-education-upper-grade-specialism-distance",
-      "name": "Education (Upper Grade Specialism)",
-      "universityId": "ug",
-      "faculty": "School of Continuing and Distance Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "distance",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 30,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Distance-learning intake, which has its own cut-off."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Education (Upper Grade Specialism) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 3275,
-      "fees": {
-        "minGhs": 3200,
-        "maxGhs": 3350,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
-      "id": "ug-english",
-      "name": "English",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "English is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-english-education",
       "name": "English Education",
       "universityId": "ug",
@@ -25619,10 +24792,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "English Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
@@ -26042,60 +25214,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-french",
-      "name": "French",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "French is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-french-education",
       "name": "French Education",
       "universityId": "ug",
@@ -26132,10 +25250,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "French Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need French at C6.",
@@ -26709,60 +25826,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-mathematics",
-      "name": "Mathematics",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Mathematics is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Data Analyst",
-        "Mathematics Teacher",
-        "Quantitative Analyst"
-      ],
-      "annualFeesGhs": 5650,
-      "fees": {
-        "minGhs": 4900,
-        "maxGhs": 6400,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-mathematics-education",
       "name": "Mathematics Education",
       "universityId": "ug",
@@ -26799,10 +25862,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Mathematics Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
@@ -28129,60 +27191,6 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "ug-social-studies",
-      "name": "Social Studies",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
-        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
-        "year": 2025,
-        "lastVerified": "2026-08-08",
-        "confidence": "authoritative"
-      },
-      "overview": "Social Studies is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
       "id": "ug-social-studies-education",
       "name": "Social Studies Education",
       "universityId": "ug",
@@ -28214,67 +27222,12 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
-        "year": 2025,
-        "lastVerified": "2026-08-07",
-        "confidence": "authoritative"
-      },
-      "overview": "Social Studies Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
-      "careers": [
-        "Teacher",
-        "Education Officer",
-        "Curriculum Developer"
-      ],
-      "annualFeesGhs": 5425,
-      "fees": {
-        "minGhs": 5300,
-        "maxGhs": 5550,
-        "year": "2025/26",
-        "source": "University of Ghana schedule of fees, 2025/26",
-        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
-      }
-    },
-    {
-      "id": "ug-spanish",
-      "name": "Spanish",
-      "universityId": "ug",
-      "faculty": "College of Education",
-      "degreeType": "B.Ed",
-      "durationYears": 4,
-      "campus": "Accra (Legon)",
-      "region": "Greater Accra",
-      "admissionTrack": "regular",
-      "qualificationLevel": "degree",
-      "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
-        "coreSubjects": [
-          {
-            "subject": "English Language",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Core Mathematics",
-            "minimumGrade": "C6"
-          },
-          {
-            "subject": "Integrated Science",
-            "minimumGrade": "C6"
-          }
-        ],
-        "electiveSubjects": [],
-        "notes": [
-          "Published as 24.0 (1st Choice)."
-        ]
-      },
-      "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Spanish is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Social Studies Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
         "Education Officer",
@@ -28321,10 +27274,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Spanish Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",

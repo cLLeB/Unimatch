@@ -11,6 +11,7 @@ import {
   formatCedis,
   formatFeesPerYear,
   getUniversity,
+  programmeLabel,
   programmes,
   universities,
 } from '../data/catalogue'
@@ -208,7 +209,7 @@ export default function UniversityPage() {
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0 flex-1">
                       <p className="text-sm font-semibold text-ink sm:text-base">
-                        {programme.name}
+                        {programmeLabel(programme)}
                       </p>
                       <p className="truncate text-xs text-ink-muted">
                         {programme.degreeType} · {programme.durationYears} years ·{' '}

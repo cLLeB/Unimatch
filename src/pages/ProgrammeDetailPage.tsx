@@ -129,6 +129,15 @@ export default function ProgrammeDetailPage() {
               </p>
               <div className="mt-4 flex flex-wrap gap-4 text-sm text-on-brand-bright">
                 <span>{programme.degreeType}</span>
+                {/* Otherwise the fee-paying page is indistinguishable from the regular one. */}
+                {programme.admissionTrack !== 'regular' && (
+                  <>
+                    <span aria-hidden="true">·</span>
+                    <span className="font-semibold">
+                      {ADMISSION_TRACK_LABELS[programme.admissionTrack]}
+                    </span>
+                  </>
+                )}
                 <span aria-hidden="true">·</span>
                 <span>{programme.durationYears} years</span>
                 <span aria-hidden="true">·</span>

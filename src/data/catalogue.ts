@@ -1,3 +1,4 @@
+import { ADMISSION_TRACK_LABELS } from '../domain/catalogue/types'
 import type {
   AdmissionDeadline,
   Provenance,
@@ -23,6 +24,21 @@ export function getUniversity(id: string): University | undefined {
 
 export function getProgramme(id: string): Programme | undefined {
   return programmeById.get(id)
+}
+
+/**
+ * A programme's name with its admission track, wherever the track is not the
+ * regular one.
+ *
+ * The same subject appears once per track at different cut-offs. Legon takes
+ * Computer Science at 7 regular and 15 full-fee-paying, and without the track
+ * on the label those are two identical rows disagreeing about the figure,
+ * which reads as a duplicate rather than as the two routes it is.
+ */
+export function programmeLabel(programme: Programme): string {
+  return programme.admissionTrack === 'regular'
+    ? programme.name
+    : `${programme.name} (${ADMISSION_TRACK_LABELS[programme.admissionTrack]})`
 }
 
 /** Display name for a programme's university, falling back to the raw id. */

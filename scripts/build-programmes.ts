@@ -289,6 +289,57 @@ for (const programme of programmes) {
   )
 }
 
+/*
+ * Supersede means replace, not sit alongside.
+ *
+ * Matching is done by name, and a name can be written more than one way:
+ * Legon calls a programme "Computer Science Education" where the confirmed
+ * file calls it "Computer Science (B.Ed)". Where a match is missed the
+ * confirmed row is added as a new record and the old one survives, and the
+ * student sees the same programme twice at two different cut-offs, which is
+ * worse than either figure alone.
+ *
+ * So the last word belongs to the confirmed data: for any subject at the same
+ * university, on the same track, at the same degree, if a confirmed record
+ * exists then every unconfirmed sibling goes.
+ */
+const CONFIRMED_SOURCES = new Set([...MASTER_OVERRIDES.values()].map((o) => o.provenance.source))
+
+function subjectKey(programme: Programme): string {
+  return programme.name
+    .toLowerCase()
+    .replace(/\((?:bsc|ba|b\.?ed|bcom|llb|btech|dvm|bds|pharmd|mbchb)\)/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/sciences/, 'science')
+    .trim()
+    .replace(/\s+education$/, '')
+}
+
+const groups = new Map<string, Programme[]>()
+for (const programme of programmes) {
+  const key = [
+    programme.universityId,
+    programme.admissionTrack,
+    programme.degreeType,
+    subjectKey(programme),
+  ].join('|')
+  groups.set(key, [...(groups.get(key) ?? []), programme])
+}
+
+const supersededIds = new Set<string>()
+for (const group of groups.values()) {
+  if (group.length < 2) continue
+  const confirmed = group.filter((p) => CONFIRMED_SOURCES.has(p.provenance.source))
+  if (confirmed.length === 0 || confirmed.length === group.length) continue
+  for (const programme of group) {
+    if (!CONFIRMED_SOURCES.has(programme.provenance.source)) supersededIds.add(programme.id)
+  }
+}
+
+const kept = programmes.filter((programme) => !supersededIds.has(programme.id))
+programmes.length = 0
+programmes.push(...kept)
+
 programmes.sort((a, b) => a.id.localeCompare(b.id))
 
 writeFileSync(OUT, `${JSON.stringify(programmes, null, 2)}\n`, 'utf8')
@@ -308,3 +359,4 @@ console.log('  by university:', byUniversity)
 console.log('  by track:', byTrack)
 console.log(`  cut-offs superseded by supplied confirmed data: ${superseded}`)
 console.log(`  researched figures flagged as off the official list: ${flagged}`)
+console.log(`  duplicate records dropped in favour of confirmed data: ${supersededIds.size}`)

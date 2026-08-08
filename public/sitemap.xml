@@ -1285,12 +1285,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-arts-b-ed</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-arts-distance</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1382,12 +1376,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-commerce-distance-2</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-communication-design</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1687,12 +1675,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-home-economics</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-home-economics-education</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1862,12 +1844,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-mathematics-and-statistics</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-mathematics-b-ed</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2054,12 +2030,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-robotics-and-intelligent-systems</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ucc-science</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2587,12 +2557,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-arabic</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-arabic-education</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2707,12 +2671,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-computer-science-b-ed</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-computer-science-education</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2726,12 +2684,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-computer-science-fee-paying</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-consumer-sciences</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2785,12 +2737,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-early-grade-specialism</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-early-grade-specialism-b-ed</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2798,18 +2744,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-early-grade-specialism-b-ed-distance</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-early-grade-specialism-distance</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-jhs-specialism</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2827,18 +2761,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-jhs-specialism-distance</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-upper-grade-specialism</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-upper-grade-specialism-b-ed</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2846,18 +2768,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-upper-grade-specialism-b-ed-distance</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-education-upper-grade-specialism-distance</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-english</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2906,12 +2816,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-food-process-engineering-fee-paying</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-french</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2978,12 +2882,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-mathematical-sciences-fee-paying</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-mathematics</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3139,19 +3037,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-social-studies</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/ug-social-studies-education</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/ug-spanish</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
