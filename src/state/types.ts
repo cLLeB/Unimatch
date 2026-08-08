@@ -52,6 +52,25 @@ export const INITIAL_STATE: StudentState = {
   theme: 'light',
 }
 
+/**
+ * Whether a student has actually put anything into this state.
+ *
+ * Theme and reminder defaults do not count: they are set for every visitor
+ * whether or not they have done a thing. This is what decides, on first
+ * sign-in, whether the work done on this device is worth pushing up to the
+ * account or whether the account's copy should win.
+ */
+export function hasContent(state: StudentState): boolean {
+  return (
+    state.results !== null ||
+    state.savedProgrammeIds.length > 0 ||
+    state.comparedProgrammeIds.length > 0 ||
+    state.searchHistory.length > 0 ||
+    Object.values(state.checklist).some(Boolean) ||
+    Object.values(state.profile).some((value) => value.trim() !== '')
+  )
+}
+
 /** Maximum programmes that can be compared side by side, per the design. */
 export const MAX_COMPARE = 3
 

@@ -99,10 +99,14 @@ function ProfileCard() {
             <div className="text-xl font-bold text-ink">
               {state.profile.name || 'Add your name'}
             </div>
-            <div className="text-sm text-ink-muted">{state.profile.email || ', '}</div>
-            <div className="mt-1 text-sm text-ink-muted">
-              {[state.profile.school, state.profile.track].filter(Boolean).join(' · ') || ', '}
-            </div>
+            {state.profile.email && (
+              <div className="text-sm text-ink-muted">{state.profile.email}</div>
+            )}
+            {[state.profile.school, state.profile.track].filter(Boolean).length > 0 && (
+              <div className="mt-1 text-sm text-ink-muted">
+                {[state.profile.school, state.profile.track].filter(Boolean).join(' · ')}
+              </div>
+            )}
 
             <div className="my-5 rounded-xl bg-brand-subtle py-4">
               {aggregate?.complete && aggregate.aggregate !== null ? (

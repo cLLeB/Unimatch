@@ -23,11 +23,21 @@ const PUBLIC_NAV = [
   { label: 'How it works', to: '/#faq' },
 ] as const
 
-/*
+/**
+ * What the navbar keeps inside the app.
+ *
+ * It used to render nothing but the logo on these screens, so the only way out
+ * of the signed-in shell was clicking the wordmark. The sidebar already owns
+ * Matches and Universities, so repeating them would rebuild the duplication
+ * this navigation was consolidated to remove. What is left is the way home and
+ * the explainer, neither of which the sidebar has.
+ */
+const APP_NAV = PUBLIC_NAV.filter((item) => item.to === '/' || item.to === '/#faq')
+
+/**
  * Routes that render inside the signed-in shell, where the sidebar and tab bar
  * navigate. The public browse pages are deliberately not here: they keep the
- * public navbar so a visitor always has a Home link, which was the only way
- * back apart from the logo.
+ * full public navbar.
  */
 const APP_ROUTES = [
   '/dashboard',
@@ -69,28 +79,25 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 lg:px-6">
         <Logo />
 
-        {/* Public links are hidden inside the app, where the sidebar leads. */}
-        {!inApp && (
-          <div className="hidden items-center gap-1 md:flex">
-            {PUBLIC_NAV.map((item) => (
-              <NavLink
-                key={item.label}
-                to={item.to}
-                end={item.to === '/'}
-                className={({ isActive }) =>
-                  cn(
-                    'rounded-lg px-3 py-2 text-sm font-medium transition-colors',
-                    isActive && !item.to.includes('#')
-                      ? 'bg-brand-subtle text-brand'
-                      : 'text-ink-muted hover:bg-canvas hover:text-ink',
-                  )
-                }
-              >
-                {item.label}
-              </NavLink>
-            ))}
-          </div>
-        )}
+        <div className="hidden items-center gap-1 md:flex">
+          {(inApp ? APP_NAV : PUBLIC_NAV).map((item) => (
+            <NavLink
+              key={item.label}
+              to={item.to}
+              end={item.to === '/'}
+              className={({ isActive }) =>
+                cn(
+                  'rounded-lg px-3 py-2 text-sm font-medium transition-colors',
+                  isActive && !item.to.includes('#')
+                    ? 'bg-brand-subtle text-brand'
+                    : 'text-ink-muted hover:bg-canvas hover:text-ink',
+                )
+              }
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </div>
 
         <div className="flex items-center gap-2">
           {showAccount ? (
@@ -133,24 +140,23 @@ export default function Navbar() {
             </>
           )}
 
-          {!inApp && (
-            <Button
-              variant="ghost"
-              size="sm"
-              className="p-2 md:hidden"
-              aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-              aria-expanded={mobileOpen}
-              onClick={() => setMobileOpen((open) => !open)}
-            >
-              {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
-            </Button>
-          )}
+          {/* In-app this holds the way home, which the tab bar does not carry. */}
+          <Button
+            variant="ghost"
+            size="sm"
+            className="p-2 md:hidden"
+            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((open) => !open)}
+          >
+            {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+          </Button>
         </div>
       </div>
 
-      {mobileOpen && !inApp && (
+      {mobileOpen && (
         <div className="space-y-1 border-t border-line bg-surface px-4 py-3 md:hidden">
-          {PUBLIC_NAV.map((item) => (
+          {(inApp ? APP_NAV : PUBLIC_NAV).map((item) => (
             <Link
               key={item.label}
               to={item.to}
@@ -160,13 +166,15 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-          <Link
-            to={PRIMARY_NAV[0].to}
-            onClick={() => setMobileOpen(false)}
-            className="block rounded-lg px-3 py-2.5 text-sm font-medium text-brand"
-          >
-            My matches
-          </Link>
+          {!inApp && (
+            <Link
+              to={PRIMARY_NAV[0].to}
+              onClick={() => setMobileOpen(false)}
+              className="block rounded-lg px-3 py-2.5 text-sm font-medium text-brand"
+            >
+              My matches
+            </Link>
+          )}
         </div>
       )}
     </nav>

@@ -125,18 +125,18 @@ export default function UniversityPage() {
     }, ...(university.admissionsUrl ? { url: university.admissionsUrl } : {}),
   }
 
+  // A stat with nothing behind it is left out rather than filled with a dash.
   const stats = [
     { label: 'Programmes', value: String(owned.length) },
-    {
-      label: 'Cut-off range',
-      value: cutoffs.length ? `${Math.min(...cutoffs)}, ${Math.max(...cutoffs)}` : ', ',
-    },
-    {
-      label: 'Fees from',
-      value: fees.length ? formatCedis(Math.min(...fees)) : ', ',
-    },
+    cutoffs.length
+      ? {
+          label: 'Cut-off range',
+          value: `${Math.min(...cutoffs)} to ${Math.max(...cutoffs)}`,
+        }
+      : null,
+    fees.length ? { label: 'Fees from', value: formatCedis(Math.min(...fees)) } : null,
     { label: 'Official figures', value: `${officialCount}/${owned.length}` },
-  ]
+  ].filter((stat): stat is { label: string; value: string } => stat !== null)
 
   return (
     <>

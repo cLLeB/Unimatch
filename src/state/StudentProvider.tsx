@@ -59,6 +59,19 @@ export function StudentProvider({ children, repository }: StudentProviderProps) 
 
   useEffect(() => {
     let cancelled = false
+
+    /*
+     * Cleared before the load starts, not after it finishes.
+     *
+     * When the repository is swapped underneath us, on sign-in, the save
+     * effect below re-runs in the same commit. If this were still true from
+     * the previous repository, it would write the state we are holding into
+     * the new one and race the load, blanking an account with whatever the
+     * screen happened to have.
+     */
+    hydrated.current = false
+    setLoading(true)
+
     void repo.load().then((loaded) => {
       if (cancelled) return
       setState(loaded)

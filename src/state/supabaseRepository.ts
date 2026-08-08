@@ -1,7 +1,13 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { StudentResults } from '../domain/wassce/types'
 import type { StudentRepository } from './repository'
-import { INITIAL_STATE, type ReminderPreferences, type StudentState, type ThemeMode } from './types'
+import {
+  hasContent,
+  INITIAL_STATE,
+  type ReminderPreferences,
+  type StudentState,
+  type ThemeMode,
+} from './types'
 
 interface StudentStateRow {
   user_id: string
@@ -82,14 +88,31 @@ export class SupabaseStudentRepository implements StudentRepository {
       return this.localState ?? INITIAL_STATE
     }
 
+    const local = this.localState ?? INITIAL_STATE
+
     if (!data) {
-      // First sign-in: adopt whatever the student built while signed out.
-      const seed = this.localState ?? INITIAL_STATE
-      await this.save(seed)
-      return seed
+      // First sign-in on any device: adopt whatever was built while signed out.
+      await this.save(local)
+      return local
     }
 
-    return toState(data)
+    const remote = toState(data)
+
+    /*
+     * The account exists but holds nothing, while this device does.
+     *
+     * This is the case that lost a student's work. Signing in on a laptop
+     * created an empty row; signing in on the phone afterwards then loaded
+     * that empty row over a profile and grades that had been entered there,
+     * and saved the blank back. Whichever device has something wins over a row
+     * that is empty, so a first sign-in can only ever add.
+     */
+    if (!hasContent(remote) && hasContent(local)) {
+      await this.save(local)
+      return local
+    }
+
+    return remote
   }
 
   async save(state: StudentState): Promise<void> {

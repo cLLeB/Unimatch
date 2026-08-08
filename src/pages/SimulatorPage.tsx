@@ -216,7 +216,9 @@ export default function SimulatorPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <div className="mb-1 text-xs text-ink-muted">Simulated Aggregate</div>
-                  <div className="text-4xl font-bold text-brand">{simulated ?? ', '}</div>
+                  <div className="text-4xl font-bold text-brand">
+                    {simulated ?? <span className="text-base font-medium">Set your grades</span>}
+                  </div>
                 </div>
                 <div className="text-right">
                   <div className="mb-1 text-xs text-ink-muted">Qualifying Programmes</div>
@@ -249,7 +251,8 @@ export default function SimulatorPage() {
                   <>
                     <CheckCheck size={16} className="text-brand" aria-hidden="true" />
                     <span className="text-sm text-brand">
-                      Same as your baseline aggregate of {baselineAggregate ?? ', '}
+                      Same as your baseline aggregate
+                      {baselineAggregate === null ? '' : ` of ${baselineAggregate}`}
                     </span>
                   </>
                 )}

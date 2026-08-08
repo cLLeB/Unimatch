@@ -1,14 +1,19 @@
-import { Brain, Clock, House, LogOut } from 'lucide-react'
+import { Brain, Clock, LogOut } from 'lucide-react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { cn } from '../../lib/cn'
 import { useStudent } from '../../state/StudentProvider'
 import { isNavItemActive, PRIMARY_NAV } from './navItems'
 
-/** Reached in context rather than competing for a primary slot. */
+/**
+ * Reached in context rather than competing for a primary slot.
+ *
+ * Home used to sit here as well. It belongs in the navbar, which now stays put
+ * on these screens, so the way out of the app is always in the same place
+ * rather than in a sidebar that is hidden below `lg`.
+ */
 const SECONDARY_NAV = [
   { label: 'Deadlines', to: '/deadlines', icon: Clock },
   { label: 'Advisor', to: '/advisor', icon: Brain },
-  { label: 'Home', to: '/', icon: House },
 ] as const
 
 export default function Sidebar() {
