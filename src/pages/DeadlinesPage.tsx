@@ -22,22 +22,22 @@ const STATUS_PRESENTATION: Record<
 const LEGEND_STATUSES: DeadlineStatus[] = ['open', 'closing-soon', 'closed']
 
 /**
- * No reminder channel is connected yet.
+ * Email is connected: supabase/functions/send-deadline-reminders runs weekly on
+ * pg_cron and sends through Resend. SMS and WhatsApp still need paid providers
+ * (Africa's Talking / WhatsApp Business) and stay disabled until they exist — a
+ * toggle that silently does nothing is worse than one that says so.
  *
- * Email needs a scheduled job and a verified sending domain; SMS and WhatsApp
- * need paid providers (Africa's Talking / WhatsApp Business). The controls are
- * built and the preference persists, but every one is disabled until the thing
- * behind it exists — a toggle that silently does nothing is worse than one that
- * says so. Email was marked available before the job was written, which told
- * students a Monday summary was coming when nothing could send it.
+ * The email description says "universities you've saved" because that is what
+ * the job actually does: a student who has shortlisted nothing is skipped
+ * rather than sent a generic list. The copy has to match the behaviour.
  */
 const CHANNELS = [
   {
     key: 'email' as const,
     label: 'Email Reminders',
-    description: 'A deadline summary in your inbox every Monday',
+    description: "Monday summary of deadlines at universities you've saved",
     icon: Mail,
-    available: false,
+    available: true,
   },
   {
     key: 'sms' as const,
@@ -164,8 +164,9 @@ export default function DeadlinesPage() {
           </div>
 
           <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
-            None of these are sending yet. Until they are, check the countdowns above and the
-            university&apos;s own portal — don&apos;t wait to be reminded.
+            Email reminders go to the address on your profile, and only cover universities you
+            have saved a programme at. Every email has an unsubscribe link. A reminder is a
+            convenience, not a guarantee — check the university&apos;s own portal too.
           </p>
         </Card>
       </div>

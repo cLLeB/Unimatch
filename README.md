@@ -162,10 +162,41 @@ Everything is optional — see `.env.example`.
 - **Supabase** (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) enables accounts so a shortlist
   follows a student between devices. Apply `supabase/migrations/0001_student_state.sql` first;
   row-level security is what protects the data, since the anon key is public by design.
-- **Reminders are not sending yet — no channel is connected.** The toggles on the Deadlines page
-  are all disabled and labelled "Coming soon". Email needs a scheduled job and a verified sending
-  domain; SMS and WhatsApp need a Ghanaian provider (Africa's Talking has a free sandbox but no
-  production free tier). A toggle that silently does nothing is worse than one that says so.
+- **Email reminders** run as a Supabase Edge Function on `pg_cron`, 06:00 UTC each Monday, sending
+  through Resend from `noreply@unimatchgh.app`. A student is mailed only about universities they
+  have saved a programme at; anyone who has saved nothing is skipped. Every mail carries a signed
+  one-click unsubscribe that needs no sign-in. See "Reminder setup" below.
+- **SMS and WhatsApp reminders** are built but disabled. They need a Ghanaian provider
+  (Africa's Talking has a free sandbox but no production free tier). The toggles say "Coming
+  soon" rather than silently doing nothing.
+
+### Reminder setup
+
+Four one-time steps, none of which are in git because two of them are secrets:
+
+```bash
+npm run data:functions      # regenerate the function's catalogue lookup
+npx supabase db push        # applies migrations 0002 and 0003
+npx supabase secrets set RESEND_API_KEY=... \
+  REMINDER_CRON_SECRET=... REMINDER_UNSUBSCRIBE_SECRET=...
+npm run functions:deploy
+```
+
+Then, once, in the SQL editor — the cron needs the URL and the shared secret from Vault, and
+migration 0003 deliberately does not hardcode them:
+
+```sql
+select vault.create_secret(
+  'https://fttzuizvvwekmjtdqgmh.supabase.co/functions/v1/send-deadline-reminders',
+  'reminder_function_url');
+select vault.create_secret('<the same REMINDER_CRON_SECRET>', 'reminder_cron_secret');
+```
+
+`REMINDER_CRON_SECRET` is the only thing guarding a URL that mails every student, since the
+function is deployed with `--no-verify-jwt` so `pg_cron` can reach it. Treat it like a password.
+
+`npm run data:functions` must be re-run whenever the catalogue or deadlines change, or the
+function will keep mailing last week's dates.
 
 ## Deployment
 

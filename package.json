@@ -21,7 +21,9 @@
     "deploy": "git push heroku HEAD:main",
     "seo:build": "tsx scripts/generate-seo-assets.ts",
     "data:programmes": "tsx scripts/build-programmes.ts",
-    "supabase:config": "npx -y supabase@2.48.3 config push --project-ref fttzuizvvwekmjtdqgmh --yes"
+    "supabase:config": "npx -y supabase@2.48.3 config push --project-ref fttzuizvvwekmjtdqgmh --yes",
+    "data:functions": "tsx scripts/build-function-data.ts",
+    "functions:deploy": "npx -y supabase@2.48.3 functions deploy send-deadline-reminders unsubscribe --project-ref fttzuizvvwekmjtdqgmh --no-verify-jwt"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",
