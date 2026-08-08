@@ -132,6 +132,19 @@ function uniqueId(base: string): string {
   return id
 }
 
+/**
+ * The id `buildRecord` will mint for this row, computed ahead of it so a
+ * supplied confirmed cut-off can be applied before the record is built rather
+ * than patched on afterwards.
+ *
+ * It has to be before: the overview sentence quotes the aggregate, so patching
+ * the number afterwards left the prose saying "competitive at aggregate 11" on
+ * a card headlining 6.
+ */
+function idFor(source: SourceFile, row: RawProgramme, track: AdmissionTrack): string {
+  return `${source.universityId}-${slug(row.n)}${TRACK_SUFFIX[track]}`
+}
+
 function buildRecord(
   source: SourceFile,
   row: RawProgramme,
@@ -200,6 +213,32 @@ function buildRecord(
 }
 
 const programmes: Programme[] = []
+let superseded = 0
+
+/**
+ * Supplied confirmed cut-offs win over anything we researched ourselves, and
+ * are folded into the source row so everything derived from it, the overview
+ * sentence included, is built from the figure that will actually be shown.
+ */
+function withConfirmed(
+  source: SourceFile,
+  row: RawProgramme,
+  track: AdmissionTrack,
+  cutoff: number,
+): { source: SourceFile; cutoff: number } {
+  const override = MASTER_OVERRIDES.get(idFor(source, row, track))
+  if (!override) return { source, cutoff }
+
+  superseded += 1
+  return {
+    cutoff: override.aggregate,
+    source: {
+      ...source,
+      aggregateBasis: 'published-cutoff',
+      provenance: override.provenance,
+    },
+  }
+}
 
 for (const source of SOURCES) {
   for (const row of source.rows) {
@@ -212,33 +251,14 @@ for (const source of SOURCES) {
         ? Math.min(row.male, row.female)
         : row.c
 
-    programmes.push(buildRecord(source, row, track, headline))
+    const confirmed = withConfirmed(source, row, track, headline)
+    programmes.push(buildRecord(confirmed.source, row, track, confirmed.cutoff))
 
     if (row.ff !== undefined) {
-      programmes.push(buildRecord(source, row, 'fee-paying', row.ff))
+      const fee = withConfirmed(source, row, 'fee-paying', row.ff)
+      programmes.push(buildRecord(fee.source, row, 'fee-paying', fee.cutoff))
     }
   }
-}
-
-/*
- * Supplied confirmed cut-offs win over anything we researched ourselves.
- *
- * Applied after the build rather than inside it so the sources stay a faithful
- * transcription of what each table published, and the supersession is one
- * visible step that can be counted and reported.
- */
-let superseded = 0
-for (const programme of programmes) {
-  const override = MASTER_OVERRIDES.get(programme.id)
-  if (!override) continue
-
-  superseded += 1
-  programme.requirements.minimumAggregate = override.aggregate
-  programme.requirements.aggregateBasis = 'published-cutoff'
-  programme.requirements.notes = programme.requirements.notes.filter(
-    (note) => !note.startsWith('Reported by a secondary source'),
-  )
-  programme.provenance = { ...override.provenance }
 }
 
 /*

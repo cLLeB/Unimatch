@@ -54,7 +54,7 @@ export default function ShortlistTabs() {
               <span
                 className={cn(
                   'rounded-full px-1.5 text-xs font-semibold',
-                  active ? 'bg-brand text-white' : 'bg-slate-200 text-ink-muted',
+                  active ? 'bg-brand-fill text-on-brand-fill' : 'bg-slate-200 text-ink-muted',
                 )}
               >
                 {count}

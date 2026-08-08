@@ -3,12 +3,17 @@ import { cn } from '../../lib/cn'
 
 export type BadgeVariant = 'success' | 'warning' | 'danger' | 'info' | 'neutral'
 
+/*
+ * Tokens rather than palette steps, so dark mode is a change in index.css
+ * rather than a `dark:` variant on five variants here. After dark the fill
+ * goes transparent and the colour moves to the text.
+ */
 const VARIANTS: Record<BadgeVariant, string> = {
-  success: 'bg-green-50 text-green-700 border-green-200',
-  warning: 'bg-amber-50 text-amber-700 border-amber-200',
-  danger: 'bg-red-50 text-red-700 border-red-200',
-  info: 'bg-blue-50 text-blue-700 border-blue-200',
-  neutral: 'bg-slate-100 text-slate-600 border-slate-200',
+  success: 'bg-badge-success text-badge-success-ink border-badge-success-line',
+  warning: 'bg-badge-warning text-badge-warning-ink border-badge-warning-line',
+  danger: 'bg-badge-danger text-badge-danger-ink border-badge-danger-line',
+  info: 'bg-badge-info text-badge-info-ink border-badge-info-line',
+  neutral: 'bg-badge-neutral text-badge-neutral-ink border-badge-neutral-line',
 }
 
 interface BadgeProps {

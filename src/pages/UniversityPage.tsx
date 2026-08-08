@@ -147,11 +147,11 @@ export default function UniversityPage() {
         structuredData={structuredData}
       />
 
-      <div className="bg-brand px-4 py-6 text-white sm:px-6 sm:py-8">
+      <div className="bg-brand-fill px-4 py-6 text-on-brand-fill sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/universities"
-            className="mb-4 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-white"
+            className="mb-4 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-on-brand-fill"
           >
             <ChevronLeft size={16} aria-hidden="true" /> All universities
           </Link>

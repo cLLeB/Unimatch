@@ -34,13 +34,13 @@ const COLUMNS = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-ink py-8 sm:py-12">
+    <footer className="border-t border-footer-line bg-footer-surface py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
         <div className="mb-8 space-y-6 sm:mb-8 sm:grid sm:gap-8 sm:space-y-0 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="mb-3 flex items-center gap-2 font-bold text-white">
-              <span className="flex size-7 items-center justify-center rounded-lg bg-brand">
-                <GraduationCap size={14} className="text-white" aria-hidden="true" />
+            <div className="mb-3 flex items-center gap-2 font-bold text-footer-heading">
+              <span className="flex size-7 items-center justify-center rounded-lg bg-brand-fill">
+                <GraduationCap size={14} className="text-on-brand-fill" aria-hidden="true" />
               </span>
               UniMatch Ghana
             </div>
@@ -56,14 +56,14 @@ export default function Footer() {
           <div className="grid grid-cols-3 gap-4 sm:col-span-2 sm:contents">
             {COLUMNS.map((column) => (
               <div key={column.title}>
-                <div className="mb-2 text-xs font-semibold text-white sm:mb-3 sm:text-sm">
+                <div className="mb-2 text-xs font-semibold text-footer-heading sm:mb-3 sm:text-sm">
                   {column.title}
                 </div>
                 {column.links.map((link) => (
                   <Link
                     key={link.label}
                     to={link.to}
-                    className="block py-0.5 text-xs leading-relaxed text-footer-text transition-colors hover:text-white sm:text-sm"
+                    className="block py-0.5 text-xs leading-relaxed text-footer-text transition-colors hover:text-footer-heading sm:text-sm"
                   >
                     {link.label}
                   </Link>

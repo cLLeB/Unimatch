@@ -14,12 +14,12 @@ export default function Logo({ tone = 'default', className }: LogoProps) {
       to="/"
       className={cn(
         'flex items-center gap-2.5 font-bold',
-        tone === 'inverse' ? 'text-white' : 'text-ink',
+        tone === 'inverse' ? 'text-footer-heading' : 'text-ink',
         className,
       )}
     >
-      <span className="flex size-8 items-center justify-center rounded-lg bg-brand">
-        <GraduationCap size={18} className="text-white" aria-hidden="true" />
+      <span className="flex size-8 items-center justify-center rounded-lg bg-brand-fill">
+        <GraduationCap size={18} className="text-on-brand-fill" aria-hidden="true" />
       </span>
       <span className="text-lg">
         UniMatch<span className="text-brand"> Ghana</span>

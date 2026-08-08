@@ -113,7 +113,7 @@ export default function Navbar() {
                 to="/profile"
                 className="flex items-center gap-2 rounded-xl py-1.5 pl-2 pr-3 transition-colors hover:bg-canvas"
               >
-                <span className="flex size-7 items-center justify-center rounded-full bg-brand text-xs font-semibold text-white">
+                <span className="flex size-7 items-center justify-center rounded-full bg-brand-fill text-xs font-semibold text-on-brand-fill">
                   {initialsOf(state.profile.name)}
                 </span>
                 <span className="hidden text-sm font-medium text-ink sm:block">

@@ -24,6 +24,7 @@ import {
   type Grade,
   type StudentResults,
 } from '../domain/wassce/types'
+import { useChartPalette } from '../hooks/useChartPalette'
 import { useStudent } from '../state/StudentProvider'
 
 const CORE_ORDER: CoreSubjectKey[] = ['english', 'mathematics', 'science', 'social']
@@ -56,6 +57,7 @@ function countQualified(results: StudentResults): number {
 
 export default function SimulatorPage() {
   const { state } = useStudent()
+  const chart = useChartPalette()
   const baseline = state.results ?? DEFAULT_RESULTS
 
   const [draft, setDraft] = useState<StudentResults>(baseline)
@@ -266,25 +268,31 @@ export default function SimulatorPage() {
               <div className="h-[240px] w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={chartData} layout="vertical">
-                    <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" horizontal={false} />
+                    <CartesianGrid strokeDasharray="3 3" stroke={chart.grid} horizontal={false} />
                     <XAxis
                       type="number"
                       domain={[0, 30]}
                       reversed
-                      tick={{ fontSize: 11, fill: '#475569' }}
+                      tick={{ fontSize: 11, fill: chart.axis }}
                       allowDecimals={false}
                     />
                     <YAxis
                       type="category"
                       dataKey="name"
                       width={100}
-                      tick={{ fontSize: 11, fill: '#475569' }}
+                      tick={{ fontSize: 11, fill: chart.axis }}
                     />
                     <Tooltip
-                      contentStyle={{ borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 12 }}
+                      contentStyle={{
+                        borderRadius: 10,
+                        border: `1px solid ${chart.tooltipBorder}`,
+                        background: chart.tooltipBackground,
+                        color: chart.tooltipText,
+                        fontSize: 12,
+                      }}
                     />
                     <Legend />
-                    <Bar dataKey="cutoff" name="Programme Cut-off" fill="#0F766E" radius={[0, 4, 4, 0]} />
+                    <Bar dataKey="cutoff" name="Programme Cut-off" fill={chart.brand} radius={[0, 4, 4, 0]} />
                     <Bar dataKey="yours" name="Your Aggregate" fill="#F59E0B" radius={[0, 4, 4, 0]} />
                   </BarChart>
                 </ResponsiveContainer>

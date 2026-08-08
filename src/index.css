@@ -31,12 +31,50 @@
   --color-ink: #0f172a;
   --color-ink-muted: #475569;
 
+  /*
+   * Large brand-filled areas: hero banners, primary buttons, the summary card.
+   *
+   * Separate from --color-brand because the brand has to lift to stay legible
+   * on a dark surface, and a lifted mint is exactly the wrong thing to paint a
+   * whole banner with. Small accents keep --color-brand; anything that fills a
+   * block uses these.
+   */
+  --color-brand-fill: #0f766e;
+  --color-brand-fill-hover: #0d6560;
+  --color-on-brand-fill: #ffffff;
+
+  /* Badges. Tinted in daylight, unfilled after dark. */
+  --color-badge-success: #f0fdf4;
+  --color-badge-success-ink: #15803d;
+  --color-badge-success-line: #bbf7d0;
+  --color-badge-warning: #fffbeb;
+  --color-badge-warning-ink: #b45309;
+  --color-badge-warning-line: #fde68a;
+  --color-badge-danger: #fef2f2;
+  --color-badge-danger-ink: #b91c1c;
+  --color-badge-danger-line: #fecaca;
+  --color-badge-info: #eff6ff;
+  --color-badge-info-ink: #1d4ed8;
+  --color-badge-info-line: #bfdbfe;
+  --color-badge-neutral: #f1f5f9;
+  --color-badge-neutral-ink: #475569;
+  --color-badge-neutral-line: #e2e8f0;
+
   /* On-gradient text (hero, summary card, programme header) */
   --color-on-brand: #99d9d4;
   --color-on-brand-bright: #a5f3ef;
   --color-on-secondary: #a5c3f7;
 
-  /* Footer */
+  /*
+   * Footer.
+   *
+   * It has its own surface token because it used to paint itself with
+   * `bg-ink`, the *text* colour. Dark mode re-points ink to a near-white so
+   * body copy stays legible, which turned the whole footer white and its own
+   * white headings invisible. A background must never borrow a text token.
+   */
+  --color-footer-surface: #0f172a;
+  --color-footer-heading: #ffffff;
   --color-footer-text: #64748b;
   --color-footer-line: #1e293b;
 
@@ -73,8 +111,41 @@
     --color-secondary: #60a5fa;
     --color-secondary-hover: #93c5fd;
 
+    /*
+     * A banner keeps the brand's hue without its brightness, and the text on
+     * it goes light rather than white-on-mint.
+     */
+    --color-brand-fill: #12403b;
+    --color-brand-fill-hover: #17544d;
+    --color-on-brand-fill: #d7f5f0;
+    --color-on-brand: #8fd8d0;
+    --color-on-brand-bright: #a5f3ef;
+
+    /*
+     * Badges lose their fill entirely after dark. A pale chip on a dark card
+     * reads as a hole punched in the surface, so the colour moves to the text
+     * and the outline carries the shape.
+     */
+    --color-badge-success: transparent;
+    --color-badge-success-ink: #4ade80;
+    --color-badge-success-line: #1d5136;
+    --color-badge-warning: transparent;
+    --color-badge-warning-ink: #fbbf24;
+    --color-badge-warning-line: #55400f;
+    --color-badge-danger: transparent;
+    --color-badge-danger-ink: #f87171;
+    --color-badge-danger-line: #5a2626;
+    --color-badge-info: transparent;
+    --color-badge-info-ink: #7dd3fc;
+    --color-badge-info-line: #1e3a6b;
+    --color-badge-neutral: transparent;
+    --color-badge-neutral-ink: #93a4bd;
+    --color-badge-neutral-line: #24314a;
+
+    --color-footer-surface: #080e19;
+    --color-footer-heading: #e8eef7;
     --color-footer-text: #93a4bd;
-    --color-footer-line: #24314a;
+    --color-footer-line: #1c2740;
 
     color-scheme: dark;
   }
@@ -92,65 +163,36 @@
   }
 }
 
-@layer components {
-  /*
-   * A few places legitimately need a raw neutral (tab strips, chat bubbles,
-   * chips). These give them a dark counterpart without scattering `dark:`
-   * variants through the components.
-   */
-  .dark .bg-slate-100 {
-    background-color: #1c2740;
-  }
+/*
+ * Raw-neutral fallbacks for the few places that legitimately need one: tab
+ * strips, chat bubbles, chips.
+ *
+ * Deliberately unlayered. These lived in `@layer components`, and Tailwind
+ * emits its own utilities into a later layer; in the cascade a later layer
+ * beats an earlier one no matter how specific the selector, so every rule here
+ * was silently losing to the plain `.bg-slate-100` it was written to override.
+ * That is why dark mode kept showing pale chips on dark cards.
+ */
+.dark .bg-slate-100 {
+  background-color: #1c2740;
+}
 
-  .dark .bg-slate-300 {
-    background-color: #3a4a68;
-  }
+.dark .bg-slate-200 {
+  background-color: #26334d;
+}
 
-  .dark .border-slate-100,
-  .dark .border-slate-200 {
-    border-color: var(--color-line);
-  }
+.dark .bg-slate-300 {
+  background-color: #3a4a68;
+}
 
-  /* Status chips: keep the hue, drop the brightness. */
-  .dark .bg-green-50 {
-    background-color: #10291c;
-  }
-  .dark .bg-amber-50 {
-    background-color: #2a1f08;
-  }
-  .dark .bg-red-50 {
-    background-color: #2b1414;
-  }
-  .dark .bg-blue-50 {
-    background-color: #12203a;
-  }
-  .dark .text-green-700 {
-    color: #4ade80;
-  }
-  .dark .text-amber-700 {
-    color: #fbbf24;
-  }
-  .dark .text-red-700 {
-    color: #f87171;
-  }
-  .dark .text-blue-700 {
-    color: #60a5fa;
-  }
-  .dark .border-green-200 {
-    border-color: #1d5136;
-  }
-  .dark .border-amber-200 {
-    border-color: #55400f;
-  }
-  .dark .border-red-200 {
-    border-color: #5a2626;
-  }
-  .dark .border-blue-200 {
-    border-color: #1e3a6b;
-  }
-  .dark .bg-slate-100.text-slate-600 {
-    color: var(--color-ink-muted);
-  }
+.dark .border-slate-100,
+.dark .border-slate-200 {
+  border-color: var(--color-line);
+}
+
+.dark .bg-slate-100.text-slate-600,
+.dark .text-slate-600 {
+  color: var(--color-ink-muted);
 }
 
 @layer utilities {

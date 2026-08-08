@@ -38,7 +38,7 @@ function ProfileCard() {
   return (
     <div className="space-y-4">
       <Card className="p-6 text-center">
-        <div className="mx-auto mb-4 flex size-24 items-center justify-center rounded-full bg-brand text-3xl font-bold text-white">
+        <div className="mx-auto mb-4 flex size-24 items-center justify-center rounded-full bg-brand-fill text-3xl font-bold text-on-brand-fill">
           {initialsOf(state.profile.name)}
         </div>
 

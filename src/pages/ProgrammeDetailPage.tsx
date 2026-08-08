@@ -41,6 +41,7 @@ import {
 import { otherRoutesFor } from '../domain/catalogue/routes'
 import { computeStats, describeCompetitiveness } from '../domain/catalogue/stats'
 import { ADMISSION_TRACK_LABELS } from '../domain/catalogue/types'
+import { useChartPalette } from '../hooks/useChartPalette'
 import { useProgrammeVerdict } from '../hooks/useEligibility'
 import { useStudent } from '../state/StudentProvider'
 
@@ -59,6 +60,7 @@ export default function ProgrammeDetailPage() {
   const { programmeId } = useParams<{ programmeId: string }>()
   const [tab, setTab] = useState<Tab>('overview')
   const { state, toggleSaved, isSaved } = useStudent()
+  const chart = useChartPalette()
 
   const programme = programmeId ? getProgramme(programmeId) : undefined
   const verdict = useProgrammeVerdict(programme)
@@ -105,11 +107,11 @@ export default function ProgrammeDetailPage() {
 
   return (
     <>
-      <div className="bg-brand px-4 py-6 text-white sm:px-6 sm:py-8">
+      <div className="bg-brand-fill px-4 py-6 text-on-brand-fill sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/dashboard"
-            className="mb-6 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-white"
+            className="mb-6 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-on-brand-fill"
           >
             <ChevronLeft size={16} aria-hidden="true" /> Back to Results
           </Link>
@@ -148,7 +150,7 @@ export default function ProgrammeDetailPage() {
               </LinkButton>
               <Button
                 variant="ghost"
-                className="text-white hover:bg-white/10"
+                className="text-on-brand-fill hover:bg-white/10"
                 icon={<Star size={16} className={saved ? 'fill-current' : ''} aria-hidden="true" />}
                 onClick={() => toggleSaved(programme.id)}
               >
@@ -157,7 +159,7 @@ export default function ProgrammeDetailPage() {
               <LinkButton
                 to="/advisor"
                 variant="ghost"
-                className="text-white hover:bg-white/10"
+                className="text-on-brand-fill hover:bg-white/10"
                 icon={<MessageSquare size={16} aria-hidden="true" />}
               >
                 Ask AI
@@ -256,24 +258,30 @@ export default function ProgrammeDetailPage() {
                   <div className="h-[200px] w-full">
                     <ResponsiveContainer width="100%" height="100%">
                       <LineChart data={trend}>
-                        <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
-                        <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#475569' }} />
+                        <CartesianGrid strokeDasharray="3 3" stroke={chart.grid} />
+                        <XAxis dataKey="year" tick={{ fontSize: 12, fill: chart.axis }} />
                         <YAxis
-                          tick={{ fontSize: 12, fill: '#475569' }}
+                          tick={{ fontSize: 12, fill: chart.axis }}
                           domain={[0, 36]}
                           reversed
                           allowDecimals={false}
                         />
                         <Tooltip
-                          contentStyle={{ borderRadius: 12, border: '1px solid #E2E8F0', fontSize: 13 }}
+                          contentStyle={{
+                            borderRadius: 12,
+                            border: `1px solid ${chart.tooltipBorder}`,
+                            background: chart.tooltipBackground,
+                            color: chart.tooltipText,
+                            fontSize: 13,
+                          }}
                           formatter={(value) => [`Aggregate ${value}`, 'Cut-off']}
                         />
                         <Line
                           type="monotone"
                           dataKey="cutoff"
-                          stroke="#0F766E"
+                          stroke={chart.brand}
                           strokeWidth={2.5}
-                          dot={{ fill: '#0F766E', r: 4 }}
+                          dot={{ fill: chart.brand, r: 4 }}
                         />
                       </LineChart>
                     </ResponsiveContainer>
@@ -291,27 +299,33 @@ export default function ProgrammeDetailPage() {
                     <div className="w-full" style={{ height: Math.max(160, comparison.length * 34) }}>
                       <ResponsiveContainer width="100%" height="100%">
                         <BarChart data={comparison} layout="vertical" margin={{ left: 8, right: 16 }}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" horizontal={false} />
+                          <CartesianGrid strokeDasharray="3 3" stroke={chart.grid} horizontal={false} />
                           <XAxis
                             type="number"
                             domain={[0, 36]}
                             reversed
-                            tick={{ fontSize: 11, fill: '#475569' }}
+                            tick={{ fontSize: 11, fill: chart.axis }}
                             allowDecimals={false}
                           />
                           <YAxis
                             type="category"
                             dataKey="name"
                             width={130}
-                            tick={{ fontSize: 11, fill: '#475569' }}
+                            tick={{ fontSize: 11, fill: chart.axis }}
                           />
                           <Tooltip
-                            contentStyle={{ borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 12 }}
+                            contentStyle={{
+                              borderRadius: 10,
+                              border: `1px solid ${chart.tooltipBorder}`,
+                              background: chart.tooltipBackground,
+                              color: chart.tooltipText,
+                              fontSize: 12,
+                            }}
                             formatter={(value) => [`Aggregate ${value}`, 'Cut-off']}
                           />
                           <Bar dataKey="cutoff" radius={[0, 4, 4, 0]}>
                             {comparison.map((entry) => (
-                              <Cell key={entry.name} fill={entry.isThis ? '#0F766E' : '#CBD5E1'} />
+                              <Cell key={entry.name} fill={entry.isThis ? chart.brand : chart.peer} />
                             ))}
                           </Bar>
                         </BarChart>
@@ -550,7 +564,7 @@ export default function ProgrammeDetailPage() {
                 'Submit and await your admission letter',
               ].map((step, index) => (
                 <div key={step} className="mb-4 flex items-start gap-3">
-                  <div className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-brand text-xs font-bold text-white">
+                  <div className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-brand-fill text-xs font-bold text-on-brand-fill">
                     {index + 1}
                   </div>
                   <p className="pt-0.5 text-sm text-ink-muted">{step}</p>

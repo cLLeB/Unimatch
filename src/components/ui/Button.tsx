@@ -15,7 +15,7 @@ const SIZES: Record<ButtonSize, string> = {
 }
 
 const VARIANTS: Record<ButtonVariant, string> = {
-  primary: 'bg-brand text-white hover:bg-brand-hover focus-visible:ring-brand',
+  primary: 'bg-brand-fill text-on-brand-fill hover:bg-brand-fill-hover focus-visible:ring-brand',
   secondary: 'bg-secondary text-white hover:bg-secondary-hover focus-visible:ring-secondary',
   outline: 'border border-line bg-surface text-ink hover:bg-canvas focus-visible:ring-brand',
   ghost: 'text-ink-muted hover:bg-slate-100 focus-visible:ring-brand',

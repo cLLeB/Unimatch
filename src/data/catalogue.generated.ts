@@ -3658,7 +3658,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Actuarial Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Actuarial Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 10 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Actuary",
         "Risk Analyst",
@@ -4235,7 +4235,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Biochemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Biochemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Chemist",
         "Quality Control Analyst",
@@ -4292,7 +4292,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Biological Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Biological Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Biologist",
         "Research Scientist",
@@ -4353,7 +4353,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Biomedical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Biomedical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Biomedical Engineer",
         "Clinical Engineer",
@@ -4686,7 +4686,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Chemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
+      "overview": "Chemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
       "careers": [
         "Process Engineer",
         "Petroleum Engineer",
@@ -4743,7 +4743,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Chemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "overview": "Chemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Chemist",
         "Quality Control Analyst",
@@ -4804,7 +4804,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Civil Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Civil Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Civil Engineer",
         "Site Engineer",
@@ -4921,7 +4921,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Computer Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Computer Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
         "Network Engineer",
@@ -4978,7 +4978,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Computer Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Computer Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -5209,7 +5209,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Dental Surgery is a 6-year BDS programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Dental Surgery is a 6-year BDS programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dentist",
         "Oral Surgeon",
@@ -5317,7 +5317,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Disability and Rehabilitation Studies is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "overview": "Disability and Rehabilitation Studies is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
       "careers": [
         "Rehabilitation Officer",
         "Disability Services Coordinator",
@@ -5477,7 +5477,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Economics is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "overview": "Economics is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
       "careers": [
         "Economist",
         "Policy Analyst",
@@ -5538,7 +5538,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
         "Power Systems Engineer",
@@ -5590,7 +5590,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "English is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "English is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
         "Language Teacher",
@@ -5642,7 +5642,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Environmental Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Environmental Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -5699,7 +5699,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Food Science and Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
+      "overview": "Food Science and Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Research Scientist",
         "Laboratory Analyst",
@@ -5917,7 +5917,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Geography and Rural Development is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "overview": "Geography and Rural Development is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
       "careers": [
         "GIS Analyst",
         "Planning Officer",
@@ -5974,7 +5974,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Geological Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Geological Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Geologist",
         "Survey Engineer",
@@ -6031,7 +6031,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Geomatic (Geodetic) Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Geomatic (Geodetic) Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Geologist",
         "Survey Engineer",
@@ -6092,7 +6092,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Herbal Medicine is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Herbal Medicine is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Herbal Medicine Practitioner",
         "Product Development Officer",
@@ -6144,7 +6144,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "History is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "overview": "History is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Researcher",
         "Heritage Officer",
@@ -6930,7 +6930,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Materials Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Materials Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 10 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Geologist",
         "Survey Engineer",
@@ -6987,7 +6987,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Mathematics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 23 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Mathematics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Data Analyst",
         "Mathematics Teacher",
@@ -7048,7 +7048,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Mechanical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Mechanical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
         "Maintenance Engineer",
@@ -7332,7 +7332,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Metallurgical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Metallurgical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Geologist",
         "Survey Engineer",
@@ -7389,7 +7389,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Meteorology and Climate Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Physics at C6.",
+      "overview": "Meteorology and Climate Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Environmental Officer",
         "Sustainability Analyst",
@@ -7446,7 +7446,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Midwifery is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Midwifery is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Midwife",
         "Maternal Health Officer",
@@ -7563,7 +7563,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -7624,7 +7624,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Optometry is a 6-year OD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
+      "overview": "Optometry is a 6-year OD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
       "careers": [
         "Optometrist",
         "Vision Care Specialist",
@@ -7741,7 +7741,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Petrochemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
+      "overview": "Petrochemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
       "careers": [
         "Process Engineer",
         "Petroleum Engineer",
@@ -7802,7 +7802,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Petroleum Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Petroleum Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Process Engineer",
         "Petroleum Engineer",
@@ -7928,7 +7928,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Physics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
+      "overview": "Physics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
         "Physicist",
         "Research Scientist",
@@ -8034,7 +8034,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Political Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "overview": "Political Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Policy Analyst",
         "Public Administrator",
@@ -8362,7 +8362,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Social Work is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "overview": "Social Work is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six.",
       "careers": [
         "Social Worker",
         "Community Development Officer",
@@ -8414,7 +8414,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Sociology is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "overview": "Sociology is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six.",
       "careers": [
         "Social Worker",
         "Community Development Officer",
@@ -8593,7 +8593,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Statistics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Statistics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Statistician",
         "Data Analyst",
@@ -8654,7 +8654,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Telecommunication Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
+      "overview": "Telecommunication Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
         "Network Engineer",
@@ -28702,9 +28702,7 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -28712,7 +28710,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
         "Nutrition Officer",
@@ -29109,9 +29107,7 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -29119,7 +29115,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
+      "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -29172,9 +29168,7 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -29182,7 +29176,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
+      "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
         "Community Health Nurse",
@@ -29353,9 +29347,7 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -29363,7 +29355,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
+      "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Pharmacist",
         "Clinical Pharmacist",
@@ -29521,9 +29513,7 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -29531,7 +29521,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
         "Epidemiologist",
@@ -29629,9 +29619,7 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
-        ]
+        "notes": []
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
@@ -29639,7 +29627,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
-      "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
         "Epidemiologist",

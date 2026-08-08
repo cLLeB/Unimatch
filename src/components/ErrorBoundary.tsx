@@ -45,7 +45,7 @@ export default class ErrorBoundary extends Component<Props, State> {
           <button
             type="button"
             onClick={() => window.location.assign('/')}
-            className="rounded-xl bg-brand px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:opacity-90"
+            className="rounded-xl bg-brand-fill px-4 py-2.5 text-sm font-semibold text-on-brand-fill transition-colors hover:opacity-90"
           >
             Back to home
           </button>

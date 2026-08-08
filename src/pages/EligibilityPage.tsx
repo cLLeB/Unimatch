@@ -114,8 +114,8 @@ export default function EligibilityPage() {
     <div className="min-h-screen bg-canvas px-4 py-6 sm:py-12">
       <div className="mx-auto max-w-xl">
         <div className="mb-6 text-center sm:mb-8">
-          <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-2xl bg-brand">
-            <BookOpen size={22} className="text-white" aria-hidden="true" />
+          <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-2xl bg-brand-fill">
+            <BookOpen size={22} className="text-on-brand-fill" aria-hidden="true" />
           </div>
           <h1 className="mb-2 text-2xl font-bold text-ink sm:text-3xl">Enter Your WASSCE Grades</h1>
           <p className="text-ink-muted">

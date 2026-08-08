@@ -298,12 +298,12 @@ function Stats() {
   ]
 
   return (
-    <section className="bg-brand py-10 sm:py-16">
+    <section className="bg-brand-fill py-10 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
         <div className="grid grid-cols-2 gap-6 text-center sm:gap-8 lg:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label}>
-              <div className="mb-1 text-3xl font-bold text-white sm:text-4xl">{stat.value}</div>
+              <div className="mb-1 text-3xl font-bold text-on-brand-fill sm:text-4xl">{stat.value}</div>
               <div className="text-xs text-on-brand sm:text-sm">{stat.label}</div>
             </div>
           ))}
@@ -329,7 +329,7 @@ function HowItWorks() {
             <Link key={step} to={to} className="block h-full">
               <Card className="flex h-full flex-col p-5 sm:p-6" hover>
                 <div className="mb-4 flex items-center gap-3">
-                  <span className="flex size-9 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+                  <span className="flex size-9 items-center justify-center rounded-full bg-brand-fill text-sm font-bold text-on-brand-fill">
                     {step}
                   </span>
                   <Icon size={20} className="text-brand" aria-hidden="true" />
@@ -385,8 +385,8 @@ function Faq() {
 
 function CallToAction() {
   return (
-    <section className="mx-4 mb-12 rounded-3xl bg-brand px-5 py-12 text-center sm:mb-16 sm:px-6 sm:py-16 lg:mx-auto lg:max-w-7xl">
-      <h2 className="mb-3 text-2xl font-bold text-white sm:text-3xl">
+    <section className="mx-4 mb-12 rounded-3xl bg-brand-fill px-5 py-12 text-center sm:mb-16 sm:px-6 sm:py-16 lg:mx-auto lg:max-w-7xl">
+      <h2 className="mb-3 text-2xl font-bold text-on-brand-fill sm:text-3xl">
         Ready to find your programme?
       </h2>
       <p className="mx-auto mb-6 max-w-lg text-sm text-on-brand-bright sm:mb-8 sm:text-base">

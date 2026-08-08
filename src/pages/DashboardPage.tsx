@@ -39,7 +39,7 @@ function SummaryCard() {
 
   if (!hasResults) {
     return (
-      <Card className="mb-6 border-0 bg-brand p-5 text-white">
+      <Card className="mb-6 border-0 bg-brand-fill p-5 text-on-brand-fill">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
           <div>
             <div className="mb-1 text-sm text-on-brand">You haven&apos;t entered your grades yet</div>
@@ -66,7 +66,7 @@ function SummaryCard() {
   ).size
 
   return (
-    <Card className="mb-6 border-0 bg-brand p-5 text-white">
+    <Card className="mb-6 border-0 bg-brand-fill p-5 text-on-brand-fill">
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
           <div className="mb-1 text-sm text-on-brand">

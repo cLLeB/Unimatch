@@ -106,8 +106,8 @@ export default function AdvisorPage() {
             className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
           >
             {message.role === 'assistant' && (
-              <div className="mr-2 mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-brand">
-                <Brain size={16} className="text-white" aria-hidden="true" />
+              <div className="mr-2 mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-brand-fill">
+                <Brain size={16} className="text-on-brand-fill" aria-hidden="true" />
               </div>
             )}
 
@@ -115,7 +115,7 @@ export default function AdvisorPage() {
               <div
                 className={`rounded-2xl px-4 py-3 text-sm leading-relaxed ${
                   message.role === 'user'
-                    ? 'rounded-tr-sm bg-brand text-white'
+                    ? 'rounded-tr-sm bg-brand-fill text-on-brand-fill'
                     : 'rounded-tl-sm border border-line bg-surface text-ink shadow-sm'
                 }`}
               >
@@ -145,15 +145,15 @@ export default function AdvisorPage() {
 
         {thinking && (
           <div className="flex justify-start">
-            <div className="mr-2 flex size-8 shrink-0 items-center justify-center rounded-full bg-brand">
-              <Brain size={16} className="text-white" aria-hidden="true" />
+            <div className="mr-2 flex size-8 shrink-0 items-center justify-center rounded-full bg-brand-fill">
+              <Brain size={16} className="text-on-brand-fill" aria-hidden="true" />
             </div>
             <div className="rounded-2xl rounded-tl-sm border border-line bg-surface px-4 py-3 shadow-sm">
               <div className="flex h-4 items-center gap-1">
                 {[0, 1, 2].map((index) => (
                   <span
                     key={index}
-                    className="size-1.5 animate-bounce rounded-full bg-brand"
+                    className="size-1.5 animate-bounce rounded-full bg-brand-fill"
                     style={{ animationDelay: `${index * 0.15}s` }}
                   />
                 ))}

@@ -71,8 +71,8 @@ export default function AuthPage() {
         ) : (
           <>
             <div className="mb-6 text-center">
-              <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-2xl bg-brand">
-                <Mail size={22} className="text-white" aria-hidden="true" />
+              <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-2xl bg-brand-fill">
+                <Mail size={22} className="text-on-brand-fill" aria-hidden="true" />
               </div>
               <h1 className="mb-2 text-2xl font-bold text-ink">Save your shortlist</h1>
               <p className="text-sm leading-relaxed text-ink-muted">

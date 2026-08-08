@@ -71,8 +71,13 @@ export function computeStats(catalogue: Catalogue, programme: Programme): Progra
   const uniCutoffs = atUniversity.map((p) => p.requirements.minimumAggregate)
 
   return {
-    nationalPercentile: Math.round((nationalRank / all.length) * 100),
-    universityPercentile: Math.round((universityRank / Math.max(atUniversity.length, 1)) * 100),
+    // Floored at 1: the single most competitive programme in the country is
+    // "Top 1%", not "Top 0%", which reads as a rendering failure.
+    nationalPercentile: Math.max(1, Math.round((nationalRank / all.length) * 100)),
+    universityPercentile: Math.max(
+      1,
+      Math.round((universityRank / Math.max(atUniversity.length, 1)) * 100),
+    ),
     nationalRank,
     totalProgrammes: all.length,
     universityRank,
