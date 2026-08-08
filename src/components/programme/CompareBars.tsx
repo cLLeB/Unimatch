@@ -82,9 +82,14 @@ function MetricBars({ metric, programmes }: { metric: Metric; programmes: Progra
                   {metric.format(value)}
                 </span>
               </div>
-              <div className="h-2 w-full overflow-hidden rounded-full bg-canvas">
+              {/*
+                The runner-up bars carry a real value and must be visible.
+                `bg-line` sits a shade off the track after dark, so a full-width
+                bar read as an empty one and only the best value looked drawn.
+              */}
+              <div className="h-2 w-full overflow-hidden rounded-full bg-line/40">
                 <div
-                  className={`h-full rounded-full ${isBest ? 'bg-brand' : 'bg-line'}`}
+                  className={`h-full rounded-full ${isBest ? 'bg-brand' : 'bg-ink-muted/50'}`}
                   style={{ width: `${width}%` }}
                 />
               </div>

@@ -71,7 +71,19 @@ export function hasContent(state: StudentState): boolean {
   )
 }
 
-/** Maximum programmes that can be compared side by side, per the design. */
-export const MAX_COMPARE = 3
+/**
+ * Maximum programmes that can be compared side by side.
+ *
+ * Four, not the three the prototype used, because the number a student needs
+ * is set by the form they are filling in rather than by what fits a screen.
+ * Legon asks for "up to four (4) subject bouquets ... in order of preference"
+ * and refers to first, second and third choices throughout. At three you can
+ * compare exactly the choices you would rank and never weigh a fourth
+ * candidate against them, which is the thing a shortlist is for.
+ *
+ * Four is also where the grid stops being readable: a fifth column leaves each
+ * one too narrow to hold a programme name on a phone.
+ */
+export const MAX_COMPARE = 4
 
 export const MAX_SEARCH_HISTORY = 8

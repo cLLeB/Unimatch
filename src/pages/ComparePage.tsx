@@ -258,7 +258,7 @@ export default function ComparePage() {
           and scroll-snaps when a third pushes it over.
         */}
         <div className="snap-x snap-mandatory overflow-x-auto rounded-2xl border border-line bg-surface shadow-sm">
-          <div className="min-w-[34rem] sm:min-w-[42rem]">
+          <div style={{ minWidth: `${8 + selected.length * 8.5}rem` }}>
             <div className="sticky top-0 z-10 grid border-b border-line bg-canvas" style={gridStyle}>
               <div className="p-4 text-xs font-semibold uppercase tracking-widest text-ink-muted">
                 Criteria
