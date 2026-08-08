@@ -89,12 +89,16 @@ test.describe('dashboard', () => {
   })
 
   test('explains a shortfall rather than only refusing', async ({ page }) => {
-    // KNUST Chemical Engineering: cut-off 14, so aggregate 17 is a close match
-    // three points short, with the subject requirements met.
-    await page.goto('/programme/knust-chemical-engineering')
+    // KNUST Mathematics: cut-off 15, so aggregate 17 is a close match two
+    // points short, with the elective requirement met.
+    //
+    // This used to target Chemical Engineering, whose cut-off was 14 on a
+    // secondary listing. The university's own figure is 7, which puts it well
+    // out of reach for this student and made the test assert nothing.
+    await page.goto('/programme/knust-mathematics')
 
-    await expect(page.getByRole('heading', { name: 'Chemical Engineering' })).toBeVisible()
-    await expect(page.getByText(/you miss it by 3 points/i)).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Mathematics' })).toBeVisible()
+    await expect(page.getByText(/you miss it by 2 points/i)).toBeVisible()
     await expect(page.getByText(/Raise .+ and you unlock/)).toBeVisible()
   })
 
@@ -113,7 +117,9 @@ test.describe('dashboard', () => {
 
     await page.getByRole('link', { name: 'Compare Now' }).click()
     await expect(page).toHaveURL(/\/compare$/)
-    await expect(page.getByText('Cut-off Agg.')).toBeVisible()
+    await expect(page.getByText('Aggregate', { exact: true })).toBeVisible()
+    // The row that stops a cut-off being read as an entry requirement.
+    await expect(page.getByText('Aggregate is')).toBeVisible()
     await expect(page.getByText('Most Competitive')).toBeVisible()
   })
 })

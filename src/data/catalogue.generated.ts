@@ -3628,7 +3628,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 13,
+        "minimumAggregate": 10,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -3650,16 +3650,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Actuarial Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -3715,7 +3712,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -3770,7 +3768,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -3825,7 +3824,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -3885,7 +3885,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -3940,7 +3941,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -3995,7 +3997,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4015,6 +4018,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2000,
         "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-akan-language-and-culture",
+      "name": "Akan Language and Culture",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 15.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Akan Language and Culture is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
         "year": "2025/26",
         "source": "KNUST fees schedule, 2025/26 (reported range)",
         "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
@@ -4050,7 +4107,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4105,7 +4163,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4142,7 +4201,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 11,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4168,16 +4227,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Biochemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -4206,7 +4262,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4228,16 +4284,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Biological Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -4266,7 +4319,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 8,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4292,16 +4345,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Biomedical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -4313,6 +4363,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 5500,
         "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-business-adm-logistics-and-supply-chain-mgt-bus-info-tech",
+      "name": "Business Adm. (Logistics and Supply Chain Mgt/Bus. Info. Tech.)",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 8.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Business Adm. (Logistics and Supply Chain Mgt/Bus. Info. Tech.) is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Procurement Officer",
+        "Supply Chain Analyst",
+        "Logistics Manager"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
         "year": "2025/26",
         "source": "KNUST fees schedule, 2025/26 (reported range)",
         "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
@@ -4348,7 +4452,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4374,6 +4479,168 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "knust-business-administration-accounting-banking-and-finance",
+      "name": "Business Administration (Accounting/Banking and Finance)",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 7.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Business Administration (Accounting/Banking and Finance) is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-business-administration-human-resource-mgt-management",
+      "name": "Business Administration (Human Resource Mgt./Management)",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 7.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Business Administration (Human Resource Mgt./Management) is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-business-administration-marketing-international-business",
+      "name": "Business Administration (Marketing/International Business)",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 9.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Business Administration (Marketing/International Business) is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
       "id": "knust-chemical-engineering",
       "name": "Chemical Engineering",
       "universityId": "knust",
@@ -4385,7 +4652,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4411,16 +4678,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Chemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
       "careers": [
@@ -4449,7 +4713,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4471,16 +4735,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Chemistry is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
@@ -4509,7 +4770,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4535,16 +4796,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Civil Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -4591,7 +4849,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4628,7 +4887,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 11,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4654,16 +4913,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Computer Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -4692,7 +4948,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4714,16 +4970,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -4770,7 +5023,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4825,7 +5079,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4880,7 +5135,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -4917,7 +5173,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "fee-paying",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 8,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -4944,16 +5200,14 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Full-fee-paying admission. The regular-track cut-off is lower.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Full-fee-paying admission. The regular-track cut-off is lower."
         ]
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Dental Surgery is a 6-year BDS programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -5000,7 +5254,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5037,7 +5292,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
+        "minimumAggregate": 13,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5054,16 +5309,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Disability and Rehabilitation Studies is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -5081,18 +5333,18 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "knust-economics",
-      "name": "Economics",
+      "id": "knust-doctor-of-pharmacy",
+      "name": "Doctor of Pharmacy",
       "universityId": "knust",
-      "faculty": "Faculty of Social Sciences",
-      "degreeType": "BA",
-      "durationYears": 4,
+      "faculty": "College of Health Sciences",
+      "degreeType": "PharmD",
+      "durationYears": 6,
       "campus": "Kumasi",
       "region": "Ashanti",
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5110,15 +5362,120 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Published as 6.0 (2026/2027 Cut-off)."
         ]
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Doctor of Pharmacy is a 6-year PharmD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six.",
+      "careers": [
+        "Pharmacist",
+        "Clinical Pharmacist",
+        "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-doctor-of-veterinary-medicine-dvm",
+      "name": "Doctor of Veterinary Medicine (DVM)",
+      "universityId": "knust",
+      "faculty": "College of Health Sciences",
+      "degreeType": "DVM",
+      "durationYears": 6,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 10.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Doctor of Veterinary Medicine (DVM) is a 6-year DVM programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Veterinary Surgeon",
+        "Livestock Health Officer",
+        "Animal Research Scientist"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-economics",
+      "name": "Economics",
+      "universityId": "knust",
+      "faculty": "Faculty of Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": []
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Economics is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -5147,7 +5504,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 9,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5173,16 +5530,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -5211,7 +5565,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 13,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5228,16 +5582,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "English is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -5266,7 +5617,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 12,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5283,16 +5634,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Environmental Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -5321,7 +5669,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 11,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5343,16 +5691,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Food Science and Technology is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
@@ -5399,7 +5744,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5454,7 +5800,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5480,10 +5827,10 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "knust-geography-and-rural-development",
-      "name": "Geography and Rural Development",
+      "id": "knust-french-and-francophone-studies",
+      "name": "French and Francophone Studies",
       "universityId": "knust",
-      "faculty": "Faculty of Social Sciences",
+      "faculty": "College of Humanities and Social Sciences",
       "degreeType": "BA",
       "durationYears": 4,
       "campus": "Kumasi",
@@ -5491,7 +5838,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 14,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5509,15 +5856,66 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Published as 14.0 (2026/2027 Cut-off)."
         ]
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "French and Francophone Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-geography-and-rural-development",
+      "name": "Geography and Rural Development",
+      "universityId": "knust",
+      "faculty": "Faculty of Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": []
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Geography and Rural Development is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
@@ -5546,7 +5944,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 8,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5568,16 +5966,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Geological Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -5606,7 +6001,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5628,16 +6023,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Geomatic (Geodetic) Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -5666,7 +6058,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 14,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5692,16 +6084,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Herbal Medicine is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -5730,7 +6119,59 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 19,
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": []
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "History is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Researcher",
+        "Heritage Officer",
+        "Educator"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 2000,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-hospitality-and-tourism-management",
+      "name": "Hospitality and Tourism Management",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -5748,26 +6189,25 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Published as 10.0 (2026/2027 Cut-off)."
         ]
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "History is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "overview": "Hospitality and Tourism Management is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
       "careers": [
-        "Researcher",
-        "Heritage Officer",
-        "Educator"
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
       ],
-      "annualFeesGhs": 4000,
+      "annualFeesGhs": 5600,
       "fees": {
-        "minGhs": 2000,
-        "maxGhs": 6000,
+        "minGhs": 4200,
+        "maxGhs": 7000,
         "year": "2025/26",
         "source": "KNUST fees schedule, 2025/26 (reported range)",
         "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
@@ -5816,7 +6256,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5827,6 +6268,60 @@ export const catalogue: Catalogue = {
         "confidence": "researched"
       },
       "overview": "Human Biology (Medicine) is a 6-year MBChB programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 15000,
+      "fees": {
+        "minGhs": 12000,
+        "maxGhs": 18000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-human-biology-medicine-bsc",
+      "name": "Human Biology (Medicine) (BSc)",
+      "universityId": "knust",
+      "faculty": "College of Health Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 6,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 6.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Human Biology (Medicine) (BSc) is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six.",
       "careers": [
         "Medical Doctor",
         "Surgeon",
@@ -5871,7 +6366,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5926,7 +6422,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -5946,6 +6443,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4200,
         "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-industrial-engineering",
+      "name": "Industrial Engineering",
+      "universityId": "knust",
+      "faculty": "College of Engineering",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 10.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Industrial Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Engineer",
+        "Project Manager",
+        "Technical Consultant"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
         "year": "2025/26",
         "source": "KNUST fees schedule, 2025/26 (reported range)",
         "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
@@ -5981,7 +6532,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6036,7 +6588,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6091,7 +6644,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6146,7 +6700,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6172,6 +6727,168 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "knust-linguistics",
+      "name": "Linguistics",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 15.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Linguistics is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-llb",
+      "name": "LLB",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "LLB",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 6,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 6.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "LLB is a 4-year LLB programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-marine-engineering",
+      "name": "Marine Engineering",
+      "universityId": "knust",
+      "faculty": "College of Engineering",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 9.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Marine Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Engineer",
+        "Project Manager",
+        "Technical Consultant"
+      ],
+      "annualFeesGhs": 7250,
+      "fees": {
+        "minGhs": 5500,
+        "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
       "id": "knust-materials-engineering",
       "name": "Materials Engineering",
       "universityId": "knust",
@@ -6183,7 +6900,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
+        "minimumAggregate": 10,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6205,16 +6922,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Materials Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -6243,7 +6957,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 23,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6265,16 +6979,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 23 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -6303,7 +7014,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6329,16 +7040,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mechanical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -6350,6 +7058,168 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 5500,
         "maxGhs": 9000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-media-and-communication-studies",
+      "name": "Media and Communication Studies",
+      "universityId": "knust",
+      "faculty": "College of Humanities and Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 9.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Media and Communication Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the College of Humanities and Social Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 7000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-medical-imaging",
+      "name": "Medical Imaging",
+      "universityId": "knust",
+      "faculty": "College of Health Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 7.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medical Imaging is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-medical-laboratory-science",
+      "name": "Medical Laboratory Science",
+      "universityId": "knust",
+      "faculty": "College of Health Sciences",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 7.0 (2026/2027 Cut-off)."
+        ]
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medical Laboratory Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
         "year": "2025/26",
         "source": "KNUST fees schedule, 2025/26 (reported range)",
         "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
@@ -6394,7 +7264,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6431,7 +7302,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 19,
+        "minimumAggregate": 11,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6453,16 +7324,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Metallurgical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -6491,7 +7359,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 21,
+        "minimumAggregate": 17,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6513,16 +7381,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Meteorology and Climate Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -6551,7 +7416,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 12,
+        "minimumAggregate": 8,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6573,16 +7438,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Midwifery is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -6629,7 +7491,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6666,7 +7529,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 8,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6692,16 +7555,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Nursing is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -6730,7 +7590,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 8,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6756,16 +7616,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Optometry is a 6-year OD programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
       "careers": [
@@ -6812,7 +7669,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -6849,7 +7707,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 11,
+        "minimumAggregate": 7,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6875,16 +7733,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Petrochemical Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Chemistry at C6.",
       "careers": [
@@ -6913,7 +7768,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 9,
+        "minimumAggregate": 6,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -6939,16 +7794,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Petroleum Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -7004,7 +7856,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7041,7 +7894,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 16,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7067,16 +7920,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Physics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
@@ -7094,18 +7944,18 @@ export const catalogue: Catalogue = {
       }
     },
     {
-      "id": "knust-political-studies",
-      "name": "Political Studies",
+      "id": "knust-physiotherapy-and-sports-science",
+      "name": "Physiotherapy and Sports Science",
       "universityId": "knust",
-      "faculty": "Faculty of Social Sciences",
-      "degreeType": "BA",
+      "faculty": "College of Health Sciences",
+      "degreeType": "BSc",
       "durationYears": 4,
       "campus": "Kumasi",
       "region": "Ashanti",
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 12,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7123,15 +7973,66 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Published as 12.0 (2026/2027 Cut-off)."
         ]
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Physiotherapy and Sports Science is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Therapist"
+      ],
+      "annualFeesGhs": 10500,
+      "fees": {
+        "minGhs": 8000,
+        "maxGhs": 13000,
+        "year": "2025/26",
+        "source": "KNUST fees schedule, 2025/26 (reported range)",
+        "sourceUrl": "https://ghstudents.com/knust-school-fees-structure/"
+      }
+    },
+    {
+      "id": "knust-political-studies",
+      "name": "Political Studies",
+      "universityId": "knust",
+      "faculty": "Faculty of Social Sciences",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Kumasi",
+      "region": "Ashanti",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": []
+      },
+      "provenance": {
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Political Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
@@ -7178,7 +8079,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7233,7 +8135,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7288,7 +8191,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7343,7 +8247,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7397,16 +8302,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Religious Studies is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -7435,7 +8337,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 11,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7452,16 +8354,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Social Work is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
@@ -7490,7 +8389,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 11,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7507,16 +8406,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Sociology is a 4-year BA programme at Kwame Nkrumah University of Science and Technology, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
@@ -7573,7 +8469,8 @@ export const catalogue: Catalogue = {
         ],
         "notes": [
           "Full-fee-paying admission. The regular-track cut-off is lower.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7628,7 +8525,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -7665,7 +8563,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
+        "minimumAggregate": 12,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7687,16 +8585,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Statistics is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Science. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -7725,7 +8620,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 14,
+        "minimumAggregate": 9,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -7751,16 +8646,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "KNUST 2026/2027 cut-off points, as reported by O3Schools (secondary source, not the university’s own publication)",
-        "sourceUrl": "https://o3schools.com/knust-cut-off-points/",
+        "source": "KNUST published cut-off points, 2026/2027 admissions.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Telecommunication Engineering is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology, offered through the College of Engineering. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
@@ -7816,7 +8708,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9024,7 +9917,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9035,6 +9929,114 @@ export const catalogue: Catalogue = {
         "confidence": "researched"
       },
       "overview": "Accounting is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-accounting-b-ed",
+      "name": "Accounting (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Accounting (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-accounting-bcom",
+      "name": "Accounting (BCom)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BCom",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 15.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Accounting (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
         "Auditor",
@@ -9080,7 +10082,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9100,6 +10103,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1700,
         "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-accounting-with-management",
+      "name": "Accounting with Management",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Accounting with Management is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -9139,16 +10196,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Actuarial Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -9194,16 +10248,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "African Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
@@ -9249,16 +10300,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Agri-Business is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -9270,6 +10318,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2800,
         "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-agricultural-engineering",
+      "name": "Agricultural Engineering",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Agricultural Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -9304,16 +10406,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Agricultural Extension and Community Development is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
       "careers": [
@@ -9359,18 +10458,123 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
+        "notes": []
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Agriculture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Agronomist",
+        "Extension Officer",
+        "Farm Manager"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-agriculture-b-ed",
+      "name": "Agriculture (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Published as 22.0 (Post-WASSCE 2025)."
         ]
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Agriculture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Agriculture (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3000,
+      "fees": {
+        "minGhs": 2600,
+        "maxGhs": 3400,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-agriculture-extension",
+      "name": "Agriculture Extension",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Agriculture Extension is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
         "Extension Officer",
@@ -9414,16 +10618,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Agro-Processing is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -9469,16 +10670,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Anthropology is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
@@ -9525,7 +10723,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9579,22 +10778,74 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Arts is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
         "Researcher",
         "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-arts-b-ed",
+      "name": "Arts (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as - (Post-WASSCE 2025).",
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Arts (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
       ],
       "annualFeesGhs": 2850,
       "fees": {
@@ -9636,7 +10887,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9691,7 +10943,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9711,6 +10964,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-automobile-and-metal-technology",
+      "name": "Automobile and Metal Technology",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Automobile and Metal Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -9746,7 +11053,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9802,7 +11110,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9858,7 +11167,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -9921,16 +11231,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Biochemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -9985,16 +11292,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Biomedical Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -10042,7 +11346,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10062,6 +11367,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1700,
         "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-chemical-engineering",
+      "name": "Chemical Engineering",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Chemical Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Process Engineer",
+        "Petroleum Engineer",
+        "Plant Engineer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -10101,16 +11460,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
@@ -10156,16 +11512,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Chinese is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
       "careers": [
@@ -10177,6 +11530,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-clothing-and-textiles-with-management-in-living",
+      "name": "Clothing and Textiles with Management in Living",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Clothing and Textiles with Management in Living is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -10212,7 +11619,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10268,7 +11676,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10324,7 +11733,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10344,6 +11754,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1700,
         "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-communication-design",
+      "name": "Communication Design",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 17.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Communication Design is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -10379,7 +11843,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10433,16 +11898,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Communication Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -10494,7 +11956,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10553,16 +12016,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -10614,7 +12074,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10673,16 +12134,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Conservation Biology and Entomology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -10694,6 +12152,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-construction-and-woodwork-technology",
+      "name": "Construction and Woodwork Technology",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Construction and Woodwork Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Civil Engineer",
+        "Site Engineer",
+        "Quantity Surveyor"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -10729,7 +12241,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10784,7 +12297,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10839,7 +12353,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -10898,16 +12413,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Diagnostic Imaging Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -10958,16 +12470,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Diagnostic Medical Sonography is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -11022,16 +12531,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Dietetics is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -11043,6 +12549,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4200,
         "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-dispensing-opticianry",
+      "name": "Dispensing Opticianry",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Dispensing Opticianry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -11077,16 +12637,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Early Childhood Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -11134,7 +12691,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11190,7 +12748,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11250,7 +12809,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11261,6 +12821,114 @@ export const catalogue: Catalogue = {
         "confidence": "researched"
       },
       "overview": "Economics is a 4-year BA programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Economics at C6.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-economics-b-ed",
+      "name": "Economics (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Economics (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-economics-bsc",
+      "name": "Economics (BSc)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 16.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Economics (BSc) is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
         "Economist",
         "Policy Analyst",
@@ -11309,16 +12977,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Economics with Finance is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
@@ -11365,7 +13030,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11421,7 +13087,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11441,6 +13108,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1500,
         "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-electrical-and-electronic-engineering",
+      "name": "Electrical and Electronic Engineering",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Electrical and Electronic Engineering is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Control Engineer"
+      ],
+      "annualFeesGhs": 4000,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 4800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -11484,16 +13205,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Engineering Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
@@ -11545,7 +13263,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11565,6 +13284,168 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-english-b-ed",
+      "name": "English (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "English (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-entrepreneurship-with-graphic-design",
+      "name": "Entrepreneurship with Graphic Design",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BCom",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Entrepreneurship with Graphic Design is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-entrepreneurship-with-international-business",
+      "name": "Entrepreneurship with International Business",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BCom",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Entrepreneurship with International Business is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -11599,16 +13480,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Environmental Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
@@ -11654,16 +13532,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Film Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
       "careers": [
@@ -11709,16 +13584,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Finance is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
@@ -11765,7 +13637,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11824,22 +13697,127 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Fisheries and Aquatic Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Biologist",
         "Research Scientist",
         "Conservation Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-food-and-nutrition-with-management-in-living",
+      "name": "Food and Nutrition with Management in Living",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Food and Nutrition with Management in Living is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-food-chemistry",
+      "name": "Food Chemistry",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 16.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Food Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
       ],
       "annualFeesGhs": 3600,
       "fees": {
@@ -11888,16 +13866,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Forensic Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -11949,7 +13924,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -11964,6 +13940,60 @@ export const catalogue: Catalogue = {
         "Translator",
         "Language Teacher",
         "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-french-b-ed",
+      "name": "French (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "French (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
       ],
       "annualFeesGhs": 2850,
       "fees": {
@@ -12004,7 +14034,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12058,16 +14089,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Geography and Regional Planning is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -12079,6 +14107,168 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-geography-b-ed",
+      "name": "Geography (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Geography (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-ghanaian-language-and-culture",
+      "name": "Ghanaian Language and Culture",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Ghanaian Language and Culture is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-government",
+      "name": "Government",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Government is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Policy Analyst",
+        "Public Administrator",
+        "Diplomat"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -12113,16 +14303,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Health Information Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -12168,16 +14355,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Health, Physical Education and Recreation is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
       "careers": [
@@ -12224,7 +14408,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12284,7 +14469,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12304,6 +14490,115 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-history-b-ed",
+      "name": "History (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "History (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-home-economics",
+      "name": "Home Economics",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as - (Post-WASSCE 2025).",
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Home Economics is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -12339,7 +14634,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12393,16 +14689,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Horticulture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -12448,16 +14741,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Hospitality Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -12504,7 +14794,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12524,6 +14815,114 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2800,
         "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-human-resource-management-bcom",
+      "name": "Human Resource Management (BCom)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BCom",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 17.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Human Resource Management (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "HR Officer",
+        "Talent Manager",
+        "Training Coordinator"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-inclusive-education",
+      "name": "Inclusive Education",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 23,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 23.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Inclusive Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -12563,22 +14962,127 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Industrial Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Chemist",
         "Quality Control Analyst",
         "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-information-and-communication-technology",
+      "name": "Information and Communication Technology",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Information and Communication Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-information-science",
+      "name": "Information Science",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 22.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Information Science is a 4-year BA programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
       ],
       "annualFeesGhs": 3600,
       "fees": {
@@ -12618,16 +15122,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
@@ -12675,7 +15176,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12731,7 +15233,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12786,7 +15289,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12806,6 +15310,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3200,
         "maxGhs": 4800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-integrated-arts",
+      "name": "Integrated Arts",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Integrated Arts is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -12840,16 +15398,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Junior High School Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
@@ -12897,7 +15452,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -12951,16 +15507,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Laboratory Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -13008,7 +15561,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13062,16 +15616,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Law is a 4-year LLB programme at University of Cape Coast, offered through the Faculty of Law. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
@@ -13117,16 +15668,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Linguistics is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -13138,6 +15686,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-livestock-science-and-meat-technology",
+      "name": "Livestock Science and Meat Technology",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Livestock Science and Meat Technology is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -13173,7 +15775,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13184,6 +15787,114 @@ export const catalogue: Catalogue = {
         "confidence": "researched"
       },
       "overview": "Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-management-b-ed",
+      "name": "Management (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Management (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-management-bcom",
+      "name": "Management (BCom)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BCom",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 22.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Management (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -13229,7 +15940,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13249,6 +15961,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1700,
         "maxGhs": 2300,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-management-with-accounting",
+      "name": "Management with Accounting",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Management with Accounting is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 3300,
+      "fees": {
+        "minGhs": 2800,
+        "maxGhs": 3800,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -13283,16 +16049,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Marketing is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -13343,16 +16106,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -13403,22 +16163,73 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics and Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Statistician",
         "Data Analyst",
         "Research Officer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-mathematics-b-ed",
+      "name": "Mathematics (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Mathematics (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
       ],
       "annualFeesGhs": 3600,
       "fees": {
@@ -13464,7 +16275,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13520,7 +16332,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13579,16 +16392,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics with Business is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -13639,16 +16449,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Mathematics with Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -13660,6 +16467,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-mb-chb-medicine-and-surgery-mb-chb",
+      "name": "MB ChB Medicine and Surgery (MB ChB)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 8.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "MB ChB Medicine and Surgery (MB ChB) is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -13703,16 +16564,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Medical Laboratory Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -13772,7 +16630,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -13792,6 +16651,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 7500,
         "maxGhs": 10500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-mental-health-nursing",
+      "name": "Mental Health Nursing",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 12.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Mental Health Nursing is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -13831,16 +16744,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Meteorology and Atmospheric Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -13891,16 +16801,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Midwifery is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -13951,16 +16858,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Molecular Biology and Biotechnology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -14007,7 +16911,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14070,16 +16975,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Nursing is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
@@ -14134,22 +17036,73 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Nutrition is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
         "Nutrition Officer",
         "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-od-optometry",
+      "name": "OD Optometry",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 12.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "OD Optometry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Optometrist",
+        "Vision Care Specialist",
+        "Ophthalmic Officer"
       ],
       "annualFeesGhs": 5350,
       "fees": {
@@ -14199,7 +17152,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14219,6 +17173,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4200,
         "maxGhs": 6500,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-painting-and-sculpture",
+      "name": "Painting and Sculpture",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Painting and Sculpture is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Creative Practitioner",
+        "Designer",
+        "Arts Educator"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -14262,16 +17270,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Pharmacy is a 6-year PharmD programme at University of Cape Coast, offered through the School of Pharmacy. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
@@ -14323,7 +17328,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14382,16 +17388,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
@@ -14443,7 +17446,8 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14498,7 +17502,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14552,16 +17557,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Population and Health is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -14607,16 +17609,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Primary Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
       "careers": [
@@ -14662,16 +17661,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Procurement and Supply Chain Management is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -14717,16 +17713,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Psychology is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -14738,6 +17731,61 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-psychology-b-ed",
+      "name": "Psychology (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as - (Post-WASSCE 2025).",
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Psychology (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -14774,7 +17822,8 @@ export const catalogue: Catalogue = {
         "electiveSubjects": [],
         "notes": [
           "Distance-learning intake, which has its own cut-off.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14794,6 +17843,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 1500,
         "maxGhs": 1900,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-religious-and-moral-studies",
+      "name": "Religious and Moral Studies",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Religious and Moral Studies is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
+      "careers": [
+        "Minister of Religion",
+        "Chaplain",
+        "Community Leader"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -14829,7 +17932,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14849,6 +17953,114 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-robotics-and-intelligent-systems",
+      "name": "Robotics and Intelligent Systems",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 22.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Robotics and Intelligent Systems is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-science",
+      "name": "Science",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 22.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Science is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -14884,7 +18096,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14939,7 +18152,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -14993,16 +18207,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Social Sciences is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
@@ -15014,6 +18225,115 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3000,
         "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-social-sciences-b-ed",
+      "name": "Social Sciences (B.Ed)",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as - (Post-WASSCE 2025).",
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Social Sciences (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3600,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4200,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-social-studies",
+      "name": "Social Studies",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Social Studies is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Social Worker",
+        "Community Development Officer",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 2850,
+      "fees": {
+        "minGhs": 2500,
+        "maxGhs": 3200,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -15049,7 +18369,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -15103,16 +18424,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Sport and Exercise Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
@@ -15163,16 +18481,13 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
@@ -15218,16 +18533,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Theatre Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
       "careers": [
@@ -15273,16 +18585,13 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Tourism Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
@@ -15294,6 +18603,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2800,
         "maxGhs": 3800,
+        "year": "2025/26",
+        "source": "University of Cape Coast fees, 2025/26 (reported range)",
+        "sourceUrl": "https://admissions.ucc.edu.gh"
+      }
+    },
+    {
+      "id": "ucc-water-and-public-health-engineering",
+      "name": "Water and Public Health Engineering",
+      "universityId": "ucc",
+      "faculty": "Degree",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Cape Coast",
+      "region": "Central",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (Post-WASSCE 2025)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Water and Public Health Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 5350,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 6500,
         "year": "2025/26",
         "source": "University of Cape Coast fees, 2025/26 (reported range)",
         "sourceUrl": "https://admissions.ucc.edu.gh"
@@ -15329,7 +18692,8 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "Reported by a secondary source. Confirm on the university portal before applying.",
+          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
         ]
       },
       "provenance": {
@@ -19157,10 +22521,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Actuarial Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -19270,10 +22633,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Administration is a 4-year BSc programme at University of Ghana, offered through the Business School. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
@@ -19323,10 +22685,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Administration is a 4-year BSc programme at University of Ghana at the city campus, offered through the Accra City Campus. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -19378,10 +22739,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Administration is a 4-year BSc programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
@@ -19433,10 +22793,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Administration is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the Business School. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
@@ -19486,10 +22845,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Administration (Kumasi and Takoradi City Campuses) is a 4-year BSc programme at University of Ghana at the city campus, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -19544,10 +22902,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Agricultural Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -19657,10 +23014,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Agriculture Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
@@ -19673,6 +23029,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4900,
         "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-arabic",
+      "name": "Arabic",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Arabic is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -19763,10 +23173,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Arts (Bouquets with Business subject) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
@@ -19818,10 +23227,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Arts (Bouquets with Business subject) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
@@ -19871,10 +23279,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Arts (Business, Science or Vocational background) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -20032,10 +23439,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Arts (General Arts background) is a 4-year BA programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
@@ -20109,6 +23515,224 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-bachelor-of-arts-city",
+      "name": "Bachelor of Arts",
+      "universityId": "ug",
+      "faculty": "Accra City Campus",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "city-campus",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Bachelor of Arts is a 4-year BA programme at University of Ghana at the city campus, offered through the Accra City Campus. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-bachelor-of-arts-distance",
+      "name": "Bachelor of Arts",
+      "universityId": "ug",
+      "faculty": "Distance Education",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "distance",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 30.0 (1st Choice).",
+          "Distance-learning intake, which has its own cut-off."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Bachelor of Arts is a 4-year BA programme at University of Ghana by distance learning, offered through the Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-bachelor-of-arts-full-fee-paying-fee-paying",
+      "name": "Bachelor of Arts (Full-Fee Paying)",
+      "universityId": "ug",
+      "faculty": "College of Humanities",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "fee-paying",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (1st Choice).",
+          "Full-fee-paying admission. The regular-track cut-off is lower."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Bachelor of Arts (Full-Fee Paying) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Researcher",
+        "Educator"
+      ],
+      "annualFeesGhs": 5200,
+      "fees": {
+        "minGhs": 4400,
+        "maxGhs": 6000,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-bachelor-of-laws",
+      "name": "Bachelor of Laws",
+      "universityId": "ug",
+      "faculty": "College of Humanities",
+      "degreeType": "LLB",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 7,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 7.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Bachelor of Laws is a 4-year LLB programme at University of Ghana, offered through the College of Humanities. Entry is competitive at aggregate 7 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Officer",
+        "Compliance Officer"
+      ],
+      "annualFeesGhs": 6000,
+      "fees": {
+        "minGhs": 5200,
+        "maxGhs": 6800,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-biological-sciences",
       "name": "Biological Sciences",
       "universityId": "ug",
@@ -20140,10 +23764,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Biological Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -20253,10 +23876,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Biomedical Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -20371,10 +23993,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Computer Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -20489,13 +24110,66 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Computer Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 7 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-computer-science-b-ed",
+      "name": "Computer Science (B.Ed)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 9,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 9.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Computer Science (B.Ed) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -20689,6 +24363,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-consumer-sciences",
+      "name": "Consumer Sciences",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 20,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 20.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Consumer Sciences is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-consumer-sciences-education",
       "name": "Consumer Sciences Education",
       "universityId": "ug",
@@ -20854,10 +24582,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Dental Surgery is a 6-year BDS programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
@@ -20907,10 +24634,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Diagnostic Radiography is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six.",
@@ -20960,10 +24686,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Dietetics is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -20976,6 +24701,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 6000,
         "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-doctor-of-veterinary-medicine",
+      "name": "Doctor of Veterinary Medicine",
+      "universityId": "ug",
+      "faculty": "College of Basic & Applied Sciences",
+      "degreeType": "DVM",
+      "durationYears": 6,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 14(17) (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Doctor of Veterinary Medicine is a 6-year DVM programme at University of Ghana, offered through the College of Basic & Applied Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
+      "careers": [
+        "Veterinary Surgeon",
+        "Livestock Health Officer",
+        "Animal Research Scientist"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -21018,10 +24797,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Earth Science is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
@@ -21153,6 +24931,115 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-education-early-grade-specialism-b-ed",
+      "name": "Education (Early Grade Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (Early Grade Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-education-early-grade-specialism-b-ed-distance",
+      "name": "Education (Early Grade Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "Distance Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "distance",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 30.0 (1st Choice).",
+          "Distance-learning intake, which has its own cut-off."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (Early Grade Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-education-early-grade-specialism-distance",
       "name": "Education (Early Grade Specialism)",
       "universityId": "ug",
@@ -21255,6 +25142,115 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 5300,
         "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-education-jhs-specialism-b-ed",
+      "name": "Education (JHS Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (JHS Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-education-jhs-specialism-b-ed-distance",
+      "name": "Education (JHS Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "Distance Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "distance",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 30.0 (1st Choice).",
+          "Distance-learning intake, which has its own cut-off."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (JHS Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -21369,6 +25365,115 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-education-upper-grade-specialism-b-ed",
+      "name": "Education (Upper Grade Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (Upper Grade Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-education-upper-grade-specialism-b-ed-distance",
+      "name": "Education (Upper Grade Specialism) (B.Ed)",
+      "universityId": "ug",
+      "faculty": "Distance Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "distance",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 30,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 30.0 (1st Choice).",
+          "Distance-learning intake, which has its own cut-off."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Education (Upper Grade Specialism) (B.Ed) is a 4-year B.Ed programme at University of Ghana by distance learning, offered through the Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 3275,
+      "fees": {
+        "minGhs": 3200,
+        "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-education-upper-grade-specialism-distance",
       "name": "Education (Upper Grade Specialism)",
       "universityId": "ug",
@@ -21418,6 +25523,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3200,
         "maxGhs": 3350,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-english",
+      "name": "English",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "English is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -21518,10 +25677,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Family and Consumer Sciences (Family and Child Studies) is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Management in Living at C6.",
@@ -21636,10 +25794,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Family and Consumer Sciences (Food and Clothing) is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
@@ -21691,10 +25848,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Fine Arts is a 4-year BFA programme at University of Ghana, offered through the School of Performing Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
@@ -21805,10 +25961,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Food Process Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -21881,6 +26036,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 5600,
         "maxGhs": 7400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-french",
+      "name": "French",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "French is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -21976,10 +26185,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Information and Communication Technology Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
@@ -22084,10 +26292,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
@@ -22139,10 +26346,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Information Technology is a 4-year BSc programme at University of Ghana by distance learning, offered through the School of Continuing and Distance Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -22305,10 +26511,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Materials Science and Engineering is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 13 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -22423,10 +26628,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Mathematical Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
@@ -22490,6 +26694,60 @@ export const catalogue: Catalogue = {
         "confidence": "authoritative"
       },
       "overview": "Mathematical Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
+      "careers": [
+        "Data Analyst",
+        "Mathematics Teacher",
+        "Quantitative Analyst"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-mathematics",
+      "name": "Mathematics",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Mathematics is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Data Analyst",
         "Mathematics Teacher",
@@ -22594,10 +26852,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Medical Laboratory Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
@@ -22610,6 +26867,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 6000,
         "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-medicine-and-bachelor-of-surgery",
+      "name": "Medicine and Bachelor of Surgery",
+      "universityId": "ug",
+      "faculty": "College of Health Sciences",
+      "degreeType": "MBChB",
+      "durationYears": 6,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 8.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medicine and Bachelor of Surgery is a 6-year MBChB programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 9850,
+      "fees": {
+        "minGhs": 8200,
+        "maxGhs": 11500,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -22700,10 +27011,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Midwifery is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
@@ -22755,10 +27065,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Music is a 4-year BMus programme at University of Ghana, offered through the School of Performing Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
@@ -22864,10 +27173,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Nursing is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
@@ -22917,10 +27225,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Occupational Therapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -22992,6 +27299,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-performing-arts-music-dance-theatre-arts",
+      "name": "Performing Arts (Music, Dance, Theatre Arts)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Performing Arts (Music, Dance, Theatre Arts) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-pharmacy",
       "name": "Pharmacy",
       "universityId": "ug",
@@ -23023,10 +27384,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Pharmacy is a 6-year PharmD programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
@@ -23085,10 +27445,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Physical Sciences is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Physics at C6.",
@@ -23202,10 +27561,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Physiotherapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -23255,10 +27613,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Psychology is a 4-year BSc programme at University of Ghana, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
@@ -23363,10 +27720,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Public Health is a 4-year BPH programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 9 or better on the WASSCE best-six.",
@@ -23416,10 +27772,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Respiratory Therapy is a 4-year BSc programme at University of Ghana, offered through the College of Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six.",
@@ -23432,6 +27787,114 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 6000,
         "maxGhs": 8600,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-science-biology",
+      "name": "Science (Biology)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Science (Biology) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Biologist",
+        "Research Scientist",
+        "Conservation Officer"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-science-chemistry",
+      "name": "Science (Chemistry)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Science (Chemistry) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
         "year": "2025/26",
         "source": "University of Ghana schedule of fees, 2025/26",
         "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
@@ -23612,6 +28075,114 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "ug-science-physics",
+      "name": "Science (Physics)",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Science (Physics) is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Physicist",
+        "Research Scientist",
+        "Science Teacher"
+      ],
+      "annualFeesGhs": 5650,
+      "fees": {
+        "minGhs": 4900,
+        "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-social-studies",
+      "name": "Social Studies",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Social Studies is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
       "id": "ug-social-studies-education",
       "name": "Social Studies Education",
       "universityId": "ug",
@@ -23650,6 +28221,60 @@ export const catalogue: Catalogue = {
         "confidence": "authoritative"
       },
       "overview": "Social Studies Education is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Teacher",
+        "Education Officer",
+        "Curriculum Developer"
+      ],
+      "annualFeesGhs": 5425,
+      "fees": {
+        "minGhs": 5300,
+        "maxGhs": 5550,
+        "year": "2025/26",
+        "source": "University of Ghana schedule of fees, 2025/26",
+        "sourceUrl": "https://www.ug.edu.gh/aad/schedule-fees"
+      }
+    },
+    {
+      "id": "ug-spanish",
+      "name": "Spanish",
+      "universityId": "ug",
+      "faculty": "College of Education",
+      "degreeType": "B.Ed",
+      "durationYears": 4,
+      "campus": "Accra (Legon)",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 24.0 (1st Choice)."
+        ]
+      },
+      "provenance": {
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Spanish is a 4-year B.Ed programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
         "Education Officer",
@@ -23749,10 +28374,9 @@ export const catalogue: Catalogue = {
         "notes": []
       },
       "provenance": {
-        "source": "University of Ghana, Cut-Off Points for 2025/2026 Undergraduate Admissions",
-        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
+        "source": "University of Ghana published cut-off points, 2025/26 admissions.",
         "year": 2025,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Sports and Physical Culture is a 4-year BA programme at University of Ghana, offered through the College of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -23879,6 +28503,168 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "uhas-combined-bachelor-and-master-of-psychology",
+      "name": "Combined Bachelor and Master of Psychology",
+      "universityId": "uhas",
+      "faculty": "School of Medicine (SOM)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 10.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Combined Bachelor and Master of Psychology is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Medicine (SOM). Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Counselling Psychologist",
+        "HR Officer",
+        "Research Analyst"
+      ],
+      "annualFeesGhs": 3700,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-dental-surgery",
+      "name": "Dental Surgery",
+      "universityId": "uhas",
+      "faculty": "School of Medicine (SOM)",
+      "degreeType": "BDS",
+      "durationYears": 6,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 8.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Dental Surgery is a 6-year BDS programme at University of Health and Allied Sciences, offered through the School of Medicine (SOM). Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Dentist",
+        "Oral Surgeon",
+        "Dental Public Health Officer"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 9500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-diagnostic-imaging-radiography",
+      "name": "Diagnostic Imaging (Radiography)",
+      "universityId": "uhas",
+      "faculty": "School of Allied Health Sciences (SAHS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 12,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 12.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Diagnostic Imaging (Radiography) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences (SAHS). Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
+      "careers": [
+        "Radiographer",
+        "Sonographer",
+        "Imaging Technologist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
       "id": "uhas-dietetics",
       "name": "Dietetics",
       "universityId": "uhas",
@@ -23890,8 +28676,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 14,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -23921,10 +28707,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Dietetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
@@ -23932,6 +28717,168 @@ export const catalogue: Catalogue = {
         "Dietitian",
         "Nutrition Officer",
         "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-health-services-administration",
+      "name": "Health Services Administration",
+      "universityId": "uhas",
+      "faculty": "School of Nursing and Midwifery",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 16*/18* (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Health Services Administration is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-medical-biochemistry-and-molecular-biology",
+      "name": "Medical Biochemistry and Molecular Biology",
+      "universityId": "uhas",
+      "faculty": "School of Basic and Biomedical Sciences (SBBS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 18,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 18.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medical Biochemistry and Molecular Biology is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Basic and Biomedical Sciences (SBBS). Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "careers": [
+        "Chemist",
+        "Quality Control Analyst",
+        "Laboratory Scientist"
+      ],
+      "annualFeesGhs": 3700,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-medical-laboratory",
+      "name": "Medical Laboratory",
+      "universityId": "uhas",
+      "faculty": "School of Allied Health Sciences (SAHS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 10,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 10.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medical Laboratory is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences (SAHS). Entry is competitive at aggregate 10 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Laboratory Scientist",
+        "Biomedical Scientist",
+        "Quality Control Analyst"
       ],
       "annualFeesGhs": 4300,
       "fees": {
@@ -24075,6 +29022,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "uhas-medicine-surgery",
+      "name": "Medicine/Surgery",
+      "universityId": "uhas",
+      "faculty": "School of Medicine (SOM)",
+      "degreeType": "MBChB",
+      "durationYears": 6,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 8.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Medicine/Surgery is a 6-year MBChB programme at University of Health and Allied Sciences, offered through the School of Medicine (SOM). Entry is competitive at aggregate 8 or better on the WASSCE best-six.",
+      "careers": [
+        "Medical Doctor",
+        "Surgeon",
+        "Public Health Physician"
+      ],
+      "annualFeesGhs": 8250,
+      "fees": {
+        "minGhs": 7000,
+        "maxGhs": 9500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
       "id": "uhas-midwifery",
       "name": "Midwifery",
       "universityId": "uhas",
@@ -24086,8 +29087,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24113,10 +29114,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Midwifery is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
@@ -24146,8 +29146,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24177,10 +29177,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
@@ -24263,6 +29262,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "uhas-orthotics-prosthetics",
+      "name": "Orthotics & Prosthetics",
+      "universityId": "uhas",
+      "faculty": "School of Allied Health Sciences (SAHS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 17.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Orthotics & Prosthetics is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences (SAHS). Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Health Professional",
+        "Clinical Officer",
+        "Public Health Officer"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
       "id": "uhas-pharmacy",
       "name": "Pharmacy",
       "universityId": "uhas",
@@ -24274,8 +29327,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 8,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24305,10 +29358,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Pharmacy is a 6-year PharmD programme at University of Health and Allied Sciences, offered through the School of Pharmacy. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
@@ -24316,6 +29368,60 @@ export const catalogue: Catalogue = {
         "Pharmacist",
         "Clinical Pharmacist",
         "Regulatory Affairs Officer"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-physiotherapy",
+      "name": "Physiotherapy",
+      "universityId": "uhas",
+      "faculty": "School of Allied Health Sciences (SAHS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 16.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Physiotherapy is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences (SAHS). Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Therapist"
       ],
       "annualFeesGhs": 4300,
       "fees": {
@@ -24398,8 +29504,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24420,13 +29526,66 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Public Health (Disease Control) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Public Health Officer",
+        "Epidemiologist",
+        "Health Programme Manager"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-public-health-health-information",
+      "name": "Public Health (Health Information)",
+      "universityId": "uhas",
+      "faculty": "School of Public Health",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 19.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Public Health (Health Information) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
         "Epidemiologist",
@@ -24453,8 +29612,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "general-minimum",
+        "minimumAggregate": 19,
+        "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -24475,10 +29634,9 @@ export const catalogue: Catalogue = {
         ]
       },
       "provenance": {
-        "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
         "year": 2026,
-        "lastVerified": "2026-08-07",
+        "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
       "overview": "Public Health (Health Promotion) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
@@ -24491,6 +29649,222 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 3400,
         "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-public-health-nursing",
+      "name": "Public Health Nursing",
+      "universityId": "uhas",
+      "faculty": "School of Nursing and Midwifery",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 15,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 15.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Public Health Nursing is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
+      "careers": [
+        "Registered Nurse",
+        "Community Health Nurse",
+        "Nurse Educator"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-public-health-nutrition",
+      "name": "Public Health (Nutrition)",
+      "universityId": "uhas",
+      "faculty": "School of Public Health",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 17,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 17.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Public Health (Nutrition) is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Public Health. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "careers": [
+        "Dietitian",
+        "Nutrition Officer",
+        "Public Health Nutritionist"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-speech-language-and-hearing-sciences",
+      "name": "Speech, Language and Hearing Sciences",
+      "universityId": "uhas",
+      "faculty": "School of Allied Health Sciences (SAHS)",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 16,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 16.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Speech, Language and Hearing Sciences is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Allied Health Sciences (SAHS). Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "careers": [
+        "Translator",
+        "Language Teacher",
+        "Communications Officer"
+      ],
+      "annualFeesGhs": 4300,
+      "fees": {
+        "minGhs": 3400,
+        "maxGhs": 5200,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "uhas-sports-and-exercise-medical-sciences",
+      "name": "Sports and Exercise Medical Sciences",
+      "universityId": "uhas",
+      "faculty": "School of Sports and Exercise Medicine",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Ho",
+      "region": "Volta",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 22,
+        "aggregateBasis": "published-cutoff",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Integrated Science",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "Published as 22.0 (2026/2027 Guide)."
+        ]
+      },
+      "provenance": {
+        "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Sports and Exercise Medical Sciences is a 4-year BSc programme at University of Health and Allied Sciences, offered through the School of Sports and Exercise Medicine. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "careers": [
+        "Sports Scientist",
+        "Coach",
+        "Physical Education Teacher"
+      ],
+      "annualFeesGhs": 3700,
+      "fees": {
+        "minGhs": 3000,
+        "maxGhs": 4400,
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
@@ -24557,6 +29931,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "upsa-accounting-and-finance",
+      "name": "Accounting and Finance",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Accounting and Finance is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Accountant",
+        "Auditor",
+        "Financial Analyst"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
       "id": "upsa-accounting-distance",
       "name": "Accounting",
       "universityId": "upsa",
@@ -24607,6 +30035,276 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 2500,
         "maxGhs": 3500,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-actuarial-science",
+      "name": "Actuarial Science",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Actuarial Science is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Actuary",
+        "Risk Analyst",
+        "Pensions Consultant"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-applied-french-and-communications",
+      "name": "Applied French and Communications",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Applied French and Communications is a 4-year BA programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-applied-marketing",
+      "name": "Applied Marketing",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Applied Marketing is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Marketing Executive",
+        "Brand Manager",
+        "Digital Marketer"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-applied-statistics",
+      "name": "Applied Statistics",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Applied Statistics is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Statistician",
+        "Data Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-bachelor-of-laws-llb",
+      "name": "Bachelor of Laws (LLB)",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "LLB",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Bachelor of Laws (LLB) is a 4-year LLB programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Lawyer",
+        "Legal Consultant",
+        "Policy Analyst"
+      ],
+      "annualFeesGhs": 5600,
+      "fees": {
+        "minGhs": 4800,
+        "maxGhs": 6400,
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
@@ -24779,6 +30477,60 @@ export const catalogue: Catalogue = {
       }
     },
     {
+      "id": "upsa-business-economics",
+      "name": "Business Economics",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Business Economics is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Economist",
+        "Policy Analyst",
+        "Research Officer"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
       "id": "upsa-business-information-systems",
       "name": "Business Information Systems",
       "universityId": "upsa",
@@ -24823,6 +30575,114 @@ export const catalogue: Catalogue = {
         "IT Support Specialist",
         "Systems Administrator",
         "Business Analyst"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-communication-studies",
+      "name": "Communication Studies",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Communication Studies is a 4-year BA programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Communications Officer",
+        "Journalist",
+        "Public Relations Officer"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-data-science-and-analytics",
+      "name": "Data Science and Analytics",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Data Science and Analytics is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Research Scientist",
+        "Laboratory Analyst",
+        "Science Teacher"
       ],
       "annualFeesGhs": 4800,
       "fees": {
@@ -24883,6 +30743,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4200,
         "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-information-technology",
+      "name": "Information Technology",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Information Technology is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "IT Support Specialist",
+        "Systems Administrator",
+        "Business Analyst"
+      ],
+      "annualFeesGhs": 4800,
+      "fees": {
+        "minGhs": 4000,
+        "maxGhs": 5600,
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
@@ -24993,6 +30907,60 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4800,
         "maxGhs": 6400,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-logistics-and-transport-management",
+      "name": "Logistics and Transport Management",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Logistics and Transport Management is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
@@ -25158,6 +31126,114 @@ export const catalogue: Catalogue = {
       "fees": {
         "minGhs": 4000,
         "maxGhs": 5600,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-public-relations-management-ba",
+      "name": "Public Relations Management (BA)",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BA",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Public Relations Management (BA) is a 4-year BA programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Business Analyst",
+        "Operations Manager",
+        "Entrepreneur"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
+        "year": "2025/26",
+        "source": "Reported range for Ghanaian public universities, 2025/26",
+        "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
+      }
+    },
+    {
+      "id": "upsa-real-estate-management-and-finance",
+      "name": "Real Estate Management and Finance",
+      "universityId": "upsa",
+      "faculty": "Undergraduate Studies",
+      "degreeType": "BSc",
+      "durationYears": 4,
+      "campus": "Accra",
+      "region": "Greater Accra",
+      "admissionTrack": "regular",
+      "qualificationLevel": "degree",
+      "requirements": {
+        "minimumAggregate": 24,
+        "aggregateBasis": "general-minimum",
+        "coreSubjects": [
+          {
+            "subject": "English Language",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Core Mathematics",
+            "minimumGrade": "C6"
+          },
+          {
+            "subject": "Social Studies",
+            "minimumGrade": "C6"
+          }
+        ],
+        "electiveSubjects": [],
+        "notes": [
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
+        ]
+      },
+      "provenance": {
+        "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "year": 2026,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
+      },
+      "overview": "Real Estate Management and Finance is a 4-year BSc programme at University of Professional Studies, Accra, offered through the university. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "careers": [
+        "Estate Surveyor",
+        "Property Valuer",
+        "Land Administrator"
+      ],
+      "annualFeesGhs": 5000,
+      "fees": {
+        "minGhs": 4200,
+        "maxGhs": 5800,
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"

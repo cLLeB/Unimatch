@@ -25,12 +25,25 @@ import { PRIVATE_SOURCES } from './sources/private'
 import { ucc } from './sources/ucc'
 import { ug } from './sources/ug'
 import { careersFor, feeBandFor, overviewFor } from './sources/enrichment'
+import { MASTER_OVERRIDES, MASTER_SOURCES } from './sources/master'
 import type { RawProgramme, SourceFile } from './sources/types'
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const OUT = join(ROOT, 'data', 'seed', 'programmes.json')
 
-const SOURCES: SourceFile[] = [ug, knust, ucc, uew, uds, uhas, upsa, atu, ...PRIVATE_SOURCES]
+const SOURCES: SourceFile[] = [
+  ug,
+  knust,
+  ucc,
+  uew,
+  uds,
+  uhas,
+  upsa,
+  atu,
+  ...PRIVATE_SOURCES,
+  // Programmes only the supplied confirmed data covers.
+  ...MASTER_SOURCES,
+]
 
 /** Degree prefixes we can recognise from a name or an explicit `d`. */
 const DEGREE_DURATION: Record<string, number> = {
@@ -207,6 +220,55 @@ for (const source of SOURCES) {
   }
 }
 
+/*
+ * Supplied confirmed cut-offs win over anything we researched ourselves.
+ *
+ * Applied after the build rather than inside it so the sources stay a faithful
+ * transcription of what each table published, and the supersession is one
+ * visible step that can be counted and reported.
+ */
+let superseded = 0
+for (const programme of programmes) {
+  const override = MASTER_OVERRIDES.get(programme.id)
+  if (!override) continue
+
+  superseded += 1
+  programme.requirements.minimumAggregate = override.aggregate
+  programme.requirements.aggregateBasis = 'published-cutoff'
+  programme.requirements.notes = programme.requirements.notes.filter(
+    (note) => !note.startsWith('Reported by a secondary source'),
+  )
+  programme.provenance = { ...override.provenance }
+}
+
+/*
+ * Programmes at a university the confirmed file covers, but which the file
+ * itself does not list.
+ *
+ * These keep the researched figure because there is nothing better to put
+ * there, but the same secondary listing ran about five points high everywhere
+ * the confirmed data could check it, and a cut-off that is too high tells a
+ * student they missed a programme they would have got. So the record says the
+ * university's own list did not cover it.
+ */
+const CONFIRMED_UNIVERSITIES = new Set(
+  [...MASTER_OVERRIDES.keys()].map((id) => id.split('-')[0]),
+)
+
+let flagged = 0
+for (const programme of programmes) {
+  if (
+    programme.provenance.confidence !== 'researched' ||
+    !CONFIRMED_UNIVERSITIES.has(programme.universityId)
+  ) {
+    continue
+  }
+  flagged += 1
+  programme.requirements.notes.push(
+    "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it.",
+  )
+}
+
 programmes.sort((a, b) => a.id.localeCompare(b.id))
 
 writeFileSync(OUT, `${JSON.stringify(programmes, null, 2)}\n`, 'utf8')
@@ -224,3 +286,5 @@ const byTrack = programmes.reduce<Record<string, number>>((acc, programme) => {
 console.log(`✓ ${programmes.length} programmes written to data/seed/programmes.json`)
 console.log('  by university:', byUniversity)
 console.log('  by track:', byTrack)
+console.log(`  cut-offs superseded by supplied confirmed data: ${superseded}`)
+console.log(`  researched figures flagged as off the official list: ${flagged}`)
