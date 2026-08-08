@@ -1,4 +1,5 @@
 import { Outlet, useLocation } from 'react-router-dom'
+import AuthNotice from './AuthNotice'
 import BottomNav from './BottomNav'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -21,6 +22,7 @@ export function MarketingLayout() {
   return (
     <div className="flex min-h-screen flex-col bg-canvas">
       <Navbar />
+      <AuthNotice />
       <main className="flex-1 pb-20 lg:pb-0">
         <Outlet />
       </main>
@@ -41,6 +43,7 @@ export function AppLayout() {
   return (
     <div className="min-h-screen bg-canvas">
       <Navbar />
+      <AuthNotice />
       <div className="flex min-h-[calc(100vh-4rem)]">
         <Sidebar />
         <main className="min-w-0 flex-1 pb-20 lg:pb-0">

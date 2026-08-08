@@ -9,6 +9,7 @@ import {
   type ReactNode,
 } from 'react'
 import { isSupabaseConfigured, supabase } from '../lib/supabase'
+import { readAuthFragment, type AuthNotice } from './authFragment'
 
 interface AuthContextValue {
   /** False when no Supabase credentials are set; the app runs device-local. */
@@ -16,6 +17,9 @@ interface AuthContextValue {
   session: Session | null
   userId: string | null
   loading: boolean
+  /** What just happened on returning from a sign-in link, if anything. */
+  notice: AuthNotice | null
+  dismissNotice: () => void
   /** Sends a one-time sign-in link. No passwords to leak or reset. */
   signInWithEmail: (email: string) => Promise<{ error: string | null }>
   signOut: () => Promise<void>
@@ -26,6 +30,24 @@ const AuthContext = createContext<AuthContextValue | null>(null)
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null)
   const [loading, setLoading] = useState(isSupabaseConfigured)
+
+  /*
+   * Read the fragment once, before anything can strip it, so we can tell the
+   * student whether their link worked. Supabase itself consumes the fragment
+   * asynchronously, and leaving it in the address bar means a refresh or a
+   * shared URL carries a live token.
+   */
+  const [notice, setNotice] = useState<AuthNotice | null>(() =>
+    typeof window === 'undefined' ? null : readAuthFragment(window.location.hash),
+  )
+
+  useEffect(() => {
+    if (!notice || typeof window === 'undefined') return
+    const { pathname, search } = window.location
+    window.history.replaceState(null, '', `${pathname}${search}`)
+  }, [notice])
+
+  const dismissNotice = useCallback(() => setNotice(null), [])
 
   useEffect(() => {
     if (!supabase) return
@@ -63,10 +85,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       session,
       userId: session?.user.id ?? null,
       loading,
+      notice,
+      dismissNotice,
       signInWithEmail,
       signOut,
     }),
-    [session, loading, signInWithEmail, signOut],
+    [session, loading, notice, dismissNotice, signInWithEmail, signOut],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
