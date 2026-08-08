@@ -7,38 +7,53 @@ import type { RawProgramme, SourceFile } from './types'
  * page.
  */
 const uewRows: RawProgramme[] = [
-  { n: 'Political Science Education', c: 17, male: 17, female: 18, f: 'Faculty of Social Sciences Education', d: 'BA' },
-  { n: 'Accounting Education', c: 15, male: 15, female: 16, f: 'Faculty of Business Education', d: 'B.Sc', req: ['Financial Accounting:C6'] },
-  { n: 'Social Studies Education', c: 22, male: 22, female: 22, f: 'Faculty of Social Sciences Education', d: 'BA' },
-  { n: 'Health Administration and Education', c: 24, male: 24, female: 24, f: 'Faculty of Science Education', d: 'B.Sc' },
-  { n: 'Arabic Education', c: 36, male: 36, female: 36, f: 'Faculty of Foreign Languages Education', d: 'BA' },
-  { n: 'Secretarial Education', c: 36, male: 36, female: 36, f: 'Faculty of Business Education', d: 'B.Sc' },
-  { n: 'Management Education', c: 36, male: 36, female: 36, f: 'Faculty of Business Education', d: 'B.Sc' },
-  { n: 'Art Education', c: 36, male: 36, female: 36, f: 'Faculty of Creative Arts', d: 'BA' },
-  { n: 'French Education', c: 36, male: 36, female: 36, f: 'Faculty of Foreign Languages Education', d: 'BA', req: ['French:C6'] },
-  { n: 'Ga and Dangme Education', c: 36, male: 36, female: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
-  { n: 'Graphic Design', c: 36, male: 36, female: 36, f: 'Faculty of Creative Arts', d: 'BA' },
-  { n: 'English Education', c: 36, male: 36, female: 36, f: 'Faculty of Languages Education', d: 'BA', req: ['Literature in English:C6'] },
-  { n: 'Basic Education', c: 36, male: 36, female: 36, f: 'Faculty of Educational Studies', d: 'B.Ed' },
-  { n: 'Ghanaian Languages Education (Dagaare, Dagbani, Gonja, Gurune, Kasem, Kusaal)', c: 36, male: 36, female: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
-  { n: 'Information and Communication Technology Education', c: 36, male: 36, female: 36, f: 'Faculty of Science Education', d: 'B.Sc' },
-  { n: 'Ghanaian Languages Education (Fante, Nzema, Twi)', c: 36, male: 36, female: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
-  { n: 'Ewe Education', c: 36, male: 36, female: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
-  { n: 'Theatre Arts', c: 36, male: 36, female: 36, f: 'Faculty of Creative Arts', d: 'BA' },
-  { n: 'Automotive Technology Education', c: 36, male: 36, female: 36, f: 'Faculty of Technical Education', d: 'B.Sc' },
+  { n: 'Political Science Education', c: 36, f: 'Faculty of Social Sciences Education', d: 'BA' },
+  { n: 'Accounting Education', c: 36, f: 'Faculty of Business Education', d: 'B.Sc', req: ['Financial Accounting:C6'] },
+  { n: 'Social Studies Education', c: 36, f: 'Faculty of Social Sciences Education', d: 'BA' },
+  { n: 'Health Administration and Education', c: 36, f: 'Faculty of Science Education', d: 'B.Sc' },
+  { n: 'Arabic Education', c: 36, f: 'Faculty of Foreign Languages Education', d: 'BA' },
+  { n: 'Secretarial Education', c: 36, f: 'Faculty of Business Education', d: 'B.Sc' },
+  { n: 'Management Education', c: 36, f: 'Faculty of Business Education', d: 'B.Sc' },
+  { n: 'Art Education', c: 36, f: 'Faculty of Creative Arts', d: 'BA' },
+  { n: 'French Education', c: 36, f: 'Faculty of Foreign Languages Education', d: 'BA', req: ['French:C6'] },
+  { n: 'Ga and Dangme Education', c: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
+  { n: 'Graphic Design', c: 36, f: 'Faculty of Creative Arts', d: 'BA' },
+  { n: 'English Education', c: 36, f: 'Faculty of Languages Education', d: 'BA', req: ['Literature in English:C6'] },
+  { n: 'Basic Education', c: 36, f: 'Faculty of Educational Studies', d: 'B.Ed' },
+  { n: 'Ghanaian Languages Education (Dagaare, Dagbani, Gonja, Gurune, Kasem, Kusaal)', c: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
+  { n: 'Information and Communication Technology Education', c: 36, f: 'Faculty of Science Education', d: 'B.Sc' },
+  { n: 'Ghanaian Languages Education (Fante, Nzema, Twi)', c: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
+  { n: 'Ewe Education', c: 36, f: 'Faculty of Ghanaian Languages Education', d: 'BA' },
+  { n: 'Theatre Arts', c: 36, f: 'Faculty of Creative Arts', d: 'BA' },
+  { n: 'Automotive Technology Education', c: 36, f: 'Faculty of Technical Education', d: 'B.Sc' },
 ]
 
+/**
+ * Winneba publishes no per-programme cut-off list.
+ *
+ * Its own entry requirements page states one figure for every bachelor's
+ * programme: six credit passes with "a total aggregate of 36 or better". The
+ * per-programme numbers that circulate come from secondary listings, and the
+ * university says outright they are guidance rather than fixed, so what we can
+ * honestly show is the requirement Winneba itself publishes.
+ *
+ * The rows keep their subject requirements, which are real; only the aggregate
+ * becomes the published minimum, and the UI labels it an entry requirement
+ * rather than a cut-off.
+ */
 export const uew: SourceFile = {
   universityId: 'uew',
   defaultCampus: 'Winneba',
   region: 'Central',
   scienceCore: false,
+  aggregateBasis: 'general-minimum',
   provenance: {
-    source: 'UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.',
-    sourceUrl: 'https://o3schools.com/uew-cut-off-points/',
+    source:
+      "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+    sourceUrl: 'https://www.uew.edu.gh/admissions/apply/entry-requirements',
     year: 2026,
-    lastVerified: '2026-08-07',
-    confidence: 'researched',
+    lastVerified: '2026-08-08',
+    confidence: 'authoritative',
   },
   rows: uewRows,
 }

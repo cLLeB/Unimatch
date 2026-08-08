@@ -27,6 +27,7 @@ import { ug } from './sources/ug'
 import { careersFor, feeBandFor, overviewFor } from './sources/enrichment'
 import { KNUST_OFFICIAL, KNUST_OFFICIAL_PROVENANCE } from './sources/knustOfficial'
 import { MASTER_OVERRIDES, MASTER_SOURCES } from './sources/master'
+import { UCC_OFFICIAL } from './sources/uccOfficial'
 import type { RawProgramme, SourceFile } from './sources/types'
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)))
@@ -237,6 +238,7 @@ function withConfirmed(
   const official = KNUST_OFFICIAL.get(id)
   const override =
     MASTER_OVERRIDES.get(id) ??
+    UCC_OFFICIAL.get(id) ??
     (official === undefined
       ? undefined
       : { aggregate: official, provenance: KNUST_OFFICIAL_PROVENANCE })

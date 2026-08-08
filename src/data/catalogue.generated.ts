@@ -9838,17 +9838,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Accounting is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
@@ -10792,7 +10789,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 16,
+        "minimumAggregate": 22,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -10809,19 +10806,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Arts Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Humanities and Social Sciences Education. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
+      "overview": "Arts Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Humanities and Social Sciences Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
         "Education Officer",
@@ -11860,7 +11854,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -11882,19 +11876,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Computer Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
+      "overview": "Computer Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
         "Data Scientist",
@@ -12032,7 +12023,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 19,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -12049,19 +12040,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Construction Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Construction Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Civil Engineer",
         "Site Engineer",
@@ -12617,17 +12605,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Economics is a 4-year BA programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
@@ -13071,17 +13056,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "English is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
       "careers": [
@@ -13710,7 +13692,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 19,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -13732,19 +13714,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "French is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need French at C6.",
+      "overview": "French is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need French at C6.",
       "careers": [
         "Translator",
         "Language Teacher",
@@ -13825,7 +13804,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 20,
+        "minimumAggregate": 19,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -13842,19 +13821,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Geography is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
+      "overview": "Geography is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "GIS Analyst",
         "Planning Officer",
@@ -14255,7 +14231,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
+        "minimumAggregate": 19,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -14277,19 +14253,16 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "History is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need History at C6.",
+      "overview": "History is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need History at C6.",
       "careers": [
         "Researcher",
         "Heritage Officer",
@@ -14387,17 +14360,14 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Home Economics Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
@@ -14547,17 +14517,14 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Human Resource Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
@@ -15025,7 +14992,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
+        "minimumAggregate": 15,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -15042,19 +15009,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Information Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "overview": "Information Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
         "Systems Administrator",
@@ -15511,7 +15475,7 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 18,
+        "minimumAggregate": 22,
         "aggregateBasis": "published-cutoff",
         "coreSubjects": [
           {
@@ -15528,19 +15492,16 @@ export const catalogue: Catalogue = {
           }
         ],
         "electiveSubjects": [],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
+      "overview": "Management is a 4-year BBA programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -16847,17 +16808,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2025,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Optometry is a 6-year OD programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
       "careers": [
@@ -17023,17 +16981,14 @@ export const catalogue: Catalogue = {
             "minimumGrade": "C6"
           }
         ],
-        "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying.",
-          "This programme is not on the university's own published cut-off list, so the figure comes from an admissions listing instead. Confirm it on the university portal before you rely on it."
-        ]
+        "notes": []
       },
       "provenance": {
-        "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
-        "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "source": "University of Cape Coast admissions catalogue, cut-off points",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+        "year": 2024,
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Physician Assistant Studies is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
@@ -20996,8 +20951,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 15,
-        "aggregateBasis": "published-cutoff",
+        "minimumAggregate": 36,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21019,18 +20974,17 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Published separately by gender: 15 for male applicants, 16 for female applicants. The stricter figure is shown.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Accounting Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
+      "overview": "Accounting Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
         "Accountant",
         "Auditor",
@@ -21043,10 +20997,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 15,
-        "female": 16
       }
     },
     {
@@ -21062,7 +21012,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21079,15 +21029,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Arabic Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Foreign Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21102,10 +21052,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21121,7 +21067,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21138,15 +21084,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Art Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21161,10 +21107,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21180,7 +21122,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21197,15 +21139,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Automotive Technology Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Technical Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21220,10 +21162,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21239,7 +21177,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21256,15 +21194,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Basic Education is a 4-year B.Ed programme at University of Education, Winneba, offered through the Faculty of Educational Studies. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21279,10 +21217,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21298,7 +21232,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21320,15 +21254,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "English Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
       "careers": [
@@ -21343,10 +21277,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21362,7 +21292,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21379,15 +21309,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Ewe Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21402,10 +21332,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21421,7 +21347,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21443,15 +21369,15 @@ export const catalogue: Catalogue = {
           }
         ],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "French Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Foreign Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need French at C6.",
       "careers": [
@@ -21466,10 +21392,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21485,7 +21407,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21502,15 +21424,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Ga and Dangme Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21525,10 +21447,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21544,7 +21462,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21561,15 +21479,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Ghanaian Languages Education (Dagaare, Dagbani, Gonja, Gurune, Kasem, Kusaal) is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21584,10 +21502,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21603,7 +21517,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21620,15 +21534,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Ghanaian Languages Education (Fante, Nzema, Twi) is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21643,10 +21557,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21662,7 +21572,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21679,15 +21589,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Graphic Design is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21702,10 +21612,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21720,8 +21626,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 24,
-        "aggregateBasis": "published-cutoff",
+        "minimumAggregate": 36,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21738,17 +21644,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Health Administration and Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
+      "overview": "Health Administration and Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
         "Operations Manager",
@@ -21761,10 +21667,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 24,
-        "female": 24
       }
     },
     {
@@ -21780,7 +21682,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21797,15 +21699,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Information and Communication Technology Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21820,10 +21722,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21839,7 +21737,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21856,15 +21754,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Management Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21879,10 +21777,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -21897,8 +21791,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 17,
-        "aggregateBasis": "published-cutoff",
+        "minimumAggregate": 36,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21915,18 +21809,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Published separately by gender: 17 for male applicants, 18 for female applicants. The stricter figure is shown.",
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Political Science Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
+      "overview": "Political Science Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
         "Education Officer",
@@ -21939,10 +21832,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 17,
-        "female": 18
       }
     },
     {
@@ -21958,7 +21847,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -21975,15 +21864,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Secretarial Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Business Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -21998,10 +21887,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {
@@ -22016,8 +21901,8 @@ export const catalogue: Catalogue = {
       "admissionTrack": "regular",
       "qualificationLevel": "degree",
       "requirements": {
-        "minimumAggregate": 22,
-        "aggregateBasis": "published-cutoff",
+        "minimumAggregate": 36,
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22034,17 +21919,17 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
-      "overview": "Social Studies Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
+      "overview": "Social Studies Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
         "Education Officer",
@@ -22057,10 +21942,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 22,
-        "female": 22
       }
     },
     {
@@ -22076,7 +21957,7 @@ export const catalogue: Catalogue = {
       "qualificationLevel": "degree",
       "requirements": {
         "minimumAggregate": 36,
-        "aggregateBasis": "published-cutoff",
+        "aggregateBasis": "general-minimum",
         "coreSubjects": [
           {
             "subject": "English Language",
@@ -22093,15 +21974,15 @@ export const catalogue: Catalogue = {
         ],
         "electiveSubjects": [],
         "notes": [
-          "Reported by a secondary source. Confirm on the university portal before applying."
+          "This university admits on its published minimum entry requirement rather than a per-programme cut-off, so the aggregate shown is what makes you eligible to apply."
         ]
       },
       "provenance": {
-        "source": "UEW admission cut-off points, as reported by O3Schools (secondary source). UEW states these are guidance only and not fixed.",
-        "sourceUrl": "https://o3schools.com/uew-cut-off-points/",
+        "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
+        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-08",
+        "confidence": "authoritative"
       },
       "overview": "Theatre Arts is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
@@ -22116,10 +21997,6 @@ export const catalogue: Catalogue = {
         "year": "2025/26",
         "source": "Reported range for Ghanaian public universities, 2025/26",
         "sourceUrl": "https://entervarsity.com/noticeboard/cost-of-university-education-in-ghana-2"
-      },
-      "cutoffByGender": {
-        "male": 36,
-        "female": 36
       }
     },
     {

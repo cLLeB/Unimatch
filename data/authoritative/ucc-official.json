@@ -1,0 +1,113 @@
+{
+  "note": "Cut-off points read from the University of Cape Coast's own admissions catalogue. The table publishes two figures: AWAITING for applicants who apply before results, and POST-WASSCE for those applying with results. The post-WASSCE figure is preferred as the later cycle and the one that applies to a student using this app; each row records the year of the figure taken. Distance and diploma intakes are published separately by the College of Distance Education and are deliberately not filled from this table.",
+  "source": "University of Cape Coast admissions catalogue, cut-off points",
+  "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
+  "lastVerified": "2026-08-08",
+  "rows": [
+    {
+      "id": "ucc-accounting",
+      "name": "Accounting",
+      "was": 15,
+      "cutoff": 15,
+      "year": 2025
+    },
+    {
+      "id": "ucc-arts-education",
+      "name": "Arts Education",
+      "was": 16,
+      "cutoff": 22,
+      "year": 2025
+    },
+    {
+      "id": "ucc-computer-science-education",
+      "name": "Computer Science Education",
+      "was": 20,
+      "cutoff": 15,
+      "year": 2025
+    },
+    {
+      "id": "ucc-construction-technology-education",
+      "name": "Construction Technology Education",
+      "was": 24,
+      "cutoff": 19,
+      "year": 2024
+    },
+    {
+      "id": "ucc-economics",
+      "name": "Economics",
+      "was": 16,
+      "cutoff": 16,
+      "year": 2025
+    },
+    {
+      "id": "ucc-english",
+      "name": "English",
+      "was": 20,
+      "cutoff": 20,
+      "year": 2025
+    },
+    {
+      "id": "ucc-french",
+      "name": "French",
+      "was": 22,
+      "cutoff": 19,
+      "year": 2025
+    },
+    {
+      "id": "ucc-geography",
+      "name": "Geography",
+      "was": 20,
+      "cutoff": 19,
+      "year": 2025
+    },
+    {
+      "id": "ucc-history",
+      "name": "History",
+      "was": 24,
+      "cutoff": 19,
+      "year": 2025
+    },
+    {
+      "id": "ucc-home-economics-education",
+      "name": "Home Economics Education",
+      "was": 18,
+      "cutoff": 18,
+      "year": 2024
+    },
+    {
+      "id": "ucc-human-resource-management",
+      "name": "Human Resource Management",
+      "was": 17,
+      "cutoff": 17,
+      "year": 2025
+    },
+    {
+      "id": "ucc-information-technology-education",
+      "name": "Information Technology Education",
+      "was": 22,
+      "cutoff": 15,
+      "year": 2025
+    },
+    {
+      "id": "ucc-management",
+      "name": "Management",
+      "was": 18,
+      "cutoff": 22,
+      "year": 2025
+    },
+    {
+      "id": "ucc-optometry",
+      "name": "Optometry",
+      "was": 12,
+      "cutoff": 12,
+      "year": 2025
+    },
+    {
+      "id": "ucc-physician-assistant-studies",
+      "name": "Physician Assistant Studies",
+      "was": 11,
+      "cutoff": 11,
+      "year": 2024
+    }
+  ]
+}
