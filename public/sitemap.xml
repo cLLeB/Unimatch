@@ -607,12 +607,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-business-administration</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-business-administration-accounting-banking-and-finance</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -668,18 +662,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-construction-technology-and-management</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-culture-and-tourism</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-dairy-and-meat-science-and-technology</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -817,12 +799,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-industrial-art</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-industrial-engineering</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -949,12 +925,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-painting-and-sculpture</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-petrochemical-engineering</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -991,12 +961,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-post-harvest-technology</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-publishing-studies</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -1028,18 +992,6 @@
   </url>
   <url>
     <loc>https://unimatch-ghana.herokuapp.com/programme/knust-sociology</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-sonography-fee-paying</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://unimatch-ghana.herokuapp.com/programme/knust-sports-and-exercise-science</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
