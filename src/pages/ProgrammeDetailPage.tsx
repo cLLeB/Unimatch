@@ -3,13 +3,12 @@ import {
   ArrowRight,
   CheckCheck,
   CheckCircle,
-  ChevronLeft,
   FileText,
   MessageSquare,
   Star,
   TrendingUp,
 } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   Bar,
@@ -23,6 +22,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
+import Breadcrumbs from '../components/layout/Breadcrumbs'
 import Badge from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
@@ -31,11 +31,14 @@ import ProvenanceBadge from '../components/programme/ProvenanceBadge'
 import ShortfallList from '../components/programme/ShortfallList'
 import {
   aggregateLabel,
+  applyUrlOf,
   catalogue,
   formatFeesPerYear,
   getProgramme,
   getUniversity,
+  hasExactOfficialPage,
   hasPublishedCutoff,
+  officialPageOf,
   universityNameOf,
 } from '../data/catalogue'
 import { otherRoutesFor } from '../domain/catalogue/routes'
@@ -59,11 +62,21 @@ const APPLICATION_DOCUMENTS = [
 export default function ProgrammeDetailPage() {
   const { programmeId } = useParams<{ programmeId: string }>()
   const [tab, setTab] = useState<Tab>('overview')
-  const { state, toggleSaved, isSaved } = useStudent()
+  const { state, toggleSaved, isSaved, setChecklistItem } = useStudent()
   const chart = useChartPalette()
 
   const programme = programmeId ? getProgramme(programmeId) : undefined
   const verdict = useProgrammeVerdict(programme)
+
+  /*
+   * "Review eligible programmes" is ticked here, by actually opening one.
+   * It used to derive from `hasResults`, the same condition as "Enter WASSCE
+   * grades", so entering grades scored two ticks for one action.
+   */
+  const reviewed = state.checklist.review ?? false
+  useEffect(() => {
+    if (programme && !reviewed) setChecklistItem('review', true)
+  }, [programme, reviewed, setChecklistItem])
 
   if (!programme) {
     return (
@@ -78,6 +91,8 @@ export default function ProgrammeDetailPage() {
   }
 
   const university = getUniversity(programme.universityId)
+  const applyUrl = applyUrlOf(programme)
+  const officialUrl = officialPageOf(programme)
   const saved = isSaved(programme.id)
   const shortfalls =
     verdict.status === 'qualified' || verdict.status === 'incomplete' ? [] : verdict.shortfalls
@@ -109,20 +124,32 @@ export default function ProgrammeDetailPage() {
     <>
       <div className="bg-brand-fill px-4 py-6 text-on-brand-fill sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
-          <Link
-            to="/dashboard"
-            className="mb-6 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-on-brand-fill"
-          >
-            <ChevronLeft size={16} aria-hidden="true" /> Back to Results
-          </Link>
+          <Breadcrumbs
+            tone="onBrand"
+            className="mb-4"
+            crumbs={[
+              { label: 'Universities', to: '/universities' },
+              ...(university
+                ? [{ label: university.shortName, to: `/university/${university.id}` }]
+                : []),
+              { label: programme.name },
+            ]}
+          />
 
-          <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-            <div className="flex size-16 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-2xl font-bold">
-              {university?.shortName.charAt(0) ?? '?'}
-            </div>
+          {/*
+            * On a phone the crest sat on its own row, leaving most of a very
+            * tall green header empty — the hero took over half the first
+            * screen before any information appeared. It now sits beside the
+            * title, which is what it labels.
+            */}
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
+            <div className="flex items-start gap-4 sm:contents">
+              <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-xl font-bold sm:size-16 sm:text-2xl">
+                {university?.shortName.charAt(0) ?? '?'}
+              </div>
 
-            <div className="flex-1">
-              <EligibilityBadge status={verdict.status} />
+              <div className="min-w-0 flex-1">
+                <EligibilityBadge status={verdict.status} />
               <h1 className="mb-1 mt-2 text-2xl font-bold sm:text-3xl">{programme.name}</h1>
               <p className="text-sm text-on-brand sm:text-lg">
                 {university?.name} · {programme.faculty}
@@ -145,18 +172,22 @@ export default function ProgrammeDetailPage() {
                   {programme.campus}, {programme.region}
                 </span>
               </div>
+              </div>
             </div>
 
             <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-col">
-              <LinkButton
-                to={university?.admissionsUrl ?? '#'}
-                external
-                variant="outline"
-                className="col-span-2 sm:col-span-1"
-                icon={<ArrowRight size={16} aria-hidden="true" />}
-              >
-                Apply Now
-              </LinkButton>
+              {applyUrl && (
+                <LinkButton
+                  to={applyUrl}
+                  external
+                  variant="outline"
+                  className="col-span-2 sm:col-span-1"
+                  icon={<ArrowRight size={16} aria-hidden="true" />}
+                  iconPosition="trailing"
+                >
+                  Apply Now
+                </LinkButton>
+              )}
               <Button
                 variant="ghost"
                 className="text-on-brand-fill hover:bg-white/10"
@@ -580,15 +611,38 @@ export default function ProgrammeDetailPage() {
                   <p className="pt-0.5 text-sm text-ink-muted">{step}</p>
                 </div>
               ))}
-              <LinkButton
-                to={university?.admissionsUrl ?? '#'}
-                external
-                size="lg"
-                className="mt-2 w-full"
-                icon={<ArrowRight size={18} aria-hidden="true" />}
-              >
-                Apply on the {university?.shortName ?? 'university'} portal
-              </LinkButton>
+              {applyUrl && (
+                <LinkButton
+                  to={applyUrl}
+                  external
+                  size="lg"
+                  className="mt-2 w-full"
+                  icon={<ArrowRight size={18} aria-hidden="true" />}
+                  iconPosition="trailing"
+                >
+                  Apply on the {university?.shortName ?? 'university'} portal
+                </LinkButton>
+              )}
+              {/*
+               * The university's own page for this programme, where it
+               * publishes one. Labelled by what it actually is, so a student
+               * who follows it to a catalogue is not expecting a single
+               * programme, see scripts/link-registry.ts.
+               */}
+              {officialUrl && (
+                <LinkButton
+                  to={officialUrl}
+                  external
+                  variant="outline"
+                  size="lg"
+                  className="mt-2 w-full"
+                  icon={<FileText size={18} aria-hidden="true" />}
+                >
+                  {hasExactOfficialPage(programme)
+                    ? `This programme on ${university?.shortName ?? 'the university'}'s site`
+                    : `All ${university?.shortName ?? 'university'} programmes`}
+                </LinkButton>
+              )}
             </Card>
           </div>
         )}

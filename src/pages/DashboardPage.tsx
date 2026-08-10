@@ -211,8 +211,11 @@ export default function DashboardPage() {
                   replace: true,
                 })
               }}
-              aria-label="Search programmes and universities"
-              placeholder="Search a programme, university or career..."
+              aria-label="Search programmes, universities and careers"
+              // Short enough to fit a phone. The long form was cut mid-word at
+              // "…university or caree", which reads as a rendering fault
+              // rather than a hint. The full wording stays as the label.
+              placeholder="Search programmes or universities"
               className="w-full rounded-xl border border-line bg-surface py-3 pl-10 pr-4 text-base text-ink focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/40 sm:py-2.5 sm:text-sm"
             />
           </div>

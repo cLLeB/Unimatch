@@ -52,6 +52,8 @@ export const universitySchema = z.object({
   city: z.string().min(2),
   region: z.string().min(2),
   admissionsUrl: z.url().optional(),
+  programmesUrl: z.url().optional(),
+  cutoffUrl: z.url().optional(),
 })
 
 export const cutoffPointSchema = z.object({
@@ -83,6 +85,8 @@ export const programmeSchema = z.object({
   provenance: provenanceSchema,
 
   // Optional: present only when we have a sourced figure. Never invented.
+  officialUrl: z.url().optional(),
+  applyUrl: z.url().optional(),
   overview: z.string().min(40).optional(),
   pros: z.array(z.string()).optional(),
   cons: z.array(z.string()).optional(),
@@ -116,6 +120,9 @@ export const admissionDeadlineSchema = z
     scope: z.string().min(2),
     closesOn: isoDate.optional(),
     closesWhen: z.string().min(4).optional(),
+    // 'other' covers mature, top-up and international entry, which are
+    // audiences rather than tracks any programme record carries.
+    tracks: z.array(z.enum([...ADMISSION_TRACKS, 'other'])).min(1).optional(),
     provenance: provenanceSchema,
   })
   .refine(

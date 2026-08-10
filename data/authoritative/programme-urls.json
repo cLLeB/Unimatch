@@ -1,0 +1,778 @@
+{
+  "academic-city-computer-engineering": {
+    "url": "https://acity.edu.gh/undergraduate/bsc-computer-engineering/",
+    "officialName": "BSc in Computer Engineering"
+  },
+  "academic-city-computer-science": {
+    "url": "https://acity.edu.gh/undergraduate/bsc-computer-science/",
+    "officialName": "BSc in Computer Science"
+  },
+  "academic-city-electrical-and-electronic-engineering": {
+    "url": "https://acity.edu.gh/undergraduate/bsc-electrical-electronics-engineering/",
+    "officialName": "BSc in Electrical & Electronics Engineering"
+  },
+  "academic-city-information-technology": {
+    "url": "https://acity.edu.gh/undergraduate/bsc-information-technology/",
+    "officialName": "BSc in Information Technology"
+  },
+  "academic-city-mechanical-engineering": {
+    "url": "https://acity.edu.gh/undergraduate/bsc-mechanical-engineering/",
+    "officialName": "BSc in Mechanical Engineering"
+  },
+  "all-nations-biomedical-engineering": {
+    "url": "https://anu.edu.gh/schools/programs/bachelor-of-engineering-in-biomedical-engineering",
+    "officialName": "Bachelor of Engineering in Biomedical Engineering"
+  },
+  "all-nations-computer-science": {
+    "url": "https://anu.edu.gh/schools/programs/bachelor-of-science-in-computer-science",
+    "officialName": "Bachelor of Science in Computer Science"
+  },
+  "all-nations-electronics-and-communication-engineering": {
+    "url": "https://anu.edu.gh/schools/programs/bachelor-of-engineering-in-electronics-and-communications-engineering",
+    "officialName": "Bachelor of Engineering in Electronics and Communications Engineering"
+  },
+  "all-nations-nursing": {
+    "url": "https://anu.edu.gh/schools/programs/bachelor-of-science-in-nursing",
+    "officialName": "Bachelor of Science in Nursing"
+  },
+  "ashesi-business-administration": {
+    "url": "https://ashesi.edu.gh/bsc-business-administration/",
+    "officialName": "Business Administration (BSc)"
+  },
+  "ashesi-computer-engineering": {
+    "url": "https://ashesi.edu.gh/computer-engineering/",
+    "officialName": "Computer Engineering (BSc)"
+  },
+  "ashesi-computer-science": {
+    "url": "https://ashesi.edu.gh/computer-science/",
+    "officialName": "Computer Science (BSc)"
+  },
+  "ashesi-economics": {
+    "url": "https://ashesi.edu.gh/economics/economics-program/",
+    "officialName": "Economics (BSc)"
+  },
+  "ashesi-electrical-and-electronic-engineering": {
+    "url": "https://ashesi.edu.gh/electrical-and-electronic-engineering/",
+    "officialName": "Electrical and Electronics Engineering (BSc)"
+  },
+  "ashesi-management-information-systems": {
+    "url": "https://ashesi.edu.gh/management-information-systems/",
+    "officialName": "Management Information Systems (BSc)"
+  },
+  "ashesi-mechanical-engineering": {
+    "url": "https://ashesi.edu.gh/mechanical-engineering/",
+    "officialName": "Mechanical Engineering (BSc)"
+  },
+  "ashesi-mechatronic-engineering": {
+    "url": "https://ashesi.edu.gh/mechatronic-engineering/",
+    "officialName": "Mechatronic Engineering (BSc)"
+  },
+  "regent-accounting": {
+    "url": "https://regent.edu.gh/programme.php?slug=accounting-and-information-systems",
+    "officialName": "BSc. Accounting and Information Systems"
+  },
+  "regent-computer-science": {
+    "url": "https://regent.edu.gh/programme.php?slug=computer-science",
+    "officialName": "BSc. Computer Science"
+  },
+  "regent-information-technology": {
+    "url": "https://regent.edu.gh/programme.php?slug=information-technology",
+    "officialName": "BSc. Information Technology"
+  },
+  "ucc-accounting-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting",
+    "officialName": "B.Ed. Accounting"
+  },
+  "ucc-accounting-bcom": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-accounting",
+    "officialName": "BCom Accounting"
+  },
+  "ucc-accounting-with-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting-with-management",
+    "officialName": "B.Ed. Accounting with Management"
+  },
+  "ucc-actuarial-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-actuarial-science",
+    "officialName": "BSc Actuarial Science"
+  },
+  "ucc-african-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-african-studies",
+    "officialName": "BA African Studies"
+  },
+  "ucc-agricultural-engineering": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agricultural-engineering",
+    "officialName": "BSc Agricultural Engineering"
+  },
+  "ucc-agricultural-extension-and-community-development": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agricultural-extension-and-community-development",
+    "officialName": "BSc Agricultural Extension and Community Development"
+  },
+  "ucc-agriculture": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agriculture",
+    "officialName": "BSc Agriculture"
+  },
+  "ucc-agriculture-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-agriculture",
+    "officialName": "B.Ed. Agriculture"
+  },
+  "ucc-agriculture-extension": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agriculture-extension",
+    "officialName": "BSc Agriculture Extension"
+  },
+  "ucc-agro-processing": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agro-processing",
+    "officialName": "BSc Agro Processing"
+  },
+  "ucc-anthropology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-anthropology",
+    "officialName": "BA Anthropology"
+  },
+  "ucc-applied-economics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-applied-economics",
+    "officialName": "BSc Applied Economics"
+  },
+  "ucc-arts": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-arts",
+    "officialName": "BA Arts"
+  },
+  "ucc-arts-distance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-arts",
+    "officialName": "BA Arts"
+  },
+  "ucc-arts-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-arts",
+    "officialName": "B.Ed. Arts"
+  },
+  "ucc-automobile-and-metal-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-automobile-and-metal-technology",
+    "officialName": "B.Ed. Automobile and Metal Technology"
+  },
+  "ucc-basic-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-basic-education",
+    "officialName": "B.Ed. Basic Education"
+  },
+  "ucc-basic-education-distance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-basic-education",
+    "officialName": "B.Ed. Basic Education"
+  },
+  "ucc-biochemistry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-biochemistry",
+    "officialName": "BSc Biochemistry"
+  },
+  "ucc-biomedical-sciences": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-biomedical-sciences",
+    "officialName": "BSc Biomedical Sciences"
+  },
+  "ucc-chemical-engineering": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-chemical-engineering",
+    "officialName": "BSc Chemical Engineering"
+  },
+  "ucc-chemistry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-chemistry",
+    "officialName": "BSc Chemistry"
+  },
+  "ucc-chinese": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-chinese",
+    "officialName": "BA Chinese"
+  },
+  "ucc-clothing-and-textiles-with-management-in-living": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-clothing-and-textiles-with-management-in-living",
+    "officialName": "B.Ed. Clothing and Textiles with Management in Living"
+  },
+  "ucc-communication-design-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-communication-design",
+    "officialName": "B.Ed. Communication Design"
+  },
+  "ucc-communication-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-communication-studies",
+    "officialName": "BA Communication Studies"
+  },
+  "ucc-community-health-nursing": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-community-mental-health-nursing",
+    "officialName": "BSc Community Mental Health Nursing"
+  },
+  "ucc-computer-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-computer-science",
+    "officialName": "BSc Computer Science"
+  },
+  "ucc-conservation-biology-and-entomology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-conservation-biology-and-entomology",
+    "officialName": "BSc Conservation Biology and Entomology"
+  },
+  "ucc-construction-and-woodwork-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-construction-and-woodwork-technology",
+    "officialName": "B.Ed. Construction and Woodwork Technology"
+  },
+  "ucc-construction-technology-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-construction-technology-education",
+    "officialName": "B.Ed. Construction Technology Education"
+  },
+  "ucc-diagnostic-imaging-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-diagnostic-imaging-technology",
+    "officialName": "BSc Diagnostic Imaging Technology"
+  },
+  "ucc-diagnostic-medical-sonography": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-diagnostic-medical-sonography",
+    "officialName": "BSc Diagnostic Medical Sonography"
+  },
+  "ucc-dietetics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-dietetics",
+    "officialName": "BSc Dietetics"
+  },
+  "ucc-dispensing-opticianry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-dispensing-opticianry",
+    "officialName": "BSc Dispensing Opticianry"
+  },
+  "ucc-early-childhood-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-early-childhood",
+    "officialName": "B.Ed. Early Childhood"
+  },
+  "ucc-early-childhood-education-distance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-early-childhood",
+    "officialName": "B.Ed. Early Childhood"
+  },
+  "ucc-economics-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-economics",
+    "officialName": "B.Ed. Economics"
+  },
+  "ucc-economics-bsc": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-economics",
+    "officialName": "BSc Economics"
+  },
+  "ucc-economics-with-finance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-economics-with-finance",
+    "officialName": "BSc Economics With Finance"
+  },
+  "ucc-electrical-and-electronic-engineering": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-electrical-and-electronic-engineering",
+    "officialName": "B.Ed. Electrical and Electronic Engineering"
+  },
+  "ucc-engineering-physics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-engineering-physics",
+    "officialName": "BSc Engineering Physics"
+  },
+  "ucc-english-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-english",
+    "officialName": "B.Ed. English"
+  },
+  "ucc-entrepreneurship-with-graphic-design": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-entrepreneurship-with-graphic-design",
+    "officialName": "BCom Entrepreneurship with Graphic Design"
+  },
+  "ucc-entrepreneurship-with-international-business": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-entrepreneurship-with-international-business",
+    "officialName": "BCom Entrepreneurship with International Business"
+  },
+  "ucc-environmental-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-environmental-science",
+    "officialName": "BSc Environmental Science"
+  },
+  "ucc-film-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-film-studies",
+    "officialName": "BA Film Studies"
+  },
+  "ucc-finance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-finance",
+    "officialName": "BCom Finance"
+  },
+  "ucc-fine-art-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-fine-arts",
+    "officialName": "B.Ed. Fine Arts"
+  },
+  "ucc-fisheries-and-aquatic-sciences": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-fisheries-and-aquatic-science",
+    "officialName": "BSc Fisheries and Aquatic Science"
+  },
+  "ucc-food-and-nutrition-with-management-in-living": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-food-and-nutrition-with-management-in-living",
+    "officialName": "B.Ed. Food and Nutrition with Management in Living"
+  },
+  "ucc-food-chemistry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-food-chemistry",
+    "officialName": "BSc Food Chemistry"
+  },
+  "ucc-forensic-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-forensic-science",
+    "officialName": "BSc Forensic Science"
+  },
+  "ucc-french-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-french",
+    "officialName": "B.Ed. French"
+  },
+  "ucc-geography-and-regional-planning": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-geography-and-regional-planning",
+    "officialName": "BSc Geography and Regional Planning"
+  },
+  "ucc-geography-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-geography",
+    "officialName": "B.Ed. Geography"
+  },
+  "ucc-ghanaian-language-and-culture": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-ghanaian-language-and-culture",
+    "officialName": "B.Ed. Ghanaian Language and Culture"
+  },
+  "ucc-government": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-government",
+    "officialName": "B.Ed. Government"
+  },
+  "ucc-health-information-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-health-information-management",
+    "officialName": "BSc Health Information Management"
+  },
+  "ucc-health-physical-education-and-recreation": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-health-physical-education-and-recreation",
+    "officialName": "B.Ed. Health, Physical Education and Recreation"
+  },
+  "ucc-history-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-history",
+    "officialName": "B.Ed. History"
+  },
+  "ucc-horticulture": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-horticulture",
+    "officialName": "BSc Horticulture"
+  },
+  "ucc-hospitality-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-hospitality-management",
+    "officialName": "BSc Hospitality Management"
+  },
+  "ucc-human-resource-management-bcom": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-human-resource-management",
+    "officialName": "BCom Human Resource Management"
+  },
+  "ucc-inclusive-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-inclusive-education",
+    "officialName": "B.Ed. Inclusive Education"
+  },
+  "ucc-industrial-chemistry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-industrial-chemistry",
+    "officialName": "BSc Industrial Chemistry"
+  },
+  "ucc-information-and-communication-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-information-and-communication-technology",
+    "officialName": "B.Ed. Information and Communication Technology"
+  },
+  "ucc-information-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-information-science",
+    "officialName": "BA Information Science"
+  },
+  "ucc-information-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-information-technology",
+    "officialName": "BSc Information Technology"
+  },
+  "ucc-information-technology-distance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-information-technology",
+    "officialName": "BSc Information Technology"
+  },
+  "ucc-information-technology-distance-2": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/diploma-information-technology-in-education",
+    "officialName": "Diploma Information Technology in Education Diploma"
+  },
+  "ucc-information-technology-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-information-technology",
+    "officialName": "B.Ed. Information Technology"
+  },
+  "ucc-integrated-arts": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-integrated-arts",
+    "officialName": "B.Ed. Integrated Arts"
+  },
+  "ucc-junior-high-school-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-junior-high-school",
+    "officialName": "B.Ed. Junior High School"
+  },
+  "ucc-laboratory-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-laboratory-technology",
+    "officialName": "BSc Laboratory Technology"
+  },
+  "ucc-labour-policy-studies-distance": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/diploma-labour-studies",
+    "officialName": "Diploma Labour Studies Diploma"
+  },
+  "ucc-law": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/llb-law",
+    "officialName": "LL.B. Law"
+  },
+  "ucc-linguistics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-linguistics",
+    "officialName": "BA Linguistics"
+  },
+  "ucc-livestock-science-and-meat-technology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-livestock-science-and-meat-technology",
+    "officialName": "BSc Livestock Science and Meat Technology"
+  },
+  "ucc-management-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-management",
+    "officialName": "B.Ed. Management"
+  },
+  "ucc-management-bcom": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-management",
+    "officialName": "BCom Management"
+  },
+  "ucc-management-with-accounting": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting-with-management",
+    "officialName": "B.Ed. Accounting with Management"
+  },
+  "ucc-marketing": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-marketing",
+    "officialName": "BCom Marketing"
+  },
+  "ucc-mathematics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics",
+    "officialName": "BSc Mathematics"
+  },
+  "ucc-mathematics-and-statistics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-and-statistics",
+    "officialName": "BSc Mathematics and Statistics"
+  },
+  "ucc-mathematics-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-mathematics",
+    "officialName": "B.Ed. Mathematics"
+  },
+  "ucc-mathematics-with-business": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-with-business",
+    "officialName": "BSc Mathematics with Business"
+  },
+  "ucc-mathematics-with-economics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-with-economics",
+    "officialName": "BSc Mathematics with Economics"
+  },
+  "ucc-medical-laboratory-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-medical-laboratory-science",
+    "officialName": "BSc Medical Laboratory Science"
+  },
+  "ucc-medicine": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/mb-chb-medicine-and-surgery-mb-chb",
+    "officialName": "MB ChB Medicine and Surgery (MB ChB)"
+  },
+  "ucc-mental-health-nursing": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mental-health-nursing",
+    "officialName": "BSc Mental Health Nursing"
+  },
+  "ucc-meteorology-and-atmospheric-physics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-meteorology-and-atmospheric-physics",
+    "officialName": "BSc Meteorology and Atmospheric Physics"
+  },
+  "ucc-midwifery": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-midwifery",
+    "officialName": "BSc Midwifery"
+  },
+  "ucc-molecular-biology-and-biotechnology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-molecular-biology-and-biotechnology",
+    "officialName": "BSc Molecular Biology and Biotechnology"
+  },
+  "ucc-music": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bmus-music",
+    "officialName": "BMus Music"
+  },
+  "ucc-nursing": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-nursing",
+    "officialName": "BSc Nursing"
+  },
+  "ucc-nutrition": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-nutrition",
+    "officialName": "BSc Nutrition"
+  },
+  "ucc-od-optometry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/od-optometry",
+    "officialName": "OD Optometry Doctor of Optometry"
+  },
+  "ucc-optometry": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/od-optometry",
+    "officialName": "OD Optometry Doctor of Optometry"
+  },
+  "ucc-painting-and-sculpture": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-painting-and-sculpture",
+    "officialName": "B.Ed. Painting and Sculpture"
+  },
+  "ucc-pharmacy": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/pharmd-pharmacy",
+    "officialName": "PharmD Pharmacy Doctor of Pharmacy"
+  },
+  "ucc-physician-assistant-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-physician-assistant-studies",
+    "officialName": "BSc Physician Assistant Studies"
+  },
+  "ucc-physics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-physics",
+    "officialName": "BSc Physics"
+  },
+  "ucc-population-and-health": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-population-and-health",
+    "officialName": "BA Population and Health"
+  },
+  "ucc-primary-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-primary-education",
+    "officialName": "B.Ed. Primary Education"
+  },
+  "ucc-procurement-and-supply-chain-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-procurement-and-supply-chain-management",
+    "officialName": "BCom Procurement and Supply Chain Management"
+  },
+  "ucc-psychology": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-psychology",
+    "officialName": "BSc Psychology"
+  },
+  "ucc-religious-and-moral-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-religious-and-moral-studies",
+    "officialName": "B.Ed. Religious and Moral Studies"
+  },
+  "ucc-robotics-and-intelligent-systems": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-robotics-and-intelligent-systems",
+    "officialName": "B.Ed. Robotics and Intelligent Systems"
+  },
+  "ucc-science-education": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-science",
+    "officialName": "B.Ed. Science"
+  },
+  "ucc-social-behaviour-and-conflict-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-social-behaviour-and-conflict-management",
+    "officialName": "BA Social Behaviour and Conflict Management"
+  },
+  "ucc-social-sciences": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-social-sciences",
+    "officialName": "BA Social Sciences"
+  },
+  "ucc-social-sciences-b-ed": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-social-sciences-economics-and-geography",
+    "officialName": "B.Ed. Social Sciences (Economics and Geography)"
+  },
+  "ucc-social-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bed-social-studies",
+    "officialName": "B.Ed. Social Studies"
+  },
+  "ucc-sport-and-exercise-science": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-sport-and-exercise-science",
+    "officialName": "BSc Sport and Exercise Science"
+  },
+  "ucc-statistics": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-statistics",
+    "officialName": "BSc Statistics"
+  },
+  "ucc-theatre-studies": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/ba-theatre-studies",
+    "officialName": "BA Theatre Studies"
+  },
+  "ucc-tourism-management": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-tourism-management",
+    "officialName": "BSc Tourism Management"
+  },
+  "ucc-water-and-public-health-engineering": {
+    "url": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-water-and-public-health-engineering",
+    "officialName": "BSc Water and Public Health Engineering"
+  },
+  "uds-accounting": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0001",
+    "officialName": "BSc. Accounting"
+  },
+  "uds-agribusiness": {
+    "url": "https://www.uds.edu.gh/academics/programmes/facs-118",
+    "officialName": "Diploma In Agribusiness"
+  },
+  "uds-agricultural-science-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-148",
+    "officialName": "BEd. Agricultural Science"
+  },
+  "uds-agriculture-technology": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-0071",
+    "officialName": "Diploma In Agriculture Technology"
+  },
+  "uds-agriculture-technology-agronomy": {
+    "url": "https://www.uds.edu.gh/academics/programmes/dcs-1001",
+    "officialName": "BSc. Agriculture Technology (Agronomy)"
+  },
+  "uds-agriculture-technology-animal-science": {
+    "url": "https://www.uds.edu.gh/academics/programmes/ans-1001",
+    "officialName": "BSc. Agriculture Technology (Animal Science)"
+  },
+  "uds-agriculture-technology-biotechnology": {
+    "url": "https://www.uds.edu.gh/academics/programmes/abt-1001",
+    "officialName": "BSc. Agriculture Technology (Biotechnology)"
+  },
+  "uds-agriculture-technology-horticulture": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-0001",
+    "officialName": "BSc. Agriculture Technology (Horticulture)"
+  },
+  "uds-agriculture-technology-mechanization-and-irrigation": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-0026",
+    "officialName": "BSc. Agriculture Technology (Mechanization and Irrigation Technology)"
+  },
+  "uds-agriculture-technology-soil-science": {
+    "url": "https://www.uds.edu.gh/academics/programmes/dsc-1001",
+    "officialName": "BSc. Agriculture Technology (Soil Science)"
+  },
+  "uds-aquaculture-and-fisheries-science": {
+    "url": "https://www.uds.edu.gh/academics/programmes/frne-119",
+    "officialName": "BSc. Aquaculture and Fisheries Science"
+  },
+  "uds-arabic-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-238",
+    "officialName": "BEd. Arabic"
+  },
+  "uds-banking-and-finance": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0003",
+    "officialName": "BSc. Banking and Finance"
+  },
+  "uds-basic-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-0057",
+    "officialName": "BEd. Basic Education"
+  },
+  "uds-biotechnology-and-molecular-biology": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-0074",
+    "officialName": "BSc. Biotechnology and Molecular Biology"
+  },
+  "uds-business-administration": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0005",
+    "officialName": "Diploma In Business Administration"
+  },
+  "uds-business-information-systems": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0002",
+    "officialName": "BSc. Business Information Systems"
+  },
+  "uds-business-studies-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-237",
+    "officialName": "BEd. Business Studies"
+  },
+  "uds-chemical-science-and-technology": {
+    "url": "https://www.uds.edu.gh/academics/programmes/dchem-1001",
+    "officialName": "BSc. Chemical Science and Technology"
+  },
+  "uds-community-nutrition": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sahs-0012",
+    "officialName": "BSc. Community Nutrition"
+  },
+  "uds-computing-mathematics": {
+    "url": "https://www.uds.edu.gh/academics/programmes/dmath-1003",
+    "officialName": "BSc. Computing Mathematics"
+  },
+  "uds-development-education-studies": {
+    "url": "https://www.uds.edu.gh/academics/programmes/fsds-266",
+    "officialName": "MA Development Education Studies"
+  },
+  "uds-early-childhood-care-and-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-0062",
+    "officialName": "BEd. Early Childhood Care and Education"
+  },
+  "uds-ecotourism-and-hospitality-management": {
+    "url": "https://www.uds.edu.gh/academics/programmes/facs-108",
+    "officialName": "BSc. Ecotourism and Hospitality Management"
+  },
+  "uds-engineering-physics": {
+    "url": "https://www.uds.edu.gh/academics/programmes/dphy-1001",
+    "officialName": "BSc. Engineering Physics"
+  },
+  "uds-family-and-consumer-science": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-0052",
+    "officialName": "BSc. Family and Consumer Science"
+  },
+  "uds-family-and-consumer-science-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foa-117",
+    "officialName": "BEd. Family and Consumer Science"
+  },
+  "uds-finance-and-economics": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0004",
+    "officialName": "BSc. Finance and Economics"
+  },
+  "uds-food-systems": {
+    "url": "https://www.uds.edu.gh/academics/programmes/fscc-1001",
+    "officialName": "BSc. Food Systems"
+  },
+  "uds-forensic-science": {
+    "url": "https://www.uds.edu.gh/academics/programmes/fob-1003",
+    "officialName": "BSc. Forensic Science"
+  },
+  "uds-forest-resource-conservation-and-management": {
+    "url": "https://www.uds.edu.gh/academics/programmes/frne-110",
+    "officialName": "BSc. Forest Resource Conservation and Management"
+  },
+  "uds-health-information-management": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sahs-137",
+    "officialName": "BSc. Health Information Management"
+  },
+  "uds-human-resource-management": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0006",
+    "officialName": "BSc. Human Resource Management"
+  },
+  "uds-marketing": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0007",
+    "officialName": "BSc. Marketing"
+  },
+  "uds-medical-imaging-technology": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sahs-138",
+    "officialName": "BSc. Medical Imaging Technology"
+  },
+  "uds-medicine": {
+    "url": "https://www.uds.edu.gh/academics/programmes/smhs-0001",
+    "officialName": "MBChB (Medicine)"
+  },
+  "uds-nurse-practitioner": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sahs-0013",
+    "officialName": "BSc. Nurse Practitioner"
+  },
+  "uds-paediatric-nursing": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sahs-0087",
+    "officialName": "BSc. Paediatric Nursing"
+  },
+  "uds-procurement-and-supply-chain-management": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0011",
+    "officialName": "BSc. Procurement and Supply Chain Management"
+  },
+  "uds-public-administration": {
+    "url": "https://www.uds.edu.gh/academics/programmes/sob-0009",
+    "officialName": "BSc. Public Administration"
+  },
+  "uds-social-change-communication": {
+    "url": "https://www.uds.edu.gh/academics/programmes/scc-002",
+    "officialName": "BSc. In Social Change Communication"
+  },
+  "uds-social-science-education": {
+    "url": "https://www.uds.edu.gh/academics/programmes/foe-0043",
+    "officialName": "BEd. Social Science"
+  },
+  "uew-art-education": {
+    "url": "https://www.uew.edu.gh/sca/programmes/b-art-education",
+    "officialName": "B. A. (Art Education)"
+  },
+  "uew-english-education": {
+    "url": "https://www.uew.edu.gh/english/programmes/ba-english-language-winnebaajumako-campus",
+    "officialName": "B.A English Language"
+  },
+  "uew-ewe-education": {
+    "url": "https://www.uew.edu.gh/colang/programmes/b-ewe-education",
+    "officialName": "B. A. (Ewe Education)"
+  },
+  "uew-french-education": {
+    "url": "https://www.uew.edu.gh/french/programmes/b-french-education-winnebaajumako-campus",
+    "officialName": "B. A. French Education"
+  },
+  "uew-graphic-design": {
+    "url": "https://www.uew.edu.gh/sca/programmes/b-graphic-design",
+    "officialName": "B. A. (Graphic Design)"
+  },
+  "uew-information-and-communication-technology-education": {
+    "url": "https://www.uew.edu.gh/programmes/b-sc-information-and-communication-technology-education",
+    "officialName": "B. Sc. (Information and Communication Technology Education)"
+  },
+  "uew-political-science-education": {
+    "url": "https://www.uew.edu.gh/pse/programmes/ba-political-science-education",
+    "officialName": "BA Political Science Education"
+  },
+  "uew-social-studies-education": {
+    "url": "https://www.uew.edu.gh/dsse/programmes/b-social-studies-education",
+    "officialName": "B. A. (Social Studies Education)"
+  },
+  "uew-theatre-arts": {
+    "url": "https://www.uew.edu.gh/theatre-arts/programmes/b-theatre-arts",
+    "officialName": "B. A. (Theatre Arts)"
+  },
+  "wisconsin-accounting": {
+    "url": "https://wiuc-ghana.edu.gh/undergraduate/school-of-business/",
+    "officialName": "BSc. ACCOUNTING"
+  },
+  "wisconsin-information-technology": {
+    "url": "https://wiuc-ghana.edu.gh/undergraduate/school-of-computing-and-technology/",
+    "officialName": "BSC. INFORMATION TECHNOLOGY"
+  },
+  "wisconsin-nursing": {
+    "url": "https://wiuc-ghana.edu.gh/undergraduate/school-of-nursing-midwifery/",
+    "officialName": "BSc Nursing"
+  }
+}

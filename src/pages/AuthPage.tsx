@@ -41,7 +41,7 @@ export default function AuthPage() {
             This deployment stores everything on your own device, so there is nothing to sign in
             to. Your grades never leave this browser.
           </p>
-          <LinkButton to="/eligibility" className="w-full">
+          <LinkButton to="/eligibility" fullWidth>
             Check my eligibility
           </LinkButton>
         </Card>
@@ -104,7 +104,7 @@ export default function AuthPage() {
                 </p>
               )}
 
-              <Button type="submit" className="w-full" disabled={status === 'sending'}>
+              <Button type="submit" fullWidth disabled={status === 'sending'}>
                 {status === 'sending' ? 'Sending link…' : 'Email me a sign-in link'}
               </Button>
             </form>

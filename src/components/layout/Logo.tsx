@@ -6,12 +6,19 @@ interface LogoProps {
   /** Footer variant renders on the dark surface. */
   tone?: 'default' | 'inverse'
   className?: string
+  /** Defaults to the landing page; the app shell passes its own home. */
+  to?: string
 }
 
-export default function Logo({ tone = 'default', className }: LogoProps) {
+/**
+ * The wordmark is a route home, and inside the app "home" is the student's
+ * hub rather than the marketing page. Sending a signed-in student to the
+ * landing page is how a product loses her: she has to find her way back in.
+ */
+export default function Logo({ tone = 'default', className, to = '/' }: LogoProps) {
   return (
     <Link
-      to="/"
+      to={to}
       className={cn(
         'flex items-center gap-2.5 font-bold',
         tone === 'inverse' ? 'text-footer-heading' : 'text-ink',

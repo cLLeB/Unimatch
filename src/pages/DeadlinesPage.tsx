@@ -104,14 +104,38 @@ export default function DeadlinesPage() {
                         ? `Deadline: ${formatDeadlineDate(deadline.closesOn)}`
                         : deadline.closesWhen}
                     </div>
-                    <a
-                      href={deadline.provenance.sourceUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="mt-1 inline-block text-xs font-medium text-brand hover:underline"
-                    >
-                      Check the university portal
-                    </a>
+                    {/*
+                      * "Check the university portal" has to go to the
+                      * university, so it is driven by the university's own
+                      * verified admissions URL and never by the provenance
+                      * link. Those are different things: this one is a place
+                      * we are sending a student to act, and it previously
+                      * pointed at a news article about KNUST rather than at
+                      * KNUST. Where the citation is worth reading, it is
+                      * offered separately and labelled as a source.
+                      */}
+                    <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
+                      {university?.admissionsUrl && (
+                        <a
+                          href={university.admissionsUrl}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="inline-block text-xs font-medium text-brand hover:underline"
+                        >
+                          Check the {university.shortName} portal
+                        </a>
+                      )}
+                      {deadline.provenance.sourceUrl && (
+                        <a
+                          href={deadline.provenance.sourceUrl}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="inline-block text-xs text-ink-muted hover:underline"
+                        >
+                          Source
+                        </a>
+                      )}
+                    </div>
                   </div>
 
                   <div className="shrink-0 text-right">

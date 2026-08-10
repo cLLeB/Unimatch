@@ -26,6 +26,11 @@ const RESULTS: StudentResults = {
 
 const LAZY = { timeout: 10_000 }
 
+/** Programme names carry brackets and dots that would otherwise be a pattern. */
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function renderWithResults(route: string) {
   return renderApp(route, {
     state: {
@@ -101,7 +106,9 @@ describe('public pages render', () => {
 describe('app pages render', () => {
   it('matches, with search and filters', async () => {
     renderApp('/dashboard')
-    expect(await screen.findByLabelText('Search programmes and universities')).toBeInTheDocument()
+    expect(
+      await screen.findByLabelText('Search programmes, universities and careers'),
+    ).toBeInTheDocument()
     expect(screen.getByText(/programmes? found/)).toBeInTheDocument()
     expect(screen.getByLabelText('Filter by admission track')).toBeInTheDocument()
   })
@@ -167,6 +174,33 @@ describe('app pages render', () => {
     renderWithResults('/profile')
     await waitFor(() => expect(screen.getByText('Agg. 17')).toBeInTheDocument())
     expect(screen.getByRole('link', { name: /Share on WhatsApp/ })).toBeInTheDocument()
+  })
+
+  /**
+   * The checklist is built from the student's own shortlist rather than being
+   * the same six lines for everyone, so a saved programme has to appear in it
+   * with a way to reach the university's portal.
+   */
+  it('profile checklist grows a block per saved programme', async () => {
+    renderWithResults('/profile')
+    await waitFor(() => expect(screen.getByText('Application Checklist')).toBeInTheDocument())
+
+    expect(screen.getByText('2 of 5 saved')).toBeInTheDocument()
+    for (const programme of [programmes[0]!, programmes[1]!]) {
+      expect(
+        screen.getByRole('heading', { name: new RegExp(escapeRegExp(programme.name)) }),
+      ).toBeInTheDocument()
+    }
+    expect(screen.getAllByRole('link', { name: /Open the portal/ }).length).toBeGreaterThan(0)
+  })
+
+  it('profile checklist does not tick "review" just for having grades', async () => {
+    renderWithResults('/profile')
+    await waitFor(() => expect(screen.getByText('Application Checklist')).toBeInTheDocument())
+
+    // Entering grades ticks one step, not two: the review step stays a link
+    // until a programme has actually been opened.
+    expect(screen.getByRole('link', { name: 'Review eligible programmes' })).toBeInTheDocument()
   })
 
   it('advisor', async () => {

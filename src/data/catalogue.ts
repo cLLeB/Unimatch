@@ -46,6 +46,34 @@ export function universityNameOf(programme: Programme): string {
   return universityById.get(programme.universityId)?.shortName ?? programme.universityId
 }
 
+/**
+ * Where "Apply" sends this programme's applicant.
+ *
+ * A programme's own track wins over the university's main portal, because a
+ * distance or top-up applicant at KNUST applies through the Institute of
+ * Distance Learning and a voucher bought on the main portal does not work
+ * there.
+ */
+export function applyUrlOf(programme: Programme): string | undefined {
+  return programme.applyUrl ?? universityById.get(programme.universityId)?.admissionsUrl
+}
+
+/**
+ * The most precise official page for this programme: its own page where the
+ * university publishes one, otherwise that university's programme catalogue.
+ *
+ * Never a guess. Where neither exists the caller omits the link rather than
+ * sending a student somewhere approximate.
+ */
+export function officialPageOf(programme: Programme): string | undefined {
+  return programme.officialUrl ?? universityById.get(programme.universityId)?.programmesUrl
+}
+
+/** True when the link goes to this exact programme rather than to a list. */
+export function hasExactOfficialPage(programme: Programme): boolean {
+  return programme.officialUrl !== undefined
+}
+
 export const regions: string[] = [...new Set(programmes.map((p) => p.region))].sort()
 
 export const degreeTypes: string[] = [...new Set(programmes.map((p) => p.degreeType))].sort()

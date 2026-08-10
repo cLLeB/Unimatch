@@ -5,7 +5,9 @@
     "shortName": "KNUST",
     "city": "Kumasi",
     "region": "Ashanti",
-    "admissionsUrl": "https://apps.knust.edu.gh/admissions"
+    "admissionsUrl": "https://apps.knust.edu.gh/admissions",
+    "programmesUrl": "https://www.knust.edu.gh/admissions/prospective/applying",
+    "cutoffUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf"
   },
   {
     "id": "ug",
@@ -13,7 +15,9 @@
     "shortName": "University of Ghana",
     "city": "Accra (Legon)",
     "region": "Greater Accra",
-    "admissionsUrl": "https://admission.ug.edu.gh"
+    "admissionsUrl": "https://admissions.ug.edu.gh",
+    "programmesUrl": "https://admissions.ug.edu.gh/undergraduate/overview",
+    "cutoffUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off"
   },
   {
     "id": "ucc",
@@ -21,7 +25,9 @@
     "shortName": "University of Cape Coast",
     "city": "Cape Coast",
     "region": "Central",
-    "admissionsUrl": "https://admission.ucc.edu.gh"
+    "admissionsUrl": "https://admissions.ucc.edu.gh/how-to-apply",
+    "programmesUrl": "https://admissions.ucc.edu.gh/programmes/undergraduate",
+    "cutoffUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points"
   },
   {
     "id": "uds",
@@ -29,7 +35,9 @@
     "shortName": "UDS",
     "city": "Tamale",
     "region": "Northern",
-    "admissionsUrl": "https://uds.edu.gh/admissions"
+    "admissionsUrl": "https://www.uds.edu.gh/admissions/application-procedure",
+    "programmesUrl": "https://www.uds.edu.gh/academics/programmes",
+    "cutoffUrl": "https://www.uds.edu.gh/admissions/entry-requirements"
   },
   {
     "id": "uew",
@@ -37,7 +45,9 @@
     "shortName": "UEW",
     "city": "Winneba",
     "region": "Central",
-    "admissionsUrl": "https://uew.edu.gh/admissions"
+    "admissionsUrl": "https://www.uew.edu.gh/admissions",
+    "programmesUrl": "https://www.uew.edu.gh/academics/programmes/regular-programmes",
+    "cutoffUrl": "https://www.uew.edu.gh/admissions"
   },
   {
     "id": "uhas",
@@ -45,7 +55,9 @@
     "shortName": "UHAS",
     "city": "Ho",
     "region": "Volta",
-    "admissionsUrl": "https://uhas.edu.gh/admissions"
+    "admissionsUrl": "https://uhas.edu.gh/uhas/index.php/admission/application-guidelines",
+    "programmesUrl": "https://uhas.edu.gh/uhas/admission/programme/undergraduate",
+    "cutoffUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points"
   },
   {
     "id": "upsa",
@@ -53,7 +65,9 @@
     "shortName": "UPSA",
     "city": "Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://upsa.edu.gh/admissions"
+    "admissionsUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/how-to-apply-undergrad/",
+    "programmesUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergraduate-programmes/",
+    "cutoffUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/"
   },
   {
     "id": "atu",
@@ -61,7 +75,9 @@
     "shortName": "Accra Technical Univ.",
     "city": "Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://atu.edu.gh/admissions"
+    "admissionsUrl": "https://icampus.atu.edu.gh/",
+    "programmesUrl": "https://atu.edu.gh/available-programmes/",
+    "cutoffUrl": "https://atu.edu.gh/available-programmes/"
   },
   {
     "id": "ashesi",
@@ -69,7 +85,9 @@
     "shortName": "Ashesi",
     "city": "Berekuso",
     "region": "Eastern",
-    "admissionsUrl": "https://www.ashesi.edu.gh/admissions"
+    "admissionsUrl": "https://admissions.ashesi.edu.gh/",
+    "programmesUrl": "https://ashesi.edu.gh/academics-overview/",
+    "cutoffUrl": "https://ashesi.edu.gh/admissions/"
   },
   {
     "id": "central",
@@ -77,7 +95,9 @@
     "shortName": "Central University",
     "city": "Miotso",
     "region": "Greater Accra",
-    "admissionsUrl": "https://central.edu.gh/admissions"
+    "admissionsUrl": "https://central.edu.gh/online",
+    "programmesUrl": "https://central.edu.gh/admission",
+    "cutoffUrl": "https://central.edu.gh/admission?section=entry-requirements"
   },
   {
     "id": "valley-view",
@@ -85,7 +105,9 @@
     "shortName": "Valley View",
     "city": "Oyibi",
     "region": "Greater Accra",
-    "admissionsUrl": "https://vvu.edu.gh/admissions"
+    "admissionsUrl": "https://admissions.vvu.edu.gh/admissions/website",
+    "programmesUrl": "https://admissions.vvu.edu.gh/admissions/website",
+    "cutoffUrl": "https://admissions.vvu.edu.gh/admissions/website"
   },
   {
     "id": "pentecost",
@@ -93,7 +115,9 @@
     "shortName": "Pentecost",
     "city": "Sowutuom, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://pentvars.edu.gh/admissions"
+    "admissionsUrl": "https://pentvars.edu.gh/admissions/",
+    "programmesUrl": "https://pentvars.edu.gh/academics/programmes/?type=undergraduate",
+    "cutoffUrl": "https://pentvars.edu.gh/admissions/"
   },
   {
     "id": "gctu",
@@ -101,7 +125,9 @@
     "shortName": "GCTU",
     "city": "Tesano, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://gctu.edu.gh/admissions"
+    "admissionsUrl": "https://site.gctu.edu.gh/how-to-apply",
+    "programmesUrl": "https://site.gctu.edu.gh/undergraduate-programmes",
+    "cutoffUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement"
   },
   {
     "id": "academic-city",
@@ -109,7 +135,9 @@
     "shortName": "Academic City",
     "city": "Haatso, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://acity.edu.gh/admissions"
+    "admissionsUrl": "https://admissions.acity.edu.gh/undergraduate",
+    "programmesUrl": "https://acity.edu.gh/undergraduate-programmes/",
+    "cutoffUrl": "https://acity.edu.gh/undergraduate-programmes/"
   },
   {
     "id": "methodist",
@@ -117,7 +145,9 @@
     "shortName": "Methodist",
     "city": "Dansoman, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://mucg.edu.gh/admissions"
+    "admissionsUrl": "https://mug.edu.gh/how-to-apply-online/",
+    "programmesUrl": "https://mug.edu.gh/undergraduate/",
+    "cutoffUrl": "https://mug.edu.gh/undergraduate/"
   },
   {
     "id": "regent",
@@ -125,7 +155,9 @@
     "shortName": "Regent",
     "city": "McCarthy Hill, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://regent.edu.gh/admissions"
+    "admissionsUrl": "https://regent.edu.gh/apply.php",
+    "programmesUrl": "https://regent.edu.gh/programmes.php",
+    "cutoffUrl": "https://regent.edu.gh/page.php?slug=admissions"
   },
   {
     "id": "all-nations",
@@ -133,7 +165,9 @@
     "shortName": "All Nations",
     "city": "Koforidua",
     "region": "Eastern",
-    "admissionsUrl": "https://allnationsuniversity.org/admissions"
+    "admissionsUrl": "https://anu.edu.gh/apply-to-anu",
+    "programmesUrl": "https://anu.edu.gh/schools/programs",
+    "cutoffUrl": "https://anu.edu.gh/schools/programs"
   },
   {
     "id": "catholic",
@@ -141,7 +175,9 @@
     "shortName": "Catholic University",
     "city": "Fiapre, Sunyani",
     "region": "Bono",
-    "admissionsUrl": "https://cug.edu.gh/admissions"
+    "admissionsUrl": "https://apply.cug.edu.gh/",
+    "programmesUrl": "https://cug.edu.gh/admissions/udergraduate-programmes",
+    "cutoffUrl": "https://cug.edu.gh/admissions/how-to-apply"
   },
   {
     "id": "wisconsin",
@@ -149,6 +185,8 @@
     "shortName": "Wisconsin",
     "city": "North Legon, Accra",
     "region": "Greater Accra",
-    "admissionsUrl": "https://wiuc-ghana.edu.gh/admissions"
+    "admissionsUrl": "https://wiucapps.wiuc-ghana.edu.gh/admissions",
+    "programmesUrl": "https://wiuc-ghana.edu.gh/undergraduate/",
+    "cutoffUrl": "https://wiuc-ghana.edu.gh/how-to-apply/"
   }
 ]

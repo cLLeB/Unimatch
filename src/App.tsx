@@ -8,6 +8,7 @@ import ComparePage from './pages/ComparePage'
 import DashboardPage from './pages/DashboardPage'
 import DeadlinesPage from './pages/DeadlinesPage'
 import EligibilityPage from './pages/EligibilityPage'
+import HomePage from './pages/HomePage'
 import LandingPage from './pages/LandingPage'
 import LegalPage from './pages/LegalPage'
 import NotFoundPage from './pages/NotFoundPage'
@@ -56,6 +57,7 @@ export default function App() {
 
           {/* Signed-in app shell. */}
           <Route element={<AppLayout />}>
+            <Route path="/home" element={<HomePage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/programme/:programmeId" element={<ProgrammeDetailPage />} />
             <Route path="/saved" element={<SavedPage />} />

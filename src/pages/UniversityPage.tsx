@@ -1,7 +1,8 @@
-import { ArrowRight, Building2, ChevronLeft, MapPin } from 'lucide-react'
+import { ArrowRight, Building2, MapPin } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Seo from '../components/Seo'
+import Breadcrumbs from '../components/layout/Breadcrumbs'
 import EligibilityBadge from '../components/programme/EligibilityBadge'
 import ProvenanceBadge from '../components/programme/ProvenanceBadge'
 import { LinkButton } from '../components/ui/Button'
@@ -150,12 +151,14 @@ export default function UniversityPage() {
 
       <div className="bg-brand-fill px-4 py-6 text-on-brand-fill sm:px-6 sm:py-8">
         <div className="mx-auto max-w-4xl">
-          <Link
-            to="/universities"
-            className="mb-4 inline-flex items-center gap-1.5 text-sm text-on-brand transition-colors hover:text-on-brand-fill"
-          >
-            <ChevronLeft size={16} aria-hidden="true" /> All universities
-          </Link>
+          <Breadcrumbs
+            tone="onBrand"
+            className="mb-4"
+            crumbs={[
+              { label: 'Universities', to: '/universities' },
+              { label: university.shortName },
+            ]}
+          />
 
           <div className="flex items-start gap-4">
             <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-xl font-bold sm:size-16 sm:text-2xl">
@@ -170,18 +173,32 @@ export default function UniversityPage() {
             </div>
           </div>
 
-          {university.admissionsUrl && (
-            <LinkButton
-              to={university.admissionsUrl}
-              external
-              variant="outline"
-              size="sm"
-              className="mt-4"
-              icon={<ArrowRight size={14} aria-hidden="true" />}
-            >
-              Admissions portal
-            </LinkButton>
-          )}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {university.admissionsUrl && (
+              <LinkButton
+                to={university.admissionsUrl}
+                external
+                variant="outline"
+                size="sm"
+                icon={<ArrowRight size={14} aria-hidden="true" />}
+                iconPosition="trailing"
+              >
+                Admissions portal
+              </LinkButton>
+            )}
+            {university.programmesUrl && (
+              <LinkButton
+                to={university.programmesUrl}
+                external
+                variant="outline"
+                size="sm"
+                icon={<ArrowRight size={14} aria-hidden="true" />}
+                iconPosition="trailing"
+              >
+                Official programme list
+              </LinkButton>
+            )}
+          </div>
         </div>
       </div>
 

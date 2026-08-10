@@ -4,6 +4,7 @@
     "universityId": "ug",
     "scope": "General Undergraduate (Ghanaian applicants)",
     "closesWhen": "Open until WASSCE results are released",
+    "tracks": ["regular", "fee-paying", "city-campus"],
     "provenance": {
       "source": "University of Ghana admissions deadlines page",
       "sourceUrl": "https://admissions.ug.edu.gh/deadlines",
@@ -39,16 +40,31 @@
     }
   },
   {
-    "id": "knust-undergraduate",
+    "id": "knust-undergraduate-wassce",
     "universityId": "knust",
-    "scope": "Undergraduate admissions",
-    "closesOn": "2026-08-31",
+    "scope": "Undergraduate (Ghanaian applicants with WASSCE results)",
+    "closesWhen": "Open until WASSCE results are released",
+    "tracks": ["regular", "fee-paying"],
     "provenance": {
-      "source": "KNUST 2026/2027 undergraduate admissions, as reported by YEN Ghana",
-      "sourceUrl": "https://yen.com.gh/156571-knust-admission-forms-deadline-requirements-portal.html",
+      "source": "KNUST, Admission of Candidates to Undergraduate Degree Programmes for the 2026/2027 Academic Year",
+      "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year",
       "year": 2026,
-      "lastVerified": "2026-08-07",
-      "confidence": "researched"
+      "lastVerified": "2026-08-10",
+      "confidence": "authoritative"
+    }
+  },
+  {
+    "id": "knust-undergraduate-other",
+    "universityId": "knust",
+    "scope": "Undergraduate (mature, top-up, international, and foreign results)",
+    "closesOn": "2026-08-31",
+    "tracks": ["other"],
+    "provenance": {
+      "source": "KNUST, Admission of Candidates to Undergraduate Degree Programmes for the 2026/2027 Academic Year",
+      "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year",
+      "year": 2026,
+      "lastVerified": "2026-08-10",
+      "confidence": "authoritative"
     }
   },
   {
@@ -56,6 +72,7 @@
     "universityId": "ucc",
     "scope": "Regular First Degree",
     "closesOn": "2026-06-15",
+    "tracks": ["regular"],
     "provenance": {
       "source": "University of Cape Coast, Admission of Regular First Degree Students 2026/2027",
       "sourceUrl": "https://admissions.ucc.edu.gh/announcement/admission-of-regular-first-degree-students-20262027",

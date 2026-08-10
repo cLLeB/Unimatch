@@ -143,6 +143,31 @@ npm run data:build                                 # regenerate the catalogue
 CI fails if a record is malformed, references an unknown university, or if a headline cut-off
 disagrees with its own trend chart.
 
+### External links
+
+Every link out of the app is verified against the live site rather than derived from a pattern.
+The catalogue previously built all nineteen "official admissions page" links from the same
+guess, `<domain>/admissions`; seventeen led nowhere, including four universities that had
+changed domain and one whose page redirected to a job advert.
+
+```
+scripts/link-registry.ts                  admissions / programmes / cut-off page per university
+data/authoritative/programme-urls.json    194 programmes that have their own official page
+```
+
+Where a university publishes a page for the exact programme, the app links to it. Where it does
+not, the link falls back to that university's programme catalogue, which is labelled as a list so
+nobody expects a single programme. Nothing is guessed from a URL template.
+
+```bash
+npm run data:audit-links   # fetch every external URL, fail on any that is dead
+npm run data:apply-links   # stamp the registry onto the seed data (idempotent)
+```
+
+`data:audit-links` deliberately runs slowly — several of these hosts rate-limit, and an impatient
+check reports healthy pages as dead. `src/data/links.test.ts` covers the structural half of this
+on every commit without touching the network.
+
 ## Commands
 
 | Command | Does |
@@ -154,6 +179,7 @@ disagrees with its own trend chart.
 | `npm run test:coverage` | With coverage thresholds (domain is held at 100%) |
 | `npm run test:e2e` | Playwright, against the real production build |
 | `npm run data:validate` | Validate the catalogue |
+| `npm run data:audit-links` | Fetch every external URL and report the dead ones |
 
 ## Configuration
 

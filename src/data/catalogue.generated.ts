@@ -14,7 +14,9 @@ export const catalogue: Catalogue = {
       "shortName": "Academic City",
       "city": "Haatso, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://acity.edu.gh/admissions"
+      "admissionsUrl": "https://admissions.acity.edu.gh/undergraduate",
+      "programmesUrl": "https://acity.edu.gh/undergraduate-programmes/",
+      "cutoffUrl": "https://acity.edu.gh/undergraduate-programmes/"
     },
     {
       "id": "all-nations",
@@ -22,7 +24,9 @@ export const catalogue: Catalogue = {
       "shortName": "All Nations",
       "city": "Koforidua",
       "region": "Eastern",
-      "admissionsUrl": "https://allnationsuniversity.org/admissions"
+      "admissionsUrl": "https://anu.edu.gh/apply-to-anu",
+      "programmesUrl": "https://anu.edu.gh/schools/programs",
+      "cutoffUrl": "https://anu.edu.gh/schools/programs"
     },
     {
       "id": "ashesi",
@@ -30,7 +34,9 @@ export const catalogue: Catalogue = {
       "shortName": "Ashesi",
       "city": "Berekuso",
       "region": "Eastern",
-      "admissionsUrl": "https://www.ashesi.edu.gh/admissions"
+      "admissionsUrl": "https://admissions.ashesi.edu.gh/",
+      "programmesUrl": "https://ashesi.edu.gh/academics-overview/",
+      "cutoffUrl": "https://ashesi.edu.gh/admissions/"
     },
     {
       "id": "atu",
@@ -38,7 +44,9 @@ export const catalogue: Catalogue = {
       "shortName": "Accra Technical Univ.",
       "city": "Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://atu.edu.gh/admissions"
+      "admissionsUrl": "https://icampus.atu.edu.gh/",
+      "programmesUrl": "https://atu.edu.gh/available-programmes/",
+      "cutoffUrl": "https://atu.edu.gh/available-programmes/"
     },
     {
       "id": "catholic",
@@ -46,7 +54,9 @@ export const catalogue: Catalogue = {
       "shortName": "Catholic University",
       "city": "Fiapre, Sunyani",
       "region": "Bono",
-      "admissionsUrl": "https://cug.edu.gh/admissions"
+      "admissionsUrl": "https://apply.cug.edu.gh/",
+      "programmesUrl": "https://cug.edu.gh/admissions/udergraduate-programmes",
+      "cutoffUrl": "https://cug.edu.gh/admissions/how-to-apply"
     },
     {
       "id": "central",
@@ -54,7 +64,9 @@ export const catalogue: Catalogue = {
       "shortName": "Central University",
       "city": "Miotso",
       "region": "Greater Accra",
-      "admissionsUrl": "https://central.edu.gh/admissions"
+      "admissionsUrl": "https://central.edu.gh/online",
+      "programmesUrl": "https://central.edu.gh/admission",
+      "cutoffUrl": "https://central.edu.gh/admission?section=entry-requirements"
     },
     {
       "id": "gctu",
@@ -62,7 +74,9 @@ export const catalogue: Catalogue = {
       "shortName": "GCTU",
       "city": "Tesano, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://gctu.edu.gh/admissions"
+      "admissionsUrl": "https://site.gctu.edu.gh/how-to-apply",
+      "programmesUrl": "https://site.gctu.edu.gh/undergraduate-programmes",
+      "cutoffUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement"
     },
     {
       "id": "knust",
@@ -70,7 +84,9 @@ export const catalogue: Catalogue = {
       "shortName": "KNUST",
       "city": "Kumasi",
       "region": "Ashanti",
-      "admissionsUrl": "https://apps.knust.edu.gh/admissions"
+      "admissionsUrl": "https://apps.knust.edu.gh/admissions",
+      "programmesUrl": "https://www.knust.edu.gh/admissions/prospective/applying",
+      "cutoffUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf"
     },
     {
       "id": "methodist",
@@ -78,7 +94,9 @@ export const catalogue: Catalogue = {
       "shortName": "Methodist",
       "city": "Dansoman, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://mucg.edu.gh/admissions"
+      "admissionsUrl": "https://mug.edu.gh/how-to-apply-online/",
+      "programmesUrl": "https://mug.edu.gh/undergraduate/",
+      "cutoffUrl": "https://mug.edu.gh/undergraduate/"
     },
     {
       "id": "pentecost",
@@ -86,7 +104,9 @@ export const catalogue: Catalogue = {
       "shortName": "Pentecost",
       "city": "Sowutuom, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://pentvars.edu.gh/admissions"
+      "admissionsUrl": "https://pentvars.edu.gh/admissions/",
+      "programmesUrl": "https://pentvars.edu.gh/academics/programmes/?type=undergraduate",
+      "cutoffUrl": "https://pentvars.edu.gh/admissions/"
     },
     {
       "id": "regent",
@@ -94,7 +114,9 @@ export const catalogue: Catalogue = {
       "shortName": "Regent",
       "city": "McCarthy Hill, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://regent.edu.gh/admissions"
+      "admissionsUrl": "https://regent.edu.gh/apply.php",
+      "programmesUrl": "https://regent.edu.gh/programmes.php",
+      "cutoffUrl": "https://regent.edu.gh/page.php?slug=admissions"
     },
     {
       "id": "ucc",
@@ -102,7 +124,9 @@ export const catalogue: Catalogue = {
       "shortName": "University of Cape Coast",
       "city": "Cape Coast",
       "region": "Central",
-      "admissionsUrl": "https://admission.ucc.edu.gh"
+      "admissionsUrl": "https://admissions.ucc.edu.gh/how-to-apply",
+      "programmesUrl": "https://admissions.ucc.edu.gh/programmes/undergraduate",
+      "cutoffUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points"
     },
     {
       "id": "uds",
@@ -110,7 +134,9 @@ export const catalogue: Catalogue = {
       "shortName": "UDS",
       "city": "Tamale",
       "region": "Northern",
-      "admissionsUrl": "https://uds.edu.gh/admissions"
+      "admissionsUrl": "https://www.uds.edu.gh/admissions/application-procedure",
+      "programmesUrl": "https://www.uds.edu.gh/academics/programmes",
+      "cutoffUrl": "https://www.uds.edu.gh/admissions/entry-requirements"
     },
     {
       "id": "uew",
@@ -118,7 +144,9 @@ export const catalogue: Catalogue = {
       "shortName": "UEW",
       "city": "Winneba",
       "region": "Central",
-      "admissionsUrl": "https://uew.edu.gh/admissions"
+      "admissionsUrl": "https://www.uew.edu.gh/admissions",
+      "programmesUrl": "https://www.uew.edu.gh/academics/programmes/regular-programmes",
+      "cutoffUrl": "https://www.uew.edu.gh/admissions"
     },
     {
       "id": "ug",
@@ -126,7 +154,9 @@ export const catalogue: Catalogue = {
       "shortName": "University of Ghana",
       "city": "Accra (Legon)",
       "region": "Greater Accra",
-      "admissionsUrl": "https://admission.ug.edu.gh"
+      "admissionsUrl": "https://admissions.ug.edu.gh",
+      "programmesUrl": "https://admissions.ug.edu.gh/undergraduate/overview",
+      "cutoffUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off"
     },
     {
       "id": "uhas",
@@ -134,7 +164,9 @@ export const catalogue: Catalogue = {
       "shortName": "UHAS",
       "city": "Ho",
       "region": "Volta",
-      "admissionsUrl": "https://uhas.edu.gh/admissions"
+      "admissionsUrl": "https://uhas.edu.gh/uhas/index.php/admission/application-guidelines",
+      "programmesUrl": "https://uhas.edu.gh/uhas/admission/programme/undergraduate",
+      "cutoffUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points"
     },
     {
       "id": "upsa",
@@ -142,7 +174,9 @@ export const catalogue: Catalogue = {
       "shortName": "UPSA",
       "city": "Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://upsa.edu.gh/admissions"
+      "admissionsUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/how-to-apply-undergrad/",
+      "programmesUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergraduate-programmes/",
+      "cutoffUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/"
     },
     {
       "id": "valley-view",
@@ -150,7 +184,9 @@ export const catalogue: Catalogue = {
       "shortName": "Valley View",
       "city": "Oyibi",
       "region": "Greater Accra",
-      "admissionsUrl": "https://vvu.edu.gh/admissions"
+      "admissionsUrl": "https://admissions.vvu.edu.gh/admissions/website",
+      "programmesUrl": "https://admissions.vvu.edu.gh/admissions/website",
+      "cutoffUrl": "https://admissions.vvu.edu.gh/admissions/website"
     },
     {
       "id": "wisconsin",
@@ -158,7 +194,9 @@ export const catalogue: Catalogue = {
       "shortName": "Wisconsin",
       "city": "North Legon, Accra",
       "region": "Greater Accra",
-      "admissionsUrl": "https://wiuc-ghana.edu.gh/admissions"
+      "admissionsUrl": "https://wiucapps.wiuc-ghana.edu.gh/admissions",
+      "programmesUrl": "https://wiuc-ghana.edu.gh/undergraduate/",
+      "cutoffUrl": "https://wiuc-ghana.edu.gh/how-to-apply/"
     }
   ],
   "programmes": [
@@ -197,7 +235,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -261,11 +299,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://acity.edu.gh/undergraduate/bsc-computer-engineering/",
       "overview": "Computer Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
@@ -321,11 +360,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://acity.edu.gh/undergraduate/bsc-computer-science/",
       "overview": "Computer Science is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -385,11 +425,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://acity.edu.gh/undergraduate/bsc-electrical-electronics-engineering/",
       "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
@@ -440,11 +481,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://acity.edu.gh/undergraduate/bsc-information-technology/",
       "overview": "Information Technology is a 4-year BSc programme at Academic City University, offered through the School of Computing and Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
@@ -495,7 +537,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -559,11 +601,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Academic City University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://acity.edu.gh/admissions",
+        "sourceUrl": "https://acity.edu.gh/undergraduate-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://acity.edu.gh/undergraduate/bsc-mechanical-engineering/",
       "overview": "Mechanical Engineering is a 4-year BSc programme at Academic City University, offered through the School of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
@@ -623,11 +666,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://anu.edu.gh/schools/programs/bachelor-of-engineering-in-biomedical-engineering",
       "overview": "Biomedical Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Software Engineer",
@@ -678,7 +722,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -738,11 +782,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://anu.edu.gh/schools/programs/bachelor-of-science-in-computer-science",
       "overview": "Computer Science is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -802,11 +847,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://anu.edu.gh/schools/programs/bachelor-of-engineering-in-electronics-and-communications-engineering",
       "overview": "Electronics and Communication Engineering is a 4-year BSc programme at All Nations University, offered through the Faculty of Engineering and Computer Science. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Software Engineer",
@@ -866,11 +912,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://anu.edu.gh/schools/programs/bachelor-of-science-in-nursing",
       "overview": "Nursing is a 4-year BSc programme at All Nations University, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
@@ -921,7 +968,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "All Nations University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://allnationsuniversity.org/admissions",
+        "sourceUrl": "https://anu.edu.gh/schools/programs",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -976,11 +1023,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/bsc-business-administration/",
       "overview": "Business Administration is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -1040,11 +1088,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/computer-engineering/",
       "overview": "Computer Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Computer Engineer",
@@ -1100,11 +1149,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/computer-science/",
       "overview": "Computer Science is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -1160,11 +1210,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/economics/economics-program/",
       "overview": "Economics is a 4-year BSc programme at Ashesi University, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
         "Economist",
@@ -1224,11 +1275,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/electrical-and-electronic-engineering/",
       "overview": "Electrical and Electronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Electrical Engineer",
@@ -1279,7 +1331,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1334,11 +1386,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/management-information-systems/",
       "overview": "Management Information Systems is a 4-year BSc programme at Ashesi University, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
@@ -1398,11 +1451,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/mechanical-engineering/",
       "overview": "Mechanical Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
@@ -1462,11 +1516,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ashesi University published entry requirements. Ashesi admits holistically: the essay, interview and leadership record weigh alongside WASSCE results, and no aggregate cut-off is published.",
-        "sourceUrl": "https://www.ashesi.edu.gh/admissions",
+        "sourceUrl": "https://ashesi.edu.gh/admissions/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://ashesi.edu.gh/mechatronic-engineering/",
       "overview": "Mechatronic Engineering is a 4-year BSc programme at Ashesi University, offered through the Faculty of Engineering. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6 and Physics at C6.",
       "careers": [
         "Mechanical Engineer",
@@ -1517,7 +1572,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1581,7 +1636,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1636,7 +1691,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1700,7 +1755,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1755,7 +1810,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1810,7 +1865,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1865,7 +1920,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1920,7 +1975,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -1984,7 +2039,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2039,7 +2094,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Accra Technical University published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://atu.edu.gh/admissions",
+        "sourceUrl": "https://atu.edu.gh/available-programmes/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2094,7 +2149,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2154,7 +2209,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2209,7 +2264,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2264,7 +2319,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2328,7 +2383,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2383,7 +2438,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Catholic University of Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://cug.edu.gh/admissions",
+        "sourceUrl": "https://cug.edu.gh/admissions/how-to-apply",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2443,7 +2498,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2498,7 +2553,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2553,7 +2608,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2609,7 +2664,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2664,7 +2719,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2719,7 +2774,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2774,7 +2829,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2829,7 +2884,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2884,7 +2939,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -2948,7 +3003,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3012,7 +3067,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3072,7 +3127,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3127,7 +3182,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Central University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://central.edu.gh/admissions",
+        "sourceUrl": "https://central.edu.gh/admission?section=entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3187,7 +3242,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3242,7 +3297,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3302,7 +3357,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3357,7 +3412,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3421,7 +3476,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3476,7 +3531,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3532,11 +3587,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://icde.gctu.edu.gh/",
       "overview": "Information Technology is a 4-year BSc programme at Ghana Communication Technology University by distance learning, offered through the Faculty of Computing and Information Systems. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Software Engineer",
@@ -3596,7 +3652,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Ghana Communication Technology University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://gctu.edu.gh/admissions",
+        "sourceUrl": "https://site.gctu.edu.gh/undergraduate-admission-requirement",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -3654,6 +3710,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4040,6 +4097,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4207,6 +4265,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4264,6 +4323,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4325,6 +4385,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4379,6 +4440,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4489,6 +4551,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4543,6 +4606,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4597,6 +4661,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4658,6 +4723,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4715,6 +4781,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4776,6 +4843,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4890,6 +4958,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -4947,6 +5016,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5175,10 +5245,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://www.knust.edu.gh/announcements/undergraduate-admissions",
       "overview": "Dental Surgery is a 6-year BDS programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 6 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dentist",
@@ -5280,6 +5352,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5334,6 +5407,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5388,6 +5462,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5440,6 +5515,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5501,6 +5577,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5553,6 +5630,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5605,6 +5683,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5662,6 +5741,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5822,6 +5902,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5874,6 +5955,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5931,6 +6013,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -5988,6 +6071,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6049,6 +6133,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6101,6 +6186,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6155,6 +6241,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6275,6 +6362,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6438,6 +6526,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6704,6 +6793,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6758,6 +6848,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6812,6 +6903,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6869,6 +6961,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6926,6 +7019,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -6987,6 +7081,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7041,6 +7136,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7095,6 +7191,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7149,6 +7246,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7268,6 +7366,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7325,6 +7424,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7382,6 +7482,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7496,6 +7597,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7557,6 +7659,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7674,6 +7777,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7735,6 +7839,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7858,6 +7963,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7912,6 +8018,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -7964,6 +8071,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8231,6 +8339,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8283,6 +8392,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8335,6 +8445,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8405,6 +8516,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://www.knust.edu.gh/announcements/undergraduate-admissions",
       "overview": "Sonography is a 4-year BSc programme at Kwame Nkrumah University of Science and Technology on the full-fee-paying track, offered through the College of Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
       "careers": [
         "Radiographer",
@@ -8514,6 +8626,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8575,6 +8688,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "KNUST published cut-off points, 2026/2027 admissions.",
+        "sourceUrl": "https://webapps.knust.edu.gh/check/forms/Admission_Requirement.pdf",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -8696,7 +8810,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -8751,7 +8865,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -8811,7 +8925,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -8866,7 +8980,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -8921,7 +9035,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -8985,7 +9099,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -9040,7 +9154,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Methodist University Ghana published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://mucg.edu.gh/admissions",
+        "sourceUrl": "https://mug.edu.gh/undergraduate/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -9559,11 +9673,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://regent.edu.gh/admissions",
+        "sourceUrl": "https://regent.edu.gh/page.php?slug=admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://regent.edu.gh/programme.php?slug=accounting-and-information-systems",
       "overview": "Accounting is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
         "Accountant",
@@ -9614,7 +9729,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://regent.edu.gh/admissions",
+        "sourceUrl": "https://regent.edu.gh/page.php?slug=admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -9674,11 +9789,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://regent.edu.gh/admissions",
+        "sourceUrl": "https://regent.edu.gh/page.php?slug=admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://regent.edu.gh/programme.php?slug=computer-science",
       "overview": "Computer Science is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -9729,11 +9845,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://regent.edu.gh/admissions",
+        "sourceUrl": "https://regent.edu.gh/page.php?slug=admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://regent.edu.gh/programme.php?slug=information-technology",
       "overview": "Information Technology is a 4-year BSc programme at Regent University College of Science and Technology, offered through the School of Informatics, Engineering and Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -9784,7 +9901,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Regent University College of Science and Technology published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://regent.edu.gh/admissions",
+        "sourceUrl": "https://regent.edu.gh/page.php?slug=admissions",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -9897,10 +10014,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting",
       "overview": "Accounting (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -9951,10 +10070,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-accounting",
       "overview": "Accounting (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -10007,11 +10128,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Accounting is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -10062,10 +10184,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting-with-management",
       "overview": "Accounting with Management is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -10119,10 +10243,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-actuarial-science",
       "overview": "Actuarial Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Actuary",
@@ -10171,10 +10297,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-african-studies",
       "overview": "African Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Researcher",
@@ -10223,6 +10351,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -10277,10 +10406,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agricultural-engineering",
       "overview": "Agricultural Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -10329,10 +10460,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agricultural-extension-and-community-development",
       "overview": "Agricultural Extension and Community Development is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -10381,10 +10514,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agriculture",
       "overview": "Agriculture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -10435,10 +10570,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-agriculture",
       "overview": "Agriculture (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -10489,10 +10626,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agriculture-extension",
       "overview": "Agriculture Extension is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -10541,10 +10680,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-agro-processing",
       "overview": "Agro-Processing is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -10593,10 +10734,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-anthropology",
       "overview": "Anthropology is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Researcher",
@@ -10648,11 +10791,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-applied-economics",
       "overview": "Applied Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Economist",
@@ -10701,10 +10845,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-arts",
       "overview": "Arts is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -10757,11 +10903,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-arts",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Arts is a 4-year BA programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -10815,6 +10963,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-arts",
       "overview": "Arts Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Humanities and Social Sciences Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -10865,10 +11014,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-automobile-and-metal-technology",
       "overview": "Automobile and Metal Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -10920,11 +11071,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-basic-education",
       "overview": "Basic Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -10977,11 +11129,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-basic-education",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Basic Education is a 4-year B.Ed programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 28 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -11034,11 +11188,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Basic Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -11096,10 +11251,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-biochemistry",
       "overview": "Biochemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Chemist",
@@ -11157,10 +11314,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-biomedical-sciences",
       "overview": "Biomedical Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 16 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Biologist",
@@ -11213,11 +11372,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Business Administration is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -11268,10 +11428,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-chemical-engineering",
       "overview": "Chemical Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Process Engineer",
@@ -11325,10 +11487,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-chemistry",
       "overview": "Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Chemist",
@@ -11377,10 +11541,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-chinese",
       "overview": "Chinese is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
@@ -11431,10 +11597,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-clothing-and-textiles-with-management-in-living",
       "overview": "Clothing and Textiles with Management in Living is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -11486,7 +11654,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -11543,11 +11711,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Commerce is a 4-year BCom programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -11600,11 +11769,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Commerce is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -11653,10 +11823,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-communication-design",
       "overview": "Communication Design Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -11705,10 +11877,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-communication-studies",
       "overview": "Communication Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -11765,11 +11939,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-community-mental-health-nursing",
       "overview": "Community Health Nursing is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
@@ -11823,10 +11998,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-computer-science",
       "overview": "Computer Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -11938,10 +12115,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-conservation-biology-and-entomology",
       "overview": "Conservation Biology and Entomology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Biologist",
@@ -11992,10 +12171,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-construction-and-woodwork-technology",
       "overview": "Construction and Woodwork Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Civil Engineer",
@@ -12049,6 +12230,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-construction-technology-education",
       "overview": "Construction Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Civil Engineer",
@@ -12100,7 +12282,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -12156,7 +12338,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -12214,10 +12396,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-diagnostic-imaging-technology",
       "overview": "Diagnostic Imaging Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Radiographer",
@@ -12271,10 +12455,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-diagnostic-medical-sonography",
       "overview": "Diagnostic Medical Sonography is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Radiographer",
@@ -12332,10 +12518,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-dietetics",
       "overview": "Dietetics is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 14 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
@@ -12386,10 +12574,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-dispensing-opticianry",
       "overview": "Dispensing Opticianry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -12438,10 +12628,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-early-childhood",
       "overview": "Early Childhood Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -12494,11 +12686,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-early-childhood",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Early Childhood Education is a 4-year B.Ed programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 28 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -12551,11 +12745,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Early Childhood Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -12664,10 +12859,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-economics",
       "overview": "Economics (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Economist",
@@ -12718,10 +12915,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-economics",
       "overview": "Economics (BSc) is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
         "Economist",
@@ -12775,10 +12974,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-economics-with-finance",
       "overview": "Economics with Finance is a 4-year BSc programme at University of Cape Coast, offered through the School of Economics. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
         "Financial Analyst",
@@ -12830,7 +13031,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -12887,11 +13088,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -12942,10 +13144,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-electrical-and-electronic-engineering",
       "overview": "Electrical and Electronic Engineering is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Electrical Engineer",
@@ -13003,10 +13207,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-engineering-physics",
       "overview": "Engineering Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
         "Physicist",
@@ -13115,10 +13321,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-english",
       "overview": "English (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -13169,10 +13377,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-entrepreneurship-with-graphic-design",
       "overview": "Entrepreneurship with Graphic Design is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -13223,10 +13433,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-entrepreneurship-with-international-business",
       "overview": "Entrepreneurship with International Business is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -13275,10 +13487,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-environmental-science",
       "overview": "Environmental Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Biologist",
@@ -13327,10 +13541,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-film-studies",
       "overview": "Film Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 25 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -13379,10 +13595,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-finance",
       "overview": "Finance is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
         "Financial Analyst",
@@ -13434,11 +13652,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-fine-arts",
       "overview": "Fine Art Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -13492,10 +13711,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-fisheries-and-aquatic-science",
       "overview": "Fisheries and Aquatic Sciences is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Biologist",
@@ -13546,10 +13767,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-food-and-nutrition-with-management-in-living",
       "overview": "Food and Nutrition with Management in Living is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Dietitian",
@@ -13600,10 +13823,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-food-chemistry",
       "overview": "Food Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 16 or better on the WASSCE best-six.",
       "careers": [
         "Chemist",
@@ -13661,10 +13886,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-forensic-science",
       "overview": "Forensic Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Biologist",
@@ -13773,10 +14000,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-french",
       "overview": "French (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -13878,10 +14107,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-geography-and-regional-planning",
       "overview": "Geography and Regional Planning is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Urban Planner",
@@ -13932,10 +14163,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-geography",
       "overview": "Geography (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -13986,10 +14219,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-ghanaian-language-and-culture",
       "overview": "Ghanaian Language and Culture is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
@@ -14040,10 +14275,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-government",
       "overview": "Government is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Policy Analyst",
@@ -14092,10 +14329,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-health-information-management",
       "overview": "Health Information Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Health Information Manager",
@@ -14144,10 +14383,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-health-physical-education-and-recreation",
       "overview": "Health, Physical Education and Recreation is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -14199,7 +14440,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -14312,10 +14553,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-history",
       "overview": "History (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -14417,10 +14660,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-horticulture",
       "overview": "Horticulture is a 4-year BSc programme at University of Cape Coast, offered through the School of Agriculture. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -14469,10 +14714,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-hospitality-management",
       "overview": "Hospitality Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -14576,10 +14823,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-human-resource-management",
       "overview": "Human Resource Management (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "HR Officer",
@@ -14630,10 +14879,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-inclusive-education",
       "overview": "Inclusive Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -14687,10 +14938,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-industrial-chemistry",
       "overview": "Industrial Chemistry is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Chemist",
@@ -14741,10 +14994,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-information-and-communication-technology",
       "overview": "Information and Communication Technology is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -14795,10 +15050,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-information-science",
       "overview": "Information Science is a 4-year BA programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Research Scientist",
@@ -14847,10 +15104,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-information-technology",
       "overview": "Information Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -14903,11 +15162,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-information-technology",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Information Technology is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -14960,11 +15221,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/diploma-information-technology-in-education",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Information Technology is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -15018,6 +15281,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-information-technology",
       "overview": "Information Technology Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -15068,10 +15332,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-integrated-arts",
       "overview": "Integrated Arts is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -15120,10 +15386,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-junior-high-school",
       "overview": "Junior High School Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -15176,11 +15444,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Junior High School Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -15229,10 +15498,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-laboratory-technology",
       "overview": "Laboratory Technology is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Medical Laboratory Scientist",
@@ -15285,11 +15556,13 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/diploma-labour-studies",
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Labour Policy Studies is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 30 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -15338,10 +15611,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/llb-law",
       "overview": "Law is a 4-year LLB programme at University of Cape Coast, offered through the Faculty of Law. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Lawyer",
@@ -15390,10 +15665,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-linguistics",
       "overview": "Linguistics is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Translator",
@@ -15444,10 +15721,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-livestock-science-and-meat-technology",
       "overview": "Livestock Science and Meat Technology is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Research Scientist",
@@ -15551,10 +15830,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-management",
       "overview": "Management (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -15605,10 +15886,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-management",
       "overview": "Management (BCom) is a 4-year BCom programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -15661,11 +15944,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Management Studies is a 4-year BSc programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 26 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -15716,10 +16000,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-accounting-with-management",
       "overview": "Management with Accounting is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -15768,10 +16054,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-marketing",
       "overview": "Marketing is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Marketing Executive",
@@ -15825,10 +16113,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics",
       "overview": "Mathematics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Data Analyst",
@@ -15882,10 +16172,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-and-statistics",
       "overview": "Mathematics and Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Statistician",
@@ -15939,10 +16231,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-mathematics",
       "overview": "Mathematics Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Data Analyst",
@@ -15995,11 +16289,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Mathematics Education is a 2-year Diploma programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Data Analyst",
@@ -16053,10 +16348,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-with-business",
       "overview": "Mathematics with Business is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Data Analyst",
@@ -16110,10 +16407,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mathematics-with-economics",
       "overview": "Mathematics with Economics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Data Analyst",
@@ -16164,6 +16463,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -16225,10 +16525,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-medical-laboratory-science",
       "overview": "Medical Laboratory Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Medical Laboratory Scientist",
@@ -16293,11 +16595,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/mb-chb-medicine-and-surgery-mb-chb",
       "overview": "Medicine is a 6-year MBChB programme at University of Cape Coast, offered through the School of Medical Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
       "careers": [
         "Medical Doctor",
@@ -16348,10 +16651,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-mental-health-nursing",
       "overview": "Mental Health Nursing is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Registered Nurse",
@@ -16405,10 +16710,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-meteorology-and-atmospheric-physics",
       "overview": "Meteorology and Atmospheric Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Physicist",
@@ -16462,10 +16769,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-midwifery",
       "overview": "Midwifery is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
@@ -16519,10 +16828,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-molecular-biology-and-biotechnology",
       "overview": "Molecular Biology and Biotechnology is a 4-year BSc programme at University of Cape Coast, offered through the School of Biological Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Biochemist",
@@ -16574,11 +16885,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bmus-music",
       "overview": "Music is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -16636,10 +16948,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-nursing",
       "overview": "Nursing is a 4-year BSc programme at University of Cape Coast, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
@@ -16697,10 +17011,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-nutrition",
       "overview": "Nutrition is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
@@ -16751,10 +17067,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/od-optometry",
       "overview": "OD Optometry is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Optometrist",
@@ -16817,6 +17135,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/od-optometry",
       "overview": "Optometry is a 6-year OD programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Physics at C6 and Biology at C6.",
       "careers": [
         "Optometrist",
@@ -16867,10 +17186,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-painting-and-sculpture",
       "overview": "Painting and Sculpture is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -16928,10 +17249,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/pharmd-pharmacy",
       "overview": "Pharmacy is a 6-year PharmD programme at University of Cape Coast, offered through the School of Pharmacy. Entry is competitive at aggregate 9 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Pharmacist",
@@ -16990,6 +17313,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-physician-assistant-studies",
       "overview": "Physician Assistant Studies is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Physician Assistant",
@@ -17043,10 +17367,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-physics",
       "overview": "Physics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Physicist",
@@ -17103,7 +17429,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -17159,7 +17485,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -17212,10 +17538,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-population-and-health",
       "overview": "Population and Health is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Health Professional",
@@ -17264,10 +17592,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-primary-education",
       "overview": "Primary Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Educational Foundations. Entry is competitive at aggregate 21 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -17316,10 +17646,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bcom-procurement-and-supply-chain-management",
       "overview": "Procurement and Supply Chain Management is a 4-year BCom programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Procurement Officer",
@@ -17368,10 +17700,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-psychology",
       "overview": "Psychology is a 4-year BSc programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Counselling Psychologist",
@@ -17423,6 +17757,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -17479,11 +17814,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "applyUrl": "https://code.ucc.edu.gh/",
       "overview": "Psychology is a 4-year BA programme at University of Cape Coast by distance learning, offered through the College of Distance Education. Entry is competitive at aggregate 32 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -17534,10 +17870,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-religious-and-moral-studies",
       "overview": "Religious and Moral Studies is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 19 or better on the WASSCE best-six.",
       "careers": [
         "Minister of Religion",
@@ -17589,7 +17927,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -17644,10 +17982,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-robotics-and-intelligent-systems",
       "overview": "Robotics and Intelligent Systems is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -17696,10 +18036,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-science",
       "overview": "Science Education is a 4-year B.Ed programme at University of Cape Coast, offered through the Faculty of Science and Technology Education. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -17751,11 +18093,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-social-behaviour-and-conflict-management",
       "overview": "Social Behaviour and Conflict Management is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -17804,10 +18147,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-social-sciences",
       "overview": "Social Sciences is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Social Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Research Scientist",
@@ -17859,10 +18204,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-social-sciences-economics-and-geography",
       "overview": "Social Sciences (B.Ed) is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -17913,10 +18260,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bed-social-studies",
       "overview": "Social Studies is a 4-year B.Ed programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Social Worker",
@@ -17968,7 +18317,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -18021,10 +18370,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-sport-and-exercise-science",
       "overview": "Sport and Exercise Science is a 4-year BSc programme at University of Cape Coast, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Sports Scientist",
@@ -18078,10 +18429,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-statistics",
       "overview": "Statistics is a 4-year BSc programme at University of Cape Coast, offered through the School of Physical Sciences. Entry is competitive at aggregate 25 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Statistician",
@@ -18130,10 +18483,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/ba-theatre-studies",
       "overview": "Theatre Studies is a 4-year BA programme at University of Cape Coast, offered through the Faculty of Arts. Entry is competitive at aggregate 23 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -18182,10 +18537,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-tourism-management",
       "overview": "Tourism Management is a 4-year BSc programme at University of Cape Coast, offered through the School of Business. Entry is competitive at aggregate 22 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -18236,10 +18593,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast published cut-off points, post-WASSCE 2025.",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://admissions.ucc.edu.gh/catalogue/programme/bsc-water-and-public-health-engineering",
       "overview": "Water and Public Health Engineering is a 4-year BSc programme at University of Cape Coast, offered through the Degree. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
@@ -18291,7 +18650,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Cape Coast cut-off points, 2026 admissions listing",
-        "sourceUrl": "https://ghanaunichecker.com/ucc-cut-off-points-2026",
+        "sourceUrl": "https://admissions.ucc.edu.gh/catalogue/programme/cut-off-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "researched"
@@ -18351,11 +18710,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0001",
       "overview": "Accounting is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
         "Accountant",
@@ -18406,11 +18766,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/facs-118",
       "overview": "Agribusiness is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -18461,11 +18822,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-148",
       "overview": "Agricultural Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -18516,11 +18878,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-0071",
       "overview": "Agriculture Technology is a 2-year Diploma programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18571,7 +18934,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -18626,11 +18989,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/dcs-1001",
       "overview": "Agriculture Technology (Agronomy) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18681,11 +19045,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/ans-1001",
       "overview": "Agriculture Technology (Animal Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18736,11 +19101,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/abt-1001",
       "overview": "Agriculture Technology (Biotechnology) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Biochemist",
@@ -18791,11 +19157,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-0001",
       "overview": "Agriculture Technology (Horticulture) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18846,11 +19213,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-0026",
       "overview": "Agriculture Technology (Mechanization and Irrigation) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18901,11 +19269,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/dsc-1001",
       "overview": "Agriculture Technology (Soil Science) is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -18961,11 +19330,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/frne-119",
       "overview": "Aquaculture and Fisheries Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Natural Resource Manager",
@@ -19016,11 +19386,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-238",
       "overview": "Arabic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -19071,11 +19442,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0003",
       "overview": "Banking and Finance is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Financial Analyst",
@@ -19126,11 +19498,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-0057",
       "overview": "Basic Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -19190,11 +19563,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-0074",
       "overview": "Biotechnology and Molecular Biology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Biochemist",
@@ -19245,11 +19619,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0005",
       "overview": "Business Administration is a 2-year Diploma programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -19300,11 +19675,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0002",
       "overview": "Business Information Systems is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -19355,11 +19731,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-237",
       "overview": "Business Studies Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -19415,11 +19792,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/dchem-1001",
       "overview": "Chemical Science and Technology is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Process Engineer",
@@ -19479,11 +19857,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sahs-0012",
       "overview": "Community Nutrition is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Dietitian",
@@ -19539,11 +19918,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/dmath-1003",
       "overview": "Computing Mathematics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C6.",
       "careers": [
         "Software Engineer",
@@ -19594,11 +19974,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/fsds-266",
       "overview": "Development Education Studies is a 4-year BA programme at University for Development Studies, offered through the Faculty of Sustainable Development Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -19649,11 +20030,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-0062",
       "overview": "Early Childhood Care and Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -19704,11 +20086,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/facs-108",
       "overview": "Ecotourism and Hospitality Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
@@ -19768,11 +20151,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/dphy-1001",
       "overview": "Engineering Physics is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Physical Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Physics at C6 and Elective Mathematics at C6.",
       "careers": [
         "Physicist",
@@ -19823,7 +20207,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -19878,11 +20262,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-0052",
       "overview": "Family and Consumer Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -19933,11 +20318,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foa-117",
       "overview": "Family and Consumer Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -19993,11 +20379,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0004",
       "overview": "Finance and Economics is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Economics at C6.",
       "careers": [
         "Financial Analyst",
@@ -20048,11 +20435,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/fscc-1001",
       "overview": "Food Systems is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Agriculture, Food and Consumer Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Agronomist",
@@ -20112,11 +20500,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/fob-1003",
       "overview": "Forensic Science is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Bioscience. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Biology at C6.",
       "careers": [
         "Forensic Scientist",
@@ -20167,11 +20556,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/frne-110",
       "overview": "Forest Resource Conservation and Management is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Natural Resources and Environment. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Environmental Officer",
@@ -20222,11 +20612,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sahs-137",
       "overview": "Health Information Management is a 4-year BSc programme at University for Development Studies, offered through the School of Public Health. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Public Health Officer",
@@ -20277,11 +20668,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0006",
       "overview": "Human Resource Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "HR Officer",
@@ -20332,11 +20724,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0007",
       "overview": "Marketing is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Marketing Executive",
@@ -20392,11 +20785,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sahs-138",
       "overview": "Medical Imaging Technology is a 4-year BSc programme at University for Development Studies, offered through the School of Allied Health Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Physics at C6.",
       "careers": [
         "Radiographer",
@@ -20460,11 +20854,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/smhs-0001",
       "overview": "Medicine is a 6-year MBChB programme at University for Development Studies, offered through the School of Medicine. Entry is competitive at aggregate 11 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Physics at C6.",
       "careers": [
         "Medical Doctor",
@@ -20524,7 +20919,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -20584,11 +20979,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sahs-0013",
       "overview": "Nurse Practitioner is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
@@ -20644,11 +21040,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sahs-0087",
       "overview": "Paediatric Nursing is a 4-year BSc programme at University for Development Studies, offered through the School of Nursing and Midwifery. Entry is competitive at aggregate 18 or better on the WASSCE best-six. Applicants also need Biology at C6.",
       "careers": [
         "Registered Nurse",
@@ -20699,11 +21096,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0011",
       "overview": "Procurement and Supply Chain Management is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Procurement Officer",
@@ -20754,11 +21152,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/sob-0009",
       "overview": "Public Administration is a 4-year BSc programme at University for Development Studies, offered through the School of Business. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -20809,7 +21208,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -20864,11 +21263,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/scc-002",
       "overview": "Social Change Communication is a 4-year BSc programme at University for Development Studies, offered through the Faculty of Communication and Media Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -20919,11 +21319,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UDS published entry requirements. UDS does not publish a per-programme cut-off list, so these show the minimum aggregate for degree admission.",
-        "sourceUrl": "https://uds.edu.gh/admissions",
+        "sourceUrl": "https://www.uds.edu.gh/admissions/entry-requirements",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uds.edu.gh/academics/programmes/foe-0043",
       "overview": "Social Science Education is a 4-year B.Ed programme at University for Development Studies, offered through the Faculty of Education. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -20979,7 +21380,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21034,7 +21435,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21089,11 +21490,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/sca/programmes/b-art-education",
       "overview": "Art Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -21144,7 +21546,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21199,7 +21601,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21259,11 +21661,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/english/programmes/ba-english-language-winnebaajumako-campus",
       "overview": "English Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need Literature in English at C6.",
       "careers": [
         "Teacher",
@@ -21314,11 +21717,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/colang/programmes/b-ewe-education",
       "overview": "Ewe Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Ghanaian Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -21374,11 +21778,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/french/programmes/b-french-education-winnebaajumako-campus",
       "overview": "French Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Foreign Languages Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six. Applicants also need French at C6.",
       "careers": [
         "Teacher",
@@ -21429,7 +21834,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21484,7 +21889,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21539,7 +21944,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21594,11 +21999,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/sca/programmes/b-graphic-design",
       "overview": "Graphic Design is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -21649,7 +22055,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21704,11 +22110,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/programmes/b-sc-information-and-communication-technology-education",
       "overview": "Information and Communication Technology Education is a 4-year B.Sc programme at University of Education, Winneba, offered through the Faculty of Science Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -21759,7 +22166,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21814,11 +22221,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/pse/programmes/ba-political-science-education",
       "overview": "Political Science Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -21869,7 +22277,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -21924,11 +22332,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/dsse/programmes/b-social-studies-education",
       "overview": "Social Studies Education is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Social Sciences Education. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -21979,11 +22388,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Education, Winneba, minimum entry requirements: six WASSCE credit passes with a total aggregate of 36 or better. Winneba publishes no per-programme cut-off.",
-        "sourceUrl": "https://www.uew.edu.gh/admissions/apply/entry-requirements",
+        "sourceUrl": "https://www.uew.edu.gh/admissions",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://www.uew.edu.gh/theatre-arts/programmes/b-theatre-arts",
       "overview": "Theatre Arts is a 4-year BA programme at University of Education, Winneba, offered through the Faculty of Creative Arts. Entry is competitive at aggregate 36 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -22037,6 +22447,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22101,6 +22512,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Actuarial Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Actuary",
@@ -22149,6 +22561,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22201,6 +22614,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22255,6 +22669,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22309,10 +22724,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Administration is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the Business School. Entry is competitive at aggregate 12 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -22361,6 +22778,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22418,6 +22836,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22482,6 +22901,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Agricultural Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 19 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Agronomist",
@@ -22530,6 +22950,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22582,6 +23003,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22634,6 +23056,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22688,10 +23111,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Arts (Bouquets with Business subject) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 17 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -22740,6 +23165,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22900,6 +23326,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -22959,6 +23386,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Arts (General Arts background) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -23009,6 +23437,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23064,6 +23493,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23119,10 +23549,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Bachelor of Arts (Full-Fee Paying) is a 4-year BA programme at University of Ghana on the full-fee-paying track, offered through the College of Humanities. Entry is competitive at aggregate 20 or better on the WASSCE best-six.",
       "careers": [
         "Communications Officer",
@@ -23173,6 +23605,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23225,6 +23658,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23284,6 +23718,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Biological Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Biologist",
@@ -23337,6 +23772,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23401,6 +23837,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Biomedical Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Biomedical Engineer",
@@ -23454,6 +23891,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23518,6 +23956,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Computer Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 8 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Computer Engineer",
@@ -23571,6 +24010,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23628,6 +24068,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23692,6 +24133,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Computer Science Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 12 or better on the WASSCE best-six. Applicants also need Elective Mathematics at C4.",
       "careers": [
         "Software Engineer",
@@ -23752,6 +24194,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Computer Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Software Engineer",
@@ -23813,6 +24256,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23885,6 +24329,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Consumer Sciences Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 21 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6 and Management in Living at C6.",
       "careers": [
         "Teacher",
@@ -23933,6 +24378,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -23985,6 +24431,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24037,6 +24484,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24091,6 +24539,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24148,6 +24597,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24212,6 +24662,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Earth Science is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Chemistry at C6.",
       "careers": [
         "Research Scientist",
@@ -24262,6 +24713,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24317,6 +24769,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24371,6 +24824,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24426,6 +24880,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24480,6 +24935,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24535,6 +24991,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24592,6 +25049,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24649,6 +25107,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24713,6 +25172,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Family and Consumer Sciences (Family and Child Studies) is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Management in Living at C6.",
       "careers": [
         "Consumer Sciences Officer",
@@ -24766,6 +25226,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24820,6 +25281,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24880,6 +25342,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Fine Arts is a 4-year BFA programme at University of Ghana on the full-fee-paying track, offered through the School of Performing Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -24933,6 +25396,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -24997,6 +25461,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Food Process Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Engineer",
@@ -25050,6 +25515,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25102,6 +25568,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25161,6 +25628,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Information and Communication Technology Education is a 4-year B.Ed programme at University of Ghana on the full-fee-paying track, offered through the College of Education. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Teacher",
@@ -25209,6 +25677,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25263,6 +25732,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25322,6 +25792,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Information Technology is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -25428,6 +25899,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25492,6 +25964,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Materials Science and Engineering is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 17 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Geologist",
@@ -25545,6 +26018,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25609,6 +26083,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Mathematical Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 20 or better on the WASSCE best-six. Applicants also need Elective Mathematics at B3.",
       "careers": [
         "Data Analyst",
@@ -25662,6 +26137,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25714,6 +26190,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25768,6 +26245,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25873,6 +26351,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25927,6 +26406,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -25987,6 +26467,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Music is a 4-year BMus programme at University of Ghana on the full-fee-paying track, offered through the School of Performing Arts. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Creative Practitioner",
@@ -26035,6 +26516,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26087,6 +26569,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26194,6 +26677,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26246,6 +26730,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26307,6 +26792,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26375,6 +26861,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Physical Sciences is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Chemistry at C6 and Physics at C6.",
       "careers": [
         "Sports Scientist",
@@ -26423,6 +26910,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26475,6 +26963,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26534,6 +27023,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Psychology is a 4-year BSc programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 18 or better on the WASSCE best-six.",
       "careers": [
         "Counselling Psychologist",
@@ -26582,6 +27072,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26634,6 +27125,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26688,6 +27180,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26742,6 +27235,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -26970,6 +27464,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27022,6 +27517,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27074,6 +27570,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27126,6 +27623,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "University of Ghana published cut-off points, 2025/26 admissions.",
+        "sourceUrl": "https://admissions.ug.edu.gh/undergraduate/cut-off",
         "year": 2025,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27238,6 +27736,7 @@ export const catalogue: Catalogue = {
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.ug.edu.gh/undergraduate/entry-requirements",
       "overview": "Veterinary Medicine is a 6-year DVM programme at University of Ghana on the full-fee-paying track, offered through the College of Basic and Applied Sciences. Entry is competitive at aggregate 15 or better on the WASSCE best-six.",
       "careers": [
         "Veterinary Surgeon",
@@ -27288,6 +27787,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27342,6 +27842,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27396,6 +27897,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27457,6 +27959,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27511,6 +28014,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27565,6 +28069,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27619,6 +28124,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27682,7 +28188,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -27750,7 +28256,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -27805,6 +28311,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27862,6 +28369,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27923,6 +28431,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -27986,7 +28495,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -28041,6 +28550,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28102,6 +28612,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28156,6 +28667,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28215,7 +28727,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://uhas.edu.gh/admissions",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -28268,6 +28780,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28322,6 +28835,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28374,6 +28888,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28428,6 +28943,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28482,6 +28998,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28536,6 +29053,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28590,6 +29108,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UHAS published cut-off points, 2026/2027 admissions guide.",
+        "sourceUrl": "https://uhas.edu.gh/uhas/index.php/admission/cutoff-points",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28649,7 +29168,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -28704,6 +29223,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28759,11 +29279,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.upsa.edu.gh/admissions/distance-learning-blended-online-learning/",
       "overview": "Accounting is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Accounting and Finance. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Accountant",
@@ -28814,6 +29335,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28868,6 +29390,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28922,6 +29445,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -28976,6 +29500,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29030,6 +29555,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29084,7 +29610,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29139,7 +29665,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29195,11 +29721,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "applyUrl": "https://admissions.upsa.edu.gh/admissions/distance-learning-blended-online-learning/",
       "overview": "Business Administration is a 4-year BSc programme at University of Professional Studies, Accra by distance learning, offered through the Faculty of Management Studies. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "Business Analyst",
@@ -29250,6 +29777,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29304,7 +29832,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29359,6 +29887,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29413,6 +29942,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29467,7 +29997,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29522,6 +30052,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29576,7 +30107,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29631,7 +30162,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29686,6 +30217,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29740,7 +30272,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29795,7 +30327,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29850,7 +30382,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published entry requirements. No per-programme cut-off list is published, so these show the minimum aggregate for admission to the qualification.",
-        "sourceUrl": "https://upsa.edu.gh/admissions",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -29905,6 +30437,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -29959,6 +30492,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "UPSA published programme list. No per-programme cut-off is published, so these show the minimum aggregate for degree admission.",
+        "sourceUrl": "https://admissions.upsa.edu.gh/admissions/undergraduate/undergrad-entry-requirements/",
         "year": 2026,
         "lastVerified": "2026-08-08",
         "confidence": "authoritative"
@@ -30018,7 +30552,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30073,7 +30607,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30128,7 +30662,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30184,7 +30718,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30244,7 +30778,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30299,7 +30833,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30354,7 +30888,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30418,7 +30952,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30473,7 +31007,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Valley View University published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://vvu.edu.gh/admissions",
+        "sourceUrl": "https://admissions.vvu.edu.gh/admissions/website",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30533,11 +31067,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
+        "sourceUrl": "https://wiuc-ghana.edu.gh/how-to-apply/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://wiuc-ghana.edu.gh/undergraduate/school-of-business/",
       "overview": "Accounting is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Business Administration. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Financial Accounting at C6.",
       "careers": [
         "Accountant",
@@ -30588,7 +31123,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
+        "sourceUrl": "https://wiuc-ghana.edu.gh/how-to-apply/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30644,7 +31179,7 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
+        "sourceUrl": "https://wiuc-ghana.edu.gh/how-to-apply/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
@@ -30699,11 +31234,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
+        "sourceUrl": "https://wiuc-ghana.edu.gh/how-to-apply/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://wiuc-ghana.edu.gh/undergraduate/school-of-computing-and-technology/",
       "overview": "Information Technology is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Information Technology. Entry is competitive at aggregate 24 or better on the WASSCE best-six.",
       "careers": [
         "IT Support Specialist",
@@ -30763,11 +31299,12 @@ export const catalogue: Catalogue = {
       },
       "provenance": {
         "source": "Wisconsin International University College published entry requirements. This institution does not publish a per-programme cut-off list; admission is against the national minimum for degree admission.",
-        "sourceUrl": "https://wiuc-ghana.edu.gh/admissions",
+        "sourceUrl": "https://wiuc-ghana.edu.gh/how-to-apply/",
         "year": 2026,
         "lastVerified": "2026-08-07",
         "confidence": "authoritative"
       },
+      "officialUrl": "https://wiuc-ghana.edu.gh/undergraduate/school-of-nursing-midwifery/",
       "overview": "Nursing is a 4-year BSc programme at Wisconsin International University College, offered through the Faculty of Health Sciences. Entry is competitive at aggregate 24 or better on the WASSCE best-six. Applicants also need Biology at C6 and Chemistry at C6.",
       "careers": [
         "Registered Nurse",
@@ -30786,16 +31323,36 @@ export const catalogue: Catalogue = {
   ],
   "deadlines": [
     {
-      "id": "knust-undergraduate",
+      "id": "knust-undergraduate-other",
       "universityId": "knust",
-      "scope": "Undergraduate admissions",
+      "scope": "Undergraduate (mature, top-up, international, and foreign results)",
       "closesOn": "2026-08-31",
+      "tracks": [
+        "other"
+      ],
       "provenance": {
-        "source": "KNUST 2026/2027 undergraduate admissions, as reported by YEN Ghana",
-        "sourceUrl": "https://yen.com.gh/156571-knust-admission-forms-deadline-requirements-portal.html",
+        "source": "KNUST, Admission of Candidates to Undergraduate Degree Programmes for the 2026/2027 Academic Year",
+        "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year",
         "year": 2026,
-        "lastVerified": "2026-08-07",
-        "confidence": "researched"
+        "lastVerified": "2026-08-10",
+        "confidence": "authoritative"
+      }
+    },
+    {
+      "id": "knust-undergraduate-wassce",
+      "universityId": "knust",
+      "scope": "Undergraduate (Ghanaian applicants with WASSCE results)",
+      "closesWhen": "Open until WASSCE results are released",
+      "tracks": [
+        "regular",
+        "fee-paying"
+      ],
+      "provenance": {
+        "source": "KNUST, Admission of Candidates to Undergraduate Degree Programmes for the 2026/2027 Academic Year",
+        "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year",
+        "year": 2026,
+        "lastVerified": "2026-08-10",
+        "confidence": "authoritative"
       }
     },
     {
@@ -30803,6 +31360,9 @@ export const catalogue: Catalogue = {
       "universityId": "ucc",
       "scope": "Regular First Degree",
       "closesOn": "2026-06-15",
+      "tracks": [
+        "regular"
+      ],
       "provenance": {
         "source": "University of Cape Coast, Admission of Regular First Degree Students 2026/2027",
         "sourceUrl": "https://admissions.ucc.edu.gh/announcement/admission-of-regular-first-degree-students-20262027",
@@ -30829,6 +31389,11 @@ export const catalogue: Catalogue = {
       "universityId": "ug",
       "scope": "General Undergraduate (Ghanaian applicants)",
       "closesWhen": "Open until WASSCE results are released",
+      "tracks": [
+        "regular",
+        "fee-paying",
+        "city-campus"
+      ],
       "provenance": {
         "source": "University of Ghana admissions deadlines page",
         "sourceUrl": "https://admissions.ug.edu.gh/deadlines",

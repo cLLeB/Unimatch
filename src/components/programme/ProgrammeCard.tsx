@@ -85,8 +85,14 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
           </div>
 
           <div className="mt-3 flex flex-wrap gap-1">
+            {/*
+              * Careers are descriptive labels, not a status. Rendering them as
+              * `info` gave every card a row of blue pills competing with the
+              * eligibility badge, which is the one thing on the card that does
+              * carry status.
+              */}
             {(programme.careers ?? []).slice(0, 3).map((career) => (
-              <Badge key={career} variant="info">
+              <Badge key={career} variant="neutral">
                 {career}
               </Badge>
             ))}

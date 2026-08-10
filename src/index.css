@@ -15,9 +15,18 @@
   --color-brand-deep: #134e4a;
   --color-brand-subtle: #f0fdf9;
 
-  /* Secondary / accent / status */
-  --color-secondary: #2563eb;
-  --color-secondary-hover: #1d4ed8;
+  /*
+   * Secondary / accent / status
+   *
+   * Secondary is a deeper shade of the brand, not a second hue. It used to be
+   * royal blue, which put a bright blue "Compare Now" button and blue career
+   * tags on an otherwise teal screen and read as two products spliced
+   * together. Comparison is a lower-emphasis sibling of the primary action,
+   * so it says so in shade rather than in hue, and the only colours that
+   * change hue are the ones carrying status: success, warning, danger.
+   */
+  --color-secondary: #115e56;
+  --color-secondary-hover: #0d4a44;
   --color-accent: #f59e0b;
   --color-success: #22c55e;
   --color-danger: #ef4444;
@@ -53,9 +62,15 @@
   --color-badge-danger: #fef2f2;
   --color-badge-danger-ink: #b91c1c;
   --color-badge-danger-line: #fecaca;
-  --color-badge-info: #eff6ff;
-  --color-badge-info-ink: #1d4ed8;
-  --color-badge-info-line: #bfdbfe;
+  /*
+   * "Confirmed 2026/27" is the trust mark on every cut-off, so it wears the
+   * brand rather than a blue borrowed from a default palette. It was the last
+   * unrelated hue on a card that already carries a green eligibility badge and
+   * an amber warning one.
+   */
+  --color-badge-info: #f0fdf9;
+  --color-badge-info-ink: #0f766e;
+  --color-badge-info-line: #99e6dc;
   --color-badge-neutral: #f1f5f9;
   --color-badge-neutral-ink: #475569;
   --color-badge-neutral-line: #e2e8f0;
@@ -63,7 +78,8 @@
   /* On-gradient text (hero, summary card, programme header) */
   --color-on-brand: #99d9d4;
   --color-on-brand-bright: #a5f3ef;
-  --color-on-secondary: #a5c3f7;
+  /* Sits on the teal summary card, so it is a tint of teal, not of blue. */
+  --color-on-secondary: #a8d5d0;
 
   /*
    * Footer.
@@ -108,8 +124,8 @@
     --color-brand-hover: #5eead4;
     --color-brand-subtle: #10261f;
     --color-brand-deep: #0b3b36;
-    --color-secondary: #60a5fa;
-    --color-secondary-hover: #93c5fd;
+    --color-secondary: #5eead4;
+    --color-secondary-hover: #99f6e4;
 
     /*
      * A banner keeps the brand's hue without its brightness, and the text on
@@ -136,8 +152,8 @@
     --color-badge-danger-ink: #f87171;
     --color-badge-danger-line: #5a2626;
     --color-badge-info: transparent;
-    --color-badge-info-ink: #7dd3fc;
-    --color-badge-info-line: #1e3a6b;
+    --color-badge-info-ink: #5eead4;
+    --color-badge-info-line: #17544d;
     --color-badge-neutral: transparent;
     --color-badge-neutral-ink: #93a4bd;
     --color-badge-neutral-line: #24314a;

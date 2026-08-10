@@ -107,6 +107,9 @@ export default function EligibilityPage() {
     // Matching is computed locally and instantly, there is nothing to wait
     // for, so we don't manufacture a loading delay.
     setResults(draftResults)
+    // Straight to the payoff. The hub is where she returns later; making her
+    // pass through it here would put a click between entering grades and
+    // seeing what they qualify her for.
     navigate('/dashboard')
   }
 
@@ -304,7 +307,7 @@ export default function EligibilityPage() {
 
         <Button
           size="lg"
-          className="w-full"
+          fullWidth
           onClick={handleSubmit}
           icon={<Search size={18} aria-hidden="true" />}
         >

@@ -1,4 +1,4 @@
-import { Bell, Menu, X } from 'lucide-react'
+import { Bell, Menu } from 'lucide-react'
 import { useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { cn } from '../../lib/cn'
@@ -6,6 +6,7 @@ import { useAuth } from '../../state/AuthProvider'
 import { useStudent } from '../../state/StudentProvider'
 import Button, { LinkButton } from '../ui/Button'
 import Logo from './Logo'
+import NavMenu from './NavMenu'
 import { PRIMARY_NAV } from './navItems'
 
 /**
@@ -24,15 +25,11 @@ const PUBLIC_NAV = [
 ] as const
 
 /**
- * What the navbar keeps inside the app.
- *
- * It used to render nothing but the logo on these screens, so the only way out
- * of the signed-in shell was clicking the wordmark. The sidebar already owns
- * Matches and Universities, so repeating them would rebuild the duplication
- * this navigation was consolidated to remove. What is left is the way home and
- * the explainer, neither of which the sidebar has.
+ * Inside the app the wide navbar carries the primary destinations, because at
+ * `md` there is no sidebar yet and no tab bar either — that band had no
+ * navigation at all. Below `md` the menu button carries the full map.
  */
-const APP_NAV = PUBLIC_NAV.filter((item) => item.to === '/' || item.to === '/#faq')
+const APP_NAV = PRIMARY_NAV.map(({ label, to }) => ({ label, to }))
 
 /**
  * Routes that render inside the signed-in shell, where the sidebar and tab bar
@@ -40,6 +37,7 @@ const APP_NAV = PUBLIC_NAV.filter((item) => item.to === '/' || item.to === '/#fa
  * full public navbar.
  */
 const APP_ROUTES = [
+  '/home',
   '/dashboard',
   '/programme',
   '/simulator',
@@ -65,7 +63,7 @@ export function shortNameOf(name: string): string {
 }
 
 export default function Navbar() {
-  const [mobileOpen, setMobileOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const { pathname } = useLocation()
   const { state, hasResults } = useStudent()
   const { enabled: accountsEnabled, session } = useAuth()
@@ -77,7 +75,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-line bg-surface/90 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 lg:px-6">
-        <Logo />
+        <Logo to={inApp ? '/home' : '/'} />
 
         <div className="hidden items-center gap-1 md:flex">
           {(inApp ? APP_NAV : PUBLIC_NAV).map((item) => (
@@ -140,43 +138,26 @@ export default function Navbar() {
             </>
           )}
 
-          {/* In-app this holds the way home, which the tab bar does not carry. */}
+          {/*
+            The menu holds the entire map, on every screen size. It used to be
+            `md:hidden` and to list two links inside the app, so a student on a
+            phone could not reach the simulator, the advisor, comparison or the
+            legal pages at all.
+          */}
           <Button
             variant="ghost"
-            size="sm"
-            className="p-2 md:hidden"
-            aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-            aria-expanded={mobileOpen}
-            onClick={() => setMobileOpen((open) => !open)}
+            size="md"
+            iconOnly
+            icon={<Menu className="size-5" aria-hidden="true" />}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen(true)}
           >
-            {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            Open menu
           </Button>
         </div>
       </div>
 
-      {mobileOpen && (
-        <div className="space-y-1 border-t border-line bg-surface px-4 py-3 md:hidden">
-          {(inApp ? APP_NAV : PUBLIC_NAV).map((item) => (
-            <Link
-              key={item.label}
-              to={item.to}
-              onClick={() => setMobileOpen(false)}
-              className="block rounded-lg px-3 py-2.5 text-sm text-ink-muted transition-colors hover:bg-canvas hover:text-ink"
-            >
-              {item.label}
-            </Link>
-          ))}
-          {!inApp && (
-            <Link
-              to={PRIMARY_NAV[0].to}
-              onClick={() => setMobileOpen(false)}
-              className="block rounded-lg px-3 py-2.5 text-sm font-medium text-brand"
-            >
-              My matches
-            </Link>
-          )}
-        </div>
-      )}
+      <NavMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
     </nav>
   )
 }

@@ -23,7 +23,9 @@
     "data:programmes": "tsx scripts/build-programmes.ts",
     "supabase:config": "npx -y supabase@2.48.3 config push --project-ref fttzuizvvwekmjtdqgmh --yes",
     "data:functions": "tsx scripts/build-function-data.ts",
-    "functions:deploy": "npx -y supabase@2.48.3 functions deploy send-deadline-reminders unsubscribe --project-ref fttzuizvvwekmjtdqgmh --no-verify-jwt"
+    "functions:deploy": "npx -y supabase@2.48.3 functions deploy send-deadline-reminders unsubscribe --project-ref fttzuizvvwekmjtdqgmh --no-verify-jwt",
+    "data:audit-links": "tsx scripts/audit-links.ts",
+    "data:apply-links": "tsx scripts/apply-links.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

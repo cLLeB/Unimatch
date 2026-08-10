@@ -1,24 +1,16 @@
-import { Brain, Clock, LogOut } from 'lucide-react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { cn } from '../../lib/cn'
-import { useStudent } from '../../state/StudentProvider'
-import { isNavItemActive, PRIMARY_NAV } from './navItems'
+import { ACCOUNT_NAV, PRIMARY_NAV, TOOL_NAV, isNavItemActive } from './navItems'
 
 /**
- * Reached in context rather than competing for a primary slot.
+ * Desktop navigation, reading the same map as the tab bar and the menu.
  *
- * Home used to sit here as well. It belongs in the navbar, which now stays put
- * on these screens, so the way out of the app is always in the same place
- * rather than in a sidebar that is hidden below `lg`.
+ * It used to end in a "Clear my data" button, a destructive action sitting
+ * permanently in the navigation where a mis-tap wiped a student's grades and
+ * shortlist without confirming. That now lives on the profile, behind a
+ * confirm, and only appears once there is data to lose.
  */
-const SECONDARY_NAV = [
-  { label: 'Deadlines', to: '/deadlines', icon: Clock },
-  { label: 'Advisor', to: '/advisor', icon: Brain },
-] as const
-
 export default function Sidebar() {
-  const { signOut } = useStudent()
-  const navigate = useNavigate()
   const { pathname } = useLocation()
 
   const linkClass = (active: boolean) =>
@@ -27,48 +19,38 @@ export default function Sidebar() {
       active ? 'bg-brand-subtle text-brand' : 'text-ink-muted hover:bg-canvas hover:text-ink',
     )
 
-  return (
-    <aside className="hidden min-h-[calc(100vh-4rem)] w-56 shrink-0 flex-col border-r border-line bg-surface px-3 pb-4 pt-6 lg:flex">
-      {/* Same five destinations as the mobile tab bar, in the same order. */}
-      <nav className="space-y-1" aria-label="Sections">
-        {PRIMARY_NAV.map(({ label, to, icon: Icon }) => {
+  const section = (title: string, items: typeof PRIMARY_NAV) => (
+    <div>
+      <h2 className="px-3 pb-1 text-xs font-semibold uppercase tracking-wide text-ink-muted/70">
+        {title}
+      </h2>
+      <ul className="space-y-1">
+        {items.map(({ label, to, icon: Icon }) => {
           const active = isNavItemActive(to, pathname)
           return (
-            <Link
-              key={to}
-              to={to}
-              aria-current={active ? 'page' : undefined}
-              className={linkClass(active)}
-            >
-              <Icon size={18} aria-hidden="true" />
-              {label}
-            </Link>
+            <li key={to}>
+              <Link
+                to={to}
+                aria-current={active ? 'page' : undefined}
+                className={linkClass(active)}
+              >
+                <Icon size={18} aria-hidden="true" />
+                {label}
+              </Link>
+            </li>
           )
         })}
+      </ul>
+    </div>
+  )
+
+  return (
+    <aside className="hidden min-h-[calc(100vh-4rem)] w-56 shrink-0 flex-col gap-5 border-r border-line bg-surface px-3 pb-4 pt-6 lg:flex">
+      <nav className="space-y-5" aria-label="Sections">
+        {section('Your application', PRIMARY_NAV)}
+        {section('Tools', TOOL_NAV)}
+        {section('Account', ACCOUNT_NAV)}
       </nav>
-
-      <div className="my-3 border-t border-line" />
-
-      <nav className="flex-1 space-y-1" aria-label="More">
-        {SECONDARY_NAV.map(({ label, to, icon: Icon }) => (
-          <Link key={to} to={to} className={linkClass(pathname === to)}>
-            <Icon size={18} aria-hidden="true" />
-            {label}
-          </Link>
-        ))}
-      </nav>
-
-      <button
-        type="button"
-        onClick={() => {
-          signOut()
-          navigate('/')
-        }}
-        className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-ink-muted transition-all hover:bg-red-50 hover:text-danger"
-      >
-        <LogOut size={18} aria-hidden="true" />
-        Clear my data
-      </button>
     </aside>
   )
 }

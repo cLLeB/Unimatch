@@ -24,7 +24,13 @@ export default function BottomNav() {
       aria-label="Primary"
       className={cn(
         'fixed inset-x-0 bottom-0 z-40 lg:hidden',
-        'border-t border-line bg-surface/95 backdrop-blur-md',
+        /*
+         * Opaque, not translucent. At 95% with a blur, page text showed
+         * through the bar and read as content sliding under broken
+         * navigation rather than as depth — and it dulled the labels sitting
+         * on top of it.
+         */
+        'border-t border-line bg-surface',
         // Clear of the iOS home indicator and Android gesture bar.
         'pb-[env(safe-area-inset-bottom)]',
       )}

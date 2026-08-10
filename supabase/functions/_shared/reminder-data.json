@@ -590,11 +590,17 @@
       "sourceUrl": "https://admissions.ug.edu.gh/deadlines"
     },
     {
-      "id": "knust-undergraduate",
+      "id": "knust-undergraduate-wassce",
       "universityId": "knust",
-      "scope": "Undergraduate admissions",
+      "scope": "Undergraduate (Ghanaian applicants with WASSCE results)",
+      "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year"
+    },
+    {
+      "id": "knust-undergraduate-other",
+      "universityId": "knust",
+      "scope": "Undergraduate (mature, top-up, international, and foreign results)",
       "closesOn": "2026-08-31",
-      "sourceUrl": "https://yen.com.gh/156571-knust-admission-forms-deadline-requirements-portal.html"
+      "sourceUrl": "https://www.knust.edu.gh/index.php/announcements/undergraduate-admissions/admission-candidates-undergraduate-degree-programmes-20262027-academic-year"
     },
     {
       "id": "ucc-regular-first-degree",

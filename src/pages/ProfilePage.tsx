@@ -1,4 +1,4 @@
-import { Check, LogOut, Plus, Search, Settings, Share2, Trash2 } from 'lucide-react'
+import { Check, ExternalLink, LogOut, Plus, Search, Settings, Share2, Trash2 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -8,31 +8,30 @@ import Card from '../components/ui/Card'
 import Select from '../components/ui/Select'
 import Toggle from '../components/ui/Toggle'
 import { initialsOf } from '../components/layout/Navbar'
-import { getProgramme, universityNameOf, programmeLabel } from '../data/catalogue'
+import {
+  applyUrlOf,
+  deadlines,
+  getProgramme,
+  universityNameOf,
+  programmeLabel,
+} from '../data/catalogue'
+import { buildChecklist, type ChecklistTask } from '../domain/checklist/tasks'
 import { SHS_TRACKS } from '../domain/wassce/subjects'
-import type { Programme } from '../domain/catalogue/types'
+import type { DeadlineStatus, Programme } from '../domain/catalogue/types'
 import { useEligibility } from '../hooks/useEligibility'
+import { useAuth } from '../state/AuthProvider'
 import { useStudent } from '../state/StudentProvider'
+import { hasContent } from '../state/types'
 
-interface ChecklistItem {
-  id: string
-  label: string
-  /** Derived items cannot be ticked by hand, they reflect real progress. */
-  derived?: boolean
+const DEADLINE_TONE: Record<DeadlineStatus, string> = {
+  open: 'text-success',
+  'closing-soon': 'text-accent',
+  closed: 'text-danger',
+  'open-ended': 'text-success',
 }
 
-const CHECKLIST: ChecklistItem[] = [
-  { id: 'enter-grades', label: 'Enter WASSCE grades', derived: true },
-  { id: 'review', label: 'Review eligible programmes', derived: true },
-  { id: 'save-top-5', label: 'Save 5 programmes', derived: true },
-  { id: 'compare', label: 'Compare shortlisted programmes', derived: true },
-  { id: 'set-reminders', label: 'Set deadline reminders', derived: true },
-  { id: 'submit', label: 'Submit applications' },
-]
-
 function ProfileCard() {
-  const { state, updateProfile, aggregate, setTheme, signOut } = useStudent()
-  const navigate = useNavigate()
+  const { state, updateProfile, aggregate, setTheme } = useStudent()
   const [editing, setEditing] = useState(false)
 
   return (
@@ -90,7 +89,7 @@ function ProfileCard() {
                 placeholder="Select track"
               />
             </div>
-            <Button className="w-full" onClick={() => setEditing(false)}>
+            <Button fullWidth onClick={() => setEditing(false)}>
               Done
             </Button>
           </div>
@@ -128,7 +127,7 @@ function ProfileCard() {
 
             <Button
               variant="outline"
-              className="w-full"
+              fullWidth
               icon={<Settings size={16} aria-hidden="true" />}
               onClick={() => setEditing(true)}
             >
@@ -139,7 +138,7 @@ function ProfileCard() {
       </Card>
 
       <Card className="p-5">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-4">
           <div>
             <div className="text-sm font-medium text-ink">Dark Mode</div>
             <div className="text-xs text-ink-muted">Easier on the eyes at night</div>
@@ -152,17 +151,80 @@ function ProfileCard() {
         </div>
       </Card>
 
+      <AccountActions />
+    </div>
+  )
+}
+
+/**
+ * What sits at the bottom of the profile depends on whether there is an
+ * account, and there usually is not.
+ *
+ * A full-width red "Log Out" used to render for everyone, including a student
+ * who had never signed in to anything — the loudest control on her screen
+ * offering to end a session that did not exist. `signOut` here only ever wiped
+ * device-local data, so on this deployment it was a data-wipe button wearing
+ * the word "Log Out".
+ *
+ * Now: an account gets a real log out; a student without one gets the offer to
+ * keep her work, and a wipe only once there is something to lose.
+ */
+function AccountActions() {
+  const { state, signOut } = useStudent()
+  const { enabled: accountsEnabled, session } = useAuth()
+  const navigate = useNavigate()
+
+  if (session) {
+    return (
       <Button
-        variant="danger"
-        className="w-full"
+        variant="outline"
+        fullWidth
         icon={<LogOut size={16} aria-hidden="true" />}
         onClick={() => {
           signOut()
           navigate('/')
         }}
       >
-        Log Out
+        Log out
       </Button>
+    )
+  }
+
+  return (
+    <div className="space-y-3">
+      {accountsEnabled && (
+        <Card className="p-5">
+          <div className="text-sm font-medium text-ink">Keep your work</div>
+          <p className="mt-1 text-xs text-ink-muted">
+            Your grades and shortlist live on this phone only. An account carries them to any
+            device.
+          </p>
+          <LinkButton to="/signup" fullWidth className="mt-3">
+            Create an account
+          </LinkButton>
+        </Card>
+      )}
+
+      {hasContent(state) && (
+        <Button
+          variant="ghost"
+          fullWidth
+          className="text-danger hover:bg-badge-danger"
+          icon={<Trash2 size={16} aria-hidden="true" />}
+          onClick={() => {
+            if (
+              window.confirm(
+                'This clears your grades, shortlist and comparisons from this device. It cannot be undone.',
+              )
+            ) {
+              signOut()
+              navigate('/')
+            }
+          }}
+        >
+          Clear my data on this device
+        </Button>
+      )}
     </div>
   )
 }
@@ -220,33 +282,129 @@ function SavedProgrammes({ saved }: { saved: Programme[] }) {
   )
 }
 
+/**
+ * One row of the checklist.
+ *
+ * A derived task shows a read-only dot, because ticking it by hand would be a
+ * claim the app can check for itself. A manual one is a real checkbox, and it
+ * carries the link out to the portal where the work actually happens.
+ */
+function ChecklistRow({
+  task,
+  onToggle,
+}: {
+  task: ChecklistTask
+  onToggle: (id: string, done: boolean) => void
+}) {
+  const label = (
+    <span className={task.done ? 'text-ink-muted line-through' : 'text-ink'}>{task.label}</span>
+  )
+
+  return (
+    <li className="flex items-start gap-2.5">
+      {task.manual ? (
+        <input
+          type="checkbox"
+          id={`check-${task.id}`}
+          checked={task.done}
+          onChange={(event) => onToggle(task.id, event.target.checked)}
+          className="mt-0.5 size-5 shrink-0 rounded-full accent-[var(--color-brand)]"
+        />
+      ) : (
+        <span
+          className={`mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full border ${
+            task.done ? 'border-success bg-success text-white' : 'border-line'
+          }`}
+          aria-hidden="true"
+        >
+          {task.done && <Check size={12} strokeWidth={3} />}
+        </span>
+      )}
+
+      <div className="min-w-0 flex-1 text-sm">
+        {task.manual ? (
+          <label htmlFor={`check-${task.id}`} className="block">
+            {label}
+          </label>
+        ) : task.href && !task.done ? (
+          <Link to={task.href} className="block hover:underline">
+            {label}
+          </Link>
+        ) : (
+          <span className="block">{label}</span>
+        )}
+
+        {task.detail && <div className="text-xs text-ink-muted">{task.detail}</div>}
+
+        {task.external && task.href && (
+          <a
+            href={task.href}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-brand hover:underline"
+          >
+            Open the portal
+            <ExternalLink size={11} aria-hidden="true" />
+          </a>
+        )}
+      </div>
+    </li>
+  )
+}
+
+/**
+ * The checklist, built from what the student has actually done.
+ *
+ * It grows: the five setup steps are there from the start, and every
+ * programme she shortlists adds its own block with that university's real
+ * deadline and portal. The list was previously six fixed lines that read the
+ * same for every student and never said how far through anything you were.
+ */
 function ApplicationChecklist() {
   const { state, setChecklistItem, hasResults } = useStudent()
+  const { byId, qualifiedCount } = useEligibility()
 
-  const derivedState: Record<string, boolean> = {
-    'enter-grades': hasResults,
-    review: hasResults,
-    'save-top-5': state.savedProgrammeIds.length >= 5,
-    compare: state.comparedProgrammeIds.length >= 2,
-    'set-reminders': state.reminders.email || state.reminders.sms || state.reminders.whatsapp,
-    submit: state.checklist.submit ?? false,
-  }
+  const checklist = useMemo(() => {
+    const savedProgrammes = state.savedProgrammeIds
+      .map((id) => getProgramme(id))
+      .filter((p): p is Programme => p !== undefined)
 
-  const done = CHECKLIST.filter((item) => derivedState[item.id]).length
-  const percent = Math.round((done / CHECKLIST.length) * 100)
+    return buildChecklist({
+      hasResults,
+      qualifiedCount,
+      savedProgrammes,
+      comparedCount: state.comparedProgrammeIds.length,
+      remindersOn:
+        state.reminders.email || state.reminders.sms || state.reminders.whatsapp,
+      manual: state.checklist,
+      hasReviewed: state.checklist.review ?? false,
+      deadlines,
+      verdictOf: (id) => byId.get(id),
+      applyUrlOf,
+      universityNameOf,
+    })
+  }, [
+    byId,
+    hasResults,
+    qualifiedCount,
+    state.checklist,
+    state.comparedProgrammeIds.length,
+    state.reminders,
+    state.savedProgrammeIds,
+  ])
 
   return (
     <Card className="p-6">
       <h2 className="mb-1 text-lg font-bold text-ink">Application Checklist</h2>
       <div className="mb-2 flex justify-between text-xs text-ink-muted">
         <span>
-          {done}/{CHECKLIST.length} complete
+          {checklist.done}/{checklist.total} complete
         </span>
-        <span>{percent}%</span>
+        <span>{checklist.percent}%</span>
       </div>
       <div
         role="progressbar"
-        aria-valuenow={percent}
+        aria-valuenow={checklist.percent}
         aria-valuemin={0}
         aria-valuemax={100}
         aria-label="Application progress"
@@ -254,43 +412,44 @@ function ApplicationChecklist() {
       >
         <div
           className="h-full rounded-full bg-brand transition-all duration-300"
-          style={{ width: `${percent}%` }}
+          style={{ width: `${checklist.percent}%` }}
         />
       </div>
 
       <ul className="space-y-2.5">
-        {CHECKLIST.map((item) => {
-          const complete = derivedState[item.id]
-          return (
-            <li key={item.id} className="flex items-center gap-2.5">
-              {item.derived ? (
-                <span
-                  className={`flex size-5 shrink-0 items-center justify-center rounded-full border ${
-                    complete ? 'border-success bg-success text-white' : 'border-line'
-                  }`}
-                  aria-hidden="true"
-                >
-                  {complete && <Check size={12} strokeWidth={3} />}
-                </span>
-              ) : (
-                <input
-                  type="checkbox"
-                  id={`check-${item.id}`}
-                  checked={complete}
-                  onChange={(event) => setChecklistItem(item.id, event.target.checked)}
-                  className="size-5 shrink-0 rounded-full accent-[var(--color-brand)]"
-                />
-              )}
-              <label
-                htmlFor={item.derived ? undefined : `check-${item.id}`}
-                className={`text-sm ${complete ? 'text-ink-muted line-through' : 'text-ink'}`}
-              >
-                {item.label}
-              </label>
-            </li>
-          )
-        })}
+        {checklist.steps.map((task) => (
+          <ChecklistRow key={task.id} task={task} onToggle={setChecklistItem} />
+        ))}
       </ul>
+
+      {checklist.applications.length === 0 ? (
+        <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
+          Save a programme and its own steps — entry requirement, deadline and portal — appear
+          here.
+        </p>
+      ) : (
+        <div className="mt-4 space-y-4 border-t border-line pt-4">
+          {checklist.applications.map((plan) => (
+            <div key={plan.programmeId}>
+              <div className="flex flex-wrap items-baseline justify-between gap-x-3">
+                <h3 className="text-sm font-semibold text-ink">
+                  {plan.universityName} · {plan.programmeName}
+                </h3>
+                {plan.deadlineLabel && plan.deadlineStatus && (
+                  <span className={`text-xs font-medium ${DEADLINE_TONE[plan.deadlineStatus]}`}>
+                    {plan.deadlineLabel}
+                  </span>
+                )}
+              </div>
+              <ul className="mt-2 space-y-2.5">
+                {plan.tasks.map((task) => (
+                  <ChecklistRow key={task.id} task={task} onToggle={setChecklistItem} />
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
     </Card>
   )
 }

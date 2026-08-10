@@ -95,7 +95,21 @@ export interface University {
   shortName: string
   city: string
   region: string
+  /**
+   * Where an applicant actually applies: the online portal where one exists,
+   * otherwise the university's own "how to apply" page.
+   *
+   * These are three distinct destinations and conflating them is how the
+   * catalogue ended up sending students to a 404. Every university here was
+   * assumed to serve `<domain>/admissions`; seventeen of the nineteen did not,
+   * and one of those redirected to a job advert for an admissions officer.
+   * Each URL is now checked against the live site by scripts/audit-links.ts.
+   */
   admissionsUrl?: string
+  /** The university's own catalogue of undergraduate programmes. */
+  programmesUrl?: string
+  /** Where the university publishes cut-offs or minimum entry requirements. */
+  cutoffUrl?: string
 }
 
 /**
@@ -134,6 +148,25 @@ export interface Programme {
   qualificationLevel: QualificationLevel
   requirements: EntryRequirements
   provenance: Provenance
+
+  /**
+   * This exact programme's page on the university's own site, where the
+   * university publishes one.
+   *
+   * Present for 198 of the 546 records. The rest fall back to their
+   * university's programme catalogue rather than guess at a URL: a link that
+   * lands on the wrong programme is worse than one that lands on the list the
+   * student can search.
+   */
+  officialUrl?: string
+
+  /**
+   * Track-specific entry point, where a university runs its distance or
+   * fee-paying admissions through a separate body. KNUST's distance
+   * programmes are the Institute of Distance Learning's, not the main
+   * portal's, and applying at the wrong one wastes the voucher.
+   */
+  applyUrl?: string
 
   /**
    * Everything below is optional and omitted when we do not have a sourced
@@ -175,6 +208,20 @@ export interface AdmissionDeadline {
   closesOn?: string
   /** The published condition, e.g. "Open until WASSCE results are released". */
   closesWhen?: string
+  /**
+   * Admission tracks this date governs, where a university publishes several.
+   *
+   * KNUST closes on 31 August for mature, top-up and international applicants
+   * but stays open until WASSCE results are released for Ghanaian WASSCE
+   * applicants — who are almost everyone here. Showing the soonest date to all
+   * of them would put a false countdown on the regular track.
+   *
+   * `'other'` names an audience outside the tracks we model — mature entry,
+   * top-up, international. Such a deadline is listed on the deadlines page,
+   * where its scope explains who it is for, and never attached to a
+   * programme. Omitting `tracks` means it governs every track.
+   */
+  tracks?: (AdmissionTrack | 'other')[]
   provenance: Provenance
 }
 
