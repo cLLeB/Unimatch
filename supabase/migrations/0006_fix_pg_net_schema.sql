@@ -1,4 +1,4 @@
--- UniMatch Ghana — call pg_net by its real schema
+-- UniMatch Ghana: call pg_net by its real schema
 --
 -- 0003 and 0004 called extensions.net.http_post(). pg_net does not live under
 -- extensions: it creates its own `net` schema and puts http_post there,

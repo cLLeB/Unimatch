@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import { signUserId, unsubscribeUrl, verifyUserId } from './signature.ts'
 
 // The suite runs under jsdom, whose crypto shim has no subtle. Deno gives the
-// function the real thing, so Node's WebCrypto — the same standard API — stands
+// function the real thing, so Node's WebCrypto, the same standard API, stands
 // in here. The alternative, switching this file to the node environment, breaks
 // on the shared jsdom setup file.
 if (!globalThis.crypto?.subtle) {

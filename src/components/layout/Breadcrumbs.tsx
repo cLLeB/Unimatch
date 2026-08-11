@@ -20,7 +20,7 @@ export interface Crumb {
  *
  * The back arrow is separate and does mean "where I came from". It uses
  * history when there is in-app history to use, and the parent crumb when
- * there is not — a deep link from search, or a shared URL, has no history to
+ * there is not. A deep link from search, or a shared URL, has no history to
  * go back to and would otherwise leave the app.
  */
 export default function Breadcrumbs({

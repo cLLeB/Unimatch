@@ -13,7 +13,7 @@ import {
  *
  * The old map broke quietly: the navbar listed seven destinations, the sidebar
  * another seven and the tab bar five, none of them agreeing, and the in-app
- * menu had shrunk to two links — which left the simulator, the advisor and
+ * menu had shrunk to two links, which left the simulator, the advisor and
  * comparison unreachable on a phone. Nothing failed, because nothing checked.
  */
 

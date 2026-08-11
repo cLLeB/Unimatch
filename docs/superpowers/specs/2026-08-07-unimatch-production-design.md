@@ -1,4 +1,4 @@
-# UniMatch Ghana — Production Design
+# UniMatch Ghana: Production Design
 
 **Date:** 2026-08-07
 **Status:** Draft for review
@@ -11,8 +11,8 @@
 UniMatch Ghana helps Ghanaian SHS graduates discover which university programmes they
 qualify for based on their WASSCE results. The project exists today as:
 
-- A **Figma Make prototype** (9 designed screens, view-only access) — the product intent.
-- A **GitHub repo** (`EnamAbra/Unimatch`, 2 commits) — a partial, non-building implementation
+- A **Figma Make prototype** (9 designed screens, view-only access), the product intent.
+- A **GitHub repo** (`EnamAbra/Unimatch`, 2 commits), a partial, non-building implementation
   of 4 of those 9 screens.
 
 This document defines the target design for taking that from a broken UI shell to a
@@ -24,7 +24,7 @@ production product real students can rely on.
 |---|---|
 | Figma Make prototype (screenshots) | Product scope, screen designs, copy, interaction states |
 | Original Figma Make brief | Design tokens, typography, feature list, UX requirements |
-| Repo root tree (`components/`, `pages/`, `lib/`, `types/`) | The Make code export — 27/30 components byte-identical to `src/` |
+| Repo root tree (`components/`, `pages/`, `lib/`, `types/`) | The Make code export, 27/30 components byte-identical to `src/` |
 | Repo `src/` tree | Enam's Vite app: the export copied in, plus a hand-built landing page |
 
 Where the prototype and correctness conflict, **correctness wins** (see §7).
@@ -48,7 +48,7 @@ The pushed `main` branch is non-functional. `/` crashes on missing exports from
 
 1. **Duplicated tree.** The Make export sits at the repo root; `src/` is a partial copy.
    `index.html` loads `/src/main.tsx` and `tsconfig.json` includes only `src`, so the root
-   tree is dead — but it holds four files `src/` is missing (`ViewDetails.tsx`,
+   tree is dead, but it holds four files `src/` is missing (`ViewDetails.tsx`,
    `DeadlineCard.tsx`, `DeadlinesHeader.tsx`, `lib/statusColors.ts`) and five missing types
    (`DeadlineStatus`, `DeadlineEntry`, `StudentDetails`, `SavedProgrammeSummary`,
    `ChecklistItem`).
@@ -83,7 +83,7 @@ itself:
 No persistence (all `useState`, lost on refresh), no auth, no backend, no real cut-off data,
 no tests, no CI, no deploy config, no SPA rewrite rule. `.history/` is committed.
 Deadlines store a static `daysLeft` that can never count down, on an already-stale
-2024–2025 calendar.
+2024/2025 calendar.
 
 ---
 
@@ -112,7 +112,7 @@ Plus `/login`, `/signup`, and a real `*` → 404 (today it silently redirects).
 1. **The eligibility engine is the product.** It is pure, framework-free TypeScript with no
    React imports, and it is exhaustively tested. Everything else is delivery.
 2. **Derive, never store, what can be computed.** `qualifies`, `daysLeft`, `status`,
-   qualified counts, university counts — all derived. This deletes an entire class of
+   qualified counts, university counts, all derived. This deletes an entire class of
    data-contradiction bugs by construction.
 3. **Never assert what isn't verified.** Every cut-off carries provenance. Unverified data
    is labelled in the UI. Marketing claims reflect reality (§8).
@@ -127,7 +127,7 @@ Plus `/login`, `/signup`, and a real `*` → 404 (today it silently redirects).
 ### 5.1 Repo consolidation
 
 One tree under `src/`. The root duplicate is deleted after harvesting the four missing
-files and five types — it remains permanently recoverable from commit `172dd37`.
+files and five types, and it remains permanently recoverable from commit `172dd37`.
 `.history/` deleted and added to `.gitignore`.
 
 ### 5.2 Shell
@@ -145,13 +145,13 @@ AppLayout         → Navbar + Sidebar                   → all app routes
 This removes the `min-h-screen / Navbar / flex / Sidebar` boilerplate currently
 copy-pasted into all four pages.
 
-### 5.3 The domain engine — `src/domain/`
+### 5.3 The domain engine: `src/domain/`
 
 No React. No imports from `src/components` or `src/pages`. 100% unit-test coverage target.
 
 ```
 domain/wassce/
-  grade.ts        Grade union A1..F9, toPoints (1..9), isCreditPass (A1–C6)
+  grade.ts        Grade union A1..F9, toPoints (1..9), isCreditPass (A1 to C6)
   aggregate.ts    computeAggregate(results) → AggregateResult
   eligibility.ts  evaluate(programme, results) → Verdict
   inverse.ts      improvementsToQualify(programme, results) → Improvement[]
@@ -163,7 +163,7 @@ domain/deadlines/
 ```
 
 **Aggregate.** Best six: English + Core Maths + the better of (Integrated Science,
-Social Studies) + the best three of up to four electives. Only A1–C6 count as credit
+Social Studies) + the best three of up to four electives. Only A1 to C6 count as credit
 passes. Range 6 (best) to 36.
 
 **Verdict** is a three-state discriminated union, matching the prototype's badges:
@@ -218,9 +218,9 @@ interface Provenance {
 `npm run data:import <file>` validates and merges; CI fails on invalid records. The UI
 badges anything below `authoritative`.
 
-One source of truth, two sinks — so adding the backend doesn't rewrite the pipeline.
+One source of truth, two sinks, so adding the backend doesn't rewrite the pipeline.
 
-### 5.5 Persistence — repository pattern
+### 5.5 Persistence: repository pattern
 
 ```
 ProfileRepository | SavedProgrammesRepository | ChecklistRepository | SearchHistoryRepository
@@ -230,7 +230,7 @@ LocalStorageRepository   (Phase 3)  →  SupabaseRepository   (Phase 4)
 
 Swapped at a provider. Same interface, so Phase 4 changes no UI code.
 
-### 5.6 Advisor — deterministic, not an LLM
+### 5.6 Advisor: deterministic, not an LLM
 
 Chosen over an LLM backend because it **cannot be wrong about eligibility**, costs nothing,
 and returns instantly. An intent parser over the domain engine:
@@ -271,8 +271,8 @@ and most components use raw Tailwind `teal-700` / `blue-700` rather than tokens.
 | Surface | `#FFFFFF` |
 | Text primary / secondary | `#0F172A` / `#475569` |
 
-Inter. Hero 48–56px, section 32px, card title 20px, body 16px, caption 14px.
-Radius 12–16px, 8-point spacing, WCAG AA contrast. Gradients only in hero/CTA bands.
+Inter. Hero 48 to 56px, section 32px, card title 20px, body 16px, caption 14px.
+Radius 12 to 16px, 8-point spacing, WCAG AA contrast. Gradients only in hero/CTA bands.
 
 ---
 
@@ -294,13 +294,13 @@ twice:
 > *"Based on best six subjects"*
 
 So best-six is **the design's own documented rule**; the simulator is simply an
-implementation bug that violates it. Correctly computed — English 2 + Maths 3 +
-better of (Science 3, Social 4) + best three electives (2+3+4) — that student's
+implementation bug that violates it. Correctly computed, English 2 + Maths 3 +
+better of (Science 3, Social 4) + best three electives (2+3+4), that student's
 aggregate is **17**.
 
 This is not cosmetic. UDS Nursing has a cut-off of 20. At the true aggregate of 17 the
 student **qualifies**; the simulator reports 21 and tells them they **do not**. The bug
-inflates every student's aggregate and under-reports eligibility — the precise opposite of
+inflates every student's aggregate and under-reports eligibility, the precise opposite of
 the product's purpose.
 
 **Decision: implement best-six. This aligns with the design's stated rule, and fixes the
@@ -416,28 +416,28 @@ credentials are provisioned. No toggle silently does nothing.
 
 ## 11. Phases
 
-**Phase 0 — Make it run.** Consolidate to one tree, harvest the four missing files and five
+**Phase 0: Make it run.** Consolidate to one tree, harvest the four missing files and five
 types, delete the root duplicate and `.history/`, reconstruct `landing.ts` from the
 prototype, unify the navbar into one two-state component, add the layouts, fix the `Link`
 import, wire the full route table, align design tokens.
 *Gate: `tsc --noEmit` and `vite build` both green.*
 
-**Phase 1 — The engine.** `domain/wassce/` with grade model, best-six aggregate, three-tier
+**Phase 1: The engine.** `domain/wassce/` with grade model, best-six aggregate, three-tier
 verdict with shortfalls, inverse solving. Full unit tests first (TDD). Then the
 `/eligibility` grade-entry flow, and `qualifies` becomes derived everywhere.
 *Gate: 100% domain coverage; the four hardcoded contradictions in §2 are gone.*
 
-**Phase 2 — Trustworthy data.** Zod schemas, provenance fields, precedence merge, import
+**Phase 2: Trustworthy data.** Zod schemas, provenance fields, precedence merge, import
 pipeline, CI validation. Research and seed real cut-off records. Fix all §8 claims.
 Computed deadline status.
 *Gate: every record has provenance; unverified data is badged; no false claims remain.*
 
-**Phase 3 — The missing screens + persistence.** Simulator, comparison with computed
+**Phase 3: The missing screens + persistence.** Simulator, comparison with computed
 superlatives, deterministic advisor, saved programmes, recent searches, working dark mode.
 localStorage repositories.
 *Gate: all 9 screens functional; state survives reload.*
 
-**Phase 4 — Accounts and delivery.** Supabase auth + schema + `SupabaseRepository`, email
+**Phase 4: Accounts and delivery.** Supabase auth + schema + `SupabaseRepository`, email
 reminders via Resend, SMS/WhatsApp behind env vars, WhatsApp sharing, Playwright E2E,
 GitHub Actions CI, Vercel deploy with SPA rewrites, monitoring.
 *Gate: deployed, CI green, E2E passing.*

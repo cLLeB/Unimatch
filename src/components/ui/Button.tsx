@@ -7,9 +7,9 @@ import { cn } from '../../lib/cn'
  *
  * Variants are roles, not decoration. A screen has at most one `primary`: the
  * action it exists for. Everything else supports it. The Profile page used to
- * carry five different treatments at once — a pill outline, a full-width
+ * carry five different treatments at once: a pill outline, a full-width
  * outline, a full-width solid red, a centred ghost and an underlined text
- * link — which reads as five unrelated components rather than one product.
+ * link, which reads as five unrelated components rather than one product.
  *
  * | variant   | means                                                        |
  * |-----------|--------------------------------------------------------------|
@@ -29,7 +29,7 @@ const BASE =
  * Sizes carry a minimum height, not only padding.
  *
  * Padding alone let a short label render a 30px-tall control, under any
- * reasonable touch target on a phone — and this app is used on phones. The
+ * reasonable touch target on a phone, and this app is used on phones. The
  * minimums here are the floor; text still sets the height when it is taller.
  */
 const SIZES: Record<ButtonSize, string> = {
@@ -61,7 +61,7 @@ interface CommonProps {
   icon?: ReactNode
   /**
    * Which side the icon sits on. An arrow means "onward" and belongs after the
-   * label — "Apply Now →", not "→ Apply Now".
+   * label: "Apply Now →", not "→ Apply Now".
    */
   iconPosition?: 'leading' | 'trailing'
   /**

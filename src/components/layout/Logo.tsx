@@ -25,11 +25,17 @@ export default function Logo({ tone = 'default', className, to = '/' }: LogoProp
         className,
       )}
     >
-      <span className="flex size-8 items-center justify-center rounded-lg bg-brand-fill">
+      <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-brand-fill">
         <GraduationCap size={18} className="text-on-brand-fill" aria-hidden="true" />
       </span>
-      <span className="text-lg">
-        UniMatch<span className="text-brand"> Ghana</span>
+      {/*
+        Never wraps. In a crowded phone header the wordmark broke as
+        "UniMatch / Ghana" across two lines, which made the whole bar look
+        broken. "Ghana" is dropped below `sm` instead, so the brand still reads
+        and the row stays one line tall.
+      */}
+      <span className="whitespace-nowrap text-lg">
+        UniMatch<span className="hidden text-brand sm:inline"> Ghana</span>
       </span>
     </Link>
   )

@@ -3,8 +3,8 @@
  *
  * This exists because the catalogue shipped with seventeen of nineteen
  * "official admissions page" links pointing at nothing, and nothing in the
- * build would have told us. Links rot on someone else's schedule — a
- * university moves domain, renames a path, retires a portal — so the only way
+ * build would have told us. Links rot on someone else's schedule: a
+ * university moves domain, renames a path, retires a portal, so the only way
  * to know is to ask.
  *
  *   npm run data:audit-links

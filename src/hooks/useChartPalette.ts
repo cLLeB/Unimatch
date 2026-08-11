@@ -10,7 +10,7 @@ import { useStudent } from '../state/StudentProvider'
  *
  * Bars are graphical objects a student has to see to read the chart, so every
  * bar colour here clears 3:1 against its own card background (WCAG 1.4.11).
- * The earlier light `peer` was 1.4:1 — a pale bar on a white card, effectively
+ * The earlier light `peer` was 1.4:1, a pale bar on a white card, effectively
  * invisible, which is what this palette was rebalanced to fix.
  */
 export interface ChartPalette {

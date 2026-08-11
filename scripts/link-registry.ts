@@ -1,7 +1,7 @@
 /**
  * Every external destination the catalogue links to, one place.
  *
- * The prototype derived these by convention — `<domain>/admissions` for all
+ * The prototype derived these by convention: `<domain>/admissions` for all
  * nineteen universities. Seventeen of those were dead: four domains had moved
  * or expired (Methodist to mug.edu.gh, All Nations to anu.edu.gh), nine
  * returned 404, and Academic City's redirected to a job advert for an
@@ -145,7 +145,7 @@ export const UNIVERSITY_LINKS: Record<string, UniversityLinks> = {
 /**
  * URLs the catalogue used to cite that no longer resolve.
  *
- * All of them are the same guess — `<domain>/admissions` — made once and
+ * All of them are the same guess, `<domain>/admissions`, made once and
  * copied across every record of a university. They are listed rather than
  * pattern-matched so that a genuine `/admissions` page, like Pentecost's,
  * is not thrown away with them.

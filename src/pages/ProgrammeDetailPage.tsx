@@ -138,7 +138,7 @@ export default function ProgrammeDetailPage() {
 
           {/*
             * On a phone the crest sat on its own row, leaving most of a very
-            * tall green header empty — the hero took over half the first
+            * tall green header empty. The hero took over half the first
             * screen before any information appeared. It now sits beside the
             * title, which is what it labels.
             */}

@@ -1,4 +1,4 @@
--- UniMatch Ghana — deadline reminder log and weekly schedule
+-- UniMatch Ghana: deadline reminder log and weekly schedule
 --
 -- Backs supabase/functions/send-deadline-reminders. The log is not analytics:
 -- its unique constraint is the only thing preventing a retried or double-fired
@@ -94,7 +94,7 @@ comment on function public.trigger_deadline_reminders is
   'Called by pg_cron. Returns quietly if the vault secrets are absent, so an '
   'un-provisioned project schedules the job without erroring every Monday.';
 
--- 06:00 UTC Monday. Ghana is GMT, so that is 6am for a student in Accra —
+-- 06:00 UTC Monday. Ghana is GMT, so that is 6am for a student in Accra:
 -- before school, and early enough that a Monday deadline is still actionable.
 select cron.unschedule('unimatch-deadline-reminders')
   where exists (

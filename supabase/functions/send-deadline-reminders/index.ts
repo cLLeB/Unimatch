@@ -55,7 +55,7 @@ Deno.serve(async (request: Request): Promise<Response> => {
   // (migration 0004), so it exists in exactly one place and no human ever had
   // to copy it between two. verify_reminder_secret is service-role only.
   //
-  // To run the job by hand — to test it, or to catch up after an outage — call
+  // To run the job by hand, to test it or to catch up after an outage, call
   // public.run_reminders_now() with the service role. That goes through the
   // same pg_cron path with the same vault secret, so a manual run proves the
   // scheduled one works. There is deliberately no second way in.

@@ -1,4 +1,4 @@
--- UniMatch Ghana — student state
+-- UniMatch Ghana: student state
 --
 -- One row per authenticated student. Row-level security is what protects the
 -- data: the anon key is public by design and ships in the browser bundle, so

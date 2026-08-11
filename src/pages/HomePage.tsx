@@ -21,7 +21,7 @@ import { useStudent } from '../state/StudentProvider'
  * there was nowhere to go back to.
  *
  * This answers "where am I up to and what is next", and hands off to the
- * screens that do the work. It deliberately repeats nothing in full — the
+ * screens that do the work. It deliberately repeats nothing in full: the
  * shortlist shows three of your saved programmes, not all of them.
  */
 export default function HomePage() {
@@ -207,7 +207,7 @@ function ResultsSummary() {
   const { qualifiedCount, closeCount } = useEligibility()
 
   const stats = [
-    { value: aggregate?.aggregate ?? '—', label: 'Aggregate' },
+    { value: aggregate?.aggregate ?? '?', label: 'Aggregate' },
     { value: qualifiedCount, label: 'Qualified' },
     { value: closeCount, label: 'Close' },
   ]

@@ -1,4 +1,4 @@
--- UniMatch Ghana — run the reminder job on demand
+-- UniMatch Ghana: run the reminder job on demand
 --
 -- The scheduled run happens once a week at 06:00 UTC on a Monday. That is a
 -- long time to wait to find out whether it works, and a long time to wait to

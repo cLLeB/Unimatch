@@ -131,7 +131,7 @@ describe('application checklist', () => {
   })
 
   /**
-   * KNUST's 31 August date is for mature, top-up and international entry —
+   * KNUST's 31 August date is for mature, top-up and international entry:
    * audiences no programme record carries a track for. It belongs on the
    * deadlines page, never on a regular applicant's programme.
    */

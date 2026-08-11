@@ -1,7 +1,7 @@
 # UniMatch Ghana
 
 Helps Ghanaian SHS graduates find every university programme they qualify for, from their
-WASSCE grades — and, where they fall short, exactly what would change it.
+WASSCE grades, and, where they fall short, exactly what would change it.
 
 ```bash
 npm install
@@ -25,7 +25,7 @@ that are answered from the data rather than guessed.
 | **Universities index** | `/universities` | no |
 | **University profile** | `/university/:id` | no |
 | Programme detail | `/programme/:id` | no |
-| WASSCE grade entry | `/eligibility` | — |
+| WASSCE grade entry | `/eligibility` | none |
 | Results dashboard | `/dashboard` | yes |
 | What-if simulator | `/simulator` | no |
 | Comparison | `/compare` | no |
@@ -43,7 +43,7 @@ without a form or an account.
 Most Ghanaian students arrive on a phone, so mobile is the primary target rather than a
 fallback:
 
-- A **bottom tab bar** replaces the sidebar below `lg` — previously the sidebar was simply
+- A **bottom tab bar** replaces the sidebar below `lg`. Previously the sidebar was simply
   `hidden` on phones, leaving no in-app navigation at all
 - Tables become **card lists** rather than squeezed columns
 - Touch targets are ≥44px; the tab bar clears the iOS home indicator
@@ -53,7 +53,7 @@ fallback:
 ## SEO
 
 Each route sets its own `<title>`, description, canonical, Open Graph tags and JSON-LD via
-`src/components/Seo.tsx` (React 19 hoists these natively — no helmet library).
+`src/components/Seo.tsx` (React 19 hoists these natively, so no helmet library).
 `npm run build` regenerates `sitemap.xml` and `robots.txt` from the catalogue, so every
 programme and university has a crawlable URL.
 
@@ -69,7 +69,7 @@ English Language
 ```
 
 A1 = 1 … F9 = 9, so **lower is better** and 6 is the best possible score. Only credit passes
-(A1–C6) satisfy a requirement.
+(A1 to C6) satisfy a requirement.
 
 This matters: the original prototype summed all seven entered subjects, which inflated every
 student's aggregate by roughly one grade and told them they didn't qualify for programmes they
@@ -82,7 +82,7 @@ Eligibility is a three-tier verdict, not a boolean:
 | **Qualified** | Aggregate meets the cut-off *and* every subject requirement is met |
 | **Close Match** | Within `CLOSE_MATCH_MARGIN` (3) points of the cut-off |
 | **Not Eligible** | Beyond that margin |
-| **Incomplete** | Not enough grades entered to judge — never rendered as a failure |
+| **Incomplete** | Not enough grades entered to judge, never rendered as a failure |
 
 Each verdict carries the reasons behind it, and the inverse solver turns those into an action:
 *"Raise Chemistry from C4 to B2 and you unlock Computer Science at KNUST."*
@@ -105,8 +105,8 @@ src/
 The domain layer never imports from the UI, is unit-tested to 100%, and is where every rule
 lives. Everything above it is delivery.
 
-Persistence goes through a `StudentRepository` interface with two implementations —
-`LocalStorageStudentRepository` and `SupabaseStudentRepository` — so adding accounts changed no
+Persistence goes through a `StudentRepository` interface with two implementations,
+`LocalStorageStudentRepository` and `SupabaseStudentRepository`, so adding accounts changed no
 UI code.
 
 ## Data and provenance
@@ -164,7 +164,7 @@ npm run data:audit-links   # fetch every external URL, fail on any that is dead
 npm run data:apply-links   # stamp the registry onto the seed data (idempotent)
 ```
 
-`data:audit-links` deliberately runs slowly — several of these hosts rate-limit, and an impatient
+`data:audit-links` deliberately runs slowly, because several of these hosts rate-limit, and an impatient
 check reports healthy pages as dead. `src/data/links.test.ts` covers the structural half of this
 on every commit without touching the network.
 
@@ -174,7 +174,7 @@ on every commit without touching the network.
 |---|---|
 | `npm run dev` | Dev server |
 | `npm run build` | Typecheck + production build |
-| `npm run verify` | Typecheck + data validation + tests — run before pushing |
+| `npm run verify` | Typecheck + data validation + tests, run before pushing |
 | `npm run test` | Unit and integration tests |
 | `npm run test:coverage` | With coverage thresholds (domain is held at 100%) |
 | `npm run test:e2e` | Playwright, against the real production build |
@@ -183,7 +183,7 @@ on every commit without touching the network.
 
 ## Configuration
 
-Everything is optional — see `.env.example`.
+Everything is optional, see `.env.example`.
 
 - **Supabase** (`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`) enables accounts so a shortlist
   follows a student between devices. Apply `supabase/migrations/0001_student_state.sql` first;
@@ -199,7 +199,7 @@ Everything is optional — see `.env.example`.
 ### Reminder setup
 
 Already done on the live project: migrations pushed, both functions deployed, the schedule
-running, and `REMINDER_UNSUBSCRIBE_SECRET` set. **One thing is outstanding — `RESEND_API_KEY`:**
+running, and `REMINDER_UNSUBSCRIBE_SECRET` set. **One thing is outstanding, `RESEND_API_KEY`:**
 
 ```bash
 npx supabase secrets set RESEND_API_KEY=re_xxx --project-ref fttzuizvvwekmjtdqgmh
@@ -227,12 +227,12 @@ function will keep mailing last week's dates.
 
 ## Deployment
 
-The app is a static SPA, so it needs a rewrite rule sending unknown paths to `index.html` —
+The app is a static SPA, so it needs a rewrite rule sending unknown paths to `index.html`:
 without one, refreshing on `/dashboard` returns a 404.
 
-- **Vercel** — `vercel.json` is committed, including cache and security headers
-- **Netlify** — `public/_redirects` is committed
-- **Heroku** — `Procfile` serves `dist/`; run `npm run build` in the release step
+- **Vercel**: `vercel.json` is committed, including cache and security headers
+- **Netlify**: `public/_redirects` is committed
+- **Heroku**: `Procfile` serves `dist/`; run `npm run build` in the release step
 
 ## Known limits
 

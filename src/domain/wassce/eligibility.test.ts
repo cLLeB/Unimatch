@@ -233,7 +233,7 @@ describe('compareVerdicts', () => {
 })
 
 describe('hasAllCreditPasses', () => {
-  it('is true when every counted subject is A1–C6', () => {
+  it('is true when every counted subject is A1 to C6', () => {
     expect(hasAllCreditPasses(student)).toBe(true)
   })
 

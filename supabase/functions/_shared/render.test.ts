@@ -95,7 +95,7 @@ describe('content', () => {
 
   it('carries the unsubscribe link in both the HTML and the text alternative', () => {
     const { html, text } = renderReminder('Ama', [deadline()], UNSUBSCRIBE)
-    // HTML-escaped in the markup — & becomes &amp; inside href, which is
+    // HTML-escaped in the markup: & becomes &amp; inside href, which is
     // correct and which every mail client resolves back to the same URL.
     expect(html).toContain(UNSUBSCRIBE.replace(/&/g, '&amp;'))
     expect(text).toContain(UNSUBSCRIBE)

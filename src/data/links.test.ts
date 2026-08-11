@@ -9,7 +9,7 @@ import { deadlines, programmes, universities } from './catalogue'
  * `npm run data:audit-links` is what proves the pages are actually there; this
  * catches the cheaper failure that produced the original mess. Every one of
  * the nineteen "official admissions page" links had been derived from the same
- * guess, `<domain>/admissions`, and seventeen led nowhere — four to domains
+ * guess, `<domain>/admissions`, and seventeen led nowhere: four to domains
  * the university had left, one to a job advert for an admissions officer.
  * Nothing in the build objected, because a plausible URL and a real one are
  * the same string to a type checker.
@@ -51,7 +51,7 @@ describe('external links', () => {
    * offered under the words "Check the university portal". It also disagreed
    * with KNUST: the article gave one date for everyone, where KNUST publishes
    * 31 August for mature, top-up and international applicants and "until
-   * WASSCE results are released" for Ghanaian WASSCE applicants — that is,
+   * WASSCE results are released" for Ghanaian WASSCE applicants, that is,
    * for almost everyone using this app.
    */
   it('cites every deadline to the university that set it', () => {

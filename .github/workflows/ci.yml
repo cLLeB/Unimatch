@@ -37,7 +37,7 @@ jobs:
         run: |
           npm run data:build
           git diff --exit-code src/data/catalogue.generated.ts \
-            || (echo "::error::src/data/catalogue.generated.ts is stale — run 'npm run data:build' and commit the result." && exit 1)
+            || (echo "::error::src/data/catalogue.generated.ts is stale, run 'npm run data:build' and commit the result." && exit 1)
 
       - name: Unit and integration tests
         run: npm run test:coverage

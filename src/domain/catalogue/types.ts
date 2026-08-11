@@ -213,10 +213,10 @@ export interface AdmissionDeadline {
    *
    * KNUST closes on 31 August for mature, top-up and international applicants
    * but stays open until WASSCE results are released for Ghanaian WASSCE
-   * applicants — who are almost everyone here. Showing the soonest date to all
+   * applicants, who are almost everyone here. Showing the soonest date to all
    * of them would put a false countdown on the regular track.
    *
-   * `'other'` names an audience outside the tracks we model — mature entry,
+   * `'other'` names an audience outside the tracks we model: mature entry,
    * top-up, international. Such a deadline is listed on the deadlines page,
    * where its scope explains who it is for, and never attached to a
    * programme. Omitting `tracks` means it governs every track.

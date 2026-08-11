@@ -2,7 +2,7 @@
  * Signed unsubscribe links.
  *
  * The unsubscribe link has to work from an inbox, with no session and no
- * sign-in — someone who wants out should not have to log in to get out. So the
+ * sign-in: someone who wants out should not have to log in to get out. So the
  * link carries the user id and a signature over it, and the endpoint trusts the
  * signature rather than a cookie.
  *

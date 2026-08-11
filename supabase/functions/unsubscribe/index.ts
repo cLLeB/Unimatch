@@ -24,7 +24,7 @@ function page(title: string, message: string, status: number): Response {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${title} — UniMatch Ghana</title>
+  <title>${title} · UniMatch Ghana</title>
 </head>
 <body style="margin:0;padding:48px 24px;background:#f8fafc;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
   <div style="max-width:420px;margin:0 auto;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:28px;">
@@ -65,7 +65,7 @@ Deno.serve(async (request: Request): Promise<Response> => {
 
   // Read first, then write back with only the email flag cleared. An update
   // with a bare object would replace the whole jsonb value, and SMS and
-  // WhatsApp are separate consents — clearing them would be deciding something
+  // WhatsApp are separate consents, and clearing them would be deciding something
   // the reader did not ask for, even though neither is connected yet.
   const existing = await supabase
     .from('student_state')

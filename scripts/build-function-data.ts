@@ -4,8 +4,8 @@
  *
  * The function runs on Deno inside Supabase, not in this bundle, and the CLI
  * only reliably ships files that live under supabase/functions/. So rather than
- * have the function reach across the repo into data/seed/ — an import that may
- * or may not survive bundling — the few fields it actually reads are generated
+ * have the function reach across the repo into data/seed/ (an import that may
+ * or may not survive bundling), the few fields it actually reads are generated
  * into its own directory, and reminder-data.test.ts fails if that copy drifts
  * from the seed.
  *

@@ -137,7 +137,7 @@ export function parseIntent(input: string, memory?: AdvisorMemory): Intent {
     }
   }
 
-  // "What about KNUST?" / "and Law?" — only meaningful with prior context.
+  // "What about KNUST?" / "and Law?": only meaningful with prior context.
   const followUp = text.match(/^(?:what about|how about|and)\s+(.+?)\??$/i)
   if (followUp?.[1] && memory?.lastIntent) {
     const subject = cleanSubject(followUp[1])

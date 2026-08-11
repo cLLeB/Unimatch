@@ -1,4 +1,4 @@
--- UniMatch Ghana — let the database own the reminder cron secret
+-- UniMatch Ghana: let the database own the reminder cron secret
 --
 -- 0003 expected an operator to paste two vault.create_secret() calls into the
 -- SQL editor, with a secret they invented, which then also had to be set as an

@@ -6,7 +6,7 @@ import { renderApp } from './renderApp'
  * The critical user journey: enter grades → see the right matches.
  *
  * This is what the product exists to do, and it did not exist at all before
- * this rebuild — the prototype's "Check My Eligibility" button went nowhere and
+ * this rebuild: the prototype's "Check My Eligibility" button went nowhere and
  * every verdict was a hardcoded boolean.
  */
 

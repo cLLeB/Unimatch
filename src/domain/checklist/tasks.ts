@@ -187,7 +187,7 @@ function buildApplications(input: ChecklistInput, now: Date): ApplicationPlan[] 
 function describeVerdict(verdict: Verdict | undefined, programme: Programme): string | undefined {
   const cutoff = programme.requirements.minimumAggregate
   if (!verdict || verdict.status === 'incomplete') return `Needs aggregate ${cutoff} or better`
-  if (verdict.status === 'qualified') return `Aggregate ${cutoff} or better — you meet it`
+  if (verdict.status === 'qualified') return `Aggregate ${cutoff} or better. You meet it`
   return `Needs aggregate ${cutoff} or better`
 }
 

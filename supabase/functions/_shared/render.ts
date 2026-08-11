@@ -3,7 +3,7 @@
  *
  * Plain HTML with inline styles and a text alternative. Gmail strips <style>
  * blocks, Outlook ignores most of CSS, and a student on a phone in Ghana is
- * paying for the bytes — so this stays small and does not load a single remote
+ * paying for the bytes, so this stays small and does not load a single remote
  * image.
  *
  * Every deadline links to the university's own portal rather than to UniMatch.
@@ -120,7 +120,7 @@ export function renderReminder(
     '',
     ...deadlines.map(
       (deadline) =>
-        `- ${deadline.universityName} — ${deadline.scope}\n` +
+        `* ${deadline.universityName}: ${deadline.scope}\n` +
         `  ${countdown(deadline.daysLeft)}, closes ${formatDate(deadline.closesOn)}\n` +
         `  ${deadline.sourceUrl}`,
     ),

@@ -1,4 +1,4 @@
--- UniMatch Ghana — turn reminder defaults off
+-- UniMatch Ghana: turn reminder defaults off
 --
 -- 0001 defaulted `reminders.email` to true, and the Deadlines page marked the
 -- email channel as available. Neither was backed by anything: there is no
@@ -6,7 +6,7 @@
 -- in to a weekly summary that could not be sent.
 --
 -- This sets the column default to all-off and clears the existing opt-ins.
--- Resetting stored rows is safe precisely because no mail was ever sent —
+-- Resetting stored rows is safe precisely because no mail was ever sent:
 -- nobody is being unsubscribed from something they were receiving.
 --
 -- When the reminder job ships, students opt in themselves. A preference that
