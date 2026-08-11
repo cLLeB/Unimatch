@@ -66,10 +66,10 @@ function fakeClient(row: StudentState | null) {
                 },
         }),
       }),
-      upsert: async (row_: { name: string; results: StudentState['results'] }) => {
+      upsert: async (row_: { name: string; email: string; results: StudentState['results'] }) => {
         saved.push({
           ...INITIAL_STATE,
-          profile: { ...INITIAL_STATE.profile, name: row_.name },
+          profile: { ...INITIAL_STATE.profile, name: row_.name, email: row_.email },
           results: row_.results,
         })
         return { error: null }
@@ -120,6 +120,57 @@ describe('first sign-in on a device', () => {
   it('starts empty when neither side holds anything', async () => {
     const { client } = fakeClient(null)
     expect(await new SupabaseStudentRepository(client, USER).load()).toEqual(INITIAL_STATE)
+  })
+})
+
+/**
+ * The address a student verified at sign-in is the address the product knows.
+ *
+ * It used to stop at the auth session: the profile kept its own blank field,
+ * so a student who had just clicked a link in her inbox was told on the
+ * Deadlines page that she had no email, and the reminder job, which reads this
+ * row, had nothing to send to.
+ */
+describe('the account address', () => {
+  const ACCOUNT = 'ama@account.test'
+
+  it('fills a profile that has none', async () => {
+    const { client } = fakeClient(otherRemote)
+    const loaded = await new SupabaseStudentRepository(
+      client,
+      USER,
+      { ...INITIAL_STATE, profile: { ...INITIAL_STATE.profile, email: '' } },
+      ACCOUNT,
+    ).load()
+
+    expect(loaded.profile.email).toBe(ACCOUNT)
+  })
+
+  it('replaces a stale address stored against the account', async () => {
+    const { client } = fakeClient(otherRemote)
+    const loaded = await new SupabaseStudentRepository(client, USER, INITIAL_STATE, ACCOUNT).load()
+
+    expect(otherRemote.profile.email).toBe('else@example.com')
+    expect(loaded.profile.email).toBe(ACCOUNT)
+    expect(loaded.profile.name).toBe('Someone Else')
+  })
+
+  it('reaches the row the reminder job reads', async () => {
+    const { client, saved } = fakeClient(null)
+    await new SupabaseStudentRepository(client, USER, populated, ACCOUNT).load()
+
+    expect(saved[0]!.profile.email).toBe(ACCOUNT)
+  })
+
+  it('does not make an empty account row look occupied', async () => {
+    // Otherwise the session's address alone would count as content and the
+    // work done on this device before signing in would be discarded.
+    const { client, saved } = fakeClient(INITIAL_STATE)
+    const loaded = await new SupabaseStudentRepository(client, USER, populated, ACCOUNT).load()
+
+    expect(loaded.savedProgrammeIds).toEqual(populated.savedProgrammeIds)
+    expect(loaded.profile.name).toBe('Caleb Kyere Boateng')
+    expect(saved).toHaveLength(1)
   })
 })
 

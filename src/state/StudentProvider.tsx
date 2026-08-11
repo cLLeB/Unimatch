@@ -12,6 +12,7 @@ import { computeAggregate } from '../domain/wassce/aggregate'
 import type { AggregateResult, StudentResults } from '../domain/wassce/types'
 import { LocalStorageStudentRepository, type StudentRepository } from './repository'
 import {
+  canEmail,
   INITIAL_STATE,
   MAX_COMPARE,
   MAX_SEARCH_HISTORY,
@@ -44,6 +45,32 @@ interface StudentContextValue {
 }
 
 const StudentContext = createContext<StudentContextValue | null>(null)
+
+/**
+ * A reminder with nowhere to arrive is switched off.
+ *
+ * The weekly job sends to the address on the profile, so email cannot be on
+ * without one. This lives here rather than in the Deadlines page because the
+ * rule has to survive the other direction too: a student who turns the
+ * reminder on and later clears her address should not be left holding a
+ * switch that quietly does nothing.
+ *
+ * The checklist follows from the reminders, so it is recomputed here as well
+ * and never set from a value this function is about to overrule.
+ */
+function reconcileReminders(state: StudentState): StudentState {
+  const reminders =
+    state.reminders.email && !canEmail(state.profile)
+      ? { ...state.reminders, email: false }
+      : state.reminders
+  const anyOn = reminders.sms || reminders.email || reminders.whatsapp
+
+  return {
+    ...state,
+    reminders,
+    checklist: { ...state.checklist, 'set-reminders': anyOn },
+  }
+}
 
 interface StudentProviderProps {
   children: ReactNode
@@ -114,7 +141,9 @@ export function StudentProvider({ children, repository }: StudentProviderProps) 
 
   const updateProfile = useCallback(
     (update: Partial<StudentProfile>) =>
-      setState((current) => ({ ...current, profile: { ...current.profile, ...update } })),
+      setState((current) =>
+        reconcileReminders({ ...current, profile: { ...current.profile, ...update } }),
+      ),
     [],
   )
 
@@ -167,15 +196,9 @@ export function StudentProvider({ children, repository }: StudentProviderProps) 
   const clearSearchHistory = useCallback(() => patch({ searchHistory: [] }), [patch])
 
   const setReminders = useCallback((update: Partial<ReminderPreferences>) => {
-    setState((current) => {
-      const reminders = { ...current.reminders, ...update }
-      const anyOn = reminders.sms || reminders.email || reminders.whatsapp
-      return {
-        ...current,
-        reminders,
-        checklist: { ...current.checklist, 'set-reminders': anyOn },
-      }
-    })
+    setState((current) =>
+      reconcileReminders({ ...current, reminders: { ...current.reminders, ...update } }),
+    )
   }, [])
 
   const setTheme = useCallback((theme: ThemeMode) => patch({ theme }), [patch])

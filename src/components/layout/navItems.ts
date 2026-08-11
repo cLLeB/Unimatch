@@ -5,6 +5,7 @@ import {
   Clock,
   FileText,
   GitCompare,
+  GraduationCap,
   Home,
   LayoutGrid,
   Shield,
@@ -67,7 +68,15 @@ export const ACCOUNT_NAV: readonly NavItem[] = [
   { label: 'Your grades', to: '/eligibility', icon: Sparkles, hint: 'Enter or change your WASSCE' },
 ] as const
 
+/**
+ * The landing page is a destination, not just where you happened to arrive.
+ *
+ * Inside the app the wordmark goes to `/home`, which is right, but it left the
+ * front page reachable only by editing the address bar. A student who wants to
+ * see what the product claims, or to send it to a friend, had nowhere to click.
+ */
 export const ABOUT_NAV: readonly NavItem[] = [
+  { label: 'About UniMatch', to: '/', icon: GraduationCap, hint: 'The front page' },
   { label: 'How it works', to: '/#faq', icon: FileText },
   { label: 'Privacy', to: '/privacy', icon: Shield },
   { label: 'Terms', to: '/terms', icon: FileText },
@@ -92,6 +101,23 @@ export const NAV_ALIASES: Record<string, string[]> = {
   '/dashboard': ['/programme', '/cut-off-points'],
   '/universities': ['/university'],
   '/home': ['/advisor', '/simulator'],
+}
+
+/**
+ * Routes where the bottom bar would get in the way: the landing page sells
+ * with its own CTAs, and the auth/legal pages are single-purpose.
+ */
+const BOTTOM_NAV_HIDDEN_ON = ['/', '/login', '/signup', '/privacy', '/terms']
+
+/**
+ * Whether the tab bar is carrying the primary destinations on this route.
+ *
+ * The menu reads this too. Where the tabs are on screen, repeating the same
+ * five links inside the drawer gives a student two answers to one question;
+ * where they are not, the drawer is the only place they exist.
+ */
+export function hasBottomNav(pathname: string): boolean {
+  return !BOTTOM_NAV_HIDDEN_ON.includes(pathname)
 }
 
 export function isNavItemActive(to: string, pathname: string): boolean {

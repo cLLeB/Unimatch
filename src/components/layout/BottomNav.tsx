@@ -1,12 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import { cn } from '../../lib/cn'
-import { isNavItemActive, PRIMARY_NAV } from './navItems'
-
-/**
- * Routes where the bottom bar would get in the way: the landing page sells
- * with its own CTAs, and the auth/legal pages are single-purpose.
- */
-const HIDDEN_ON = ['/', '/login', '/signup', '/privacy', '/terms']
+import { hasBottomNav, isNavItemActive, PRIMARY_NAV } from './navItems'
 
 /**
  * Mobile primary navigation.
@@ -17,7 +11,7 @@ const HIDDEN_ON = ['/', '/login', '/signup', '/privacy', '/terms']
  */
 export default function BottomNav() {
   const { pathname } = useLocation()
-  if (HIDDEN_ON.includes(pathname)) return null
+  if (!hasBottomNav(pathname)) return null
 
   return (
     <nav
@@ -27,7 +21,7 @@ export default function BottomNav() {
         /*
          * Opaque, not translucent. At 95% with a blur, page text showed
          * through the bar and read as content sliding under broken
-         * navigation rather than as depth — and it dulled the labels sitting
+         * navigation rather than as depth, and it dulled the labels sitting
          * on top of it.
          */
         'border-t border-line bg-surface',

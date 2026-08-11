@@ -96,7 +96,7 @@
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 
-  /* Brief: rounded corners 12–16px */
+  /* Brief: rounded corners 12 to 16px */
   --radius-xl: 0.75rem;
   --radius-2xl: 1rem;
 }
@@ -104,6 +104,28 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+  }
+
+  /*
+   * What the fixed mobile tab bar actually occupies: its 56px of touch targets
+   * plus whatever the device reserves for a home indicator or gesture bar.
+   *
+   * Pages reserved a flat 5rem, which was two mistakes at once: 24px of dead
+   * canvas showing between the page and the bar on an ordinary phone, and not
+   * enough room on a notched one, where the bar's own safe-area padding made it
+   * taller than the space reserved for it. One value, measured from the bar.
+   */
+  :root {
+    --bottom-nav: calc(3.5rem + env(safe-area-inset-bottom));
+    /* Viewport minus the 4rem navbar minus the tab bar: a full-height screen. */
+    --page-height: calc(100vh - 4rem - var(--bottom-nav));
+  }
+
+  /* The bar is `lg:hidden`, so from `lg` up there is nothing to reserve for. */
+  @media (width >= 64rem) {
+    :root {
+      --bottom-nav: 0px;
+    }
   }
 
   /*

@@ -2,12 +2,13 @@ import { Check, ExternalLink, LogOut, Plus, Search, Settings, Share2, Trash2 } f
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import BackLink from '../components/layout/BackLink'
+import Avatar from '../components/ui/Avatar'
 import Badge from '../components/ui/Badge'
 import Button, { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import Select from '../components/ui/Select'
 import Toggle from '../components/ui/Toggle'
-import { initialsOf } from '../components/layout/Navbar'
 import {
   applyUrlOf,
   deadlines,
@@ -15,6 +16,7 @@ import {
   universityNameOf,
   programmeLabel,
 } from '../data/catalogue'
+import { cn } from '../lib/cn'
 import { buildChecklist, type ChecklistTask } from '../domain/checklist/tasks'
 import { SHS_TRACKS } from '../domain/wassce/subjects'
 import type { DeadlineStatus, Programme } from '../domain/catalogue/types'
@@ -32,14 +34,20 @@ const DEADLINE_TONE: Record<DeadlineStatus, string> = {
 
 function ProfileCard() {
   const { state, updateProfile, aggregate, setTheme } = useStudent()
+  const { session } = useAuth()
   const [editing, setEditing] = useState(false)
+  /*
+   * Signed in, the address belongs to the account: it is the one that was
+   * verified, the one the sign-in link goes to, and the one the weekly
+   * reminder is sent to. Editing it here would change none of those, so the
+   * field says where it comes from instead of pretending to own it.
+   */
+  const accountEmail = session?.user.email ?? null
 
   return (
     <div className="space-y-4">
       <Card className="p-6 text-center">
-        <div className="mx-auto mb-4 flex size-24 items-center justify-center rounded-full bg-brand-fill text-3xl font-bold text-on-brand-fill">
-          {initialsOf(state.profile.name)}
-        </div>
+        <Avatar name={state.profile.name} size="lg" className="mx-auto mb-4" />
 
         {editing ? (
           <div className="space-y-3 text-left">
@@ -61,10 +69,19 @@ function ProfileCard() {
               <input
                 id="profile-email"
                 type="email"
-                value={state.profile.email}
+                value={accountEmail ?? state.profile.email}
+                readOnly={Boolean(accountEmail)}
                 onChange={(event) => updateProfile({ email: event.target.value })}
-                className="w-full rounded-xl border border-line bg-surface px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/40"
+                className={cn(
+                  'w-full rounded-xl border border-line px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/40',
+                  accountEmail ? 'bg-canvas text-ink-muted' : 'bg-surface',
+                )}
               />
+              {accountEmail && (
+                <p className="mt-1 text-xs text-ink-muted">
+                  The address you signed in with. Reminders go here.
+                </p>
+              )}
             </div>
             <div>
               <label htmlFor="profile-school" className="mb-1 block text-xs font-medium text-ink">
@@ -161,7 +178,7 @@ function ProfileCard() {
  * account, and there usually is not.
  *
  * A full-width red "Log Out" used to render for everyone, including a student
- * who had never signed in to anything — the loudest control on her screen
+ * who had never signed in to anything, the loudest control on her screen
  * offering to end a session that did not exist. `signOut` here only ever wiped
  * device-local data, so on this deployment it was a data-wipe button wearing
  * the word "Log Out".
@@ -424,7 +441,7 @@ function ApplicationChecklist() {
 
       {checklist.applications.length === 0 ? (
         <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
-          Save a programme and its own steps — entry requirement, deadline and portal — appear
+          Save a programme and its own steps (entry requirement, deadline and portal) appear
           here.
         </p>
       ) : (
@@ -510,6 +527,7 @@ export default function ProfilePage() {
   return (
     <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
+        <BackLink to="/home" label="Home" />
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <h1 className="text-xl font-bold text-ink sm:text-2xl">Student Profile</h1>
           <LinkButton

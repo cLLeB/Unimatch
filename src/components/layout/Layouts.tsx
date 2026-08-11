@@ -23,7 +23,7 @@ export function MarketingLayout() {
     <div className="flex min-h-screen flex-col bg-canvas">
       <Navbar />
       <AuthNotice />
-      <main className="flex-1 pb-20 lg:pb-0">
+      <main className="flex-1 pb-[var(--bottom-nav)]">
         <Outlet />
       </main>
       {showFooter && <Footer />}
@@ -46,7 +46,7 @@ export function AppLayout() {
       <AuthNotice />
       <div className="flex min-h-[calc(100vh-4rem)]">
         <Sidebar />
-        <main className="min-w-0 flex-1 pb-20 lg:pb-0">
+        <main className="min-w-0 flex-1 pb-[var(--bottom-nav)]">
           <Outlet />
         </main>
       </div>

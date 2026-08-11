@@ -1,5 +1,6 @@
 import { Calendar, Mail, MessageCircle, Phone } from 'lucide-react'
 import { useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import Badge from '../components/ui/Badge'
 import Card from '../components/ui/Card'
 import Toggle from '../components/ui/Toggle'
@@ -7,6 +8,7 @@ import { deadlines, getUniversity } from '../data/catalogue'
 import type { DeadlineStatus } from '../domain/catalogue/types'
 import { formatDeadlineDate, resolveAll } from '../domain/deadlines/status'
 import { useStudent } from '../state/StudentProvider'
+import { canEmail } from '../state/types'
 
 const STATUS_PRESENTATION: Record<
   DeadlineStatus,
@@ -24,8 +26,12 @@ const LEGEND_STATUSES: DeadlineStatus[] = ['open', 'closing-soon', 'closed']
 /**
  * Email is connected: supabase/functions/send-deadline-reminders runs weekly on
  * pg_cron and sends through Resend. SMS and WhatsApp still need paid providers
- * (Africa's Talking / WhatsApp Business) and stay disabled until they exist — a
+ * (Africa's Talking / WhatsApp Business) and stay disabled until they exist. A
  * toggle that silently does nothing is worse than one that says so.
+ *
+ * Email is only offered once the profile carries an address, for the same
+ * reason. Until then the row explains itself and points at the Profile page,
+ * instead of accepting a switch nothing would act on.
  *
  * The email description says "universities you've saved" because that is what
  * the job actually does: a student who has shortlisted nothing is skipped
@@ -58,6 +64,7 @@ const CHANNELS = [
 export default function DeadlinesPage() {
   const { state, setReminders } = useStudent()
   const resolved = useMemo(() => resolveAll(deadlines), [])
+  const emailReady = canEmail(state.profile)
 
   return (
     <div className="p-4 sm:p-6">
@@ -163,34 +170,50 @@ export default function DeadlinesPage() {
         <Card className="p-5">
           <h2 className="mb-4 font-semibold text-ink">Reminder Settings</h2>
           <div className="space-y-4">
-            {CHANNELS.map(({ key, label, description, icon: Icon, available }) => (
-              <div key={key} className="flex items-center justify-between gap-4 py-2">
-                <div className="flex items-center gap-3">
-                  <div className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-brand-subtle text-brand">
-                    <Icon size={16} aria-hidden="true" />
-                  </div>
-                  <div>
-                    <div className="flex items-center gap-2 text-sm font-medium text-ink">
-                      {label}
-                      {!available && <Badge variant="neutral">Coming soon</Badge>}
+            {CHANNELS.map(({ key, label, description, icon: Icon, available }) => {
+              // Built, but with no address to send to: a third state, and not
+              // the same as "coming soon". This one the student can fix.
+              const needsEmail = available && key === 'email' && !emailReady
+              const usable = available && !needsEmail
+
+              return (
+                <div key={key} className="flex items-center justify-between gap-4 py-2">
+                  <div className="flex items-center gap-3">
+                    <div className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-brand-subtle text-brand">
+                      <Icon size={16} aria-hidden="true" />
                     </div>
-                    <div className="text-xs text-ink-muted">{description}</div>
+                    <div>
+                      <div className="flex flex-wrap items-center gap-2 text-sm font-medium text-ink">
+                        {label}
+                        {!available && <Badge variant="neutral">Coming soon</Badge>}
+                        {needsEmail && <Badge variant="warning">No email yet</Badge>}
+                      </div>
+                      <div className="text-xs text-ink-muted">{description}</div>
+                      {needsEmail && (
+                        <Link
+                          to="/profile"
+                          className="text-xs font-medium text-brand hover:underline"
+                        >
+                          Add your email address
+                        </Link>
+                      )}
+                    </div>
                   </div>
+                  <Toggle
+                    label={label}
+                    checked={usable && state.reminders[key]}
+                    disabled={!usable}
+                    onChange={(checked) => setReminders({ [key]: checked })}
+                  />
                 </div>
-                <Toggle
-                  label={label}
-                  checked={available && state.reminders[key]}
-                  disabled={!available}
-                  onChange={(checked) => setReminders({ [key]: checked })}
-                />
-              </div>
-            ))}
+              )
+            })}
           </div>
 
           <p className="mt-4 border-t border-line pt-4 text-xs text-ink-muted">
             Email reminders go to the address on your profile, and only cover universities you
             have saved a programme at. Every email has an unsubscribe link. A reminder is a
-            convenience, not a guarantee — check the university&apos;s own portal too.
+            convenience, not a guarantee, so check the university&apos;s own portal too.
           </p>
         </Card>
       </div>

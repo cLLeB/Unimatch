@@ -14,7 +14,8 @@ import type { StudentState } from './types'
  * identical either way; only the repository behind it changes.
  */
 export default function PersistenceGate({ children }: { children: ReactNode }) {
-  const { userId } = useAuth()
+  const { userId, session } = useAuth()
+  const accountEmail = session?.user.email ?? null
 
   /*
    * What this device already holds, read before we hand over to the account.
@@ -38,10 +39,10 @@ export default function PersistenceGate({ children }: { children: ReactNode }) {
 
   const repository = useMemo(() => {
     if (supabase && userId) {
-      return new SupabaseStudentRepository(supabase, userId, localState ?? undefined)
+      return new SupabaseStudentRepository(supabase, userId, localState ?? undefined, accountEmail)
     }
     return new LocalStorageStudentRepository()
-  }, [userId, localState])
+  }, [userId, localState, accountEmail])
 
   // Wait for the device's own copy before deciding, so the account is never
   // seeded from a blank state that a moment later turns out to have content.

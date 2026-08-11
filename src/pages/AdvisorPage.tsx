@@ -1,6 +1,7 @@
 import { Brain, Send, ShieldCheck } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import BackLink from '../components/layout/BackLink'
 import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
 import { catalogue, catalogueStats, getProgramme, universityNameOf } from '../data/catalogue'
@@ -83,10 +84,12 @@ export default function AdvisorPage() {
   )
 
   return (
-    // 4rem navbar, plus the 5rem the layout reserves for the bottom bar on
-    // phones. Without accounting for it the composer sits under the tab bar.
-    <div className="flex h-[calc(100vh-9rem)] flex-col lg:h-[calc(100vh-4rem)]">
-      <div className="border-b border-line px-4 pb-3 pt-5 sm:px-6 sm:pt-6">
+    // Viewport minus the navbar and the tab bar (see --page-height). The
+    // composer then ends exactly where the tab bar begins, with no strip of
+    // canvas between them and nothing hidden underneath.
+    <div className="flex h-[var(--page-height)] flex-col">
+      <div className="border-b border-line px-4 pb-3 pt-3 sm:px-6 sm:pt-6">
+        <BackLink to="/home" label="Home" />
         <h1 className="text-xl font-bold text-ink">Career Advisor</h1>
         <p className="flex flex-wrap items-center gap-2 text-sm text-ink-muted">
           <span>
@@ -199,7 +202,8 @@ export default function AdvisorPage() {
           <Button
             type="submit"
             disabled={!input.trim() || thinking}
-            icon={<Send size={16} aria-hidden="true" />}
+            icon={<Send size={18} aria-hidden="true" />}
+            iconOnly
           >
             Send
           </Button>

@@ -1,5 +1,6 @@
 import { AlertCircle, CheckCheck, CheckCircle, ChevronDown, RotateCcw } from 'lucide-react'
 import { useMemo, useState } from 'react'
+import BackLink from '../components/layout/BackLink'
 import {
   Bar,
   BarChart,
@@ -148,6 +149,7 @@ export default function SimulatorPage() {
   return (
     <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-5xl">
+        <BackLink to="/home" label="Home" />
         <div className="mb-6 flex flex-wrap items-start justify-between gap-3">
           <div>
             <h1 className="mb-1 text-xl font-bold text-ink sm:text-2xl">What-if Grade Simulator</h1>

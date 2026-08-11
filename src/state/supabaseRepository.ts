@@ -72,7 +72,23 @@ export class SupabaseStudentRepository implements StudentRepository {
     private readonly userId: string,
     /** Merged in on first sync so a signed-out session isn't lost at login. */
     private readonly localState?: StudentState,
+    /**
+     * The address this student signed in with.
+     *
+     * It is the one email in the product that has actually been verified, and
+     * it is what the reminder job sends to, since the job reads this row. The
+     * profile used to keep a separate free-text field that nothing filled in,
+     * so a student could verify an email at sign-in and still be told on the
+     * Deadlines page that she had no email. One address, owned by the account.
+     */
+    private readonly accountEmail?: string | null,
   ) {}
+
+  /** Stamps the verified address onto whichever state we end up returning. */
+  private withAccountEmail(state: StudentState): StudentState {
+    if (!this.accountEmail || state.profile.email === this.accountEmail) return state
+    return { ...state, profile: { ...state.profile, email: this.accountEmail } }
+  }
 
   async load(): Promise<StudentState> {
     const { data, error } = await this.client
@@ -85,15 +101,22 @@ export class SupabaseStudentRepository implements StudentRepository {
       // Never lose a student's session to a transient network failure; fall
       // back to whatever we already had in memory.
       console.error('Failed to load student state', error.message)
-      return this.localState ?? INITIAL_STATE
+      return this.withAccountEmail(this.localState ?? INITIAL_STATE)
     }
 
+    /*
+     * The address is stamped on the way out, never before the comparisons
+     * below. It arrives with every signed-in session, so counting it as
+     * content would make a blank account row look occupied and undo the rule
+     * this method exists to enforce.
+     */
     const local = this.localState ?? INITIAL_STATE
 
     if (!data) {
       // First sign-in on any device: adopt whatever was built while signed out.
-      await this.save(local)
-      return local
+      const adopted = this.withAccountEmail(local)
+      await this.save(adopted)
+      return adopted
     }
 
     const remote = toState(data)
@@ -108,11 +131,12 @@ export class SupabaseStudentRepository implements StudentRepository {
      * that is empty, so a first sign-in can only ever add.
      */
     if (!hasContent(remote) && hasContent(local)) {
-      await this.save(local)
-      return local
+      const adopted = this.withAccountEmail(local)
+      await this.save(adopted)
+      return adopted
     }
 
-    return remote
+    return this.withAccountEmail(remote)
   }
 
   async save(state: StudentState): Promise<void> {

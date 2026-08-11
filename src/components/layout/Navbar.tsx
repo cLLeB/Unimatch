@@ -1,9 +1,10 @@
-import { Bell, Menu } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import { useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { cn } from '../../lib/cn'
 import { useAuth } from '../../state/AuthProvider'
 import { useStudent } from '../../state/StudentProvider'
+import Avatar from '../ui/Avatar'
 import Button, { LinkButton } from '../ui/Button'
 import Logo from './Logo'
 import NavMenu from './NavMenu'
@@ -26,7 +27,7 @@ const PUBLIC_NAV = [
 
 /**
  * Inside the app the wide navbar carries the primary destinations, because at
- * `md` there is no sidebar yet and no tab bar either — that band had no
+ * `md` there is no sidebar yet and no tab bar either, so that band had no
  * navigation at all. Below `md` the menu button carries the full map.
  */
 const APP_NAV = PRIMARY_NAV.map(({ label, to }) => ({ label, to }))
@@ -48,16 +49,11 @@ const APP_ROUTES = [
   '/profile',
 ]
 
-export function initialsOf(name: string): string {
-  const parts = name.trim().split(/\s+/).filter(Boolean)
-  if (parts.length === 0) return 'ME'
-  if (parts.length === 1) return parts[0]!.slice(0, 2).toUpperCase()
-  return `${parts[0]![0]}${parts[parts.length - 1]![0]}`.toUpperCase()
-}
-
 export function shortNameOf(name: string): string {
   const parts = name.trim().split(/\s+/).filter(Boolean)
-  if (parts.length === 0) return 'My profile'
+  // "Me" rather than "My profile": it is the student's own chip, and the two
+  // words wrapped against the menu button on a narrow phone.
+  if (parts.length === 0) return 'Me'
   if (parts.length === 1) return parts[0]!
   return `${parts[0]} ${parts[parts.length - 1]![0]}.`
 }
@@ -74,10 +70,17 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 border-b border-line bg-surface/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 lg:px-6">
-        <Logo to={inApp ? '/home' : '/'} />
+      {/*
+        `gap-2` and a shrinkable logo, because at 360-412px the bar was trying
+        to seat a two-word wordmark, "Log in", "Check Eligibility" and the menu
+        button side by side. Nothing was allowed to shrink, so all three
+        wrapped onto two lines each and the header became a block of stacked
+        fragments.
+      */}
+      <div className="mx-auto flex h-16 max-w-7xl items-center gap-2 px-4 sm:gap-3 lg:px-6">
+        <Logo to={inApp ? '/home' : '/'} className="min-w-0 shrink" />
 
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="ml-auto hidden items-center gap-1 md:flex">
           {(inApp ? APP_NAV : PUBLIC_NAV).map((item) => (
             <NavLink
               key={item.label}
@@ -97,43 +100,53 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2">
+        {/*
+          `ml-auto` so the action and the menu sit together against the right
+          edge. Without it, below `md` where the link row is hidden, nothing
+          pushed this cluster anywhere: the call to action ended up jammed
+          against the wordmark with the empty space stranded on the far side of
+          the menu button, which is what made a three-item bar read as crowded.
+        */}
+        <div className="ml-auto flex items-center gap-2 md:ml-0">
           {showAccount ? (
-            <>
-              <Link
-                to="/deadlines"
-                aria-label="Application deadlines"
-                className="relative rounded-lg p-2 text-ink-muted transition-colors hover:bg-canvas hover:text-ink"
-              >
-                <Bell className="size-5" aria-hidden="true" />
-              </Link>
-              <Link
-                to="/profile"
-                className="flex items-center gap-2 rounded-xl py-1.5 pl-2 pr-3 transition-colors hover:bg-canvas"
-              >
-                <span className="flex size-7 items-center justify-center rounded-full bg-brand-fill text-xs font-semibold text-on-brand-fill">
-                  {initialsOf(state.profile.name)}
-                </span>
-                <span className="hidden text-sm font-medium text-ink sm:block">
-                  {shortNameOf(state.profile.name)}
-                </span>
-              </Link>
-            </>
+            /*
+              No bell. It pointed at Deadlines, which is now a primary tab of
+              its own with a clock on it, the thing it actually is. A bell
+              promises notifications the app never sends.
+            */
+            <Link
+              to="/profile"
+              className="flex items-center gap-2 rounded-xl py-1.5 pl-2 pr-3 transition-colors hover:bg-canvas"
+            >
+              <Avatar name={state.profile.name} />
+              <span className="hidden text-sm font-medium text-ink sm:block">
+                {shortNameOf(state.profile.name)}
+              </span>
+            </Link>
           ) : (
             <>
               {/*
                 A "Log in" link used to sit here even when accounts were not
                 enabled, sending students to a page that told them they did not
                 need to log in. It now appears only when there is genuinely an
-                account to sign in to.
+                account to sign in to, and only from `sm` up, because on a
+                phone it was the third competing control in a 412px bar. The
+                menu carries it below that.
               */}
               {accountsEnabled && (
-                <LinkButton to="/login" variant="ghost" size="sm">
+                <LinkButton to="/login" variant="ghost" size="sm" className="hidden sm:inline-flex">
                   Log in
                 </LinkButton>
               )}
-              <LinkButton to="/eligibility" variant="primary" size="sm">
-                Check Eligibility
+              <LinkButton
+                to="/eligibility"
+                variant="primary"
+                size="sm"
+                className="whitespace-nowrap"
+              >
+                {/* "Check Eligibility" wrapped to two lines on a phone. */}
+                <span className="sm:hidden">Check grades</span>
+                <span className="hidden sm:inline">Check Eligibility</span>
               </LinkButton>
             </>
           )}

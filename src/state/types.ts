@@ -77,6 +77,18 @@ export function hasContent(state: StudentState): boolean {
 }
 
 /**
+ * Whether there is an address the weekly reminder could actually reach.
+ *
+ * The job in supabase/functions/send-deadline-reminders sends to whatever is
+ * on the profile, so without one an "on" switch is a promise the app cannot
+ * keep. The pattern is the deliberately loose one: enough to catch a blank
+ * field or a typed name, not enough to argue with a real address.
+ */
+export function canEmail(profile: StudentProfile): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(profile.email.trim())
+}
+
+/**
  * Maximum programmes that can be compared side by side.
  *
  * Four, not the three the prototype used, because the number a student needs
