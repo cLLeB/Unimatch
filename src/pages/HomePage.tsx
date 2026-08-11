@@ -4,7 +4,13 @@ import { Link } from 'react-router-dom'
 import Seo from '../components/Seo'
 import { LinkButton } from '../components/ui/Button'
 import Card from '../components/ui/Card'
-import { deadlines, getProgramme, getUniversity, programmeLabel } from '../data/catalogue'
+import {
+  catalogueStats,
+  deadlines,
+  getProgramme,
+  getUniversity,
+  programmeLabel,
+} from '../data/catalogue'
 import { buildChecklist } from '../domain/checklist/tasks'
 import { applyUrlOf, universityNameOf } from '../data/catalogue'
 import { formatDeadlineDate, resolveAll } from '../domain/deadlines/status'
@@ -81,7 +87,7 @@ export default function HomePage() {
 
   return (
     <div className="p-4 sm:p-6">
-      <Seo title="Your UniMatch home" description="Your progress, shortlist and deadlines." noIndex />
+      <Seo title="Your UniMatch overview" description="Your progress, shortlist and deadlines." noIndex />
 
       <div className="mx-auto max-w-4xl space-y-4">
         <header>
@@ -187,7 +193,13 @@ export default function HomePage() {
             to="/dashboard"
             icon={LayoutGrid}
             label="Browse matches"
-            hint={hasResults ? `${qualifiedCount} you qualify for` : 'All 546 programmes'}
+            // Counted, not typed. The literal here said 546 and stayed saying
+            // it after eight KNUST records were removed from the catalogue.
+            hint={
+              hasResults
+                ? `${qualifiedCount} you qualify for`
+                : `All ${catalogueStats.programmeCount} programmes`
+            }
           />
           <QuickLink
             to="/simulator"

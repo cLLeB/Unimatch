@@ -6,19 +6,19 @@ interface LogoProps {
   /** Footer variant renders on the dark surface. */
   tone?: 'default' | 'inverse'
   className?: string
-  /** Defaults to the landing page; the app shell passes its own home. */
-  to?: string
 }
 
 /**
- * The wordmark is a route home, and inside the app "home" is the student's
- * hub rather than the marketing page. Sending a signed-in student to the
- * landing page is how a product loses her: she has to find her way back in.
+ * The wordmark goes home, and home is the landing page.
+ *
+ * It used to point at `/home` inside the app and `/` outside it, which meant
+ * the same mark took a student to two different screens depending on where
+ * she happened to be. The signed-in hub is Overview, and it has a tab.
  */
-export default function Logo({ tone = 'default', className, to = '/' }: LogoProps) {
+export default function Logo({ tone = 'default', className }: LogoProps) {
   return (
     <Link
-      to={to}
+      to="/"
       className={cn(
         'flex items-center gap-2.5 font-bold',
         tone === 'inverse' ? 'text-footer-heading' : 'text-ink',
@@ -29,13 +29,16 @@ export default function Logo({ tone = 'default', className, to = '/' }: LogoProp
         <GraduationCap size={18} className="text-on-brand-fill" aria-hidden="true" />
       </span>
       {/*
-        Never wraps. In a crowded phone header the wordmark broke as
-        "UniMatch / Ghana" across two lines, which made the whole bar look
-        broken. "Ghana" is dropped below `sm` instead, so the brand still reads
-        and the row stays one line tall.
+        Never wraps, and below `sm` it is the mark alone.
+
+        The bar now carries Home, Matches, the account and the menu on every
+        screen of the site, and on a 360px phone those four plus a wordmark
+        come to more than the width available: something had to give, and a
+        logo that is still recognisable as a mark costs less than a header
+        that overflows. "Ghana" needs the room of a tablet.
       */}
-      <span className="whitespace-nowrap text-lg">
-        UniMatch<span className="hidden text-brand sm:inline"> Ghana</span>
+      <span className="hidden whitespace-nowrap text-lg sm:inline">
+        UniMatch<span className="hidden text-brand md:inline"> Ghana</span>
       </span>
     </Link>
   )

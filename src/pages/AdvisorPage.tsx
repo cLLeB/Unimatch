@@ -89,7 +89,7 @@ export default function AdvisorPage() {
     // canvas between them and nothing hidden underneath.
     <div className="flex h-[var(--page-height)] flex-col">
       <div className="border-b border-line px-4 pb-3 pt-3 sm:px-6 sm:pt-6">
-        <BackLink to="/home" label="Home" />
+        <BackLink to="/home" label="Overview" />
         <h1 className="text-xl font-bold text-ink">Career Advisor</h1>
         <p className="flex flex-wrap items-center gap-2 text-sm text-ink-muted">
           <span>

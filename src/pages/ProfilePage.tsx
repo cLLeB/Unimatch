@@ -527,7 +527,7 @@ export default function ProfilePage() {
   return (
     <div className="p-4 sm:p-6">
       <div className="mx-auto max-w-4xl">
-        <BackLink to="/home" label="Home" />
+        <BackLink to="/home" label="Overview" />
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <h1 className="text-xl font-bold text-ink sm:text-2xl">Student Profile</h1>
           <LinkButton

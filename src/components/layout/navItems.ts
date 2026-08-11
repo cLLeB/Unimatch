@@ -21,10 +21,11 @@ import type { LucideIcon } from 'lucide-react'
  *
  * What changed and why:
  *
- * - **Home is a destination again.** There was no way back to a home inside
- *   the app: the tab bar's first item was Matches, and the landing page was
- *   only reachable through a hamburger that, on app screens, held two links.
- *   Students reported not knowing how to get home, which was accurate.
+ * - **Home means the landing page, and only the landing page.** The app used
+ *   to have two of them: `/` and the signed-in hub at `/home`, both labelled
+ *   Home, so the word answered to two different screens depending on where you
+ *   were standing. The hub is Overview now, which is what it shows, and Home
+ *   is the one address a student can say out loud.
  *
  * - **Deadlines is promoted into the tab bar.** It is the only thing in the
  *   product with a clock on it, and it was hidden behind a bell icon.
@@ -49,7 +50,7 @@ export interface NavItem {
 }
 
 export const PRIMARY_NAV: readonly NavItem[] = [
-  { label: 'Home', to: '/home', icon: Home, hint: 'Your progress at a glance' },
+  { label: 'Overview', to: '/home', icon: Home, hint: 'Your progress at a glance' },
   { label: 'Matches', to: '/dashboard', icon: LayoutGrid, hint: 'Every programme you qualify for' },
   { label: 'Universities', to: '/universities', icon: Building2, hint: 'All 19 institutions' },
   { label: 'Shortlist', to: '/saved', icon: BookMarked, hint: 'Programmes you saved' },
@@ -76,7 +77,7 @@ export const ACCOUNT_NAV: readonly NavItem[] = [
  * see what the product claims, or to send it to a friend, had nowhere to click.
  */
 export const ABOUT_NAV: readonly NavItem[] = [
-  { label: 'About UniMatch', to: '/', icon: GraduationCap, hint: 'The front page' },
+  { label: 'Home', to: '/', icon: GraduationCap, hint: 'The UniMatch front page' },
   { label: 'How it works', to: '/#faq', icon: FileText },
   { label: 'Privacy', to: '/privacy', icon: Shield },
   { label: 'Terms', to: '/terms', icon: FileText },
