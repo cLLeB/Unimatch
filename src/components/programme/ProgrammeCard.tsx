@@ -33,7 +33,7 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
     <Card className="p-4 sm:p-5">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
         <div className="min-w-0 flex-1">
-          <div className="mb-2 flex flex-wrap items-center gap-1.5 sm:gap-2">
+          <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 sm:gap-x-4">
             <h3 className="text-base font-semibold text-ink sm:text-lg">{programme.name}</h3>
             <EligibilityBadge status={verdict.status} />
             <Badge variant="neutral">{programme.degreeType}</Badge>
@@ -84,7 +84,7 @@ export default function ProgrammeCard({ programme, verdict, expanded = false }: 
             )}
           </div>
 
-          <div className="mt-3 flex flex-wrap gap-1">
+          <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
             {/*
               * Careers are descriptive labels, not a status. Rendering them as
               * `info` gave every card a row of blue pills competing with the

@@ -283,7 +283,7 @@ export default function ComparePage() {
                     {programme.admissionTrack !== 'regular' &&
                       ` · ${ADMISSION_TRACK_LABELS[programme.admissionTrack]}`}
                   </div>
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-x-3 gap-y-1">
                     <EligibilityBadge status={byId.get(programme.id)?.status ?? 'incomplete'} />
                     {superlatives.get(programme.id)?.map((superlative) => (
                       <Badge key={superlative.label} variant={superlative.variant}>

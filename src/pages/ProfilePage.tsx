@@ -226,7 +226,7 @@ function AccountActions() {
         <Button
           variant="ghost"
           fullWidth
-          className="text-danger hover:bg-badge-danger"
+          className="text-danger hover:bg-danger/10"
           icon={<Trash2 size={16} aria-hidden="true" />}
           onClick={() => {
             if (

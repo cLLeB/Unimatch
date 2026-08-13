@@ -34,12 +34,19 @@ const PRESENTATION: Record<
 
 interface EligibilityBadgeProps {
   status: VerdictStatus
+  /** Rendered on the teal programme header rather than on a card. */
+  onBrand?: boolean
 }
 
-export default function EligibilityBadge({ status }: EligibilityBadgeProps) {
+export default function EligibilityBadge({ status, onBrand = false }: EligibilityBadgeProps) {
   const { label, variant, Icon, title } = PRESENTATION[status]
   return (
-    <Badge variant={variant} title={title} icon={<Icon size={12} strokeWidth={3} aria-hidden="true" />}>
+    <Badge
+      variant={variant}
+      title={title}
+      onBrand={onBrand}
+      icon={<Icon size={12} strokeWidth={3} aria-hidden="true" />}
+    >
       {label}
     </Badge>
   )

@@ -149,7 +149,7 @@ export default function ProgrammeDetailPage() {
               </div>
 
               <div className="min-w-0 flex-1">
-                <EligibilityBadge status={verdict.status} />
+                <EligibilityBadge status={verdict.status} onBrand />
               <h1 className="mb-1 mt-2 text-2xl font-bold sm:text-3xl">{programme.name}</h1>
               <p className="text-sm text-on-brand sm:text-lg">
                 {university?.name} · {programme.faculty}
@@ -457,7 +457,8 @@ export default function ProgrammeDetailPage() {
 
               <Card className="p-4">
                 <h4 className="mb-3 text-sm font-semibold text-ink">Career paths</h4>
-                <div className="flex flex-wrap gap-2">
+                {/* Unfilled labels of one colour run together at a pill's gap. */}
+                <div className="flex flex-wrap gap-x-4 gap-y-1.5">
                   {(programme.careers ?? []).map((career) => (
                     <Badge key={career} variant="info">
                       {career}

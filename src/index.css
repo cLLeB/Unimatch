@@ -52,28 +52,21 @@
   --color-brand-fill-hover: #0d6560;
   --color-on-brand-fill: #ffffff;
 
-  /* Badges. Tinted in daylight, unfilled after dark. */
-  --color-badge-success: #f0fdf4;
+  /*
+   * Badges. Text and icon only, no fill and no outline, so each variant is a
+   * single ink dark enough to read against the card surface.
+   */
   --color-badge-success-ink: #15803d;
-  --color-badge-success-line: #bbf7d0;
-  --color-badge-warning: #fffbeb;
   --color-badge-warning-ink: #b45309;
-  --color-badge-warning-line: #fde68a;
-  --color-badge-danger: #fef2f2;
   --color-badge-danger-ink: #b91c1c;
-  --color-badge-danger-line: #fecaca;
   /*
    * "Confirmed 2026/27" is the trust mark on every cut-off, so it wears the
    * brand rather than a blue borrowed from a default palette. It was the last
    * unrelated hue on a card that already carries a green eligibility badge and
    * an amber warning one.
    */
-  --color-badge-info: #f0fdf9;
   --color-badge-info-ink: #0f766e;
-  --color-badge-info-line: #99e6dc;
-  --color-badge-neutral: #f1f5f9;
   --color-badge-neutral-ink: #475569;
-  --color-badge-neutral-line: #e2e8f0;
 
   /* On-gradient text (hero, summary card, programme header) */
   --color-on-brand: #99d9d4;
@@ -159,26 +152,12 @@
     --color-on-brand: #8fd8d0;
     --color-on-brand-bright: #a5f3ef;
 
-    /*
-     * Badges lose their fill entirely after dark. A pale chip on a dark card
-     * reads as a hole punched in the surface, so the colour moves to the text
-     * and the outline carries the shape.
-     */
-    --color-badge-success: transparent;
+    /* The same inks, lifted to carry on a dark card. */
     --color-badge-success-ink: #4ade80;
-    --color-badge-success-line: #1d5136;
-    --color-badge-warning: transparent;
     --color-badge-warning-ink: #fbbf24;
-    --color-badge-warning-line: #55400f;
-    --color-badge-danger: transparent;
     --color-badge-danger-ink: #f87171;
-    --color-badge-danger-line: #5a2626;
-    --color-badge-info: transparent;
     --color-badge-info-ink: #5eead4;
-    --color-badge-info-line: #17544d;
-    --color-badge-neutral: transparent;
     --color-badge-neutral-ink: #93a4bd;
-    --color-badge-neutral-line: #24314a;
 
     --color-footer-surface: #080e19;
     --color-footer-heading: #e8eef7;
