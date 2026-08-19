@@ -19,6 +19,13 @@ export default function Logo({ tone = 'default', className }: LogoProps) {
   return (
     <Link
       to="/"
+      /*
+        The wordmark below is hidden under `sm`, so on a phone the mark alone
+        carried the link and a screen reader announced nothing but "link".
+        The name is stated here instead of inferred from whichever span the
+        breakpoint happens to reveal.
+      */
+      aria-label="UniMatch Ghana"
       className={cn(
         'flex items-center gap-2.5 font-bold',
         tone === 'inverse' ? 'text-footer-heading' : 'text-ink',

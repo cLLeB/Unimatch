@@ -138,6 +138,9 @@ function deadlineFor(
   if (candidates.length === 0) return undefined
 
   const [soonest] = resolveAll(candidates, now)
+  // resolveAll maps one-to-one and `candidates` is non-empty by the check above,
+  // so this cannot fire. noUncheckedIndexedAccess still demands it.
+  /* v8 ignore next */
   if (!soonest) return undefined
 
   return {
@@ -206,6 +209,7 @@ export function buildChecklist(input: ChecklistInput): Checklist {
     done,
     total,
     // An empty shortlist still has the five steps, so this never divides by zero.
+    /* v8 ignore next */
     percent: total === 0 ? 0 : Math.round((done / total) * 100),
   }
 }

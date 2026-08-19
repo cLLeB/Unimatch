@@ -171,6 +171,32 @@ describe('application checklist', () => {
     expect(checklist.applications[0]!.deadlineStatus).toBe('closing-soon')
   })
 
+  /**
+   * UG publishes a condition instead of a date. A university that publishes
+   * neither still has to read as something, rather than leaving the row blank.
+   */
+  it('labels a deadline with neither a date nor a condition as open', () => {
+    const openEnded: AdmissionDeadline = {
+      id: 'knust-open',
+      universityId: 'knust',
+      scope: 'Undergraduate',
+      provenance: {
+        source: 'test',
+        year: 2026,
+        lastVerified: '2026-08-10',
+        confidence: 'authoritative',
+      },
+    }
+
+    const checklist = buildChecklist({
+      ...base,
+      savedProgrammes: [programme('knust-cs', 'knust', 12)],
+      deadlines: [openEnded],
+    })
+
+    expect(checklist.applications[0]!.deadlineLabel).toBe('Open')
+  })
+
   it('ticks the eligibility task from the verdict, not by hand', () => {
     const checklist = buildChecklist({
       ...base,
@@ -181,6 +207,27 @@ describe('application checklist', () => {
     const eligible = checklist.applications[0]!.tasks.find((t) => t.id.startsWith('eligible:'))
     expect(eligible?.done).toBe(true)
     expect(eligible?.manual).toBeUndefined()
+  })
+
+  /**
+   * A verdict that is neither qualified nor incomplete: the student has full
+   * results and simply misses the cut-off. The task must stay unticked and
+   * still name the requirement, so the list says what is needed rather than
+   * going silent on the programmes she has not yet earned.
+   */
+  it.each([
+    ['close-match', { status: 'close-match', aggregate: 14, shortBy: 2, shortfalls: [] } as Verdict],
+    ['not-eligible', { status: 'not-eligible', aggregate: 30, shortfalls: [] } as Verdict],
+  ])('states the requirement for a %s verdict without ticking it', (_label, verdict) => {
+    const checklist = buildChecklist({
+      ...base,
+      savedProgrammes: [programme('knust-cs', 'knust', 12)],
+      verdictOf: () => verdict,
+    })
+
+    const eligible = checklist.applications[0]!.tasks.find((t) => t.id.startsWith('eligible:'))
+    expect(eligible?.done).toBe(false)
+    expect(eligible?.detail).toBe('Needs aggregate 12 or better')
   })
 
   /** Only the student knows whether she actually submitted. */

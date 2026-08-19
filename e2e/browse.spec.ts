@@ -12,7 +12,7 @@ test.describe('programme browser', () => {
     await page.goto('/dashboard')
 
     await expect(page.getByText(/\d+ programmes? found/)).toBeVisible()
-    await expect(page.getByLabel('Search programmes and universities')).toBeVisible()
+    await expect(page.getByLabel('Search programmes, universities and careers')).toBeVisible()
     await expect(page.getByRole('link', { name: /enter my grades/i })).toBeVisible()
   })
 
@@ -26,7 +26,7 @@ test.describe('programme browser', () => {
     const count = page.getByText(/^\d+ programmes? found$/)
     const before = await count.textContent()
 
-    await page.getByLabel('Search programmes and universities').fill('nursing')
+    await page.getByLabel('Search programmes, universities and careers').fill('nursing')
 
     await expect(count).not.toHaveText(before ?? '')
     await expect(page.getByRole('heading', { name: 'Nursing', exact: true }).first()).toBeVisible()
@@ -34,7 +34,7 @@ test.describe('programme browser', () => {
 
   test('tells the visitor when nothing matches', async ({ page }) => {
     await page.goto('/dashboard')
-    await page.getByLabel('Search programmes and universities').fill('zzzzzz')
+    await page.getByLabel('Search programmes, universities and careers').fill('zzzzzz')
     await expect(page.getByText(/no programmes match/i)).toBeVisible()
   })
 
@@ -130,14 +130,11 @@ test.describe('SEO', () => {
 })
 
 test.describe('getting back home', () => {
-  test('public browse pages offer a Home link, not just the logo', async ({ page, viewport }) => {
+  test('public browse pages offer a Home link, not just the logo', async ({ page }) => {
     await page.goto('/universities')
 
-    // The public nav collapses behind the menu button on a phone.
-    if ((viewport?.width ?? 1280) < 768) {
-      await page.getByRole('button', { name: 'Open menu' }).click()
-    }
-
+    // One bar on every page: Home sits in the bar at every width, so there is
+    // no menu to open first. Opening one would only cover this link.
     await page.getByRole('link', { name: 'Home', exact: true }).first().click()
     await expect(page).toHaveURL(/\/$/)
   })
